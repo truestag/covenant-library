@@ -1,0 +1,10 @@
+import { readFile } from "node:fs/promises";
+const html = await readFile(new URL("../app/index.html", import.meta.url), "utf8");
+const js = await readFile(new URL("../app/app.js", import.meta.url), "utf8");
+const css = await readFile(new URL("../app/app.css", import.meta.url), "utf8");
+const win = await readFile(new URL("../adapters/windows/main.go", import.meta.url), "utf8");
+for (const token of ['id="close-application"', 'Close Application']) if (!html.includes(token)) throw new Error(`Header close control missing ${token}`);
+for (const token of ['CovenantNativeApplication', 'closeApplication', 'Covenant Library is closed']) if (!js.includes(token)) throw new Error(`App close behavior missing ${token}`);
+if (!css.includes('.close-application')) throw new Error('Close application styling missing');
+for (const token of ['CovenantNativeApplication', '/__covenant/quit', 'server.Shutdown', 'quitRequested']) if (!win.includes(token)) throw new Error(`Windows shutdown bridge missing ${token}`);
+console.log('PASS: Windows header close control terminates the native local server');

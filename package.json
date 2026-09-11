@@ -1,0 +1,17 @@
+{
+  "name": "covenant-library",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "extract:r7": "node tools/extract-r7.mjs",
+    "repair:guggenheimer": "node tools/repair-guggenheimer-footnotes.mjs",
+    "validate": "node tools/validate-corpus.mjs",
+    "build:search": "node tools/build-search.mjs",
+    "test": "node tests/guggenheimer-footnotes.test.mjs && node tests/contract.test.mjs && node tests/study-ui.test.mjs && node tests/navigation-state.test.mjs && node tests/logo-presentation.test.mjs && node tests/close-application.test.mjs && node tests/storage-contract.test.mjs && node tests/user-library-ui.test.mjs && node tests/platform-adapters.test.mjs && node tests/local-ai-contract.test.mjs && node tests/card-hierarchy.test.mjs && node tests/v2-research-features.test.mjs && node tests/pseudepigrapha-reading-texts.test.mjs",
+    "serve": "node adapters/web/server.mjs",
+    "build:windows": "node tools/build-windows.mjs",
+    "build:windows:smoke": "node tools/build-windows-smoke.mjs",
+    "build:windows:installer": "node tools/build-windows-installer.mjs"
+  }
+}

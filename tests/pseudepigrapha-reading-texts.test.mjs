@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+const load=async id=>JSON.parse(await readFile(new URL(`../corpus/books/pseudepigrapha-historical/${id}.json`,import.meta.url),'utf8'));
+const apab=await load('APAB'), asis=await load('ASIS');
+const count=b=>Object.values(b.chapters).reduce((n,a)=>n+a.length,0);
+assert.equal(Object.keys(apab.chapters).length,32); assert.equal(count(apab),295); assert.equal(apab.book.verses,295);
+assert.equal(Object.keys(asis.chapters).length,11); assert.equal(count(asis),297); assert.equal(asis.book.verses,297);
+assert.equal(apab.chapters['1'][0].v,'1'); assert.match(apab.chapters['1'][0].text,/On the day when I planed the gods/);
+assert.equal(apab.chapters['1'][1].v,'2');
+assert.ok(asis.chapters['4'].some(v=>v.v==='8')); assert.ok(asis.chapters['8'].some(v=>v.v==='18'));
+const a17=asis.chapters['1'].find(v=>v.v==='7').text; assert.match(a17,/the Spirit which speaketh in me liveth/); assert.doesNotMatch(a17,/th3e/);
+const all=[...Object.values(apab.chapters).flat(),...Object.values(asis.chapters).flat()].map(v=>v.text).join('\n');
+for(const bad of ['The whole of the title occurs only in S.','PART I','CHAP.','Notes:','oinojieeffect','willjthey7make','th3e']) assert.ok(!all.includes(bad),`reader contamination remains: ${bad}`);
+assert.doesNotMatch(all,/\b\d{1,3}(?:The|And|For|But|Cf\.)\b/);
+console.log(`PASS: APAB ${count(apab)} verse segments; ASIS ${count(asis)} verse segments; reader text is free of scan footnote/page-furniture contamination`);

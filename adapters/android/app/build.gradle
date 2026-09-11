@@ -1,0 +1,31 @@
+plugins { id "com.android.application" }
+
+android {
+    namespace "org.covenantlibrary.app"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "org.covenantlibrary.app"
+        minSdk 26
+        targetSdk 35
+        versionCode 100
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+}
+
+def repoRoot = rootProject.projectDir.parentFile.parentFile
+
+tasks.register("prepareCovenantAssets", Sync) {
+    into layout.projectDirectory.dir("src/main/assets/www")
+    from(new File(repoRoot, "app")) { into "app" }
+    from(new File(repoRoot, "corpus")) { into "corpus" }
+}
+
+preBuild.dependsOn("prepareCovenantAssets")

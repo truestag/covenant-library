@@ -1,0 +1,21 @@
+import { readFile } from 'node:fs/promises';
+import { createLibraryHierarchy, CATEGORY_DEFS, friendlyEditionTitle, isAcquisitionEdition, standardBiblePart } from '../app/library-hierarchy.js';
+const catalog = JSON.parse(await readFile(new URL('../corpus/catalog/catalog.json', import.meta.url), 'utf8'));
+const works = JSON.parse(await readFile(new URL('../corpus/catalog/work-index.json', import.meta.url), 'utf8'));
+const h = createLibraryHierarchy(catalog, works);
+const expected = ['Hebrew Bible & Translations','New Testament','Apocrypha','Pseudepigrapha & Enochic Literature','Early Christian Writings','Gnostic & Related Texts','Hymns & Songs','Ethiopian Scriptures','Restoration Scriptures & Studies','Torah, Mishnah, Talmud & Zohar','Sources & Originals'];
+if (CATEGORY_DEFS.length !== 11 || JSON.stringify(CATEGORY_DEFS.map(x=>x.title)) !== JSON.stringify(expected)) throw new Error('Top-level category contract mismatch');
+const restoration = h.groupsForCategory('restoration');
+for (const label of ['The Church of Jesus Christ of Latter-day Saints','Community of Christ / RLDS','The Church of Jesus Christ (Bickertonite)','Church of Christ (Temple Lot / Hedrickite)','Church of Jesus Christ (Cutlerite)','Strangite tradition','Restoration Branches and remnant traditions','The Church of Jesus Christ of Latter-day Saints · Hugh Nibley Study Resources']) if (!restoration.some(g=>g.label===label)) throw new Error(`Missing Restoration group ${label}`);
+const ldsKjv = h.records('restoration','utah-lds','kjv');
+if (ldsKjv.length !== 66) throw new Error(`Utah LDS KJV must be exactly 66 books, got ${ldsKjv.length}`);
+if (ldsKjv.some(w=>standardBiblePart(w)==='other')) throw new Error('Utah LDS KJV contains Apocrypha');
+const jew = Object.fromEntries(h.groupsForCategory('jewish').map(g=>[g.id,g.editionIds]));
+for (const [id, ids] of Object.entries({torah:['jewish-scripture-torah','torah-jps1917'],mishnah:['rabbinic-mishnah','rabbinic-mishnah-kulp'],tosefta:['rabbinic-tosefta-vilna','rabbinic-tosefta-sefaria'],yerushalmi:['rabbinic-talmud-yerushalmi','rabbinic-yerushalmi-guggenheimer'],bavli:['rabbinic-talmud-bavli','rabbinic-bavli-davidson'],zohar:['jewish-mysticism-zohar-soncino-1933']})) for (const eid of ids) if (!jew[id]?.includes(eid)) throw new Error(`Jewish group ${id} missing ${eid}`);
+const acquisition = catalog.editions.filter(isAcquisitionEdition);
+if (!acquisition.length) throw new Error('Expected acquisition editions');
+for (const ed of acquisition) if (h.meaningfulEditions('pseudepigrapha').includes(ed.id) || h.meaningfulEditions('apocrypha').includes(ed.id)) throw new Error(`Acquisition edition exposed as shelf: ${ed.id}`);
+for (const ed of catalog.editions) if (/Source Pack|Online Critical Pseudepigrapha|Recovered Local Editions/.test(friendlyEditionTitle(ed))) throw new Error(`Internal acquisition label leaked: ${ed.id}`);
+for (const key of ['enoch-charles/1EN','jubilees-charles/JUB']) { const w=works.find(x=>x.key===key); if (!w || !h.categoryMatches(w,'ethiopian')) throw new Error(`Ethiopian cross-list missing ${key}`); }
+if (h.groupsForCategory('apocrypha').length || h.groupsForCategory('pseudepigrapha').length) throw new Error('Apocrypha and Pseudepigrapha must be flat alphabetical shelves');
+console.log('PASS: v2.0.0 card hierarchy, flat Apocrypha/Pseudepigrapha, Hymns, Restoration canon subset, Jewish collections, acquisition flattening, and Ethiopian cross-listing');

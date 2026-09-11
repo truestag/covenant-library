@@ -1,0 +1,22 @@
+{
+  "schema": "covenant-library-repair-audit/v1",
+  "repairId": "pseudepigrapha-clean-reading-transcription/v1",
+  "works": [
+    {
+      "id": "APAB",
+      "title": "The Apocalypse of Abraham",
+      "chapters": 32,
+      "segments": 295,
+      "sha256": "9d6582ebaf2534e6339eb9f0ec50dd882a68d8c034e56ce9072fae394e8c478a",
+      "source": "https://github.com/scrollmapper/bible_databases_deuterocanonical/blob/271173e/sources/en/apocalypse-of-abraham/apocalypse-of-abraham.md"
+    },
+    {
+      "id": "ASIS",
+      "title": "The Ascension of Isaiah",
+      "chapters": 11,
+      "segments": 297,
+      "sha256": "0806e71e2234c96b5c2389b1edbb710db2fe8289480cf9bb90ae35bb48fbd3ae",
+      "source": "https://github.com/scrollmapper/bible_databases_deuterocanonical/blob/271173e/sources/en/ascension-of-isaiah/ascension-of-isaiah.md"
+    }
+  ]
+}

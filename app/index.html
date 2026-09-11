@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#efe7d2">
+  <title>Covenant Library</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Covenant Library home">
+      <img src="assets/covenant-library-logo-original.png" alt="Covenant Library">
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#library">Library</a>
+      <a href="#search">Search</a>
+      <a href="#study">Study</a>
+      <a href="#my-library">My Library</a>
+      <a href="#sources">Sources</a>
+    </nav>
+    <button class="close-application" id="close-application" type="button" hidden aria-label="Close Covenant Library">Close Application</button>
+  </header>
+  <main id="app" tabindex="-1">
+    <section class="loading"><p>Opening Covenant Library…</p></section>
+  </main>
+  <script src="platform.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

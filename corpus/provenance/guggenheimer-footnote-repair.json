@@ -1,0 +1,402 @@
+{
+  "schema": "covenant-library-repair-audit/v1",
+  "repairId": "guggenheimer-inline-footnote-marker-normalization/v2",
+  "collection": "rabbinic-yerushalmi-guggenheimer",
+  "sourceProblem": "Sefaria footnote markup was flattened in the legacy R7 extraction, fusing note numbers and commentary directly to translation text.",
+  "repairPolicy": "Lossless normalization only. No source words are deleted and no heuristic note-boundary reconstruction is attempted.",
+  "files": 39,
+  "markersNormalized": 2546,
+  "segmentsChanged": 2143,
+  "results": [
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/AVODAH-ZARAH",
+      "file": "AVODAH-ZARAH.json",
+      "markersNormalized": 76,
+      "segmentsChanged": 73,
+      "beforeBytes": 461093,
+      "afterBytes": 461321,
+      "beforeSha256": "7ed36916a854ac3a3c324667f503bcb322947e92e34e8ee8585346a5f682b55b",
+      "afterSha256": "4a90788964e83f4fa31419a7eba7a394a0ab17c6a81b48b444e77b70f14bf749"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/BAVA-BATRA",
+      "file": "BAVA-BATRA.json",
+      "markersNormalized": 54,
+      "segmentsChanged": 48,
+      "beforeBytes": 354088,
+      "afterBytes": 354246,
+      "beforeSha256": "2782e6830c1c143df2de365d09f6bc3046ee1162209c3a04aaaa77ca17c640de",
+      "afterSha256": "7a5496a1e4fceb833ac6cd59afcc158191fd9c32864ca43ae72fb86ffd8ead7c"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/BAVA-KAMMA",
+      "file": "BAVA-KAMMA.json",
+      "markersNormalized": 63,
+      "segmentsChanged": 53,
+      "beforeBytes": 383116,
+      "afterBytes": 383301,
+      "beforeSha256": "3a799e9bac4ea498b6e6e996ab46fd4a294b4dafded28d7492fe1e874b0377ab",
+      "afterSha256": "e1dab671ce55d497344bfdce2f99adf2069ca35b19f13230c7dd4caf89148b96"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/BAVA-METZIA",
+      "file": "BAVA-METZIA.json",
+      "markersNormalized": 75,
+      "segmentsChanged": 60,
+      "beforeBytes": 358241,
+      "afterBytes": 358462,
+      "beforeSha256": "e9d6a3ff327907ad1056b674a00d2dbffa5ee29633f677897db0566780012c3a",
+      "afterSha256": "22f7b04ad3ff12b9df0a7f4073469f91e9c5b41cb34af953212a418d9e10f000"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/BEITZAH",
+      "file": "BEITZAH.json",
+      "markersNormalized": 44,
+      "segmentsChanged": 40,
+      "beforeBytes": 266669,
+      "afterBytes": 266797,
+      "beforeSha256": "55bae366650a1a2e16d8962cbe5f53c3d3daa51edb90ea4eecbfbd93c815a7f9",
+      "afterSha256": "4984b18c4ce131b6498d240a0779e112b81d67b75b0cc4ffae55bdbbc2b721ee"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/BERAKHOT",
+      "file": "BERAKHOT.json",
+      "markersNormalized": 26,
+      "segmentsChanged": 26,
+      "beforeBytes": 1068851,
+      "afterBytes": 1068925,
+      "beforeSha256": "2d76dbcd1f4d9622b492f9091e92c6ee168c8bde4a1ac289cb9759e00b7097da",
+      "afterSha256": "e15cdce998d382d55c75338d8ce9e2ec3aff3c823a85d5fab7e1fc6aa4ce890c"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/BIKKURIM",
+      "file": "BIKKURIM.json",
+      "markersNormalized": 12,
+      "segmentsChanged": 12,
+      "beforeBytes": 163990,
+      "afterBytes": 164022,
+      "beforeSha256": "7d1c2753519a3d9f87971295353d3cba6b42de5d17cbd96a874013dc0e953458",
+      "afterSha256": "8d602ac33cf73bbf4d366bfd17883bb350d4a4254e8d10a10da539f22c4884b5"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/CHAGIGAH",
+      "file": "CHAGIGAH.json",
+      "markersNormalized": 32,
+      "segmentsChanged": 29,
+      "beforeBytes": 247391,
+      "afterBytes": 247483,
+      "beforeSha256": "05f597ddf6b34861db2307f2b34073da39cf33ed89b3af34cd690fd747d1de0f",
+      "afterSha256": "bc7cfe0f11df0c70f1a73ff47e3bf52bffee7b5e571ae7fddfa0cf4a6bcfa3c0"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/CHALLAH",
+      "file": "CHALLAH.json",
+      "markersNormalized": 23,
+      "segmentsChanged": 23,
+      "beforeBytes": 239607,
+      "afterBytes": 239672,
+      "beforeSha256": "4130fb3aafe68f1ea84020243abda6b808b6524db869ec77e9711cead85f7cb7",
+      "afterSha256": "b532dc4e496cc7917efd78f18a48da929f4bb35671583efcbbe13a0205c4595f"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/DEMAI",
+      "file": "DEMAI.json",
+      "markersNormalized": 5,
+      "segmentsChanged": 5,
+      "beforeBytes": 452815,
+      "afterBytes": 452826,
+      "beforeSha256": "3292557c9b2725eaef0bf4043259f160871baabde64aa63fd7e212e1ad0a5089",
+      "afterSha256": "8d10431f17fabcd308514407a532fa73b239aa4fda2a97b416330dc55bcc7dc9"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/ERUVIN",
+      "file": "ERUVIN.json",
+      "markersNormalized": 73,
+      "segmentsChanged": 63,
+      "beforeBytes": 563117,
+      "afterBytes": 563336,
+      "beforeSha256": "d400a61c4b67ef4525daf9ee8113a6972e601fdc36073a4c05e1f60a69989842",
+      "afterSha256": "09a442b9136ebb25e5727fb295296b25ed6831957e8ece76bb85b926b8462f1f"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/GITTIN",
+      "file": "GITTIN.json",
+      "markersNormalized": 70,
+      "segmentsChanged": 61,
+      "beforeBytes": 604485,
+      "afterBytes": 604691,
+      "beforeSha256": "78b78eb4483b118d531526017ca9361df3b67dc23ffcc747c5f043150a0a1b8b",
+      "afterSha256": "2aec50760487544ffc7d56118e10658545be1d362094df681154bb456cfb8689"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/HORAYOT",
+      "file": "HORAYOT.json",
+      "markersNormalized": 62,
+      "segmentsChanged": 38,
+      "beforeBytes": 282123,
+      "afterBytes": 282312,
+      "beforeSha256": "e053a2ce8fc59bdb92cf79cc0e28380edb1c0d7a379c2f5e0262982c8776f7e2",
+      "afterSha256": "53ba35c5f0fa1781e748976cf74e8fa12920e705b58cd2eec9758c535a41faaf"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/KETUBOT",
+      "file": "KETUBOT.json",
+      "markersNormalized": 84,
+      "segmentsChanged": 73,
+      "beforeBytes": 871402,
+      "afterBytes": 871650,
+      "beforeSha256": "0f3c5c1eaacefb8d73b7a31e2ff0c200e106cdfe05d3b46fe0badab40aca586e",
+      "afterSha256": "8f5fc6847da59839b19990de84cb47bddfa79a0122772e7d671381cfc2792051"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/KIDDUSHIN",
+      "file": "KIDDUSHIN.json",
+      "markersNormalized": 103,
+      "segmentsChanged": 92,
+      "beforeBytes": 580504,
+      "afterBytes": 580811,
+      "beforeSha256": "869f6dc8375b77e28024acb33369827e296f93cd3f3404ef2fda3363c10bfc20",
+      "afterSha256": "d225150531fc97523207e4cdfdf235d96880136e036c2b8b7ff718d156f409ba"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/KILAYIM",
+      "file": "KILAYIM.json",
+      "markersNormalized": 12,
+      "segmentsChanged": 10,
+      "beforeBytes": 501638,
+      "afterBytes": 501670,
+      "beforeSha256": "e3a6f242e05ea00754604b0043ae3573df462ab34d2b9738b16c366434449a4a",
+      "afterSha256": "e129c73e041a52959331b894516a5c7be9396d022c5ba8ac7cc161591be637b5"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/MAASER-SHENI",
+      "file": "MAASER-SHENI.json",
+      "markersNormalized": 38,
+      "segmentsChanged": 38,
+      "beforeBytes": 314419,
+      "afterBytes": 314529,
+      "beforeSha256": "d8aef7b565114fc7d0ce961ec892bc6befaa57f58c53dcb5890d4dda78b3e626",
+      "afterSha256": "2628f9005dd1b399d02159ecd2e9a838e0479c1ca671e4efae660e5e6735a6b3"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/MAASROT",
+      "file": "MAASROT.json",
+      "markersNormalized": 22,
+      "segmentsChanged": 21,
+      "beforeBytes": 254443,
+      "afterBytes": 254505,
+      "beforeSha256": "3fcfb6a55e9a8735496c8c937cfb529178c7191e44ced48a2bd23593e6a6fa62",
+      "afterSha256": "938be8da4d6636183bd33984e20b0adb18c7e3884fcaac23b4a5e1a9788567eb"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/MAKKOT",
+      "file": "MAKKOT.json",
+      "markersNormalized": 37,
+      "segmentsChanged": 25,
+      "beforeBytes": 108564,
+      "afterBytes": 108671,
+      "beforeSha256": "6d46784d5e0a0557ac20cb2549244059112202c86f112ab3060be7aacb4516f2",
+      "afterSha256": "c406c7c4e4034d0417a1bdb3ab1de2cd1d34a6cafd4d69f559db17f75683e4f8"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/MEGILLAH",
+      "file": "MEGILLAH.json",
+      "markersNormalized": 68,
+      "segmentsChanged": 62,
+      "beforeBytes": 355848,
+      "afterBytes": 356055,
+      "beforeSha256": "95842c154231b9e47acf687698d31e99d0f5aeebeb6d669136d672b107b62712",
+      "afterSha256": "52b4fcaa102291f1e7208d15cda217639d82910334f0a7d8e27abfa25405397a"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/MOED-KATAN",
+      "file": "MOED-KATAN.json",
+      "markersNormalized": 47,
+      "segmentsChanged": 40,
+      "beforeBytes": 200841,
+      "afterBytes": 200984,
+      "beforeSha256": "b2ad310cdb63731e0e4f2d90e001af67681d3c8d94054530f6b78e116bb185e7",
+      "afterSha256": "04e734afd6149fa0036a6c2c1f7c0a32d34ef03dcc71d4e90dbb4d1d8dbc75e5"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/NAZIR",
+      "file": "NAZIR.json",
+      "markersNormalized": 62,
+      "segmentsChanged": 54,
+      "beforeBytes": 539813,
+      "afterBytes": 539996,
+      "beforeSha256": "1c2255bb6e843c183003e64251c4265289899ec8144cb9b21fac14efafd719cd",
+      "afterSha256": "a3c2d3dc465cdfa2b1fb6268df98c75c55287fcd31c3a81eafd92ffd9cb16c65"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/NEDARIM",
+      "file": "NEDARIM.json",
+      "markersNormalized": 71,
+      "segmentsChanged": 55,
+      "beforeBytes": 463237,
+      "afterBytes": 463450,
+      "beforeSha256": "a7c7757541dd77002bff6e49e5d83d1e1523ec08801a3af08aa3542e6b39358d",
+      "afterSha256": "289fcd9288d676c982067adb4a2b9ec4eea6222f0f00220ec82dedee29372fa8"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/NIDDAH",
+      "file": "NIDDAH.json",
+      "markersNormalized": 15,
+      "segmentsChanged": 14,
+      "beforeBytes": 161326,
+      "afterBytes": 161367,
+      "beforeSha256": "1e50f95bb671f074ea3949d7ae0bb3dd36c8de762a0a692cef70c6cb07795d34",
+      "afterSha256": "7ece4e9af91c5a7e139f04d05191a5fee4b3cf97067fe475484761fdae08c372"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/ORLAH",
+      "file": "ORLAH.json",
+      "markersNormalized": 22,
+      "segmentsChanged": 21,
+      "beforeBytes": 205743,
+      "afterBytes": 205805,
+      "beforeSha256": "8ff58c820f6823591d89641a3498dfa561fdbcfbe3bbfe61fdecfaf673640f4e",
+      "afterSha256": "eae77a2fdd9d6a272e2de969e217e20830df73e8f0045f38e07264d98e8a460f"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/PEAH",
+      "file": "PEAH.json",
+      "markersNormalized": 14,
+      "segmentsChanged": 13,
+      "beforeBytes": 515604,
+      "afterBytes": 515642,
+      "beforeSha256": "a1e5eb4a0a71786efc86403111b7120b71fb009aa51df28022f2e92078a143c0",
+      "afterSha256": "4ff91ea005a048ca9aebf7361874157fa8d6beb4280ab0e0577315a2b16f8bcc"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/PESACHIM",
+      "file": "PESACHIM.json",
+      "markersNormalized": 102,
+      "segmentsChanged": 90,
+      "beforeBytes": 724079,
+      "afterBytes": 724382,
+      "beforeSha256": "b647b7168e878b27f00d01ae80b216744c29fa5dc6b3b4c2f9d82fc70e47d07e",
+      "afterSha256": "1b5d1a7d0a971b865737501da8a07dca0bf5019f0c900c98bceb526a1db34e1e"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/ROSH-HASHANAH",
+      "file": "ROSH-HASHANAH.json",
+      "markersNormalized": 54,
+      "segmentsChanged": 41,
+      "beforeBytes": 225502,
+      "afterBytes": 225666,
+      "beforeSha256": "996b703716e6326e5420db6a6a90861e6f2952c475b3b65a7d1bea1e1b880a94",
+      "afterSha256": "96288f4e2f4981f5ade517617e71d7fd175e3628fbf11a4725aca8776f1b7e60"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/SANHEDRIN",
+      "file": "SANHEDRIN.json",
+      "markersNormalized": 295,
+      "segmentsChanged": 211,
+      "beforeBytes": 757269,
+      "afterBytes": 758238,
+      "beforeSha256": "a5aa26a9596f2a88f1fd508c1155953f3c6c85764379415e80f5b59a962db897",
+      "afterSha256": "409d56ccf4bb037c6c3bcaab30b57086148b0592d44387f2a6da742115afc045"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/SHABBAT",
+      "file": "SHABBAT.json",
+      "markersNormalized": 189,
+      "segmentsChanged": 170,
+      "beforeBytes": 1085962,
+      "afterBytes": 1086529,
+      "beforeSha256": "2680b46f5357c850cb63a2627dc709da404308d9b22a9e942711ebfef6a6b48d",
+      "afterSha256": "6e71cef1ffe14c0c5fb49d1f6bdfd8c96e9be509b787658a57bd02c36f253520"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/SHEKALIM",
+      "file": "SHEKALIM.json",
+      "markersNormalized": 69,
+      "segmentsChanged": 64,
+      "beforeBytes": 334748,
+      "afterBytes": 334955,
+      "beforeSha256": "bbb4c94ff6cac4bc04f56ea797e062f941cc197e65bc492d11616127b5b90009",
+      "afterSha256": "55815d0a2fb57d438262316cb48852ebdcdef8fb47662bca56c93b91a0337dce"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/SHEVIIT",
+      "file": "SHEVIIT.json",
+      "markersNormalized": 16,
+      "segmentsChanged": 16,
+      "beforeBytes": 485610,
+      "afterBytes": 485654,
+      "beforeSha256": "9a9491112341fbc095f7518f6039d330da0e430700773bb54653302b9905c754",
+      "afterSha256": "7ad48ccb637eddff9e42a6f34d673ba4335f8b939a0b485e4800c2848c4db41e"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/SHEVUOT",
+      "file": "SHEVUOT.json",
+      "markersNormalized": 87,
+      "segmentsChanged": 73,
+      "beforeBytes": 480780,
+      "afterBytes": 481039,
+      "beforeSha256": "de3697b57cad1e329ffdc71970734822b9ccb0388f2e44566a40fec43d52b003",
+      "afterSha256": "9832f141a9a3011f130d0172346b2627d823143fbdcb112f1d4c15a78d4f2b7f"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/SOTAH",
+      "file": "SOTAH.json",
+      "markersNormalized": 132,
+      "segmentsChanged": 100,
+      "beforeBytes": 603757,
+      "afterBytes": 604167,
+      "beforeSha256": "91586e565981a2549db337d5a688af45d040bc237dab0a51e6b24dcca7cefbc7",
+      "afterSha256": "ec7a8aa5b5c4a5653fa7defda2df2ef7c5341390841f843071ad7f4aa9005a23"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/SUKKAH",
+      "file": "SUKKAH.json",
+      "markersNormalized": 48,
+      "segmentsChanged": 44,
+      "beforeBytes": 264863,
+      "afterBytes": 265005,
+      "beforeSha256": "f72708062a35193874a03af75a5ab1132cb65b9bc5ebc6f10750c89cd9c1ab50",
+      "afterSha256": "dc90d1213cca72ed066729436561b1ddf6dd070528cba3886c1a2227f8df18b0"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/TAANIT",
+      "file": "TAANIT.json",
+      "markersNormalized": 107,
+      "segmentsChanged": 81,
+      "beforeBytes": 325307,
+      "afterBytes": 325637,
+      "beforeSha256": "bf37784df400a36d47b863337248b74558464c5c73911161cbe534c4b2739eab",
+      "afterSha256": "dcdb887ae661aa5d9dada46fd3912b10e581371cdebe67b1c9a657a8b2de4b06"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/TERUMOT",
+      "file": "TERUMOT.json",
+      "markersNormalized": 32,
+      "segmentsChanged": 31,
+      "beforeBytes": 613091,
+      "afterBytes": 613183,
+      "beforeSha256": "d96c7b66af340a3138dfbef65bd88b9d90462acab0ca75a7b1e5e550115c3cb3",
+      "afterSha256": "75ca479e14ccd5742f52b41f9ff7aa963dcbf1170966ba063642ac7763da183f"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/YEVAMOT",
+      "file": "YEVAMOT.json",
+      "markersNormalized": 103,
+      "segmentsChanged": 86,
+      "beforeBytes": 987562,
+      "afterBytes": 987871,
+      "beforeSha256": "cbb550e57c86227677a6dee1048af995db83579a32f8986f6254e39a58a39318",
+      "afterSha256": "8f630a31afa1d54c906c86d4cd1b5d720aadcb7d32f98c7d7146098ba7f4c36e"
+    },
+    {
+      "key": "rabbinic-yerushalmi-guggenheimer/YOMA",
+      "file": "YOMA.json",
+      "markersNormalized": 102,
+      "segmentsChanged": 87,
+      "beforeBytes": 462261,
+      "afterBytes": 462565,
+      "beforeSha256": "7412d950909e28d7ff2181ba09a8afd0deffc030372a63bc1c698d12caf330b0",
+      "afterSha256": "e10d10066c1c7cf731e5469ad0781c89198671f3bb326281ab1f1179fdc3cb65"
+    }
+  ]
+}

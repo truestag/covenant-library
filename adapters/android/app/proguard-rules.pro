@@ -1,0 +1,2 @@
+-keepclassmembers class org.covenantlibrary.app.MainActivity$NativeStorage { @android.webkit.JavascriptInterface <methods>; }
+-keepclassmembers class org.covenantlibrary.app.MainActivity$NativeFiles { @android.webkit.JavascriptInterface <methods>; }

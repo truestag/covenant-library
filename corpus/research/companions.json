@@ -1,0 +1,16 @@
+{
+  "schema": "covenant-library-companion-records/v1",
+  "records": [
+    {
+      "id": "book-of-giants-henning-1943",
+      "primaryWork": "pseudepigrapha-enochic-giants/BKGIANTS",
+      "companionWork": "pseudepigrapha-enochic-giants/BKGIANTS-HENNING",
+      "relationship": "manichaean-witness",
+      "displayRole": "Companion / comparison witness",
+      "readerPolicy": "reference-only",
+      "fullTextBundled": false,
+      "summary": "W. B. Henning's 1943 publication of Manichaean Book of Giants fragments is retained as a comparison witness and source record, not as an embedded readable book.",
+      "comparisonNote": "Use this record for manuscript relationship, provenance, external-source access, and passage-level scholarly comparison. Do not reconstruct or embed the complete protected publication unless distribution rights are separately established."
+    }
+  ]
+}
