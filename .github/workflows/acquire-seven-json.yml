@@ -1,0 +1,37 @@
+name: Acquire seven Covenant Library JSON books
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/acquire-seven-json.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Text-Fabric
+        run: python -m pip install --disable-pip-version-check text-fabric
+      - name: Build and validate seven JSON books
+        run: python tools/acquire-seven-json.py
+      - name: Upload requested JSON package
+        uses: actions/upload-artifact@v4
+        with:
+          name: Covenant-Library-Seven-New-Books-JSON-2026-09-15
+          path: |
+            Covenant-Library-Seven-New-Books-JSON-2026-09-15.zip
+            Covenant-Library-Seven-JSON/*.json
+            Covenant-Library-Seven-JSON/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 7
