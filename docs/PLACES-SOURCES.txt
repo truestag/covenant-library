@@ -1,0 +1,9 @@
+Covenant Library biblical place lookup — source and reuse notes (2026-09-13)
+
+Biblical location data: OpenBible.info Bible Geocoding Data, https://github.com/openbibleinfo/Bible-Geocoding-Data, CC BY 4.0. This update derives a compact offline gazetteer from data/ancient.jsonl and data/modern.jsonl. The records retain OpenBible.info place links, modern identification candidates, identification scores, precision, notes, and verse references. The data covers places named in the Protestant Bible, not every place in all Covenant Library collections.
+
+Coordinate source: modern locations may derive from OpenStreetMap data licensed under the Open Database License (ODbL) 1.0. Credit: © OpenStreetMap contributors, https://www.openstreetmap.org/copyright . Position numbers represent approximate reference points and should not be interpreted as exact ancient boundaries.
+
+Biblical name dictionary: Easton's Bible Dictionary (1897) and Smith's Bible Dictionary (1863), public-domain original texts as transcribed in NEUU Bible Dictionary Dataset, https://github.com/neuu-org/bible-dictionary-dataset, CC BY 4.0, copyright 2026 NEUU. The dataset supplies etymology and narrative excerpts where matching entries exist. Not every place has a verified name meaning. Historical dictionary descriptions may be dated, so the geocoding dataset is used for modern-location candidates.
+
+Changes: Only names with actual place records receive place answers; dictionary etymology remains separate from place location evidence. Records with multiple ancient referents and competing modern candidate identifications are retained. No location is manufactured for missing entries.
