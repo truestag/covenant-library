@@ -1,6 +1,6 @@
 # Covenant Library v2.1.2 — Online Reader r15
 
-This repository tracks the **authoritative Covenant Library online-reader base**.
+This repository records the **authoritative Covenant Library online-reader base**.
 
 Current base: **r15 Consolidated**  
 Promoted: **2026-09-15**  
@@ -8,6 +8,8 @@ Canonical artifact: `Covenant-Library-v2.1.2-Online-Reader-r15-Consolidated.zip`
 SHA-256: `141a37431fe311f95d93f8772152f4d5b187f1e98e7dabd78adb8e2420483d5b`
 
 Earlier v2.1.2 reader bases, test builds, and incremental reader patches are superseded. Future online-reader work should begin from r15 unless a later base is explicitly promoted.
+
+The exact deployable package is the checksum-pinned ZIP above. Generated/binary distribution data such as compressed search shards and large offline datasets are not duplicated wholesale as ordinary Git source blobs. See `docs/SOURCE-AND-DISTRIBUTION.md`.
 
 ## What r15 contains
 
@@ -24,11 +26,11 @@ The r15 package is reader-only. The landing website remains a separate deliverab
 - Strangite *Book of the Law of the Lord* (1856 expanded edition)
 - Working *Words and Teachings of Jesus Christ* collection, with unresolved speaker decisions kept explicit
 
-The full catalog and verification material are under `docs/` and `release/`.
+Release, verification, deployment, rights, security, and provenance material are under `docs/` and `release/`.
 
 ## Deployment
 
-Keep `app/` and `Neo/` at the same level on a PHP-capable host. The live server's `Neo/config.php` contains provider configuration and is **not** distributed or committed. Preserve the existing live file when updating; `Neo/config.example.php` is the public template.
+The canonical r15 deployment contains sibling `app/` and `Neo/` directories. The live server's `Neo/config.php` contains provider configuration and is **not** distributed or committed. Preserve the existing live file when updating; `Neo/config.example.php` is the public template.
 
 See `docs/DEPLOYMENT-R15.md` and `SECURITY.md` before replacing a live installation.
 
