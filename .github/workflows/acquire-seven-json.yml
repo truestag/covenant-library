@@ -24,7 +24,7 @@ jobs:
       - name: Install Text-Fabric
         run: python -m pip install --disable-pip-version-check text-fabric
       - name: Build and validate seven JSON books
-        run: python tools/acquire-seven-json.py
+        run: python tools/acquire-seven-json-wrapper.py
       - name: Upload requested JSON package
         uses: actions/upload-artifact@v4
         with:
