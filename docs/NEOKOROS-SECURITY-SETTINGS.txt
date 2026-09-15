@@ -1,0 +1,42 @@
+NEOKOROS SECURITY SETTINGS
+===========================
+
+The secured api.php enforces these defaults even if your existing config.php does not yet contain them:
+
+  enabled                     true
+  cooldown_seconds            5
+  requests_per_hour_per_ip    30
+  requests_per_day_per_ip     100
+  global_requests_per_day     500
+  require_same_site           true
+  max_question_chars          2500
+  max_request_bytes           30000
+  max_sources                 8
+  max_source_chars            1600
+  max_evidence_chars          9000
+  max_output_tokens           1200
+
+To change a value, add it to the array in your existing config.php, for example:
+
+    'enabled' => true,
+    'cooldown_seconds' => 5,
+    'requests_per_hour_per_ip' => 30,
+    'requests_per_day_per_ip' => 100,
+    'global_requests_per_day' => 500,
+    'require_same_site' => true,
+    'max_question_chars' => 2500,
+    'max_request_bytes' => 30000,
+    'max_sources' => 8,
+    'max_source_chars' => 1600,
+    'max_evidence_chars' => 9000,
+    'max_output_tokens' => 1200,
+    'allowed_hosts' => array('covenant.free.nf'),
+
+EMERGENCY STOP
+Set 'enabled' => false in config.php. The library stays online, but api.php refuses all AI calls.
+
+IMPORTANT
+- Keep api_key only in config.php.
+- Do not put api_key into index.php, JavaScript, JSON, or HTML.
+- The endpoint does not enable CORS and rejects cross-site browser POST requests by default.
+- Provider/API restrictions are configured in Google's API-key controls, not in these PHP files.

@@ -38,5 +38,5 @@ createServer(async (request, response) => {
     response.end("Not found");
   }
 }).listen(port, "127.0.0.1", () => {
-  console.log(`Covenant Library v1.0.0: http://127.0.0.1:${port}`);
+  console.log(`Covenant Library v2.1.2 source server: http://127.0.0.1:${port}`);
 });

@@ -1,0 +1,27 @@
+Dictionary source and license notes — 2026-09-13
+
+HEBREW — 8,674 entries
+Open Scriptures Hebrew Lexicon, Strong's Hebrew Dictionary, from the user's saved HebrewLexicon-master.zip, source https://github.com/openscriptures/HebrewLexicon . CC BY 4.0. Credit: Open Scriptures Hebrew Bible Project. Original Strong dictionary text is public domain. The local JSON is converted for headword lookup and contains meanings, usage, transliteration, pronunciation and grammar when available.
+
+GREEK — 116,497 entries
+Liddell, Henry George; Scott, Robert; Jones, Henry Stuart. A Greek–English Lexicon. Perseus Digital Library digitization, https://github.com/PerseusDL/lexica/tree/master/CTS_XML_TEI/perseus/pdllex/grc/lsj , accessed 2026-09-13. The local JSON is a modified compact extraction of the 27 Perseus XML files; Beta Code headwords were converted to Greek Unicode and selected translations extracted. CC BY-SA 4.0.
+
+This text may be freely distributed under a CC BY-SA 4.0 license, subject to the following restrictions:
+You credit Perseus, as follows, whenever you use the document:
+    Text provided under a CC BY-SA license by Perseus Digital Library, http://www.perseus.tufts.edu, with funding from The National Endowment for the Humanities.
+    Data accessed from https://github.com/PerseusDL/lexica/ [2026-09-13].
+You leave this availability statement intact.
+You offer Perseus any modifications you make.
+Please include file header information found in <fileDesc> or <sourceDesc> tags: particularly title, authors, publisher, ISBN, etc. whenever possible.
+
+LATIN — 51,642 entries
+Lewis, Charlton T.; Short, Charles. A Latin Dictionary. Perseus Digital Library digitization, https://github.com/PerseusDL/lexica/tree/master/CTS_XML_TEI/perseus/pdllex/lat/ls , accessed 2026-09-13. The local JSON is a modified compact extraction of lat.ls.perseus-eng2.xml, excluding citations and bibliography from its short excerpts. CC BY-SA 4.0. The same Perseus availability statement and credit above apply.
+
+ENGLISH — 113,376 entries
+Webster's Unabridged English Dictionary (1913), JSON by Vivian Silva, https://github.com/ssvivian/WebstersDictionary , accessed 2026-09-13. The repository describes the original text as covered by the Project Gutenberg License; its JSON conversion is under MIT, copyright 2018 Vivian Silva. This old dictionary is not a modern English usage authority. The MIT license is reproduced below.
+
+MIT License
+Copyright 2018 Vivian Silva
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

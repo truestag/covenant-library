@@ -1,0 +1,24 @@
+# Server/private configuration
+Neo/config.php
+Neo/.neokoros-runtime/
+**/.neokoros-runtime/
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.log
+
+# Local package/test extraction
+node_modules/
+dist/
+build/
+coverage/
+*.local
+.env
+.env.*
+
+# User imports / runtime state
+user-data/
+local-imports/

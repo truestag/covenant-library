@@ -1,97 +1,55 @@
-# Covenant Library v1.0.0
+# Covenant Library v2.1.2 — Online Reader r15
 
+This repository records the **authoritative Covenant Library online-reader base**.
 
-## Release status
+Current base: **r15 Consolidated**  
+Promoted: **2026-09-15**  
+Canonical artifact: `Covenant-Library-v2.1.2-Online-Reader-r15-Consolidated.zip`  
+SHA-256: `141a37431fe311f95d93f8772152f4d5b187f1e98e7dabd78adb8e2420483d5b`
 
-This repository is the authoritative Covenant Library Version 1 baseline, promoted from the validated Clean Rebuild Checkpoint 13. The corpus and application behavior are unchanged by the promotion; only release/version metadata and distribution names were updated.
+Earlier v2.1.2 reader bases, test builds, and incremental reader patches are superseded. Future online-reader work should begin from r15 unless a later base is explicitly promoted.
 
-This repository is the new source of truth for Covenant Library. Old Windows,
-Android, and web builds are reference inputs only. The shared application and
-canonical corpus live here; platform adapters may package them but may not fork
-their content or behavior.
+The exact deployable package is the checksum-pinned ZIP above. Generated/binary distribution data such as compressed search shards and large offline datasets are not duplicated wholesale as ordinary Git source blobs. See `docs/SOURCE-AND-DISTRIBUTION.md`.
 
-## Current checkpoint
+## What r15 contains
 
-- Corpus input: independently verified Android R7 project artifact.
-- Current checkpoint: 71 collections, 1,487 catalog records, 960 embedded books,
-  18,555 sections, 413,680 text segments, and 960 Study mappings.
-- Checkpoint 2 restored 12 retained original Tyndale New Testament JSON payloads
-  from the existing Covenant Library site archive; no replacement text was generated.
-- Checkpoint 3 connects the separated Study datasets to finished reader-side Study
-  views for Bible commentary and cross-references, Apocrypha and Pseudepigrapha
-  notes, Gnostic/reference profiles, Easton dictionary, and Strong’s/STEP lexicons.
-- Checkpoint 4 adds the shared storage contract for reading position, bookmarks,
-  highlights, notes, history, local TXT/JSON imports, My Library, and TXT export.
-  Imported books remain separate from the verified canonical corpus.
-- Checkpoint 5 adds hardened Windows and Android adapters around that same shared
-  core. Windows is compiled as a single x86-64 GUI executable with embedded
-  compressed assets and native app-data storage. Android uses a local HTTPS
-  WebView origin, SharedPreferences, and Android document pickers without forking
-  the reader or corpus.
-- Checkpoint 6 stages the Version 2 research workspace behind release flags:
-  comparison, companion witnesses, parallel passages, variant viewing, citations,
-  research collections, backlinks, reading plans, concordance, provenance inspection,
-  research-bundle export, and the optional local-AI bridge. These features are built
-  and tested but intentionally inactive in the current 1.x profile.
-- Checkpoint 7 packaged the first clean Windows release candidate and completed the
-  shared-core/native-runtime smoke gates.
-- Checkpoint 8 fixes the Windows launch-path defect exposed by the first physical Windows
-  test: the root URL now redirects to `/app/`, so relative CSS, JavaScript, and image assets
-  resolve correctly. The Windows adapter also refuses to reuse an older Covenant Library
-  process unless its build identity matches the current executable.
-- Checkpoint 9 fixes route-highlight state exposed by the Checkpoint 8 physical test: Home
-  now always activates Home, clears stale Study highlighting, and Library child views map
-  their primary navigation state back to Library.
-- The 95-book future collection remains outside this v1 rebuild until its texts,
-  identities, rights, and sources pass validation.
+The r15 package is reader-only. The landing website remains a separate deliverable.
 
-## Rebuild rules
+- 1,117 locally readable books/collections
+- 20,771 chapters/sections
+- 487,411 local text segments
+- 1,116 underlying searchable source works
+- 477,475 indexed search documents in 65 compressed shards
+- Hebrew, Greek, Latin, and English offline lexical data
+- 1,342 biblical-place records
+- Neokoros local retrieval and source-linked citation support
+- Strangite *Book of the Law of the Lord* (1856 expanded edition)
+- Working *Words and Teachings of Jesus Christ* collection, with unresolved speaker decisions kept explicit
 
-1. A work is `local-readable` only when its validated reader JSON exists.
-2. Source-only, bibliographic, and catalog-only records remain visible but are
-   never represented as embedded books.
-3. Source editions are not silently substituted or merged.
-4. Native sections, paragraph or verse labels, provenance, rights, and stable
-   work IDs are preserved.
-5. Search indexes and release reports are generated from the corpus.
-6. Every build must pass `npm test` before packaging.
+Release, verification, deployment, rights, security, and provenance material are under `docs/` and `release/`.
 
-## Commands
+## Deployment
 
-```bash
-npm run extract:r7 -- /absolute/path/to/R7/index.html
-npm run validate
-npm run build:search
-npm test
-npm run serve
-npm run build:windows
-```
+The canonical r15 deployment contains sibling `app/` and `Neo/` directories. The live server's `Neo/config.php` contains provider configuration and is **not** distributed or committed. Preserve the existing live file when updating; `Neo/config.example.php` is the public template.
 
-Open `http://127.0.0.1:4173` after starting the web adapter. Platform packaging
-details are in `docs/PLATFORM-ADAPTERS.md`. Android APK compilation requires an
-Android SDK/Gradle environment; it is not silently substituted by another shell.
+See `docs/DEPLOYMENT-R15.md` and `SECURITY.md` before replacing a live installation.
 
-## Windows installation package
+## Verification
 
-The distributable Windows app is installed per-user by `Covenant-Library-v1.0.0-Setup-Windows-x64.exe`.
-The installer places the verified v1.0.0 application in `%LOCALAPPDATA%\Programs\Covenant Library`,
-creates a Covenant Library Desktop shortcut and Start Menu folder using the Covenant emblem icon,
-and registers an uninstall entry under the current Windows account. Administrator privileges are not required.
+The promoted artifact was independently checked for ZIP integrity, manifest hashes, catalog/payload equality, search-shard integrity, JavaScript/PHP syntax, critical JSON parsing, local asset paths, and targeted Neokoros retrieval. The inherited r14 retrieval suite records 36/36 evidence checks passing. See `release/R15-VERIFICATION.md` for the detailed limits and evidence.
 
-Covenant Library user data remains in `%LOCALAPPDATA%\Covenant Library Data` and is deliberately not
-removed by the application uninstaller. This preserves bookmarks, notes, reading position, imports, and
-other stored state across application updates or reinstalls.
+## Rights and provenance
 
-Build the verified application first, then the setup package:
+Covenant Library is a mixed-rights corpus. **The repository as a whole is not placed under one blanket content license.** Each work and dataset retains its own source, edition, attribution, rights, and redistribution status. See `RIGHTS-AND-SOURCES.md` and the in-reader provenance metadata.
 
-```bash
-npm run build:windows
-npm run build:windows:installer
-```
+## Project rules
 
-The installer packaging step refuses to wrap a Windows v1.0.0 application binary whose SHA-256 differs
-from the promoted release hash. This prevents an older or unverified executable from being silently packaged.
+- Do not silently substitute one edition or translation for another.
+- Do not mark a work local-readable unless the validated local payload exists.
+- Preserve Restoration branch/tradition distinctions and authority classifications.
+- Keep Apocrypha and Pseudepigrapha shelf organization consistent with the reader design.
+- Keep source/provenance identity separate from reading-text identity.
+- Do not commit API keys, server credentials, or `Neo/config.php`.
+- Do not represent unfinished research registers as completed canonical reader books.
 
-The Windows installer/shortcut/reopen path was physically accepted on Windows on September 3, 2026. The
-primary public Windows v1 artifact is `Covenant-Library-v1.0.0-Setup-Windows-x64.exe` (SHA-256 `cf43da2af27986bc435d0c859dbf7e9dbf47a2c668471225279e0cbfdb1da63a`). GitHub release publication uses
-repository `truestag/covenant-library`, tag `v1.0.0`.
+See `CONTRIBUTING.md` for the validation expectations for future changes.
