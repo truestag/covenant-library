@@ -1,0 +1,119 @@
+{
+  "edition": "pseudepigrapha-naphtali-4q215-qumran-digital",
+  "book": {
+    "id": "BKNAPHTALI4Q215",
+    "name": "Testament of Naphtali — 4Q215 Hebrew Fragments",
+    "title": "Testament of Naphtali — Dead Sea Scrolls Witness 4Q215",
+    "sequence": 1,
+    "chapters": 1,
+    "verses": 11,
+    "translator": "No English translation bundled; licensed Hebrew transcription only",
+    "textualTradition": "Dead Sea Scrolls manuscript 4Q215, frg. 1–3, 11 surviving lines",
+    "language": "he",
+    "manuscriptWitnesses": [
+      "4Q215"
+    ],
+    "sourceNote": "Qumran-Digital transcription version 2025-03-11. Preserve lacunae, circles and uncertain letters. Do not conflate this fragmentary witness with the medieval Hebrew or Greek texts, or with 4Q215a. Display text contains only the licensed Hebrew transcription; no modern English translation is copied.",
+    "rights": "Qumran-Digital text transcription CC BY-SA 4.0; retain attribution and license. IAA manuscript photographs and separately copyrighted English translations are not bundled.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "DFG-Projekt 465277421 'Qumran-Digital: Text und Lexikon' (© 2022); based on former Qumran-Wörterbuch project and a precursor text by Martin Abegg; transcription version 2025-03-11. Changes: resegmented as Covenant Library reader passages by line number; textual readings not deliberately altered.",
+    "sourceUrls": [
+      {
+        "witness": "4Q215",
+        "version": "2025-03-11",
+        "url": "https://lexicon.qumran-digital.org/transcriptions/4Q215/2025-03-11/index.html"
+      }
+    ],
+    "status": "fragmentary",
+    "readerAvailability": "local-readable",
+    "bundledJson": true,
+    "localMirror": true,
+    "searchable": true,
+    "availability": [
+      "local-readable",
+      "lost-or-fragmentary"
+    ]
+  },
+  "chapters": {
+    "1": [
+      {
+        "v": "1",
+        "label": "frg. 1–3, line 1",
+        "text": "עם אחיות אבי בלהה א[מי ]תה דבורה אשר הניקה את רב֯[קה --]",
+        "sourceText": "עם אחיות אבי בלהה א[מי ]תה דבורה אשר הניקה את רב֯[קה --]",
+        "language": "he"
+      },
+      {
+        "v": "2",
+        "label": "frg. 1–3, line 2",
+        "text": "וילך בשבי וישלח לבן ויפרקה֯ו ויתן לו את חנה אחת מאמהותי[ו --]",
+        "sourceText": "וילך בשבי וישלח לבן ויפרקה֯ו ויתן לו את חנה אחת מאמהותי[ו --]",
+        "language": "he"
+      },
+      {
+        "v": "3",
+        "label": "frg. 1–3, line 3",
+        "text": "ראישונה את זלפה ויתן את שמה זלפה בשם העיר אשר נשבה אל֯[יה --]",
+        "sourceText": "ראישונה את זלפה ויתן את שמה זלפה בשם העיר אשר נשבה אל֯[יה --]",
+        "language": "he"
+      },
+      {
+        "v": "4",
+        "label": "frg. 1–3, line 4",
+        "text": "ותהר ותלד את בלהה אמי ותקרא חנה את שמה בלהה כי כאשר נולדה[ --]",
+        "sourceText": "ותהר ותלד את בלהה אמי ותקרא חנה את שמה בלהה כי כאשר נולדה[ --]",
+        "language": "he"
+      },
+      {
+        "v": "5",
+        "label": "frg. 1–3, line 5",
+        "text": "מתבהלת לינוק ותואמר מה מתבהלת היאה בתי ותקרא עוד בלהה[ --]",
+        "sourceText": "מתבהלת לינוק ותואמר מה מתבהלת היאה בתי ותקרא עוד בלהה[ --]",
+        "language": "he"
+      },
+      {
+        "v": "6",
+        "label": "frg. 1–3, line 6",
+        "text": "_____ [--]",
+        "sourceText": "_____ [--]",
+        "language": "he"
+      },
+      {
+        "v": "7",
+        "label": "frg. 1–3, line 7",
+        "text": "ו֯כאשר בא יעקוב אבי אל לבן בורח מלפני עישיו אחיהו וכ֯א֯ש֯ר֯ ○[ --]",
+        "sourceText": "ו֯כאשר בא יעקוב אבי אל לבן בורח מלפני עישיו אחיהו וכ֯א֯ש֯ר֯ ○[ --]",
+        "language": "he"
+      },
+      {
+        "v": "8",
+        "label": "frg. 1–3, line 8",
+        "text": "א֯בי בלהה אמי וינהג לבן את חנה אם אמי ואת שתי בנותיה֯[ --]",
+        "sourceText": "א֯בי בלהה אמי וינהג לבן את חנה אם אמי ואת שתי בנותיה֯[ --]",
+        "language": "he"
+      },
+      {
+        "v": "9",
+        "label": "frg. 1–3, line 9",
+        "text": "[]ו֯אחת לרחל וכאשר היתה רח֯ל לוא ילדה בנים ○○[ --]",
+        "sourceText": "[]ו֯אחת לרחל וכאשר היתה רח֯ל לוא ילדה בנים ○○[ --]",
+        "language": "he"
+      },
+      {
+        "v": "10",
+        "label": "frg. 1–3, line 10",
+        "text": "[-- יעקו]ב֯ אבי ונתון לו את בלהה אמי ותלד את דן אח֯[י --]",
+        "sourceText": "[-- יעקו]ב֯ אבי ונתון לו את בלהה אמי ותלד את דן אח֯[י --]",
+        "language": "he"
+      },
+      {
+        "v": "11",
+        "label": "frg. 1–3, line 11",
+        "text": "[-- ]תי אח○○○ ○○ ש○○○ ○○ל○○ ○○○○○ לש[ --]",
+        "sourceText": "[-- ]תי אח○○○ ○○ ש○○○ ○○ל○○ ○○○○○ לש[ --]",
+        "language": "he"
+      }
+    ]
+  }
+}
