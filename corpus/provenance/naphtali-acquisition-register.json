@@ -1,0 +1,66 @@
+{
+  "schema": "covenant-library-acquisition-register-v1",
+  "project": "Covenant Library",
+  "group": "Testament of Naphtali textual witnesses",
+  "date": "2026-09-20",
+  "releaseStatus": "staged-on-acquisition-branch-not-integrated-into-current-reader",
+  "category": "Apocrypha & Pseudepigrapha",
+  "witnesses": [
+    {
+      "key": "pseudepigrapha-naphtali-platt-1926/BKNAPHTALI",
+      "path": "corpus/books/pseudepigrapha-naphtali-platt-1926/BKNAPHTALI.json",
+      "tradition": "Greek tradition",
+      "sourceEdition": "The Forgotten Books of Eden (1926), edited by Rutherford H. Platt Jr.",
+      "originallyProposedEdition": "R. H. Charles (1908) was previously proposed; this is a different historical English edition and must not be relabeled as Charles 1908.",
+      "status": "text-acquired",
+      "segments": 68,
+      "source": [
+        "https://sacred-texts.com/bib/fbe/fbe287.htm",
+        "https://sacred-texts.com/bib/fbe/fbe288.htm"
+      ],
+      "rights": "Public domain in the United States"
+    },
+    {
+      "key": "pseudepigrapha-naphtali-gaster-1899/BKNAPHTALI",
+      "path": "corpus/books/pseudepigrapha-naphtali-gaster-1899/BKNAPHTALI.json",
+      "tradition": "Medieval Hebrew tradition in English",
+      "sourceEdition": "Moses Gaster, The Chronicles of Jerahmeel, XXXVIII (1899)",
+      "status": "text-acquired",
+      "numberedParagraphs": 15,
+      "navigationSegments": 16,
+      "source": [
+        "https://sacred-texts.com/bib/coj/coj042.htm"
+      ],
+      "rights": "Public domain in the United States"
+    },
+    {
+      "key": "pseudepigrapha-naphtali-4q215-qumran-digital/BKNAPHTALI4Q215",
+      "path": "corpus/books/pseudepigrapha-naphtali-4q215-qumran-digital/BKNAPHTALI4Q215.json",
+      "tradition": "Qumran Hebrew manuscript 4Q215",
+      "status": "Hebrew-transcription-acquired-English-translation-not-bundled",
+      "fragments": [
+        "frg. 1–3"
+      ],
+      "transcribedLines": 11,
+      "source": [
+        "https://lexicon.qumran-digital.org/transcriptions/4Q215/2025-03-11/index.html"
+      ],
+      "rights": "CC BY-SA 4.0; retain attribution and share-alike for derivatives",
+      "exclude": [
+        "4Q215a (distinct manuscript designation)",
+        "modern English translations without distribution rights",
+        "IAA manuscript photographs"
+      ]
+    }
+  ],
+  "releaseChecklist": [
+    "Confirm current reader base ZIP and source hash rather than assume GitHub main is latest",
+    "Validate full source text against historical facsimiles and Qumran transcription",
+    "Preserve 3 distinct edition IDs and classify them in alphabetical Apocrypha & Pseudepigrapha cards",
+    "Update canonical catalog, reader catalog, local keys, source index and study links in the actual current base",
+    "Build search shards and direct passage links; retain Hebrew right-to-left display",
+    "Recompute manifests/file hashes/cache and rebuild complete reader for web/PWA/native parity",
+    "Test offline reading, search, references, licensing and exact chapter/line counts",
+    "Publish full reader package only after checks pass"
+  ]
+}
