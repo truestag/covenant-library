@@ -37,7 +37,7 @@
       "key": "pseudepigrapha-naphtali-4q215-qumran-digital/BKNAPHTALI4Q215",
       "path": "corpus/books/pseudepigrapha-naphtali-4q215-qumran-digital/BKNAPHTALI4Q215.json",
       "tradition": "Qumran Hebrew manuscript 4Q215",
-      "status": "Hebrew-transcription-acquired-English-translation-not-bundled",
+      "status": "Hebrew-transcription-and-independent-working-English-acquired",
       "fragments": [
         "frg. 1–3"
       ],
@@ -50,12 +50,20 @@
         "4Q215a (distinct manuscript designation)",
         "modern English translations without distribution rights",
         "IAA manuscript photographs"
-      ]
+      ],
+      "englishTranslation": {
+        "credit": "Covenant Library independent working English rendering (2026)",
+        "basis": "Qumran-Digital Hebrew transcription version 2025-03-11",
+        "coverage": "11 source lines, including visibly unrecoverable lines 6 and 11",
+        "publicationRights": "CC BY-SA 4.0 derivative of Qumran-Digital Hebrew transcription",
+        "sourceTextPreserved": true,
+        "validation": "line-by-line working translation; final scholarly review before production"
+      }
     }
   ],
   "releaseChecklist": [
     "Confirm current reader base ZIP and source hash rather than assume GitHub main is latest",
-    "Validate full source text against historical facsimiles and Qumran transcription",
+    "Validate English against the cited Hebrew, perform scholarly review of uncertain readings and check historical English texts against facsimiles",
     "Preserve 3 distinct edition IDs and classify them in alphabetical Apocrypha & Pseudepigrapha cards",
     "Update canonical catalog, reader catalog, local keys, source index and study links in the actual current base",
     "Build search shards and direct passage links; retain Hebrew right-to-left display",
