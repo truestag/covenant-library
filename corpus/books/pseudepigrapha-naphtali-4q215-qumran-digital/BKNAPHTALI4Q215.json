@@ -2,22 +2,22 @@
   "edition": "pseudepigrapha-naphtali-4q215-qumran-digital",
   "book": {
     "id": "BKNAPHTALI4Q215",
-    "name": "Testament of Naphtali — 4Q215 Hebrew Fragments",
+    "name": "Testament of Naphtali — 4Q215 Hebrew and English Fragments",
     "title": "Testament of Naphtali — Dead Sea Scrolls Witness 4Q215",
     "sequence": 1,
     "chapters": 1,
     "verses": 11,
-    "translator": "No English translation bundled; licensed Hebrew transcription only",
+    "translator": "Covenant Library independent working English rendering from the Qumran-Digital Hebrew transcription (2026)",
     "textualTradition": "Dead Sea Scrolls manuscript 4Q215, frg. 1–3, 11 surviving lines",
-    "language": "he",
+    "language": "en",
     "manuscriptWitnesses": [
       "4Q215"
     ],
-    "sourceNote": "Qumran-Digital transcription version 2025-03-11. Preserve lacunae, circles and uncertain letters. Do not conflate this fragmentary witness with the medieval Hebrew or Greek texts, or with 4Q215a. Display text contains only the licensed Hebrew transcription; no modern English translation is copied.",
-    "rights": "Qumran-Digital text transcription CC BY-SA 4.0; retain attribution and license. IAA manuscript photographs and separately copyrighted English translations are not bundled.",
+    "sourceNote": "Qumran-Digital transcription version 2025-03-11 (4Q215 frg. 1–3, lines 1–11); Covenant Library working English translation of that transcription. Hebrew sourceText is retained verbatim for each line, with uncertain readings and lacunae; English is deliberately not reconstructed from modern versions. This is not a continuous complete Testament of Naphtali, and it does not include 4Q215a. The final line does not securely preserve 'she bore me' in the cited transcription.",
+    "rights": "Qumran-Digital Hebrew transcription CC BY-SA 4.0; Covenant Library's derivative working English rendering also released under CC BY-SA 4.0. Preserve source attribution, license notice and indication of translation changes. No third-party modern English translation or manuscript photograph included.",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "attribution": "DFG-Projekt 465277421 'Qumran-Digital: Text und Lexikon' (© 2022); based on former Qumran-Wörterbuch project and a precursor text by Martin Abegg; transcription version 2025-03-11. Changes: resegmented as Covenant Library reader passages by line number; textual readings not deliberately altered.",
+    "attribution": "DFG-Projekt 465277421 'Qumran-Digital: Text und Lexikon' (© 2022); based on former Qumran-Wörterbuch project and a precursor text by Martin Abegg; transcription version 2025-03-11. Changes: resegmented as Covenant Library reader passages by line number; textual readings not deliberately altered. Changes: added a separately credited, tentative Covenant Library English translation line-by-line while retaining Hebrew sourceText and all transcription damage markers.",
     "sourceUrls": [
       {
         "witness": "4Q215",
@@ -33,86 +33,119 @@
     "availability": [
       "local-readable",
       "lost-or-fragmentary"
-    ]
+    ],
+    "sourceLanguage": "he",
+    "translationStatus": "working-fragmentary",
+    "translationSource": "https://lexicon.qumran-digital.org/transcriptions/4Q215/2025-03-11/index.html"
   },
   "chapters": {
     "1": [
       {
         "v": "1",
         "label": "frg. 1–3, line 1",
-        "text": "עם אחיות אבי בלהה א[מי ]תה דבורה אשר הניקה את רב֯[קה --]",
+        "text": "[…] with Ahiyot [?], the father of Bilhah my [mother] […] Deborah, who nursed Reb[ekah …].",
         "sourceText": "עם אחיות אבי בלהה א[מי ]תה דבורה אשר הניקה את רב֯[קה --]",
-        "language": "he"
+        "language": "en",
+        "sourceLanguage": "he",
+        "translationStatus": "working",
+        "translationNote": "The word אחיות may be a proper name, Ahiyot, or a plural noun ('sisters'); the relationship around Deborah is damaged. The translation does not reconstruct a definite family tree."
       },
       {
         "v": "2",
         "label": "frg. 1–3, line 2",
-        "text": "וילך בשבי וישלח לבן ויפרקה֯ו ויתן לו את חנה אחת מאמהותי[ו --]",
+        "text": "And he went into captivity; Laban sent and redeemed him, and gave him Hannah, one of his maidservants […].",
         "sourceText": "וילך בשבי וישלח לבן ויפרקה֯ו ויתן לו את חנה אחת מאמהותי[ו --]",
-        "language": "he"
+        "language": "en",
+        "sourceLanguage": "he",
+        "translationStatus": "working",
+        "translationNote": "The antecedent of 'he' is in the missing context. Hannah is spelled חנה in this transcription."
       },
       {
         "v": "3",
         "label": "frg. 1–3, line 3",
-        "text": "ראישונה את זלפה ויתן את שמה זלפה בשם העיר אשר נשבה אל֯[יה --]",
+        "text": "First, Zilpah; and he gave her the name Zilpah after the name of the city to which he had been taken captive […].",
         "sourceText": "ראישונה את זלפה ויתן את שמה זלפה בשם העיר אשר נשבה אל֯[יה --]",
-        "language": "he"
+        "language": "en",
+        "sourceLanguage": "he",
+        "translationStatus": "working",
+        "translationNote": "The phrase 'the first' continues a broken sentence; 'daughter' has not been supplied as surviving text."
       },
       {
         "v": "4",
         "label": "frg. 1–3, line 4",
-        "text": "ותהר ותלד את בלהה אמי ותקרא חנה את שמה בלהה כי כאשר נולדה[ --]",
+        "text": "And she conceived and bore Bilhah, my mother; and Hannah called her name Bilhah, because when she was born […].",
         "sourceText": "ותהר ותלד את בלהה אמי ותקרא חנה את שמה בלהה כי כאשר נולדה[ --]",
-        "language": "he"
+        "language": "en",
+        "sourceLanguage": "he",
+        "translationStatus": "working"
       },
       {
         "v": "5",
         "label": "frg. 1–3, line 5",
-        "text": "מתבהלת לינוק ותואמר מה מתבהלת היאה בתי ותקרא עוד בלהה[ --]",
+        "text": "She hurried to suck; and [Hannah] said, ‘How my daughter hurries!’ And she again called [her] Bilhah […].",
         "sourceText": "מתבהלת לינוק ותואמר מה מתבהלת היאה בתי ותקרא עוד בלהה[ --]",
-        "language": "he"
+        "language": "en",
+        "sourceLanguage": "he",
+        "translationStatus": "working",
+        "translationNote": "The repeated name Bilhah is linked by wordplay to the Hebrew for hurrying."
       },
       {
         "v": "6",
         "label": "frg. 1–3, line 6",
-        "text": "_____ [--]",
+        "text": "[… missing text …]",
         "sourceText": "_____ [--]",
-        "language": "he"
+        "language": "en",
+        "sourceLanguage": "he",
+        "translationStatus": "unrecoverable",
+        "translationNote": "The line contains no securely recoverable words."
       },
       {
         "v": "7",
         "label": "frg. 1–3, line 7",
-        "text": "ו֯כאשר בא יעקוב אבי אל לבן בורח מלפני עישיו אחיהו וכ֯א֯ש֯ר֯ ○[ --]",
+        "text": "And when Jacob my father came to Laban, fleeing from Esau his brother, and when […].",
         "sourceText": "ו֯כאשר בא יעקוב אבי אל לבן בורח מלפני עישיו אחיהו וכ֯א֯ש֯ר֯ ○[ --]",
-        "language": "he"
+        "language": "en",
+        "sourceLanguage": "he",
+        "translationStatus": "working"
       },
       {
         "v": "8",
         "label": "frg. 1–3, line 8",
-        "text": "א֯בי בלהה אמי וינהג לבן את חנה אם אמי ואת שתי בנותיה֯[ --]",
+        "text": "[…] the father of Bilhah my mother; and Laban led Hannah, my mother's mother, and her two daughters […].",
         "sourceText": "א֯בי בלהה אמי וינהג לבן את חנה אם אמי ואת שתי בנותיה֯[ --]",
-        "language": "he"
+        "language": "en",
+        "sourceLanguage": "he",
+        "translationStatus": "working"
       },
       {
         "v": "9",
         "label": "frg. 1–3, line 9",
-        "text": "[]ו֯אחת לרחל וכאשר היתה רח֯ל לוא ילדה בנים ○○[ --]",
+        "text": "[…] and one for Rachel; and when Rachel had not borne children […].",
         "sourceText": "[]ו֯אחת לרחל וכאשר היתה רח֯ל לוא ילדה בנים ○○[ --]",
-        "language": "he"
+        "language": "en",
+        "sourceLanguage": "he",
+        "translationStatus": "working",
+        "translationNote": "The preceding recipient, often supplied as Leah in published renderings, is not legible in this line and is not inserted here."
       },
       {
         "v": "10",
         "label": "frg. 1–3, line 10",
-        "text": "[-- יעקו]ב֯ אבי ונתון לו את בלהה אמי ותלד את דן אח֯[י --]",
+        "text": "[…] [Jaco]b my father, and Bilhah my mother was given to him; and she bore Dan my bro[ther …].",
         "sourceText": "[-- יעקו]ב֯ אבי ונתון לו את בלהה אמי ותלד את דן אח֯[י --]",
-        "language": "he"
+        "language": "en",
+        "sourceLanguage": "he",
+        "translationStatus": "working",
+        "translationNote": "The giver is not identified in the preserved portion; the passive English avoids assigning a subject."
       },
       {
         "v": "11",
         "label": "frg. 1–3, line 11",
-        "text": "[-- ]תי אח○○○ ○○ ש○○○ ○○ל○○ ○○○○○ לש[ --]",
+        "text": "[… the remaining letters cannot be translated securely …]",
         "sourceText": "[-- ]תי אח○○○ ○○ ש○○○ ○○ל○○ ○○○○○ לש[ --]",
-        "language": "he"
+        "language": "en",
+        "sourceLanguage": "he",
+        "translationStatus": "unrecoverable",
+        "translationNote": "The Qumran-Digital transcription does not securely preserve 'she bore me'; it is not reconstructed or copied from another translation."
       }
     ]
   }
