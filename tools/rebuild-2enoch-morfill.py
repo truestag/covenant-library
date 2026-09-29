@@ -29,45 +29,51 @@ def body_lines(chapter: int):
     url = BASE.format(chapter)
     r = requests.get(url, timeout=30, headers={"User-Agent":"Covenant-Library-source-audit/1.0"})
     r.raise_for_status()
-
-    # Mark the end of the rendered chapter heading in raw HTML before DOM
-    # normalization. Weebly varies the nesting of "CHAPTER" and its number
-    # between pages, so relying on a particular text-node split is brittle.
-    sentinel = "__COVENANT_2ENOCH_BODY_START__"
-    heading = re.compile(
-        rf"CHAPTER(?:(?:\\s|&nbsp;|&#160;)|<[^>]+>)*{chapter}\\b",
-        re.I | re.S
-    )
-    match = heading.search(r.text)
-    if not match:
-        raise RuntimeError(f"{url}: unable to locate HTML chapter heading for CHAPTER {chapter}")
-    marked_html = r.text[:match.end()] + sentinel + r.text[match.end():]
-
-    soup = BeautifulSoup(marked_html, "html.parser")
+    soup = BeautifulSoup(r.text, "html.parser")
     for tag in soup(["script", "style", "noscript"]):
         tag.decompose()
-    lines = [clean(x) for x in soup.get_text("\n").splitlines()]
-    lines = [x for x in lines if x]
 
-    start = None
-    first_tail = ""
-    for i, line in enumerate(lines):
-        if sentinel in line:
-            before, _, after = line.partition(sentinel)
-            # The text before the sentinel belongs to the heading.
-            first_tail = clean(after)
-            start = i + 1
+    # Locate the rendered chapter heading in the DOM, then walk forward through
+    # text nodes. Weebly uses different nesting on different 2 Enoch pages:
+    # some expose "CHAPTER N" as one node, others expose "CHAPTER" and N
+    # separately. DOM traversal avoids depending on either serialization.
+    heading_end = None
+    marker = f"CHAPTER {chapter}"
+    for node in soup.find_all(string=True):
+        value = clean(str(node))
+        if not value or "CHAPTER" not in value.upper():
+            continue
+        if marker in value.upper():
+            heading_end = node
             break
-    if start is None:
-        raise RuntimeError(f"{url}: chapter body sentinel was lost during HTML parsing")
+        if value.upper() == "CHAPTER":
+            seen = 0
+            for nxt in node.find_all_next(string=True):
+                candidate = clean(str(nxt))
+                if not candidate:
+                    continue
+                seen += 1
+                if candidate == str(chapter):
+                    heading_end = nxt
+                    break
+                if seen >= 8:
+                    break
+            if heading_end is not None:
+                break
+    if heading_end is None:
+        raise RuntimeError(f"{url}: unable to locate DOM chapter heading {marker!r}")
 
-    body = ([first_tail] if first_tail else []) + lines[start:]
-    end = len(body)
-    for j, line in enumerate(body):
-        if line == "* * *" or line.startswith("Previous chapter"):
-            end = j
+    body = []
+    for node in heading_end.find_all_next(string=True):
+        value = clean(str(node))
+        if not value:
+            continue
+        if value == "* * *" or value.startswith("Previous chapter"):
             break
-    return url, body[:end]
+        body.append(value)
+    if not body:
+        raise RuntimeError(f"{url}: no text nodes found after chapter heading")
+    return url, body
 
 def parse_chapter(chapter: int):
     url, lines = body_lines(chapter)
