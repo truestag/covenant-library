@@ -39,7 +39,8 @@ def body_lines(chapter: int):
     try:
         i = lines.index(marker)
     except ValueError:
-        raise RuntimeError(f"{url}: did not find {marker!r}")
+        sample = clean(soup.get_text(" ", strip=True))[:1800]
+        raise RuntimeError(f"{url}: did not find {marker!r}; final={r.url}; status={r.status_code}; title={soup.title.string if soup.title else ''}; sample={sample!r}")
     end = len(lines)
     for j in range(i + 1, len(lines)):
         if lines[j] == "* * *" or lines[j].startswith("Previous chapter"):
