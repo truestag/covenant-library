@@ -32,48 +32,92 @@ def body_lines(chapter: int):
     soup = BeautifulSoup(r.text, "html.parser")
     for tag in soup(["script", "style", "noscript"]):
         tag.decompose()
-    raw = soup.get_text("\n")
-    lines = [clean(x) for x in raw.splitlines()]
+
+    lines = [clean(x) for x in soup.get_text("\n").splitlines()]
     lines = [x for x in lines if x]
+
+    # Weebly splits the rendered heading into separate DOM text nodes:
+    # "CHAPTER" and the chapter number. Accept that form as well as a
+    # single "CHAPTER N" line, and deliberately ignore navigation labels.
+    start = None
     marker = f"CHAPTER {chapter}"
-    try:
-        i = lines.index(marker)
-    except ValueError:
-        sample = clean(soup.get_text(" ", strip=True))
-        probes = []
-        for node in soup.find_all(string=re.compile(r"CHAPTER|There was a very wise|Hardly had I")):
-            p = node.parent
-            probes.append({"text": clean(str(node))[:500], "tag": getattr(p, "name", None), "class": p.get("class") if hasattr(p, "get") else None, "parent": getattr(getattr(p, "parent", None), "name", None)})
-        raise RuntimeError(f"{url}: did not find {marker!r}; raw_marker={marker in r.text}; raw_phrase={'There was a very wise' in r.text}; probes={probes[:20]!r}; tail={sample[-2500:]!r}")
+    for i, line in enumerate(lines):
+        if line.upper() == marker:
+            start = i + 1
+            break
+        if line.upper() == "CHAPTER":
+            for j in range(i + 1, min(i + 6, len(lines))):
+                if lines[j] == str(chapter):
+                    start = j + 1
+                    break
+            if start is not None:
+                break
+    if start is None:
+        raise RuntimeError(f"{url}: unable to locate rendered chapter heading {marker!r}")
+
     end = len(lines)
-    for j in range(i + 1, len(lines)):
+    for j in range(start, len(lines)):
         if lines[j] == "* * *" or lines[j].startswith("Previous chapter"):
             end = j
             break
-    return url, lines[i + 1:end]
+    return url, lines[start:end]
 
 def parse_chapter(chapter: int):
     url, lines = body_lines(chapter)
     intro = []
     verses = []
     current = None
+    pending_number = None
+    expected_next = 1
+
+    def finish_current():
+        nonlocal current
+        if current is not None:
+            current["text"] = clean(current["text"])
+            if not current["text"]:
+                raise RuntimeError(f"chapter {chapter} verse {current['v']}: blank text")
+            verses.append(current)
+            current = None
+
     for line in lines:
+        # Common rendering: verse number and text remain on one line.
         m = re.match(r"^(\d+)\s+(.+)$", line)
-        if m:
+        if m and int(m.group(1)) == expected_next:
+            finish_current()
             n = int(m.group(1))
-            text = clean(m.group(2))
-            if current:
-                verses.append(current)
-            current = {"v": str(n), "text": text, "kind": "paragraph", "label": str(n)}
+            current = {"v": str(n), "text": clean(m.group(2)), "kind": "paragraph", "label": str(n)}
+            expected_next = n + 1
+            pending_number = None
+            continue
+
+        # Weebly may also split a verse number into its own text node. Only
+        # accept the next expected number, so years and other numerals inside
+        # the source text cannot accidentally become verse labels.
+        if re.fullmatch(r"\d+", line) and int(line) == expected_next:
+            finish_current()
+            pending_number = int(line)
+            expected_next += 1
+            continue
+
+        if pending_number is not None:
+            current = {
+                "v": str(pending_number),
+                "text": line,
+                "kind": "paragraph",
+                "label": str(pending_number)
+            }
+            pending_number = None
+        elif current is not None:
+            current["text"] = clean(current["text"] + " " + line)
         else:
-            if current:
-                current["text"] = clean(current["text"] + " " + line)
-            else:
-                intro.append(line)
-    if current:
-        verses.append(current)
+            intro.append(line)
+
+    if pending_number is not None:
+        raise RuntimeError(f"chapter {chapter} verse {pending_number}: number found without text")
+    finish_current()
+
     nums = [int(v["v"]) for v in verses]
-    expected = list(range(1, len(nums)+1))
+    expected = list(range(1, len(nums) + 1))
     if nums != expected:
         raise RuntimeError(f"chapter {chapter}: non-sequential verse labels {nums}")
     if not verses:
