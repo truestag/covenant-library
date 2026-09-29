@@ -61,6 +61,10 @@ assert.match(b2.chapters['27'].find(v=>v.v==='9').text,/eighth part a multitude 
 assert.match(b2.chapters['37'][0].text,/vine growing/);
 assert.doesNotMatch(b2.chapters['37'][0].text,/vine glowing/);
 assert.match(b2.chapters['35'].find(v=>v.v==='4').text,/smoke of the incense/);
+assert.match(b2.chapters['29'].find(v=>v.v==='8').text,/will come to pass/);
+assert.doesNotMatch(b2.chapters['29'].find(v=>v.v==='8').text,/willcome/);
+assert.match(b2.chapters['62'].find(v=>v.v==='1').text,/thou hast seen/);
+assert.doesNotMatch(b2.chapters['62'].find(v=>v.v==='1').text,/thou bast seen/);
 for (const chapter of Object.keys(b2.chapters)) {
   const nums = b2.chapters[chapter].map(v => Number(v.v));
   assert.deepEqual(nums, Array.from({length:nums.length},(_,i)=>i+1), `2BAR: chapter ${chapter} references must be sequential`);
