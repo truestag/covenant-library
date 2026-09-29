@@ -1,4 +1,4 @@
-[1:1] On the day when I planed the gods of my father Terah and the gods of Nahor his brother, when I was searching as to who the Mighty God in truth is-
+[1:1] On the day when I planed the gods of my father Terah and the gods of Nahor his brother, when I was searching as to who the Mighty God in truth is—
 [1:2] I, Abraham, at the time when it fell to my lot, when I fulfilled the services (the sacrifices) of my father Terah to his gods of wood and stone, gold and silver, brass and iron;
 [1:3] Having entered into their temple for service, I found the god whose name was Merumath (which was) hewn out of stone, fallen forward at the feet of the iron god Nahon.
 [1:4] And it came to pass, when I saw it, my heart was perplexed, and I considered in my mind that I should not be able to bring him back to his place, I, Abraham, alone, because he was heavy, being of a large stone,
@@ -75,7 +75,7 @@
 [7:8] But even it I do not call god, because at night and by clouds its course is obscured.
 [7:9] Nor, again, do I call the moon or the stars god, because they also in their season obscure their light at night.
 [7:10] But hear this, Terah my father; for I will make known to thee the God who hath made everything, not these we consider as gods.
-[7:11] Who then is He? or what is He? Who hath crimsoned the heavens, and made the sun golden, and the moon lustrous, and with it the stars; And hath made the earth dry in the midst of many waters, And set thee in.... and tested me in the confusion of my thoughts
+[7:11] Who then is He? or what is He? Who hath crimsoned the heavens, and made the sun golden, and the moon lustrous, and with it the stars; And hath made the earth dry in the midst of many waters, And set thee in . . . . [and tested me in the confusion of my thoughts]
 [7:12] “Yet may God reveal Himself to us through Himself!”
 [8:1] And it came to pass while I spake thus to my father Terah in the court of my house,
 [8:2] There cometh down the voice of a Mighty One from heaven in a fiery cloud-burst, saying and crying: “Abraham, Abraham!”
@@ -246,7 +246,7 @@
 [25:3] But I said to Him: “What is this idol, or what is the altar, or who are they that are sacrificed, or who is the sacrificer? Or what is the Temple which I see that is beautiful in art, and its beauty being like the glory that lieth beneath Thy throne?”
 [25:4] And He said: “Hear, Abraham. This which thou seest, the Temple and altar and beauty, is my idea of the priesthood of my glorious Name, in which dwelleth every single prayer of man, and the rise of kings and prophets, and whatever sacrifice I ordain to be offered to me among my people who are to come out of thy generation.
 [25:5] But the statue which thou sawest is mine anger wherewith the people anger me who are to proceed for me from thee.
-[25:6] But the man whom thou sawest slaughtering — that is he who inciteth, of which are a witness to me of the final judgement, even at the beginning of the creation.'
+[25:6] But the man whom thou sawest slaughtering—that is he who inciteth murderous sacrifices, of (sic) which are a witness to me of the final judgement, even at the beginning of creation.”
 [26:1] And I said: “O Eternal, Mighty One! Wherefore hast Thou established that it should be so, and then proclaim the knowledge thereof?”
 [26:2] And He said to me: “Hear, Abraham; understand what I say to thee, and answer me as I question thee.
 [26:3] Why did thy father Terah not listen to thy voice, and (why) did he not cease from the devilish idolatry until he perished and his whole household with him?”
@@ -292,4 +292,4 @@
 [31:4] And I have prepared them to be food for the fire of Hades and for ceaseless flight to and fro through the air in the underworld beneath the earth the body filled with worms.
 [31:5] For on them shall they see the righteousness of the Creator, those, namely, who have chosen to do my will, and those who have openly kept my commandments, (and) they shall rejoice with joy over the downfall of the men who still remain, who have followed the idols and their murders.
 [31:6] For they shall putrefy in the body of the evil worm Azazel, and be burnt with the fire of Azazel’s tongue; for I hoped that they would come to me, and not have loved and praised the strange (god), and not have adhered to him for whom they were not allotted, but (instead) they have forsaken the mighty Lord.”
-[32:1] “Therefore hear, O Abraham, and see; lo! thy seventh generation shall go with thee, and they shall go out into a strange land, and they shall enslave them, and evil-entreat them as it were an hour of the Age of ungodliness but the nation whom they shall serve I will judge.
+[32:1] “Therefore hear, O Abraham, and see; lo! thy seventh generation (shall) go with thee, and they shall go out into a strange land, and they shall enslave them, and evil-entreat them as it were an hour of the Age of ungodliness; but the nation whom they shall serve I will judge.”
