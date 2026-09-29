@@ -70,6 +70,21 @@ for (const chapter of Object.keys(b2.chapters)) {
   assert.deepEqual(nums, Array.from({length:nums.length},(_,i)=>i+1), `2BAR: chapter ${chapter} references must be sequential`);
 }
 
+const e2 = await load('2EN');
+assert.match(e2.book.sourceNote,/Forgotten Books of Eden recension \(1926\)/);
+assert.match(e2.book.translator,/Rutherford H\. Platt Jr\. recension/);
+assert.match(e2.chapters['1'].find(v=>v.v==='10').text,/to-day ascend/);
+assert.match(e2.chapters['6'].find(v=>v.v==='1').text,/treasure-houses/);
+assert.match(e2.chapters['8'].find(v=>v.v==='2').text,/sweet-smelling/);
+assert.match(e2.chapters['10'].find(v=>v.v==='3').text,/dishonour God/);
+assert.match(e2.chapters['10'].find(v=>v.v==='3').text,/rancour/);
+assert.match(e2.chapters['11'].find(v=>v.v==='3').text,/marvellous speed/);
+assert.match(e2.chapters['21'].find(v=>v.v==='1').text,/many-eyed/);
+assert.match(e2.chapters['30'].find(v=>v.v==='6').text,/hour-markings/);
+assert.match(e2.chapters['39'].find(v=>v.v==='2').text,/judgment-day/);
+assert.match(e2.chapters['40'].find(v=>v.v==='8').text,/key-holders/);
+assert.doesNotMatch(e2.book.sourceNote,/1896 historical English translation$/);
+
 const b3 = await load('3BAR');
 assert.deepEqual(b3.chapters['0'].map(v => v.v), ['1','2'], '3BAR: prologue refs must be unique');
 assert.equal(b3.chapterLabels['0'], 'Prologue');
