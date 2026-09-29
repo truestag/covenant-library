@@ -4,6 +4,7 @@ import html
 import json
 import re
 import sys
+import time
 import unicodedata
 from pathlib import Path
 
@@ -27,53 +28,64 @@ def clean(s: str) -> str:
 
 def body_lines(chapter: int):
     url = BASE.format(chapter)
-    r = requests.get(url, timeout=30, headers={"User-Agent":"Covenant-Library-source-audit/1.0"})
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
-    for tag in soup(["script", "style", "noscript"]):
-        tag.decompose()
-
-    # Locate the rendered chapter heading in the DOM, then walk forward through
-    # text nodes. Weebly uses different nesting on different 2 Enoch pages:
-    # some expose "CHAPTER N" as one node, others expose "CHAPTER" and N
-    # separately. DOM traversal avoids depending on either serialization.
-    heading_end = None
     marker = f"CHAPTER {chapter}"
-    for node in soup.find_all(string=True):
-        value = clean(str(node))
-        if not value or "CHAPTER" not in value.upper():
-            continue
-        if marker in value.upper():
-            heading_end = node
-            break
-        if value.upper() == "CHAPTER":
-            seen = 0
-            for nxt in node.find_all_next(string=True):
-                candidate = clean(str(nxt))
-                if not candidate:
-                    continue
-                seen += 1
-                if candidate == str(chapter):
-                    heading_end = nxt
-                    break
-                if seen >= 8:
-                    break
-            if heading_end is not None:
-                break
-    if heading_end is None:
-        raise RuntimeError(f"{url}: unable to locate DOM chapter heading {marker!r}")
 
-    body = []
-    for node in heading_end.find_all_next(string=True):
-        value = clean(str(node))
-        if not value:
+    # The host begins returning a navigation-only 200 response when requests
+    # arrive too quickly. Pace requests and retry a missing content body rather
+    # than treating that rate-limit response as source text.
+    last_probe = ""
+    for attempt in range(4):
+        time.sleep(0.75 if attempt == 0 else 8 * attempt)
+        r = requests.get(url, timeout=30, headers={"User-Agent":"Covenant-Library-source-audit/1.0"})
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+        for tag in soup(["script", "style", "noscript"]):
+            tag.decompose()
+
+        # Locate the rendered chapter heading in the DOM, then walk forward
+        # through text nodes. Weebly uses different nesting on different pages:
+        # some expose "CHAPTER N" as one node, others expose "CHAPTER" and N
+        # separately.
+        heading_end = None
+        for node in soup.find_all(string=True):
+            value = clean(str(node))
+            if not value or "CHAPTER" not in value.upper():
+                continue
+            if marker in value.upper():
+                heading_end = node
+                break
+            if value.upper() == "CHAPTER":
+                seen = 0
+                for nxt in node.find_all_next(string=True):
+                    candidate = clean(str(nxt))
+                    if not candidate:
+                        continue
+                    seen += 1
+                    if candidate == str(chapter):
+                        heading_end = nxt
+                        break
+                    if seen >= 8:
+                        break
+                if heading_end is not None:
+                    break
+
+        if heading_end is None:
+            last_probe = clean(soup.get_text(" ", strip=True))[-1200:]
             continue
-        if value == "* * *" or value.startswith("Previous chapter"):
-            break
-        body.append(value)
-    if not body:
-        raise RuntimeError(f"{url}: no text nodes found after chapter heading")
-    return url, body
+
+        body = []
+        for node in heading_end.find_all_next(string=True):
+            value = clean(str(node))
+            if not value:
+                continue
+            if value == "* * *" or value.startswith("Previous chapter"):
+                break
+            body.append(value)
+        if body:
+            return url, body
+        last_probe = "chapter heading found, but no following primary text"
+
+    raise RuntimeError(f"{url}: source body unavailable after retries for {marker!r}; probe={last_probe!r}")
 
 def parse_chapter(chapter: int):
     url, lines = body_lines(chapter)
