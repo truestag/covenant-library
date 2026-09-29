@@ -55,14 +55,14 @@
 [6:7] Behold the gods of thy brother Ora, which stand in the holy temple, are more worthy of honour than these of thine.
 [6:8] For behold Zucheus, the god of thy brother Oron, is more worthy of honour than thy god Merumath, because he is made of gold which is highly valued by people,
 [6:9] And when he groweth old in years he will be re-modelled; but if your god Merumath is changed or broken, he will not be renewed, because he is a stone;
-[6:10] The which is also the case with the god Joav on [who standeth with Zucheus over the other gods.
+[6:10] The which is also the case with the god Joavon [who standeth with Zucheus over the other gods.
 [6:11] How much more worthy of honour is he than the god Barisat, who is made of wood, while he is forged of silver!
 [6:12] How is he made, by adaptation of man, valuable to outward appearance!
 [6:13] But thy god Barisat, while he was still, before he had been prepared, rooted up (?) upon the earth and was great and wonderful with the glory of branches and blossom,
 [6:14] Thou didst hew out with the axe, and by means of thy art he hath been made into a god.
 [6:15] And lo! his fatness is already withered and perished,
 [6:16] He is fallen from the height to the ground, he hath come from great estate to littleness, and the appearance of his countenance hath vanished,
-[6:17] And he Barisat himself is burnt up by fire and reduced to ashes and is no more;
+[6:17] And he] Barisat himself is burnt up by fire and reduced to ashes and is no more;
 [6:18] And thou sayest: “Today I will make another which tomorrow shall make ready my food!”
 [6:19] “He hath perished to utter destruction!”
 [7:1] “Behold, the fire is more worthy of honour than all things formed because even that which is not subjected is subjected unto it, and things easily perishable are mocked by its flames.
@@ -154,7 +154,7 @@
 [15:2] And the angels who had the portions of the sacrifice ascended from the top of the smoking furnace.
 [15:3] And the Angel took me with the right hand and set me on the right wing of the pigeon, and set himself on the left wing of the turtle dove, which (birds) had neither been slaughtered nor divided.
 [15:4] And he bore me to the borders of the flaming fire [and we ascended as with many winds to the heaven which was fixed upon the surface.
-[15:5] And I saw on the air on the height, to which we ascended a strong light, which it was impossible to describe.
+[15:5] And I saw on the air] on the height, to which we ascended a strong light, which it was impossible to describe.
 [15:6] And lo! in this light a fiercely burning fire for people, many people of male appearance, all (constantly) changing in aspect and form, running and being transformed, and worshipping and crying with a sound of words which I knew not.
 [16:1] And I said to the Angel: “Why hast thou brought me up here now, because I cannot now see, for I am already grown weak, and my spirit departeth from me?”
 [16:2] And he said to me: “Remain by me; fear not! And He whom thou seest come straight towards us with great voice of holiness — that is the Eternal One who loveth thee;
@@ -240,7 +240,7 @@
 [24:5] I saw there also Impurity, and those who lust after it, and its pollution, and their jealousy, and the fire of their corruption in the lowest parts of the earth.
 [24:6] I saw there Theft, and those who hasten after it, and the arrangement [of their retribution, the judgement of the Great Assize.]
 [24:7] I saw there naked men, the foreheads against each other, and their disgrace, and their passion which (they had) against each other, and their retribution.
-[24:8] I saw there Desire, and in her hand the head of every kind of lawlessness [and her scorn and her waste assigned to perdition.
+[24:8] I saw there Desire, and in her hand the head of every kind of lawlessness [and her scorn and her waste assigned to perdition].
 [25:1] I saw there the likeness of the idol of jealousy, having the likeness of woodwork such as my father was wont to make, and its statue was of glittering bronze.
 [25:2] And before it a man, and he worshipped it; and in front of him an altar, and upon it a boy slain in the presence of the idol.
 [25:3] But I said to Him: “What is this idol, or what is the altar, or who are they that are sacrificed, or who is the sacrificer? Or what is the Temple which I see that is beautiful in art, and its beauty being like the glory that lieth beneath Thy throne?”
