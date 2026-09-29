@@ -39,8 +39,12 @@ def body_lines(chapter: int):
     try:
         i = lines.index(marker)
     except ValueError:
-        sample = clean(soup.get_text(" ", strip=True))[:1800]
-        raise RuntimeError(f"{url}: did not find {marker!r}; final={r.url}; status={r.status_code}; title={soup.title.string if soup.title else ''}; sample={sample!r}")
+        sample = clean(soup.get_text(" ", strip=True))
+        probes = []
+        for node in soup.find_all(string=re.compile(r"CHAPTER|There was a very wise|Hardly had I")):
+            p = node.parent
+            probes.append({"text": clean(str(node))[:500], "tag": getattr(p, "name", None), "class": p.get("class") if hasattr(p, "get") else None, "parent": getattr(getattr(p, "parent", None), "name", None)})
+        raise RuntimeError(f"{url}: did not find {marker!r}; raw_marker={marker in r.text}; raw_phrase={'There was a very wise' in r.text}; probes={probes[:20]!r}; tail={sample[-2500:]!r}")
     end = len(lines)
     for j in range(i + 1, len(lines)):
         if lines[j] == "* * *" or lines[j].startswith("Previous chapter"):
