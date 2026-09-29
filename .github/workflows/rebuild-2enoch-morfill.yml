@@ -1,0 +1,42 @@
+name: Build 2 Enoch Morfill 1896 source
+
+on:
+  push:
+    branches:
+      - fix/pseudepigrapha-corpus-integrity-20260929
+    paths:
+      - 'tools/rebuild-2enoch-morfill.py'
+      - '.github/workflows/rebuild-2enoch-morfill.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: fix/pseudepigrapha-corpus-integrity-20260929
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install parser dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+      - name: Build source-faithful 2 Enoch candidate
+        run: python tools/rebuild-2enoch-morfill.py --output tmp/2EN-morfill-charles-1896.json
+      - name: Commit candidate for verification
+        run: |
+          git config user.name "covenant-library-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add tmp/2EN-morfill-charles-1896.json
+          if git diff --cached --quiet; then
+            echo "No candidate changes"
+          else
+            git commit -m "Build 2 Enoch Morfill/Charles 1896 candidate [skip ci]"
+            git push origin HEAD:fix/pseudepigrapha-corpus-integrity-20260929
+          fi
