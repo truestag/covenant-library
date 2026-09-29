@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 
 const expected = {
-  '2BAR': {chapters:87, segments:694},
+  '2BAR': {chapters:87, segments:695},
   '2EN': {chapters:68, segments:321},
   '3BAR': {chapters:17, chapterKeys:18, segments:128},
   'APAB': {chapters:32, segments:295},
@@ -56,6 +56,11 @@ assert.ok(b2.chapters['70'].some(v => v.v === '3'), '2BAR: swallowed 70:3 not re
 assert.deepEqual(b2.chapters['34'].map(v => v.v), ['1'], '2BAR: Chapter 34 must be one normalized reader unit');
 assert.deepEqual(b2.chapters['37'].map(v => v.v), ['1'], '2BAR: Chapter 37 must be one numbered unit');
 assert.deepEqual(b2.chapters['68'].map(v => v.v), Array.from({length:8},(_,i)=>String(i+1)), '2BAR: Chapter 68 numbering must be 1-8');
+assert.equal(b2.chapters['27'].length, 15, '2BAR: Chapter 27 must include restored 27:15');
+assert.match(b2.chapters['27'].find(v=>v.v==='9').text,/eighth part a multitude of portents/);
+assert.match(b2.chapters['37'][0].text,/vine growing/);
+assert.doesNotMatch(b2.chapters['37'][0].text,/vine glowing/);
+assert.match(b2.chapters['35'].find(v=>v.v==='4').text,/smoke of the incense/);
 for (const chapter of Object.keys(b2.chapters)) {
   const nums = b2.chapters[chapter].map(v => Number(v.v));
   assert.deepEqual(nums, Array.from({length:nums.length},(_,i)=>i+1), `2BAR: chapter ${chapter} references must be sequential`);
