@@ -29,38 +29,45 @@ def body_lines(chapter: int):
     url = BASE.format(chapter)
     r = requests.get(url, timeout=30, headers={"User-Agent":"Covenant-Library-source-audit/1.0"})
     r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
+
+    # Mark the end of the rendered chapter heading in raw HTML before DOM
+    # normalization. Weebly varies the nesting of "CHAPTER" and its number
+    # between pages, so relying on a particular text-node split is brittle.
+    sentinel = "__COVENANT_2ENOCH_BODY_START__"
+    heading = re.compile(
+        rf"CHAPTER(?:(?:\\s|&nbsp;|&#160;)|<[^>]+>)*{chapter}\\b",
+        re.I | re.S
+    )
+    match = heading.search(r.text)
+    if not match:
+        raise RuntimeError(f"{url}: unable to locate HTML chapter heading for CHAPTER {chapter}")
+    marked_html = r.text[:match.end()] + sentinel + r.text[match.end():]
+
+    soup = BeautifulSoup(marked_html, "html.parser")
     for tag in soup(["script", "style", "noscript"]):
         tag.decompose()
-
     lines = [clean(x) for x in soup.get_text("\n").splitlines()]
     lines = [x for x in lines if x]
 
-    # Weebly splits the rendered heading into separate DOM text nodes:
-    # "CHAPTER" and the chapter number. Accept that form as well as a
-    # single "CHAPTER N" line, and deliberately ignore navigation labels.
     start = None
-    marker = f"CHAPTER {chapter}"
+    first_tail = ""
     for i, line in enumerate(lines):
-        if line.upper() == marker:
+        if sentinel in line:
+            before, _, after = line.partition(sentinel)
+            # The text before the sentinel belongs to the heading.
+            first_tail = clean(after)
             start = i + 1
             break
-        if line.upper() == "CHAPTER":
-            for j in range(i + 1, min(i + 6, len(lines))):
-                if lines[j] == str(chapter):
-                    start = j + 1
-                    break
-            if start is not None:
-                break
     if start is None:
-        raise RuntimeError(f"{url}: unable to locate rendered chapter heading {marker!r}")
+        raise RuntimeError(f"{url}: chapter body sentinel was lost during HTML parsing")
 
-    end = len(lines)
-    for j in range(start, len(lines)):
-        if lines[j] == "* * *" or lines[j].startswith("Previous chapter"):
+    body = ([first_tail] if first_tail else []) + lines[start:]
+    end = len(body)
+    for j, line in enumerate(body):
+        if line == "* * *" or line.startswith("Previous chapter"):
             end = j
             break
-    return url, lines[start:end]
+    return url, body[:end]
 
 def parse_chapter(chapter: int):
     url, lines = body_lines(chapter)
