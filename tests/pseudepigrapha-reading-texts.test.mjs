@@ -12,4 +12,18 @@ const a17=asis.chapters['1'].find(v=>v.v==='7').text; assert.match(a17,/the Spir
 const all=[...Object.values(apab.chapters).flat(),...Object.values(asis.chapters).flat()].map(v=>v.text).join('\n');
 for(const bad of ['The whole of the title occurs only in S.','PART I','CHAP.','Notes:','oinojieeffect','willjthey7make','th3e']) assert.ok(!all.includes(bad),`reader contamination remains: ${bad}`);
 assert.doesNotMatch(all,/\b\d{1,3}(?:The|And|For|But|Cf\.)\b/);
+assert.match(apab.chapters['1'][0].text,/Mighty God in truth is—$/);
+assert.match(apab.chapters['6'].find(v=>v.v==='10').text,/god Joavon \[who standeth/);
+assert.match(apab.chapters['6'].find(v=>v.v==='17').text,/^And he\] Barisat/);
+assert.match(apab.chapters['7'].find(v=>v.v==='11').text,/\[and tested me in the confusion of my thoughts\]/);
+assert.match(apab.chapters['15'].find(v=>v.v==='5').text,/air\] on the height/);
+assert.match(apab.chapters['24'].find(v=>v.v==='8').text,/assigned to perdition\]\.$/);
+assert.match(apab.chapters['25'].find(v=>v.v==='6').text,/inciteth murderous sacrifices/);
+assert.match(apab.chapters['32'][0].text,/seventh generation \(shall\) go with thee/);
+assert.doesNotMatch(apab.chapters['32'][0].text,/ADDITIONAL NOTES|APPENDIX|INDEX/i);
+assert.ok(apab.chapters['32'][0].text.length < 1000,'APAB 32:1 must remain primary text only');
+for(const [chapter,verses] of Object.entries(apab.chapters)){
+  const chapterText=verses.map(v=>v.text).join(' ');
+  assert.equal((chapterText.match(/\[/g)||[]).length,(chapterText.match(/\]/g)||[]).length,`APAB chapter ${chapter}: unbalanced editorial brackets`);
+}
 console.log(`PASS: APAB ${count(apab)} verse segments; ASIS ${count(asis)} verse segments; reader text is free of scan footnote/page-furniture contamination`);
