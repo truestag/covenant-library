@@ -143,6 +143,65 @@ function workList(records, context = {}, { showEdition = false } = {}) {
   }).join("")}</div>`;
 }
 
+const compareLibraryLabels = (left, right) => String(left || "").localeCompare(String(right || ""), undefined, { numeric: true, sensitivity: "base" });
+
+const PSEUDEPIGRAPHA_FAMILIES = [
+  { id: "adam-eve-literature", label: "Adam and Eve Literature", description: "Related Adam-and-Eve pseudepigrapha and textual witnesses", workKeys: ["pseudepigrapha-historical-ii/AE1","pseudepigrapha-historical-ii/AE2","pseudepigrapha-open-v/APMO","pseudepigrapha-ocp-critical/TADAM","pseudepigrapha-open-v/VAE"] },
+  { id: "book-of-giants", label: "Book of Giants", description: "Qumran and Manichaean witnesses to the Book of Giants", workKeys: ["pseudepigrapha-enochic-giants/BKGIANTS","pseudepigrapha-enochic-giants/BKGIANTS-HENNING"] },
+  { id: "books-of-baruch", label: "Books of Baruch", description: "Second, Third, and Fourth Baruch traditions", workKeys: ["pseudepigrapha-historical/2BAR","pseudepigrapha-historical/3BAR","pseudepigrapha-ocp-critical/4BAR"] },
+  { id: "books-of-enoch", label: "Books of Enoch", description: "First, Second, and Third Enoch", workKeys: ["enoch-charles/1EN","pseudepigrapha-historical/2EN","enoch-odeberg-1928/3EN"] },
+  { id: "cave-of-treasures", label: "Cave of Treasures", description: "The six locally represented divisions of the Cave of Treasures", workKeys: ["pseudepigrapha-cave-treasures/CAVE1","pseudepigrapha-cave-treasures/CAVE2","pseudepigrapha-cave-treasures/CAVE3","pseudepigrapha-cave-treasures/CAVE4","pseudepigrapha-cave-treasures/CAVE5","pseudepigrapha-cave-treasures/CAVE6"] },
+  { id: "danielic-literature", label: "Danielic Literature", description: "Apocalypses and visions attributed to Daniel", workKeys: ["pseudepigrapha-bibliographic-vii/APOCDAN","daniel-apocrypha-open-i/D14C","daniel-apocrypha-open-i/D7ARM","daniel-apocrypha-open-i/DSPG"] },
+  { id: "ezra-literature", label: "Ezra Literature", description: "Questions, revelations, and visions attributed to Ezra", workKeys: ["pseudepigrapha-source-readable-vi/QEZRA","pseudepigrapha-bibliographic-vii/REVEZRA","pseudepigrapha-bibliographic-vii/VISEZRA"] },
+  { id: "sibylline-oracles", label: "Sibylline Oracles", description: "Books of the Sibylline Oracles represented in the library", workKeys: ["pseudepigrapha-sibylline/SIB1","pseudepigrapha-sibylline/SIB2","pseudepigrapha-sibylline/SIB3","pseudepigrapha-sibylline/SIB4","pseudepigrapha-sibylline/SIB5","pseudepigrapha-sibylline/SIB6","pseudepigrapha-sibylline/SIB7","pseudepigrapha-sibylline/SIB8","pseudepigrapha-sibylline/SIB11","pseudepigrapha-sibylline/SIB12","pseudepigrapha-sibylline/SIB13","pseudepigrapha-sibylline/SIB14"] },
+  { id: "testaments-abraham-isaac-jacob", label: "Testaments of Abraham, Isaac, and Jacob", description: "The related patriarchal testaments of Abraham, Isaac, and Jacob", workKeys: ["pseudepigrapha-historical/TAB","pseudepigrapha-historical-ii/TISA","pseudepigrapha-historical-ii/TJAC"] },
+  { id: "testaments-twelve-patriarchs", label: "Testaments of the Twelve Patriarchs", description: "The twelve patriarchal testaments presented as one book family", workKeys: ["pseudepigrapha-historical/TAsh","pseudepigrapha-historical/TBen","pseudepigrapha-historical/TDan","pseudepigrapha-historical/TGad","pseudepigrapha-historical/TIss","pseudepigrapha-historical/TJos","pseudepigrapha-historical/TJud","pseudepigrapha-historical/TLev","pseudepigrapha-historical/TNap","pseudepigrapha-historical/TReu","pseudepigrapha-historical/TSim","pseudepigrapha-historical/TZeb"] }
+].sort((left, right) => compareLibraryLabels(left.label, right.label));
+
+function pseudepigraphaWorkCard(work, familyId = "") {
+  const edition = hierarchy.edition(work.editionId) || { id: work.editionId, title: work.editionTitle };
+  const routeContext = { category: "pseudepigrapha" };
+  const target = work.contentState === "local-readable"
+    ? link("reader", { work: work.key, ...routeContext })
+    : link("record", { work: work.key, ...routeContext });
+  const title = work.name || work.title;
+  const detail = work.name && work.name !== work.title ? work.title : friendlyEditionTitle(edition);
+  return `<a class="card" href="${target}"><div class="card-body"><h3>${esc(title)}</h3><p>${esc(detail)}</p><span class="meta">${esc(stateLabel[work.contentState])}</span></div></a>`;
+}
+
+function renderPseudepigraphaShelf(def) {
+  const records = hierarchy.records("pseudepigrapha");
+  const groupedKeys = new Set(PSEUDEPIGRAPHA_FAMILIES.flatMap((family) => family.workKeys));
+  const entries = [];
+
+  for (const family of PSEUDEPIGRAPHA_FAMILIES) {
+    const familyRecords = records.filter((work) => family.workKeys.includes(work.key));
+    if (!familyRecords.length) continue;
+    const readable = familyRecords.filter((work) => work.contentState === "local-readable").length;
+    entries.push({
+      label: family.label,
+      html: `<a class="card" href="${link("library", { category: "pseudepigrapha", family: family.id })}"><div class="card-body"><h3>${esc(family.label)}</h3><p>${esc(family.description)}</p><span class="meta">${familyRecords.length} works · ${readable} readable offline</span></div></a>`
+    });
+  }
+
+  for (const work of records.filter((item) => !groupedKeys.has(item.key))) {
+    entries.push({ label: work.name || work.title, html: pseudepigraphaWorkCard(work) });
+  }
+
+  entries.sort((left, right) => compareLibraryLabels(left.label, right.label));
+  shell(def.title, def.description, `${categoryBreadcrumb("pseudepigrapha")}<div class="card-grid">${entries.map((entry) => entry.html).join("")}</div>`);
+}
+
+function renderPseudepigraphaFamily(familyId) {
+  const family = PSEUDEPIGRAPHA_FAMILIES.find((item) => item.id === familyId);
+  if (!family) return renderCategory("pseudepigrapha");
+  const records = hierarchy.records("pseudepigrapha")
+    .filter((work) => family.workKeys.includes(work.key))
+    .sort((left, right) => compareLibraryLabels(left.name || left.title, right.name || right.title));
+  const breadcrumb = `<div class="breadcrumbs"><a href="#library">Library</a><span>›</span><a href="${link("library", { category: "pseudepigrapha" })}">${esc(hierarchy.category("pseudepigrapha")?.title || "Pseudepigrapha")}</a><span>›</span><span>${esc(family.label)}</span></div>`;
+  shell(family.label, family.description, `${breadcrumb}<div class="card-grid">${records.map((work) => pseudepigraphaWorkCard(work, family.id)).join("")}</div>`);
+}
+
 function editionCards(categoryId, groupId = "") {
   return hierarchy.meaningfulEditions(categoryId, groupId).map((editionId) => {
     const edition = hierarchy.edition(editionId) || { id: editionId, title: editionId };
@@ -157,6 +216,8 @@ function renderLibrary() {
   const category = params.get("category") || "";
   const group = params.get("group") || "";
   const editionId = params.get("edition") || "";
+  const family = params.get("family") || "";
+  if (category === "pseudepigrapha" && family) return renderPseudepigraphaFamily(family);
   if (editionId) return renderEdition(editionId, category, group);
   if (category && group) return renderGroup(category, group);
   if (category) return renderCategory(category);
@@ -167,9 +228,13 @@ function renderCategory(id) {
   const def = hierarchy.category(id);
   if (!def) return renderLibrary();
   const groups = hierarchy.groupsForCategory(id);
-  if (id === "apocrypha" || id === "pseudepigrapha") {
+  if (id === "apocrypha") {
     const records = hierarchy.records(id).slice().sort((left, right) => left.title.localeCompare(right.title));
     shell(def.title, def.description, `${categoryBreadcrumb(id)}${workList(records, { category: id }, { showEdition: false })}`);
+    return;
+  }
+  if (id === "pseudepigrapha") {
+    renderPseudepigraphaShelf(def);
     return;
   }
   if (groups.length) {
