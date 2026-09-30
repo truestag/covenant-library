@@ -106,9 +106,10 @@ function renderHome() {
 }
 
 function routeContextForWork(work, params = routeParams()) {
-  if (!work || work.imported) return { category: "", group: "" };
+  if (!work || work.imported) return { category: "", group: "", family: "" };
   let category = params.get("category") || "";
   let group = params.get("group") || "";
+  let family = params.get("family") || "";
   if (!category || !hierarchy.category(category) || !hierarchy.categoryMatches(work, category)) {
     ({ category, group } = hierarchy.defaultContext(work));
   } else if (group && !hierarchy.groupMatches(work, category, group)) {
@@ -118,7 +119,12 @@ function routeContextForWork(work, params = routeParams()) {
     const inferred = hierarchy.groupForEdition(category, work.editionId);
     if (inferred && hierarchy.groupMatches(work, category, inferred)) group = inferred;
   }
-  return { category, group };
+  if (category !== "pseudepigrapha") family = "";
+  else {
+    const inferredFamily = pseudepigraphaFamilyForWork(work);
+    if (!family || !inferredFamily || inferredFamily.id !== family) family = inferredFamily?.id || "";
+  }
+  return { category, group, family };
 }
 
 function categoryBreadcrumb(categoryId, groupId = "", editionId = "") {
@@ -143,6 +149,52 @@ function workList(records, context = {}, { showEdition = false } = {}) {
   }).join("")}</div>`;
 }
 
+const compareLibraryLabels = (left, right) => String(left || "").localeCompare(String(right || ""), undefined, { numeric: true, sensitivity: "base" });
+
+const PSEUDEPIGRAPHA_FAMILIES = [
+  { id: "adam-eve-literature", label: "Adam and Eve Literature", description: "Related Adam-and-Eve pseudepigrapha and textual witnesses", workKeys: ["pseudepigrapha-historical-ii/AE1","pseudepigrapha-historical-ii/AE2","pseudepigrapha-open-v/APMO","pseudepigrapha-ocp-critical/TADAM","pseudepigrapha-open-v/VAE"] },
+  { id: "book-of-giants", label: "Book of Giants", description: "Qumran and Manichaean witnesses to the Book of Giants", workKeys: ["pseudepigrapha-enochic-giants/BKGIANTS","pseudepigrapha-enochic-giants/BKGIANTS-HENNING"] },
+  { id: "books-of-baruch", label: "Books of Baruch", description: "Second, Third, and Fourth Baruch traditions", workKeys: ["pseudepigrapha-historical/2BAR","pseudepigrapha-historical/3BAR","pseudepigrapha-ocp-critical/4BAR"] },
+  { id: "books-of-enoch", label: "Books of Enoch", description: "First, Second, and Third Enoch", workKeys: ["enoch-charles/1EN","pseudepigrapha-historical/2EN","enoch-odeberg-1928/3EN"] },
+  { id: "cave-of-treasures", label: "Cave of Treasures", description: "The six locally represented divisions of the Cave of Treasures", workKeys: ["pseudepigrapha-cave-treasures/CAVE1","pseudepigrapha-cave-treasures/CAVE2","pseudepigrapha-cave-treasures/CAVE3","pseudepigrapha-cave-treasures/CAVE4","pseudepigrapha-cave-treasures/CAVE5","pseudepigrapha-cave-treasures/CAVE6"] },
+  { id: "danielic-literature", label: "Danielic Literature", description: "Apocalypses and visions attributed to Daniel", workKeys: ["pseudepigrapha-bibliographic-vii/APOCDAN","daniel-apocrypha-open-i/D14C","daniel-apocrypha-open-i/D7ARM","daniel-apocrypha-open-i/DSPG"] },
+  { id: "ezra-literature", label: "Ezra Literature", description: "Questions, revelations, and visions attributed to Ezra", workKeys: ["pseudepigrapha-source-readable-vi/QEZRA","pseudepigrapha-bibliographic-vii/REVEZRA","pseudepigrapha-bibliographic-vii/VISEZRA"] },
+  { id: "sibylline-oracles", label: "Sibylline Oracles", description: "Books of the Sibylline Oracles represented in the library", workKeys: ["pseudepigrapha-sibylline/SIB1","pseudepigrapha-sibylline/SIB2","pseudepigrapha-sibylline/SIB3","pseudepigrapha-sibylline/SIB4","pseudepigrapha-sibylline/SIB5","pseudepigrapha-sibylline/SIB6","pseudepigrapha-sibylline/SIB7","pseudepigrapha-sibylline/SIB8","pseudepigrapha-sibylline/SIB11","pseudepigrapha-sibylline/SIB12","pseudepigrapha-sibylline/SIB13","pseudepigrapha-sibylline/SIB14"] },
+  { id: "testaments-abraham-isaac-jacob", label: "Testaments of Abraham, Isaac, and Jacob", description: "The related patriarchal testaments of Abraham, Isaac, and Jacob", workKeys: ["pseudepigrapha-historical/TAB","pseudepigrapha-historical-ii/TISA","pseudepigrapha-historical-ii/TJAC"] },
+  { id: "testaments-twelve-patriarchs", label: "Testaments of the Twelve Patriarchs", description: "The twelve patriarchal testaments presented as one book family", workKeys: ["pseudepigrapha-historical/TAsh","pseudepigrapha-historical/TBen","pseudepigrapha-historical/TDan","pseudepigrapha-historical/TGad","pseudepigrapha-historical/TIss","pseudepigrapha-historical/TJos","pseudepigrapha-historical/TJud","pseudepigrapha-historical/TLev","pseudepigrapha-historical/TNap","pseudepigrapha-historical/TReu","pseudepigrapha-historical/TSim","pseudepigrapha-historical/TZeb"] }
+].sort((left, right) => compareLibraryLabels(left.label, right.label));
+
+const pseudepigraphaFamily = (id) => PSEUDEPIGRAPHA_FAMILIES.find((family) => family.id === id);
+const pseudepigraphaFamilyForWork = (work) => PSEUDEPIGRAPHA_FAMILIES.find((family) => family.workKeys.includes(work?.key));
+
+function pseudepigraphaFamilyBreadcrumb(familyId) {
+  const family = pseudepigraphaFamily(familyId);
+  const pieces = [
+    `<a href="#library">Library</a>`,
+    `<span>›</span><a href="${link("library", { category: "pseudepigrapha" })}">${esc(hierarchy.category("pseudepigrapha")?.title || "Pseudepigrapha")}</a>`
+  ];
+  if (family) pieces.push(`<span>›</span><a href="${link("library", { category: "pseudepigrapha", family: family.id })}">${esc(family.label)}</a>`);
+  return `<div class="breadcrumbs">${pieces.join("")}</div>`;
+}
+
+function workCard(work, context = {}) {
+  const edition = hierarchy.edition(work.editionId) || { id: work.editionId, title: work.editionTitle };
+  const routeContext = { category: context.category || "", ...(context.family ? { family: context.family } : {}) };
+  const target = work.contentState === "local-readable" ? link("reader", { work: work.key, ...routeContext }) : link("record", { work: work.key, ...routeContext });
+  const title = work.name || work.title;
+  const detail = work.name && work.name !== work.title ? work.title : friendlyEditionTitle(edition);
+  return `<a class="card" href="${target}"><div class="card-body"><h3>${esc(title)}</h3><p>${esc(detail)}</p><span class="meta">${esc(stateLabel[work.contentState])}</span></div></a>`;
+}
+
+function renderPseudepigraphaFamily(familyId) {
+  const family = pseudepigraphaFamily(familyId);
+  if (!family) return renderCategory("pseudepigrapha");
+  const records = hierarchy.records("pseudepigrapha")
+    .filter((work) => family.workKeys.includes(work.key))
+    .sort((left, right) => compareLibraryLabels(left.name || left.title, right.name || right.title));
+  shell(family.label, family.description, `${pseudepigraphaFamilyBreadcrumb(family.id)}<div class="card-grid">${records.map((work) => workCard(work, { category: "pseudepigrapha", family: family.id })).join("")}</div>`);
+}
+
 function editionCards(categoryId, groupId = "") {
   return hierarchy.meaningfulEditions(categoryId, groupId).map((editionId) => {
     const edition = hierarchy.edition(editionId) || { id: editionId, title: editionId };
@@ -157,6 +209,8 @@ function renderLibrary() {
   const category = params.get("category") || "";
   const group = params.get("group") || "";
   const editionId = params.get("edition") || "";
+  const family = params.get("family") || "";
+  if (category === "pseudepigrapha" && family) return renderPseudepigraphaFamily(family);
   if (editionId) return renderEdition(editionId, category, group);
   if (category && group) return renderGroup(category, group);
   if (category) return renderCategory(category);
@@ -167,9 +221,29 @@ function renderCategory(id) {
   const def = hierarchy.category(id);
   if (!def) return renderLibrary();
   const groups = hierarchy.groupsForCategory(id);
-  if (id === "apocrypha" || id === "pseudepigrapha") {
-    const records = hierarchy.records(id).slice().sort((left, right) => left.title.localeCompare(right.title));
+  if (id === "apocrypha") {
+    const records = hierarchy.records(id).slice().sort((left, right) => compareLibraryLabels(left.name || left.title, right.name || right.title));
     shell(def.title, def.description, `${categoryBreadcrumb(id)}${workList(records, { category: id }, { showEdition: false })}`);
+    return;
+  }
+  if (id === "pseudepigrapha") {
+    const groupedKeys = new Set(PSEUDEPIGRAPHA_FAMILIES.flatMap((family) => family.workKeys));
+    const entries = PSEUDEPIGRAPHA_FAMILIES
+      .map((family) => {
+        const records = hierarchy.records(id).filter((work) => family.workKeys.includes(work.key));
+        if (!records.length) return null;
+        const readable = records.filter((work) => work.contentState === "local-readable").length;
+        return {
+          label: family.label,
+          html: `<a class="card" href="${link("library", { category: id, family: family.id })}"><div class="card-body"><h3>${esc(family.label)}</h3><p>${esc(family.description)}</p><span class="meta">${records.length} works · ${readable} readable offline</span></div></a>`
+        };
+      })
+      .filter(Boolean);
+    for (const work of hierarchy.records(id).filter((item) => !groupedKeys.has(item.key))) {
+      entries.push({ label: work.name || work.title, html: workCard(work, { category: id }) });
+    }
+    entries.sort((left, right) => compareLibraryLabels(left.label, right.label));
+    shell(def.title, def.description, `${categoryBreadcrumb(id)}<div class="card-grid">${entries.map((entry) => entry.html).join("")}</div>`);
     return;
   }
   if (groups.length) {
@@ -232,9 +306,13 @@ async function renderReader() {
   }).join("");
   const readerEdition = hierarchy.edition(work.editionId) || { id: work.editionId, title: work.editionTitle };
   const readerEditionTitle = friendlyEditionTitle(readerEdition);
-  const breadcrumb = work.imported ? `<div class="breadcrumbs"><a href="#my-library">My Library</a><span>›</span><span>${esc(work.title)}</span></div>` : `${categoryBreadcrumb(context.category, context.group, isAcquisitionEdition(readerEdition) ? "" : work.editionId).replace("</div>", `<span>›</span><span>${esc(work.title)}</span></div>`)}`;
+  const breadcrumb = work.imported
+    ? `<div class="breadcrumbs"><a href="#my-library">My Library</a><span>›</span><span>${esc(work.title)}</span></div>`
+    : context.family
+      ? pseudepigraphaFamilyBreadcrumb(context.family).replace("</div>", `<span>›</span><span>${esc(work.title)}</span></div>`)
+      : `${categoryBreadcrumb(context.category, context.group, isAcquisitionEdition(readerEdition) ? "" : work.editionId).replace("</div>", `<span>›</span><span>${esc(work.title)}</span></div>`)}`;
   shell(work.title, readerEditionTitle, `${breadcrumb}<div class="reader-layout"><aside class="reader-nav"><label for="chapter"><strong>Chapter or section</strong></label><select id="chapter">${chapters.map((value) => `<option value="${esc(value)}" ${value === actualChapter ? "selected" : ""}>${esc(labels[value] || `Chapter ${value}`)}</option>`).join("")}</select><p class="small">${segments.length} passages in this section</p><div class="actions">${work.imported ? "" : `<a class="button-secondary" href="${link("study", { work: key, chapter: actualChapter, category: context.category, ...(context.group ? { group: context.group } : {}) })}">Study</a>${researchUI.actionsForReader(work, actualChapter, passage)}`}<button class="button-secondary" id="export-txt" type="button">Export TXT</button></div></aside><article class="reader"><p class="eyebrow">${esc(readerEditionTitle)}</p><h1>${esc(work.title)}</h1><h2>${esc(labels[actualChapter] || `Chapter ${actualChapter}`)}</h2>${segmentHtml}</article></div>`);
-  document.querySelector("#chapter")?.addEventListener("change", (event) => { location.hash = link("reader", { work: key, chapter: event.target.value, ...(context.category ? { category: context.category } : {}), ...(context.group ? { group: context.group } : {}) }); });
+  document.querySelector("#chapter")?.addEventListener("change", (event) => { location.hash = link("reader", { work: key, chapter: event.target.value, ...(context.category ? { category: context.category } : {}), ...(context.group ? { group: context.group } : {}), ...(context.family ? { family: context.family } : {}) }); });
   document.querySelector("#export-txt")?.addEventListener("click", () => downloadText(`${safeFilename(work.title)}.txt`, workToTxt(work, book)));
   document.querySelector(".reader")?.addEventListener("click", async (event) => {
     const button = event.target.closest?.("[data-action]");
@@ -268,8 +346,12 @@ function renderRecord(key) {
   const edition = hierarchy.edition(work.editionId) || { id: work.editionId, title: work.editionTitle };
   const editionTitle = friendlyEditionTitle(edition);
   const message = work.contentState === "catalog-only" ? "This documented work is not embedded in the current verified corpus. It is not presented as readable until a complete validated payload exists." : work.contentState === "bibliographic" ? "This is a bibliographic identity record. No distributable reader text is currently attached." : work.contentState === "local-readable" ? "This work is embedded and readable offline." : "This work is available from its documented external source and is not embedded in the application.";
-  const breadcrumb = work.imported ? `<div class="breadcrumbs"><a href="#my-library">My Library</a><span>›</span><span>${esc(work.title)}</span></div>` : categoryBreadcrumb(context.category, context.group, isAcquisitionEdition(edition) ? "" : work.editionId).replace("</div>", `<span>›</span><span>${esc(work.title)}</span></div>`);
-  shell(work.title, editionTitle, `${breadcrumb}<article class="notice"><div class="badges"><span class="badge ${work.contentState}">${esc(stateLabel[work.contentState])}</span></div><p class="warning">${esc(message)}</p><dl><dt>Stable work key</dt><dd>${esc(work.key)}</dd><dt>Edition</dt><dd>${esc(editionTitle)}</dd><dt>Availability</dt><dd>${esc(stateLabel[work.contentState])}</dd></dl><div class="actions">${work.contentState === "local-readable" ? `<a class="button" href="${link("reader", { work: work.key, category: context.category, ...(context.group ? { group: context.group } : {}) })}">Read</a>` : ""}${work.sourceUrl ? `<a class="button-secondary source-link" href="${esc(work.sourceUrl)}" target="_blank" rel="noopener">Open documented source</a>` : ""}</div></article>`);
+  const breadcrumb = work.imported
+    ? `<div class="breadcrumbs"><a href="#my-library">My Library</a><span>›</span><span>${esc(work.title)}</span></div>`
+    : context.family
+      ? pseudepigraphaFamilyBreadcrumb(context.family).replace("</div>", `<span>›</span><span>${esc(work.title)}</span></div>`)
+      : categoryBreadcrumb(context.category, context.group, isAcquisitionEdition(edition) ? "" : work.editionId).replace("</div>", `<span>›</span><span>${esc(work.title)}</span></div>`);
+  shell(work.title, editionTitle, `${breadcrumb}<article class="notice"><div class="badges"><span class="badge ${work.contentState}">${esc(stateLabel[work.contentState])}</span></div><p class="warning">${esc(message)}</p><dl><dt>Stable work key</dt><dd>${esc(work.key)}</dd><dt>Edition</dt><dd>${esc(editionTitle)}</dd><dt>Availability</dt><dd>${esc(stateLabel[work.contentState])}</dd></dl><div class="actions">${work.contentState === "local-readable" ? `<a class="button" href="${link("reader", { work: work.key, category: context.category, ...(context.group ? { group: context.group } : {}), ...(context.family ? { family: context.family } : {}) })}">Read</a>` : ""}${work.sourceUrl ? `<a class="button-secondary source-link" href="${esc(work.sourceUrl)}" target="_blank" rel="noopener">Open documented source</a>` : ""}</div></article>`);
 }
 
 async function renderSearch() {
