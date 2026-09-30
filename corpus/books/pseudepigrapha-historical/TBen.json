@@ -410,7 +410,7 @@
       },
       {
         "v": "2",
-        "text": "And there shall arise in the latter days] one beloved of the Lord, [of the tribe of Judah and Levi], a doer of His good pleasure in his mouth, [with new knowledge enlightening the Gentiles].",
+        "text": "And there shall arise in the latter days] one beloved of the Lord, [of the tribe of Judah and Levi], a doer of His good pleasure in his mouth, [with new knowledge enlightening the Gentiles.",
         "kind": "paragraph",
         "label": "2"
       },
@@ -485,6 +485,6 @@
     "comparisonSource": "1917 SPCK Charles text, cross-checked against the pinned Scrollmapper Testament of Benjamin transcription and independent structured Charles-derived witnesses.",
     "sourceRevision": "1917-spck-charles",
     "sourceFile": "The Testaments of the Twelve Patriarchs, pp. 102–108",
-    "verification": "All twelve chapters and 69 numbered verses checked for chapter boundaries, verse sequence, bracketed interpolations, OCR defects, empty records, and Covenant Library reader/search schema consistency."
+    "verification": "All twelve chapters and 69 numbered verses checked against the 1917 SPCK Charles text, with the 1913 Charles critical witness used to resolve the Chapter XI interpolation bracket scope; chapter boundaries, verse sequence, bracketed interpolations, OCR defects, empty records, and Covenant Library reader/search schema were verified."
   }
 }
