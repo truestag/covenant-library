@@ -1,0 +1,41 @@
+name: Rebuild search index
+
+on:
+  push:
+    paths:
+      - "corpus/catalog/work-index.json"
+      - "corpus/books/**/*.json"
+      - "tools/build-search.mjs"
+      - ".github/workflows/rebuild-search.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild-search:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Rebuild search shards
+        run: npm run build:search
+
+      - name: Commit rebuilt search index
+        shell: bash
+        run: |
+          if git diff --quiet -- corpus/search; then
+            echo "Search index is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add corpus/search
+          git commit -m "Rebuild search index from current corpus"
+          git push
