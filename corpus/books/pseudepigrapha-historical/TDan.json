@@ -18,7 +18,8 @@
     "readerSourceUrl": null,
     "readerSourceHost": null,
     "proxySupported": false,
-    "sourceName": "The Testament of Dan — R. H. Charles translation (1917 reprint)"
+    "sourceName": "The Testament of Dan — R. H. Charles translation (1917 reprint)",
+    "textualWitnessNote": "Base text follows R. H. Charles’s compact 1917 SPCK reprint. It has been compared against Charles’s fuller critical presentation in The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913). Material alternate readings are identified at the affected passages rather than silently merged into the base text."
   },
   "chapters": {
     "1": [
@@ -380,6 +381,14 @@
     "comparisonSource": "1917 SPCK Charles text, cross-checked against the Charles critical transcription and the pinned Scrollmapper Testament of Dan source.",
     "sourceRevision": "1917-spck-charles",
     "sourceFile": "The Testaments of the Twelve Patriarchs, pp. 71–76",
-    "verification": "All seven chapters and 54 numbered verses checked for chapter boundaries, verse sequence, bracketed interpolations, OCR defects, empty records, separator contamination, and Covenant Library reader/search schema consistency."
+    "verification": "All seven chapters and 54 numbered verses checked for chapter boundaries, verse sequence, bracketed interpolations, OCR defects, empty records, separator contamination, and Covenant Library reader/search schema consistency.",
+    "criticalComparison": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913)",
+    "variantPolicy": "Significant alternate readings are stored as verse-level editorialNote/textualVariants and are not blended into the 1917 base reading.",
+    "variantAuditResult": "No materially different narrative episode was identified between the 1917 compact reading used here and the fuller 1913 Charles comparison text. Differences found in this audit are primarily verse division, typography, and presentation of bracketed material."
+  },
+  "textualVariantPolicy": {
+    "baseText": "R. H. Charles, The Testaments of the Twelve Patriarchs (SPCK, 1917), compact reading text.",
+    "comparisonWitness": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913), fuller critical presentation.",
+    "policy": "Keep the 1917 reading text as the reader’s base text. Preserve materially different 1913 readings as explicit textual variants, with alternate wording stored separately from the translated passage."
   }
 }
