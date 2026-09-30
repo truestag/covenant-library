@@ -6,1558 +6,1888 @@
     "title": "The Apocalypse of Abraham",
     "sequence": 17,
     "chapters": 32,
-    "verses": 295
+    "verses": 293,
+    "translator": "G. H. Box, with the assistance of J. I. Landsman",
+    "sourceNote": "G. H. Box’s English translation from the Slavonic text, with the assistance of J. I. Landsman; first edition 1918, second impression 1919, Society for Promoting Christian Knowledge.",
+    "sourcePath": "corpus/books/pseudepigrapha-historical/APAB.json",
+    "searchable": true,
+    "readerAvailability": "bundled-json",
+    "bundledJson": true,
+    "readerSourceUrl": null,
+    "readerSourceHost": null,
+    "proxySupported": false,
+    "sourceName": "The Apocalypse of Abraham — G. H. Box translation"
   },
   "chapters": {
     "1": [
       {
         "v": "1",
-        "label": "1",
-        "text": "On the day when I planed the gods of my father Terah and the gods of Nahor his brother, when I was searching as to who the Mighty God in truth is-"
+        "text": "On the day when I planed the gods of my father Terah and the gods of Nahor his brother, when I was searching as to who the Mighty God in truth is — I, Abraham, at the time when it fell to my lot, when I fulfilled the services (the sacrifices) of my father Terah to his gods of wood and stone, gold and silver, brass and iron, having entered into their temple for service, I found the god whose name was Merumath (which was) hewn out of stone, fallen forward at the feet of the iron god Nahon.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "I, Abraham, at the time when it fell to my lot, when I fulfilled the services (the sacrifices) of my father Terah to his gods of wood and stone, gold and silver, brass and iron;"
+        "text": "And it came to pass, when I saw it, my heart was perplexed, and I considered in my mind that I should not be able to bring him back to his place, I, Abraham, alone, because he was heavy, being of a large stone, and I went forth and made it known to my father.",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "Having entered into their temple for service, I found the god whose name was Merumath (which was) hewn out of stone, fallen forward at the feet of the iron god Nahon."
+        "text": "And he entered with me, and when both of us moved him (the god) forward, so that we might bring him back to his place, his head fell from him while I was still holding him by the head.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And it came to pass, when I saw it, my heart was perplexed, and I considered in my mind that I should not be able to bring him back to his place, I, Abraham, alone, because he was heavy, being of a large stone,"
+        "text": "And it came to pass, when my father saw that the head of Merumath had fallen from him, he said to me: \"Abraham!\"",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And I went forth and made it known to my father. And he entered with me,"
+        "text": "And I said: \"Here am I.\"",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "and when both of us moved him (the god) forward, so that we might bring him back to his place, his head fell from him while I was still holding him by the head."
+        "text": "And he said to me: \"Bring me an axe, of the small ones, from the house.\"",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "And it came to pass, when my father saw that the head of Merumath had fallen from him, he said to me: “Abraham!”"
+        "text": "And I brought it to him.",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "And I said: “Here am I.” And he said to me: “Bring me an axe, of the small ones, from the house.” And I brought it to him."
-      },
-      {
-        "v": "9",
-        "label": "9",
-        "text": "And he hewed aright another Merumath out of another stone, without head, and the head which had been thrown down from Merumath he placed upon it, and the rest of Merumath he shattered."
+        "text": "And he hewed aright another Merumath out of another stone, without head, and the head which had been thrown down from Merumath he placed upon it, and the rest of Merumath he shattered.",
+        "kind": "paragraph",
+        "label": "8"
       }
     ],
     "2": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And he made five other gods, and gave them to me [and] commanded me to sell them outside in the street of the town."
+        "text": "And he made five other gods, and gave them to me, and commanded me to sell them outside in the street of the town.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And I saddled my father’s ass, and placed them upon it, and went towards the inn to sell them."
+        "text": "And I saddled my father's ass, and placed them upon it, and went towards the inn to sell them.",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And lo! merchants from Fandana in Syria were travelling with camels going to Egypt, to trade."
+        "text": "And lo, merchants from Fandana in Syria were travelling with camels, going to Egypt to trade.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And I spoke with them. And one of their camels uttered a groan, and the ass took fright and sprang away and upset the gods; and three of them were smashed, and two were preserved."
+        "text": "And I spoke with them.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And it came to pass, when the Syrians saw that I had gods, they said to me: “Why didst thou not tell us [that thou hadst gods? Then we would have bought them] before the ass heard the sound of the camel, and they would not have been lost."
+        "text": "And one of their camels uttered a groan, and the ass took fright and sprang away and upset the gods, and three of them were smashed, and two were preserved.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "Give us, at any rate, the gods that remain, and we will give thee the proper price for the broken gods, also for the gods that have been preserved.”"
+        "text": "And it came to pass, when the Syrians saw that I had gods, they said to me: \"Why didst thou not tell us that thou hadst gods?",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "For I was concerned in my heart as to how I could bring to my father the purchase-price;"
+        "text": "Then we would have bought them before the ass heard the sound of the camel, and they would not have been lost.",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "And the three broken ones I cast into the water of the river Gur, which was at that place,"
+        "text": "Give us, at any rate, the gods that remain, and we will give thee the proper price for the broken gods, also for the gods that have been preserved.\"",
+        "kind": "paragraph",
+        "label": "8"
       },
       {
         "v": "9",
-        "label": "9",
-        "text": "And they sank into the depths, and there was nothing more of them."
+        "text": "For I was concerned in my heart as to how I could bring to my father the purchase-price; and the three broken ones I cast into the water of the river Gur, which was at that place, and they sank into the depths, and there was nothing more of them.",
+        "kind": "paragraph",
+        "label": "9"
       }
     ],
     "3": [
       {
         "v": "1",
-        "label": "1",
-        "text": "When I was still going on the way, my heart was perplexed within me, and my mind was distracted."
+        "text": "When I was still going on the way, my heart was perplexed within me, and my mind was distracted.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And I said in my heart: [“What evil deed is this that my father is doing?"
+        "text": "And I said in my heart: \"What evil deed is this that my father is doing?",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "Is not he, rather, the god of his gods, since they come into existence through his chisels and lathes, and his wisdom,"
+        "text": "Is not he, rather, the god of his gods, since they come into existence through his chisels and lathes, and his wisdom, and is it not rather fitting that they should worship my father, since they are his work?",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And is it not rather fitting that they should worship my father, since they are his work? What is this delusion of my father in his works?]"
+        "text": "What is this delusion of my father in his works?",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "Behold, Merumath fell and could not rise in his own temple, nor could I, by myself, move him until my father came, and the two of us moved him;"
+        "text": "Behold, Merumath fell and could not rise in his own temple, nor could I, by myself, move him until my father came, and the two of us moved him; and as we were thus too weak, his head fell from him, and he (i.e. my father) set it upon another stone of another god, which he had made without head.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And as we were thus too weak, his head fell from him, and he (my father) set it upon another stone of another god, which he had made without head."
+        "text": "And the other five gods were broken in pieces down from the ass, which were able neither to help themselves, nor to hurt the ass, because it had broken them to pieces; nor did their broken fragments come up out of the river.\"",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "And the other five gods were broken in pieces down from the ass, which were able neither to help themselves, nor to hurt the ass, because it had broken them to pieces; nor did their broken fragments come up out of the river.”"
-      },
-      {
-        "v": "8",
-        "label": "8",
-        "text": "And I said in my heart: “If this be so, how can Merumath, my father’s god, having the head of another stone, and himself being made of another stone, rescue a man, or hear a man’s prayer and reward him?”"
+        "text": "And I said in my heart: \"If this be so, how can Merumath, my father's god, having the head of another stone, and himself being made of another stone, rescue a man, or hear a man's prayer and reward him?\"",
+        "kind": "paragraph",
+        "label": "7"
       }
     ],
     "4": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And while I cogitated thus, I reached my father’s house; and having watered the ass, and set out hay for it, I brought the silver and gave it into the hand of my father Terah."
+        "text": "And while I cogitated thus, I reached my father's house; and having watered the ass, and set out hay for it, I brought the silver and gave it into the hand of my father Terah.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "When he saw it he was glad, [and] he said: “Blessed art thou, Abraham, of my gods, because thou hast brought the price of the gods, so that my work was not in vain.”"
+        "text": "When he saw it he was glad, and he said: \"Blessed art thou, Abraham, of my gods, because thou hast brought the price of the gods, so that my work was not in vain.\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And I answered and said to him: “Hear, O my father, Terah! Blessed are the gods of thee, for thou art their god, since thou hast made them; for their blessing is ruination, and their power is vain;"
+        "text": "And I answered and said to him: \"Hear, O my father Terah!",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "They who did not help themselves, how shall they, then, help thee or bless me?"
+        "text": "Blessed are the gods of thee, for thou art their god, since thou hast made them; for their blessing is ruination, and their power is vain; they who did not help themselves, how shall they, then, help thee or bless me?",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "I have been kind to thee in this affair, because by using my intelligence, I have brought thee the money for the broken gods.”"
+        "text": "I have been kind to thee in this affair, because by (using) my intelligence, I have brought thee the money for the broken gods.\"",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And when he heard my word, he became furiously angry with me, because I had spoken hard words against his gods."
+        "text": "And when he heard my word, he became furiously angry with me, because I had spoken hard words against his gods.",
+        "kind": "paragraph",
+        "label": "6"
       }
     ],
     "5": [
       {
         "v": "1",
-        "label": "1",
-        "text": "I, however, having thought over my father’s anger, went out;"
+        "text": "I, however, having thought over my father's anger, went out; and after I had gone out, my father cried, saying: \"Abraham!\"",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "[And after I had gone out] my father cried, saying: “Abraham!” And I said: “Here am I.”"
+        "text": "And I said: \"Here am I.\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And he said: “Take and collect the splinters of the wood out of which I made gods of pine-wood before thou camest; and make ready for me the food of the mid-day meal.”"
+        "text": "And he said: \"Take and collect the splinters of the wood out of which I made gods of pine-wood before thou camest; and make ready for me the food of the mid-day meal.\"",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And it came to pass, when I collected the splinters of wood, I found under them a little god which had been lying among the brush-wood on my left, and on his forehead was written: GOD BARISAT."
+        "text": "And it came to pass, when I collected the splinters of wood, I found under them a little god which had been lying among the brush-wood on my left, and on his forehead was written: God Barisat.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And I did not inform my father that I had found the wooden god Barisat under the chips."
+        "text": "And I did not inform my father that I had found the wooden god Barisat under the chips.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And it came to pass, when I had laid the splinters in the fire, in order that I might make ready food for my father — on going out to ask a question regarding the food,"
+        "text": "And it came to pass, when I had laid the splinters in the fire, in order that I might make ready food for my father — on going out to ask a question regarding the food, I placed Barisat before the kindled fire, saying threateningly to him: \"Pay careful attention, Barisat, that the fire do not die down until I come; if, however, it dieth down, blow on it that it may burn up again.\"",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "I placed Barisat before the kindled fire, saying threateningly to him: “Pay careful attention, Barisat, [that] the fire do not die down until I come; if, however, it dieth down, blow on it that it may burn up again.”"
+        "text": "And I went out and accomplished my purpose.",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "And I went out and accomplished my purpose."
+        "text": "And on returning I found Barisat fallen backwards, and his feet surrounded by fire and horribly burnt.",
+        "kind": "paragraph",
+        "label": "8"
       },
       {
         "v": "9",
-        "label": "9",
-        "text": "And on returning I found Barisat fallen backwards, and his feet surrounded by fire and horribly burnt."
+        "text": "I burst into a fit of laughter, and I said to myself: \"Truly, Barisat, thou canst kindle the fire and cook food!\"",
+        "kind": "paragraph",
+        "label": "9"
       },
       {
         "v": "10",
-        "label": "10",
-        "text": "I burst into a fit of laughter, and I said to myself: “Truly, O Barisat, thou canst kindle the fire and cook food!”"
+        "text": "And it came to pass, while I spake (thus) in my laughter, he (i.e.",
+        "kind": "paragraph",
+        "label": "10"
       },
       {
         "v": "11",
-        "label": "11",
-        "text": "And it came to pass, while I spake thus in my laughter he (i.e. Barisat) was gradually burnt up by the fire and reduced to ashes."
+        "text": "Barisat) was gradually burnt up by the fire and reduced to ashes.",
+        "kind": "paragraph",
+        "label": "11"
       },
       {
         "v": "12",
-        "label": "12",
-        "text": "And I brought the food to my father, and he did eat. And I gave him wine and milk, and he was gladdened and blessed his god Merumath."
+        "text": "And I brought the food to my father, and he did eat.",
+        "kind": "paragraph",
+        "label": "12"
       },
       {
         "v": "13",
-        "label": "13",
-        "text": "And I said to him: “O father Terah, bless not thy god Merumath, and praise him not, but rather praise thy god Barisat because, loving thee more, he hath cast himself into the fire to cook thy food!”"
+        "text": "And I gave him wine and milk, and he was gladdened and blessed his god Merumath.",
+        "kind": "paragraph",
+        "label": "13"
       },
       {
         "v": "14",
-        "label": "14",
-        "text": "And he said to me: “And where is he now?”"
+        "text": "And I said to him: \"O father Terah, bless not thy god Merumath, and praise him not, but rather praise thy god Barisat, because, loving thee more, he hath cast himself into the fire to cook thy food.\"",
+        "kind": "paragraph",
+        "label": "14"
       },
       {
         "v": "15",
-        "label": "15",
-        "text": "And I said: “He is burnt to ashes in the violence of the fire and is reduced to dust.”"
+        "text": "And he said to me: \"And where is he now?\"",
+        "kind": "paragraph",
+        "label": "15"
       },
       {
         "v": "16",
-        "label": "16",
-        "text": "And he said: “Great is the power of Barisat! I will make another today, and tomorrow he will prepare my food.”"
+        "text": "And I said: \"He is burnt to ashes in the violence of the fire and is reduced to dust.\"",
+        "kind": "paragraph",
+        "label": "16"
+      },
+      {
+        "v": "17",
+        "text": "And he said: \"Great is the power of Barisat!",
+        "kind": "paragraph",
+        "label": "17"
+      },
+      {
+        "v": "18",
+        "text": "I will make another to-day, and to-morrow he will prepare my food.\"",
+        "kind": "paragraph",
+        "label": "18"
       }
     ],
     "6": [
       {
         "v": "1",
-        "label": "1",
-        "text": "When I, Abraham, however, heard such words from my father, I laughed in my mind"
+        "text": "When I, Abraham, however, heard such words from my father, I laughed in my mind and sighed in the grief and in the anger of my soul, and said: \"How then can that which is made by him — manufactured statues — be a helper of my father?",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And sighed in the grief and in the anger of my soul,"
+        "text": "Or shall the body then be subject to its soul, and the soul to the spirit, and the spirit to folly and ignorance?\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "and said: “How then can that which is made by him — manufactured statues — be a helper of my father?"
+        "text": "And I said: \"It is fitting once to endure evil.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "Or shall the body then be subject to its soul, and the soul to the spirit, and the spirit to folly and ignorance!”"
+        "text": "So I will direct my mind to what is pure and lay my thoughts open before him.\"",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And I said: “It is fitting once to endure evil. So I will direct my mind to what is pure and lay my thoughts open before him.”"
+        "text": "And I answered and said: \"O father Terah, whichever of these thou praisest as a god, thou art foolish in thy mind.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And I answered and said: “O father Terah, whichever of these thou praisest as a god, thou art foolish in thy mind."
+        "text": "Behold, the gods of thy brother Ora, which stand in the holy temple, are more worthy of honour than these of thine.",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "Behold the gods of thy brother Ora, which stand in the holy temple, are more worthy of honour than these of thine."
+        "text": "For behold, Zucheus, the god of thy brother Oron, is more worthy of honour than thy god Merumath, because he is made of gold which is highly valued by people, and when he groweth old in years he will be remodelled; but if your god Merumath is changed or broken, he will not be renewed, because he is a stone; the which is also the case with the god Joavon, who standeth with Zucheus over the other gods.",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "For behold Zucheus, the god of thy brother Oron, is more worthy of honour than thy god Merumath, because he is made of gold which is highly valued by people,"
+        "text": "How much more worthy of honour is he than the god Barisat, who is made of wood, while he is forged of silver!",
+        "kind": "paragraph",
+        "label": "8"
       },
       {
         "v": "9",
-        "label": "9",
-        "text": "And when he groweth old in years he will be re-modelled; but if your god Merumath is changed or broken, he will not be renewed, because he is a stone;"
+        "text": "How is he made, by adaptation of man, valuable to outward appearance!",
+        "kind": "paragraph",
+        "label": "9"
       },
       {
         "v": "10",
-        "label": "10",
-        "text": "The which is also the case with the god Joav on [who standeth with Zucheus over the other gods."
+        "text": "But thy god Barisat, while he was still, before he had been prepared, rooted up upon the earth and was great and wonderful with the glory of branches and blossom, thou didst hew out with the axe, and by means of thy art he hath been made into a god.",
+        "kind": "paragraph",
+        "label": "10"
       },
       {
         "v": "11",
-        "label": "11",
-        "text": "How much more worthy of honour is he than the god Barisat, who is made of wood, while he is forged of silver!"
-      },
-      {
-        "v": "12",
-        "label": "12",
-        "text": "How is he made, by adaptation of man, valuable to outward appearance!"
-      },
-      {
-        "v": "13",
-        "label": "13",
-        "text": "But thy god Barisat, while he was still, before he had been prepared, rooted up (?) upon the earth and was great and wonderful with the glory of branches and blossom,"
-      },
-      {
-        "v": "14",
-        "label": "14",
-        "text": "Thou didst hew out with the axe, and by means of thy art he hath been made into a god."
-      },
-      {
-        "v": "15",
-        "label": "15",
-        "text": "And lo! his fatness is already withered and perished,"
-      },
-      {
-        "v": "16",
-        "label": "16",
-        "text": "He is fallen from the height to the ground, he hath come from great estate to littleness, and the appearance of his countenance hath vanished,"
-      },
-      {
-        "v": "17",
-        "label": "17",
-        "text": "And he Barisat himself is burnt up by fire and reduced to ashes and is no more;"
-      },
-      {
-        "v": "18",
-        "label": "18",
-        "text": "And thou sayest: “Today I will make another which tomorrow shall make ready my food!”"
-      },
-      {
-        "v": "19",
-        "label": "19",
-        "text": "“He hath perished to utter destruction!”"
+        "text": "And lo, his fatness is already withered and perished, he is fallen from the height to the ground, he hath come from great estate to littleness, and the appearance of his countenance hath vanished, and he, Barisat himself, is burnt up by fire and reduced to ashes and is no more; and thou sayest: 'To-day I will make another which to-morrow shall make ready my food.' He hath perished to utter destruction!\"",
+        "kind": "paragraph",
+        "label": "11"
       }
     ],
     "7": [
       {
         "v": "1",
-        "label": "1",
-        "text": "“Behold, the fire is more worthy of honour than all things formed because even that which is not subjected is subjected unto it, and things easily perishable are mocked by its flames."
+        "text": "\"Behold, the fire is more worthy of honour than all things formed, because even that which is not subjected is subjected unto it, and things easily perishable are mocked by its flames.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "But even more worthy of honour is the water, because it conquereth the fire and satisfieth the earth."
+        "text": "But even more worthy of honour is the water, because it conquereth the fire and satisfieth the earth.",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "But rather the waters are more honorable than the fire, for they triumph over the fire and soften the earth with fruit"
+        "text": "But even it I do not call God, because it is subjected to the earth under which the water inclineth.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "But even it I do not call God, because it is subjected to the earth under which the water inclineth."
+        "text": "But I call the earth much more worthy of honour, because it overpowereth the nature (and the fulness) of the water.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "But I call the earth much more worthy of honour, because it overpowereth the nature (and the fulness) of the water."
+        "text": "Even it (viz. the earth), however, I do not call god, because it, too, is dried up by the sun, and is apportioned to man to be tilled.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "Even it (viz. the earth), however, I do not call god, [because] it, too, is dried up by the sun, and is apportioned to man to be tilled."
+        "text": "I call the sun more worthy of honour than the earth, because it with its rays illumineth the whole world and the different atmospheres.",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "I call the sun more worthy of honour than the earth, because it with its rays illumineth the whole world and the different atmospheres."
+        "text": "But even it I do not call god, because at night and by clouds its course is obscured.",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "But even it I do not call god, because at night and by clouds its course is obscured."
+        "text": "Nor, again, do I call the moon or the stars god, because they also in their season obscure their light at night.",
+        "kind": "paragraph",
+        "label": "8"
       },
       {
         "v": "9",
-        "label": "9",
-        "text": "Nor, again, do I call the moon or the stars god, because they also in their season obscure their light at night."
+        "text": "But hear this, Terah my father; for I will make known to thee the God who hath made everything, not these we consider as gods.",
+        "kind": "paragraph",
+        "label": "9"
       },
       {
         "v": "10",
-        "label": "10",
-        "text": "But hear this, Terah my father; for I will make known to thee the God who hath made everything, not these we consider as gods."
+        "text": "Who then is He?",
+        "kind": "paragraph",
+        "label": "10"
       },
       {
         "v": "11",
-        "label": "11",
-        "text": "Who then is He? or what is He? Who hath crimsoned the heavens, and made the sun golden, and the moon lustrous, and with it the stars; And hath made the earth dry in the midst of many waters, And set thee in.... and tested me in the confusion of my thoughts"
+        "text": "Or what is He?",
+        "kind": "paragraph",
+        "label": "11"
       },
       {
         "v": "12",
-        "label": "12",
-        "text": "“Yet may God reveal Himself to us through Himself!”"
+        "text": "Who hath crimsoned the heavens, and made the sun golden, and the moon lustrous, and with it the stars; and hath made the earth dry in the midst of many waters, and set thee in the world.",
+        "kind": "paragraph",
+        "label": "12"
+      },
+      {
+        "v": "13",
+        "text": "Yet may God reveal Himself to us through Himself!\"",
+        "kind": "paragraph",
+        "label": "13"
       }
     ],
     "8": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And it came to pass while I spake thus to my father Terah in the court of my house,"
+        "text": "And it came to pass, while I spake thus to my father Terah in the court of my house, there cometh down the voice of a Mighty One from heaven in a fiery cloud-burst, saying and crying: \"Abraham, Abraham!\"",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "There cometh down the voice of a Mighty One from heaven in a fiery cloud-burst, saying and crying: “Abraham, Abraham!”"
+        "text": "And I said: \"Here am I.\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And I said: “Here am I.”"
+        "text": "And He said: \"Thou art seeking, in the understanding of thine heart, the God of Gods and the Creator; I am He.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And He said: “Thou art seeking in the understanding of thine heart the God of Gods and the Creator;"
+        "text": "Go out from thy father Terah, and get thee out from the house, that thou also be not slain in the sins of thy father's house.\"",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "I am He. Go out from thy father Terah, and get thee out from the house, that thou also be not slain in the sins of thy father’s house.”"
+        "text": "And I went out.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And I went out."
-      },
-      {
-        "v": "7",
-        "label": "7",
-        "text": "And it came to pass when I went out, that before I succeeded in getting out in front of the door of the court, there came a sound of a great thunder and burnt him and his house, and everything whatsoever in his house, down to the ground, forty cubits."
+        "text": "And it came to pass, when I went out, that before I succeeded in getting out in front of the door of the court, there came a sound of a great thunder and burnt him and his house, and everything whatsoever in his house, down to the ground, forty cubits.",
+        "kind": "paragraph",
+        "label": "6"
       }
     ],
     "9": [
       {
         "v": "1",
-        "label": "1",
-        "text": "Then a voice came to me speaking twice: “Abraham, Abraham!”"
+        "text": "Then a voice came to me, speaking twice: \"Abraham, Abraham!\"",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And I said: “Here am I!”"
+        "text": "And I said: \"Here am I!\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And He said: “Behold, it is I; fear not, for I am before the worlds, and a mighty God who hath created the light of the world. I am a shield over thee, and I am thy helper."
+        "text": "And He said: \"Behold, it is I; fear not, for I am before the worlds, and a mighty God who hath created the light of the world.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "Go, take me a young heifer of three years old, and a she-goat of three years old, and a ram of three years old, and a turtledove and a pigeon, and bring me a pure sacrifice."
+        "text": "I am a shield over thee, and I am thy helper.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And in this sacrifice I will lay before thee the ages (to come), and make known to thee what is reserved, and thou shalt see great things which thou hast not seen (hitherto);"
+        "text": "Go, take me a young heifer of three years old, and a she-goat of three years old, and a ram of three years old, and a turtledove and a pigeon, and bring me a pure sacrifice.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "Because thou hast loved to search me out, and I have named thee my Friend."
+        "text": "And in this sacrifice I will lay before thee the ages (to come), and make known to thee what is reserved, and thou shalt see great things which thou hast not seen hitherto; because thou hast loved to search me out, and I have named thee my Friend.",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "But abstain from every form of food that proceedeth out of the fire, and from the drinking of wine, and from anointing (thyself) with oil, forty days.”"
-      },
-      {
-        "v": "8",
-        "label": "8",
-        "text": "And then set forth for me the sacrifice which I have commanded thee, in the place which I will shew thee, on a high mountain,"
-      },
-      {
-        "v": "9",
-        "label": "9",
-        "text": "And there I will shew thee the ages which have been created and established, made and renewed, by my Word,"
-      },
-      {
-        "v": "10",
-        "label": "10",
-        "text": "And I will make known to thee what shall come to pass in them on those who have done evil and (practised) righteousness in the generation of men."
+        "text": "But abstain from every form of food that proceedeth out of the fire, and from the drinking of wine, and from anointing thyself with oil, forty days, and then set forth for me the sacrifice which I have commanded thee, in the place which I will shew thee, on a high mountain, and there I will shew thee the ages which have been created and established, made and renewed, by my Word, and I will make known to thee what shall come to pass in them on those who have done evil and practised righteousness in the generation of men.\"",
+        "kind": "paragraph",
+        "label": "7"
       }
     ],
     "10": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And it came to pass, when I heard the voice of Him who spake such words to me, (and) I looked hither and thither."
+        "text": "And it came to pass, when I heard the voice of Him who spake such words to me, and I looked hither and thither, and lo, there was no breath of a man; and my spirit was affrighted, and my soul fled from me, and I became like a stone, and fell down upon the earth, for I had no more strength to stand on the earth.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "and lo! there was no breath of a man, and my spirit was affrighted, and my soul fled from me, and I became like a stone, and fell down upon the earth, for I had no more strength to stand on the earth."
+        "text": "And while I was still lying with my face upon the earth, I heard the voice of the Holy One speaking: \"Go, Jaoel, and by means of my ineffable Name raise me yonder man, and strengthen him, so that he recover from his trembling.\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And while I was still lying with my face upon the earth, I heard the voice of the Holy One speaking: “Go, Jaoel, and by means of my ineffable Name raise me yonder man, and strengthen him (so that he recover) from his trembling.”"
+        "text": "And the angel came, whom He had sent to me, in the likeness of a man, and grasped me by my right hand, and set me up upon my feet, and said to me: \"Stand up, Abraham, Friend of God who loveth thee; let not the trembling of man seize thee!",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And the angel came, whom He had sent to me, in the likeness of a man,"
+        "text": "For, lo, I have been sent to thee to strengthen thee and bless thee in the name of God who loveth thee — the Creator of the celestial and terrestrial.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And grasped me by my right hand, and set me up upon my feet, and said to me: “Stand up, [Abraham,] Friend of God who loveth thee; let not the trembling of man seize thee!"
+        "text": "Be fearless and hasten to Him.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "For, lo! I have been sent to thee to strengthen thee and bless thee in the name of God — who loveth thee — the Creator of the celestial and terrestrial."
+        "text": "I am called Jaoel by Him who moveth that which existeth with me on the seventh expanse upon the firmament, a power in virtue of the ineffable Name that is dwelling in me.",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "Be fearless and hasten to Him."
+        "text": "I am the one who hath been given to restrain, according to His commandment, the threatening attack of the living creatures of the Cherubim against one another, and to teach those who carry Him the song of the seventh hour of the night of man.",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "I am called Jaoel by Him who moveth that which existeth with me on the seventh expanse upon the firmament, a power in virtue of the ineffable Name that is dwelling in me."
+        "text": "I am ordained to restrain the Leviathan, for unto me are subject the attack and menace of every single reptile.",
+        "kind": "paragraph",
+        "label": "8"
       },
       {
         "v": "9",
-        "label": "9",
-        "text": "I am the one who hath been given to restrain, according to His commandment, the threatening attack of the living creatures of the Cherubim against one another, and teach those who carry Him the song of the seventh hour of the night of man."
+        "text": "I am he who hath been commissioned to loosen Hades, to destroy him who stareth at the dead.",
+        "kind": "paragraph",
+        "label": "9"
       },
       {
         "v": "10",
-        "label": "10",
-        "text": "I am ordained to restrain the Leviathan, for unto me are subject the attack and menace of every single reptile."
+        "text": "I am the one who was commissioned to set on fire thy father's house together with him, because he displayed reverence for dead idols.",
+        "kind": "paragraph",
+        "label": "10"
       },
       {
         "v": "11",
-        "label": "11",
-        "text": "I am he who hath been commissioned to loosen Hades, to destroy him who stareth at the dead."
+        "text": "I have been sent to bless thee now, and the land which the Eternal One, whom thou hast invoked, hath prepared for thee, and for thy sake have I wended my way upon the earth.",
+        "kind": "paragraph",
+        "label": "11"
       },
       {
         "v": "12",
-        "label": "12",
-        "text": "I am the one who was commissioned to set on fire thy father’s house together with him, because he displayed reverence for dead (idols)."
+        "text": "Stand up, Abraham!",
+        "kind": "paragraph",
+        "label": "12"
       },
       {
         "v": "13",
-        "label": "13",
-        "text": "I have been sent to bless thee now, and the land which the Eternal One, whom thou hast invoked, hath prepared for thee,"
+        "text": "Go without fear, be right glad and rejoice; and I am with thee!",
+        "kind": "paragraph",
+        "label": "13"
       },
       {
         "v": "14",
-        "label": "14",
-        "text": "And for thy sake have I wended my way upon the earth."
+        "text": "For eternal honour hath been prepared for thee by the Eternal One.",
+        "kind": "paragraph",
+        "label": "14"
       },
       {
         "v": "15",
-        "label": "15",
-        "text": "Stand up, Abraham! Go without fear; be right glad and rejoice; and I am with thee! For eternal honour hath been prepared for thee by the Eternal One. Go, fulfil the sacrifices commanded."
+        "text": "Go, fulfil the sacrifices commanded.",
+        "kind": "paragraph",
+        "label": "15"
       },
       {
         "v": "16",
-        "label": "16",
-        "text": "For lo! I have been appointed to be with thee and with the generation prepared (to spring) from thee;"
+        "text": "For, lo, I have been appointed to be with thee and with the generation prepared to spring from thee; and with me Michael blesseth thee for ever.",
+        "kind": "paragraph",
+        "label": "16"
       },
       {
         "v": "17",
-        "label": "17",
-        "text": "And with me Michael blesseth thee for ever. Be of good cheer, go!”"
+        "text": "Be of good cheer, go!\"",
+        "kind": "paragraph",
+        "label": "17"
       }
     ],
     "11": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And I rose up and saw him who had grasped me by my right hand and set me up upon my feet:"
+        "text": "And I rose up and saw him who had grasped me by my right hand and set me up upon my feet; and the appearance of his body was like sapphire, and the look of his countenance like chrysolite, and the hair of his head like snow, and the turban upon his head like the appearance of the rainbow, and the clothing of his garments like purple; and a golden sceptre was in his right hand.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And the appearance of his body was like sapphire, and the look of his countenance like chrysolite, and the hair of his head like snow, and the turban upon his head like the appearance of the rainbow, and the clothing of his garments like purple;"
+        "text": "And he said to me: \"Abraham!\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And a golden sceptre was in his right hand. And he said to me: “Abraham!”"
+        "text": "And I said: \"Here am I, thy servant.\"",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And I said: “Here am I, thy servant.”"
+        "text": "And he said: \"Let not my look affright thee, nor my speech, that thy soul be not perturbed.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And he said: “Let not my look affright thee, nor my speech, that thy soul be not perturbed. Come with me and I will go with thee, visible until the sacrifice,"
+        "text": "Come with me and I will go with thee, until the sacrifice, visible; but after the sacrifice, invisible for ever.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "But after the sacrifice, invisible for ever. Be of good cheer, and come!”"
+        "text": "Be of good cheer, and come!\"",
+        "kind": "paragraph",
+        "label": "6"
       }
     ],
     "12": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And we went, the two of us together, forty days and nights,"
+        "text": "And we went, the two of us together, forty days and nights, and I ate no bread, and drank no water, because my food was to see the angel who was with me, and his speech — that was my drink.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "and I ate no bread, and drank no water, because my food was to see the angel who was with me, and his speech — that was my drink."
+        "text": "And we came to the Mount of God, the glorious Horeb.",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And we came to the Mount of God, the glorious Horeb."
+        "text": "And I said to the angel: \"Singer of the Eternal One!",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And I said to the angel: “Singer of the Eternal One! Lo! I have no sacrifice with me, nor am I aware of a place of an altar on the mountain: how can I bring a sacrifice?”"
+        "text": "Lo, I have no sacrifice with me, nor am I aware of a place of an altar on the mountain: how can I bring a sacrifice?\"",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And he said to me: “Look round!”"
+        "text": "And he said to me: \"Look round!\"",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And I looked round, and lo! there were following us all the prescribed sacrificial (animals) — the young heifer, and the she-goat, and the ram, and the turtle-dove, and the pigeon."
+        "text": "And I looked round, and lo, there were following us all the prescribed sacrificial animals — the young heifer, and the she-goat, and the ram, and the turtle-dove, and the pigeon.",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "And the angel said to me: “Abraham!” I said: “Here am I.”"
+        "text": "And the angel said to me: \"Abraham!\"",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "And he said to me: “All these slaughter, and divide the animals into halves, one against the other, but the birds do not sever; and (“but”) give to the men, whom I will shew thee, standing by thee, for these are the altar upon the Mountain, to offer a sacrifice to the Eternal;"
+        "text": "I said: \"Here am I.\"",
+        "kind": "paragraph",
+        "label": "8"
       },
       {
         "v": "9",
-        "label": "9",
-        "text": "but the turtledove and the pigeon give to me, for I will ascend upon the wings of the bird, in order to shew thee in heaven, and on the earth, and in the sea, and in the abyss, and in the under-world, and in the Garden of Eden, and in its rivers and in the fulness of the whole world and its circle -"
-      },
-      {
-        "v": "10",
-        "label": "10",
-        "text": "thou shalt gaze in (them) all.\""
+        "text": "And he said to me: \"All these slaughter, and divide the animals into halves, one against the other, but the birds do not sever; and give to the men, whom I will shew thee, standing by thee, for these are the altar upon the Mountain, to offer a sacrifice to the Eternal; but the turtledove and the pigeon give to me, for I will ascend upon the wings of the bird, in order to shew thee in heaven, and on the earth, and in the sea, and in the abyss, and in the under-world, and in the Garden of Eden, and in its rivers and in the fulness of the whole world and its circle — thou shalt gaze in them all.\"",
+        "kind": "paragraph",
+        "label": "9"
       }
     ],
     "13": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And I did everything according to the commandment of the angel, and gave the angels, who had come to us, the divided animals, but the angel took the birds."
+        "text": "And I did everything according to the commandment of the angel, and gave the angels, who had come to us, the divided animals, but the angel took the birds.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And I waited for the evening sacrifice."
+        "text": "And I waited for the evening sacrifice.",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And there flew an unclean bird down upon the carcasses, and I drove it away."
+        "text": "And there flew an unclean bird down upon the carcasses, and I drove it away.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And the unclean bird spake to me, and said: “What doest thou, Abraham, upon the holy Heights, where no man eateth or drinketh, neither is there upon them (any) food of man, but these consume everything with fire, and (will) burn thee up."
+        "text": "And the unclean bird spake to me, and said: \"What doest thou, Abraham, upon the holy Heights, where no man eateth or drinketh, neither is there upon them any food of man, but these consume everything with fire, and will burn thee up?",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "Forsake the man, who is with thee, and flee; for if thou ascendest to the Heights they will make an end of thee."
+        "text": "Forsake the man who is with thee, and flee; for if thou ascendest to the Heights they will make an end of thee.\"",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And it came to pass, when I saw the bird speak, I said to the angel: “What is this, my lord?”"
+        "text": "And it came to pass, when I saw the bird speak, I said to the angel: \"What is this, my lord?\"",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "And he said: “This is ungodliness, this is Azazel.”"
+        "text": "And he said: \"This is ungodliness, this is Azazel.\"",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "And he said to it: “Disgrace upon thee, Azazel!"
+        "text": "And he said to it: \"Disgrace upon thee, Azazel!",
+        "kind": "paragraph",
+        "label": "8"
       },
       {
         "v": "9",
-        "label": "9",
-        "text": "For Abraham’s lot is in heaven, but thine upon the earth. Because thou hast chosen and loved this for the dwelling-(place) of thine uncleanness,"
+        "text": "For Abraham's lot is in heaven, but thine upon the earth.",
+        "kind": "paragraph",
+        "label": "9"
       },
       {
         "v": "10",
-        "label": "10",
-        "text": "Therefore the eternal mighty Lord made thee a dweller upon the earth and through thee every evil spirit of lies, and through thee wrath and trials for the generations of ungodly men;"
+        "text": "Because thou hast chosen and loved this for the dwelling-place of thine uncleanness, therefore the eternal mighty Lord made thee a dweller upon the earth, and through thee every evil spirit of lies, and through thee wrath and trials for the generations of ungodly men; for God, the Eternal, Mighty One, hath not permitted that the bodies of the righteous should be in thy hand, in order that thereby the life of the righteous and the destruction of the unclean may be assured.",
+        "kind": "paragraph",
+        "label": "10"
       },
       {
         "v": "11",
-        "label": "11",
-        "text": "For God, the Eternal, Mighty One, hath not permitted that the bodies of the righteous should be in thy hand, in order that thereby the life of the righteous and the destruction of the unclean may be assured."
+        "text": "Hear, friend, begone with shame from me.",
+        "kind": "paragraph",
+        "label": "11"
       },
       {
         "v": "12",
-        "label": "12",
-        "text": "Hear, friend, begone with shame from me. For it hath not been given to thee to play the tempter in regard to all the righteous."
+        "text": "For it hath not been given to thee to play the tempter in regard to all the righteous.",
+        "kind": "paragraph",
+        "label": "12"
       },
       {
         "v": "13",
-        "label": "13",
-        "text": "Depart from this man! Thou canst not lead him astray, because he is an enemy to thee, and of those who follow thee and love what thou willest."
+        "text": "Depart from this man!",
+        "kind": "paragraph",
+        "label": "13"
       },
       {
         "v": "14",
-        "label": "14",
-        "text": "For, behold, the vesture which in heaven was formerly thine hath been set aside for him, and the mortality which was his hath been transferred to thee.”"
+        "text": "Thou canst not lead him astray, because he is an enemy to thee, and of those who follow thee and love what thou willest.",
+        "kind": "paragraph",
+        "label": "14"
+      },
+      {
+        "v": "15",
+        "text": "For, behold, the vesture which in heaven was formerly thine hath been set aside for him, and the mortality which was his hath been transferred to thee.\"",
+        "kind": "paragraph",
+        "label": "15"
       }
     ],
     "14": [
       {
         "v": "1",
-        "label": "1",
-        "text": "The angel said to me: [“Abraham!”"
+        "text": "The angel said to me: \"Abraham!\"",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And I said: “Here am I, thy servant.”"
+        "text": "And I said: \"Here am I, thy servant.\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And he said: “Know from henceforth that the Eternal One hath chosen thee, (He) whom thou lovest;"
+        "text": "And he said: \"Know from henceforth that the Eternal One hath chosen thee, He whom thou lovest; be of good courage and use this authority, so far as I bid thee, against him who slandereth truth; should I not be able to put him to shame who hath scattered over the earth the secrets of heaven and hath rebelled against the Mighty One?",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "Be of good courage and use this authority, so far as I bid thee, against him who slandereth truth;"
+        "text": "Say to him: 'Be thou the burning coal of the Furnace of the earth; go, Azazel, into the inaccessible parts of the earth; for thy heritage is to be over those existing with thee, being born with the stars and clouds, with the men whose portion thou art, and who through thy being exist; and thine enmity is justification.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "should I not be able to put him to shame who hath scattered over the earth the secrets of heaven and hath rebelled against the Mighty One?]"
+        "text": "On this account, by thy perdition disappear from me.'\" And I uttered the words which the angel had taught me.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "Say to him: ‘Be thou the burning coal of the Furnace of the earth; go, Azazel, into the inaccessible parts of the earth; [for thy heritage is (to be) over those existing with thee being born with the stars and clouds, with the men whose portion thou art, and (who) through thy being exist; and thine enmity is justification. On this account by thy perdition disappear from me.' And I uttered the words which the angel had taught me. And he said: \"Abraham!\" And I said, \"Here am I, thy servant.\"]"
+        "text": "And he said: \"Abraham!\"",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "And the angel said to me: “Answer him not; for God hath given him power (lit. will) over those who do answer him.”"
+        "text": "And I said: \"Here am I, thy servant.\"",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "And the angel spake to me a second time and said: “Now rather, however much he speak to thee, answer him not, that his will may have no free course in thee, because the Eternal and Mighty One hath given him weight and will; answer him not.”"
+        "text": "And the angel said to me: \"Answer him not; for God hath given him power (lit. will) over those who do answer him.\"",
+        "kind": "paragraph",
+        "label": "8"
       },
       {
         "v": "9",
-        "label": "9",
-        "text": "I did what was commanded me by the angel; and however much he spake to me, I answered him nothing whatsoever."
+        "text": "And the angel spake to me a second time and said: \"Now rather, however much he speak to thee, answer him not, that his will may have no free course in thee, because the Eternal and Mighty One hath given him weight and will; answer him not.\"",
+        "kind": "paragraph",
+        "label": "9"
+      },
+      {
+        "v": "10",
+        "text": "I did what was commanded me by the angel; and however much he spake to me, I answered him nothing whatsoever.",
+        "kind": "paragraph",
+        "label": "10"
       }
     ],
     "15": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And it came to pass when the sun went down, and lo! a smoke as of a furnace."
+        "text": "And it came to pass, when the sun went down, and lo, a smoke as of a furnace.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And the angels who had the portions of the sacrifice ascended from the top of the smoking furnace."
+        "text": "And the angels who had the portions of the sacrifice ascended from the top of the smoking furnace.",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And the Angel took me with the right hand and set me on the right wing of the pigeon, and set himself on the left wing of the turtle dove, which (birds) had neither been slaughtered nor divided."
+        "text": "And the Angel took me with the right hand and set me on the right wing of the pigeon, and set himself on the left wing of the turtle-dove, which birds had neither been slaughtered nor divided.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And he bore me to the borders of the flaming fire [and we ascended as with many winds to the heaven which was fixed upon the surface."
+        "text": "And he bore me to the borders of the flaming fire, and we ascended as with many winds to the heaven which was fixed upon the surface.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And I saw on the air on the height, to which we ascended a strong light, which it was impossible to describe."
-      },
-      {
-        "v": "6",
-        "label": "6",
-        "text": "And lo! in this light a fiercely burning fire for people, many people of male appearance, all (constantly) changing in aspect and form, running and being transformed, and worshipping and crying with a sound of words which I knew not."
+        "text": "And I saw on the air, on the height to which we ascended, a strong light which it was impossible to describe, and lo, in this light a fiercely burning fire for people, many people of male appearance, all constantly changing in aspect and form, running and being transformed, and worshipping and crying with a sound of words which I knew not.",
+        "kind": "paragraph",
+        "label": "5"
       }
     ],
     "16": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And I said to the Angel: “Why hast thou brought me up here now, because I cannot now see, for I am already grown weak, and my spirit departeth from me?”"
+        "text": "And I said to the Angel: \"Why hast thou brought me up here now, because I cannot now see, for I am already grown weak, and my spirit departeth from me?\"",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And he said to me: “Remain by me; fear not! And He whom thou seest come straight towards us with great voice of holiness — that is the Eternal One who loveth thee;"
+        "text": "And he said to me: \"Remain by me; fear not.",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "But Himself thou canst not see."
+        "text": "And He whom thou seest come straight towards us with great voice of holiness — that is the Eternal One who loveth thee; but Himself thou canst not see.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "But let not thy spirit grow faint on account of the loud crying, for I am with thee, strengthening thee.”"
+        "text": "But let not thy spirit grow faint on account of the loud crying, for I am with thee, strengthening thee.\"",
+        "kind": "paragraph",
+        "label": "4"
       }
     ],
     "17": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And while he yet spake (and) lo! fire came against us round about,"
+        "text": "And while he yet spake, and lo, fire came against us round about, and a voice was in the fire like a voice of many waters, like the sound of the sea in its uproar.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And a voice was in the fire like a voice of many waters, like the sound of the sea in its uproar."
+        "text": "And the angel bent his head with me and worshipped.",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And the angel bent his head with me and worshipped."
+        "text": "And I desired to fall down upon the earth, and the high place, on which we stood, at one moment rose upright, but at another rolled downwards.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And I desired to fall down upon the earth, and the high place on which we stood, [at one moment rose upright], but at another rolled downwards."
+        "text": "And he said: \"Only worship, Abraham, and utter the song which I have taught thee;\" because there was no earth to fall upon.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And he said: “Only worship, Abraham, and utter the song which I have taught thee;” because there was no earth to fall upon."
+        "text": "And I worshipped only, and uttered the song which he had taught me.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And I worshipped only, and uttered the song which he had taught me."
+        "text": "And he said: \"Recite without ceasing.\"",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "And he said: “Recite without ceasing.” And I recited, and he also himself with me recited the song:"
+        "text": "And I recited, and he also himself with me recited the song: \"Eternal, mighty, Holy, El, God only — Supreme!",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "Eternal, mighty, Holy, El, God only — Supreme!"
+        "text": "Thou who art self-originated, incorruptible, spotless, Uncreate, immaculate, immortal, Self-complete, self-illuminating, Without father, without mother, unbegotten, Exalted, fiery One!",
+        "kind": "paragraph",
+        "label": "8"
       },
       {
         "v": "9",
-        "label": "9",
-        "text": "Thou who art self-originated, incorruptible, spotless, Uncreated, immaculate, immortal, Self-complete, self-illuminating; Without father, without mother, unbegotten, Exalted, fiery One!"
+        "text": "Lover of men, benevolent, bountiful, jealous over me and very compassionate; Eli, that is, My God — Eternal, mighty, holy Sabaoth, very glorious.",
+        "kind": "paragraph",
+        "label": "9"
       },
       {
         "v": "10",
-        "label": "10",
-        "text": "Lover of men, benevolent, bountiful jealous over me and very compassionate;"
+        "text": "El, El, El, El, Jaoel!",
+        "kind": "paragraph",
+        "label": "10"
       },
       {
         "v": "11",
-        "label": "11",
-        "text": "Eli, that is, My God — Eternal, mighty holy Sabaoth, very glorious El, El, El, El, Jaoel!"
+        "text": "Thou art He whom my soul hath loved!",
+        "kind": "paragraph",
+        "label": "11"
       },
       {
         "v": "12",
-        "label": "12",
-        "text": "Thou art He whom my soul hath loved!"
+        "text": "Eternal Protector, shining like fire, Whose voice is like the thunder, Whose look is like the lightning, all-seeing, Who receiveth the prayers of such as honour Thee, and turneth away from the requests of such as embarrass with the embarrassment of their provocations, Who dissolveth the confusions of the world which arise from the ungodly and righteous in the corruptible age, renewing the age of the righteous!",
+        "kind": "paragraph",
+        "label": "12"
       },
       {
         "v": "13",
-        "label": "13",
-        "text": "Eternal Protector, shining like fire, Whose voice is like the thunder,"
+        "text": "Thou, O Light, shinest before the light of the morning upon Thy creatures, so that it becometh a day upon the earth; and in Thy heavenly dwelling-places there is no need of any other light than that of the unspeakable splendour from the lights of Thy countenance.",
+        "kind": "paragraph",
+        "label": "13"
       },
       {
         "v": "14",
-        "label": "14",
-        "text": "Whose look is like the lightning, all-seeing,"
+        "text": "Accept my prayer, and be well-pleased with it, likewise also the sacrifice which Thou hast prepared Thee through me who sought Thee!",
+        "kind": "paragraph",
+        "label": "14"
       },
       {
         "v": "15",
-        "label": "15",
-        "text": "Who receiveth the prayers of such as honour Thee!"
-      },
-      {
-        "v": "16",
-        "label": "16",
-        "text": "And turneth away from the requests of such as embarrass with the embarrassment of their provocations,"
-      },
-      {
-        "v": "17",
-        "label": "17",
-        "text": "Who dissolveth the confusions of the world which arise from the ungodly and righteous in the corruptible age, renewing the age of the righteous!"
-      },
-      {
-        "v": "18",
-        "label": "18",
-        "text": "Thou, O Light, shinest before the light of the morning upon Thy creatures, so that it becometh day upon the earth."
-      },
-      {
-        "v": "19",
-        "label": "19",
-        "text": "And in Thy heavenly dwelling places there is no need of any other light than (that) of the unspeakable splendour from the lights of Thy countenance."
-      },
-      {
-        "v": "20",
-        "label": "20",
-        "text": "Accept my prayer [and be well-pleased with it], likewise also the sacrifice which Thou hast prepared Thee through me who sought Thee!"
-      },
-      {
-        "v": "21",
-        "label": "21",
-        "text": "Accept me favourably, and shew me, and teach me, And make known to Thy servant as thou hast promised me!"
+        "text": "Accept me favourably, and shew me, and teach me, and make known to Thy servant as Thou hast promised me!\"",
+        "kind": "paragraph",
+        "label": "15"
       }
     ],
     "18": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And while I still recited the song, the mouth of the fire which was on the surface rose up on high."
+        "text": "And while I still recited the song, the mouth of the fire which was on the surface rose up on high.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And I heard a voice like the roaring of the sea; nor did it cease on account of the rich abundance of the fire."
+        "text": "And I heard a voice like the roaring of the sea, nor did it cease on account of the rich abundance of the fire.",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And as the fire raised itself up, ascending into the height, I saw under the fire a throne of fire, and, round about it all-seeing ones, reciting the song, and under the throne four fiery living creatures singing,"
+        "text": "And as the fire raised itself up, ascending into the height, I saw under the fire a throne of fire, and, round about it, all-seeing ones, reciting the song; and under the throne four fiery living creatures singing, and their appearance was one, each one of them with four faces.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And their appearance was one, each one of them with four faces. And such was the appearance of their countenances, of a lion, of a man, of an ox, of an eagle:"
+        "text": "And such was the appearance of their countenances, of a lion, of a man, of an ox, of an eagle: four heads were upon their bodies, so that the four creatures had sixteen faces; and each had six wings from their shoulders, and their sides, and their loins.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "Four heads were upon their bodies so that the four creatures had sixteen faces;"
+        "text": "And with the two wings from their shoulders they covered their faces, and with the two wings which sprang from their loins they covered their feet, while the two middle wings they spread out for flying straightforward.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And each had six wings; from their shoulders, and their sides and their loins."
+        "text": "And when they had ended the singing, they looked at one another and threatened one another.",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "And with the two wings from their shoulders they covered their faces, and with the two wings which sprang from their loins they covered their feet, while the two middle wings they spread out for flying straightforward."
+        "text": "And it came to pass, when the angel who was with me saw that they were threatening each other, he left me and went running to them, and turned the countenance of each living creature from the countenance immediately confronting him, in order that they might not see their countenances threatening each other.",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "And when they had ended the singing, they looked at one another and threatened one another."
+        "text": "And he taught them the song of peace which hath its origin in the Eternal One.",
+        "kind": "paragraph",
+        "label": "8"
       },
       {
         "v": "9",
-        "label": "9",
-        "text": "And it came to pass when the angel who was with me saw that they were threatening each other, he left me and went running to them and turned the countenance of each living creature from the countenance immediately confronting him, in order that they might not see their countenances threatening each other. And he taught them the song of peace which hath its origin in the Eternal One."
+        "text": "And as I stood alone and looked, I saw behind the living creatures a chariot with fiery wheels, each wheel full of eyes round about; and over the wheels was a throne, which I saw, and this was covered with fire, and fire encircled it round about, and lo, an indescribable fire environed a fiery host.",
+        "kind": "paragraph",
+        "label": "9"
       },
       {
         "v": "10",
-        "label": "10",
-        "text": "And as I stood alone and looked, I saw behind the living creatures a chariot with fiery wheels."
-      },
-      {
-        "v": "11",
-        "label": "11",
-        "text": "Each wheel full of eyes round about; and over the wheels was a throne; which I saw,"
-      },
-      {
-        "v": "12",
-        "label": "12",
-        "text": "And this was covered with fire, and fire encircled it round about, and lo! an indescribable fire environed a fiery host."
-      },
-      {
-        "v": "13",
-        "label": "13",
-        "text": "And I heard its holy voice like the voice of a man."
+        "text": "And I heard its holy voice like the voice of a man.",
+        "kind": "paragraph",
+        "label": "10"
       }
     ],
     "19": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And a voice came to me out of the midst of the fire, saying: “Abraham, Abraham!”"
+        "text": "And a voice came to me out of the midst of the fire, saying: \"Abraham, Abraham!\"",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "I said: “Here am I!”"
+        "text": "I said: \"Here am I!\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And He said: “Consider the expanses which are under the firmament on which thou art (now) placed, and see how on no single expanse is there any other but He whom thou hast sought, or who hath loved thee.”"
+        "text": "And He said: \"Consider the expanses which are under the firmament on which thou art now placed, and see how on no single expanse is there any other but He whom thou hast sought, or who hath loved thee.\"",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And while He was yet speaking (and) lo! the expanses opened, and beneath me the heavens."
+        "text": "And while He was yet speaking, lo, the expanses opened, and beneath me the heavens.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And I saw in the seventh firmament upon which I stood a fire widely extended, and light, and dew, and a multitude of angels and a power of invisible glory over the living creatures which I saw; but no other being did I see there."
+        "text": "And I saw upon the seventh firmament upon which I stood a fire widely extended, and light, and dew, and a multitude of angels, and a power of invisible glory over the living creatures which I saw; but no other being did I see there.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And I looked from the mountain in which I stood [downwards] to the sixth firmament, and saw there a multitude of angels, of (pure) spirit, without bodies, who carried out the commands of the fiery angels who were upon the eighth firmament, as I was standing suspended over them."
+        "text": "And I looked from the mountain in which I stood downwards to the sixth firmament, and saw there a multitude of angels, of pure spirit, without bodies, who carried out the commands of the fiery angels who were upon the eighth firmament, as I was standing suspended over them.",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "And behold, upon this firmament there were no other powers of (any) other form, but only angels of (pure) spirit, like the power which I saw on the seventh firmament."
+        "text": "And behold, upon this firmament there were no other powers of any other form, but only angels of pure spirit, like the power which I saw on the seventh firmament.",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "And He commanded that the sixth firmament should be taken away."
+        "text": "And He commanded that the sixth firmament should be taken away.",
+        "kind": "paragraph",
+        "label": "8"
       },
       {
         "v": "9",
-        "label": "9",
-        "text": "And I saw there, on the fifth firmament, the powers of the stars which carry out the commands laid upon them, and the elements of the earth obeyed them."
+        "text": "And I saw there, on the fifth firmament, the powers of the stars which carry out the commands laid upon them, and the elements of the earth obeyed them.",
+        "kind": "paragraph",
+        "label": "9"
       }
     ],
     "20": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And the Eternal Mighty One said to me: “Abraham, Abraham!”"
+        "text": "And the Eternal Mighty One said to me: \"Abraham, Abraham!\"",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And I said: “Here am I.”"
+        "text": "And I said: \"Here am I.\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And He said: “Consider from above the stars which are beneath thee, and number them [for me], and make known [to me] their number.”"
+        "text": "And He said: \"Consider from above the stars which are beneath thee, and number them for me, and make known to me their number.\"",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And I said: “When can I? For I am but a man [of dust and ashes]."
+        "text": "And I said: \"When can I?",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And he said to me: “As the number of the stars and their power, (so will) I make thy seed a nation and a people, set apart for me in my heritage with Azazel.”"
+        "text": "For I am but a man of dust and ashes.\"",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And I said: “O Eternal, Mighty One! Let thy servant speak before Thee, and let not Thine anger kindle against Thy chosen one!"
+        "text": "And He said to me: \"As the number of the stars and their power, so will I make thy seed a nation and a people, set apart for me in my heritage with Azazel.\"",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "Lo, before Thou leddest me up Azazel inveighed against me. How, then, while he is not now before Thee, hast Thou constituted Thyself with him?”"
+        "text": "And I said: \"O Eternal, Mighty One!",
+        "kind": "paragraph",
+        "label": "7"
+      },
+      {
+        "v": "8",
+        "text": "Let thy servant speak before Thee, and let not Thine anger kindle against Thy chosen one!",
+        "kind": "paragraph",
+        "label": "8"
+      },
+      {
+        "v": "9",
+        "text": "Lo, before Thou leddest me up Azazel inveighed against me.",
+        "kind": "paragraph",
+        "label": "9"
+      },
+      {
+        "v": "10",
+        "text": "How, then, while he is not now before Thee, hast Thou constituted Thyself with him?\"",
+        "kind": "paragraph",
+        "label": "10"
       }
     ],
     "21": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And He said to me: “Look, now, beneath thy feet at the firmaments and understand the creation foreshadowed in this expanse, the creatures existing on it, and the age prepared according to it.”"
+        "text": "And He said to me: \"Look, now, beneath thy feet at the firmaments, and understand the creation foreshadowed in this expanse, the creatures existing on it, and the age prepared according to it.\"",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And I saw beneath the surfaces of the feet, and I saw beneath the sixth heaven and what was therein,"
+        "text": "And I saw beneath the surfaces of the feet, and I saw beneath the sixth heaven and what was therein, and then the earth and its fruits, and what moved upon it and its animate beings, and the power of its men, and the ungodliness of their souls, and their righteous deeds and the beginnings of their works, and the lower regions and the perdition therein, the Abyss and its torments.",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And then the earth and its fruits, and what moved upon it and its animate beings; and the power of its men, and the ungodliness of their souls, and their righteous deeds [and the beginnings of their works], and the lower regions and the perdition therein, the Abyss and its torments."
+        "text": "I saw there the sea and its islands, and its monsters and its fishes, and Leviathan and his dominion, and his camping-ground, and his caves, and the world which lay upon him, and his movements, and the destructions of the world on his account.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "I saw there the sea and its islands, and its monsters and its fishes, and Leviathan and his dominion, and his camping-ground, and his caves, and the world which lay upon him, and his movements, and the destructions of the world on his account."
+        "text": "I saw there streams and the rising of their waters, and their windings.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "I saw there streams and the rising of their waters, and their windings."
+        "text": "And I saw there the Garden of Eden and its fruits, the source of the stream issuing from it, and its trees and their bloom, and those who behaved righteously.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And I saw there the Garden of Eden and its fruits, the source of the stream issuing from it, and its trees and their bloom, and those who behaved righteously. And I saw therein their foods and blessedness."
+        "text": "And I saw therein their foods and blessedness.",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "And I saw there a great multitude — men and women and children, [half of them on the right side of the picture] and half of them on the left side of the picture."
+        "text": "And I saw there a great multitude — men and women and children, half of them on the right side of the picture, and half of them on the left side of the picture.",
+        "kind": "paragraph",
+        "label": "7"
       }
     ],
     "22": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And I said: “O Eternal, Mighty One! What is this picture of the creatures?”"
+        "text": "And I said: \"O Eternal, Mighty One!",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And He said to me: “This is my will with regard to those who exist in the (divine) world-counsel, and it seemed well-pleasing before my sight, and then afterwards I gave commandment to them through my Word."
+        "text": "What is this picture of the creatures?\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And it came to pass whatever I had determined to be, was already planned beforehand in this (picture), and it stood before me ere it was created, as thou hast seen."
+        "text": "And He said to me: \"This is my will with regard to those who exist in the divine world-counsel, and it seemed well-pleasing before my sight, and then afterwards I gave commandment to them through my Word.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And I said: “O Lord, mighty and eternal! Who are the people in this picture on this side and on that?”"
+        "text": "And it came to pass, whatever I had determined to be, was already planned beforehand in this picture, and it stood before me ere it was created, as thou hast seen.\"",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And He said to me: “These which are on the left side are the multitude of the peoples which have formerly been in existence and which are after thee destined, some for judgement and restoration, and others for vengeance and destruction at the end of the world."
+        "text": "And I said: \"O Lord, mighty and eternal!",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "But these which are on the right side of the picture — they are the people set apart for me of the peoples with Azazel."
+        "text": "Who are the people in this picture on this side and on that?\"",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "These are they whom I have ordained to be born of thee and to be called My People."
+        "text": "And He said to me: \"These which are on the left side are the multitude of the peoples which have formerly been in existence, and which are after thee destined, some for judgement and restoration, and others for vengeance and destruction at the end of the world.",
+        "kind": "paragraph",
+        "label": "7"
+      },
+      {
+        "v": "8",
+        "text": "But these which are on the right side of the picture — they are the people set apart for me of the peoples with Azazel.",
+        "kind": "paragraph",
+        "label": "8"
+      },
+      {
+        "v": "9",
+        "text": "These are they whom I have ordained to be born of thee and to be called My People.\"",
+        "kind": "paragraph",
+        "label": "9"
       }
     ],
     "23": [
       {
         "v": "1",
-        "label": "1",
-        "text": "“Now look again in the picture, who it is who seduced Eve and what is the fruit of the tree, [and] thou wilt know what there shall be, and how it shall be to thy seed among the people at the end of the days of the age, and so far as thou canst not understand I will make known to thee, for thou art well-pleasing in my sight, and I will tell thee what is kept in my heart.”"
+        "text": "\"Now look again in the picture, who it is who seduced Eve and what is the fruit of the tree, and thou wilt know what there shall be, and how it shall be to thy seed among the people at the end of the days of the age, and so far as thou canst not understand I will make known to thee, for thou art well-pleasing in my sight, and I will tell thee what is kept in my heart.\"",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And I looked into the picture, and mine eyes ran to the side of the Garden of Eden."
+        "text": "And I looked into the picture, and mine eyes ran to the side of the Garden of Eden.",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And I saw there a man very great in height and fearful in breadth, incomparable in aspect, embracing a woman, who likewise approximated to the aspect and shape of the man."
+        "text": "And I saw there a man very great in height and fearful in breadth, incomparable in aspect, embracing a woman, who likewise approximated to the aspect and shape of the man.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And they were standing under a tree of (the Garden of) Eden, and the fruit of this tree was like the appearance of a bunch of grapes of the vine, and behind the tree was standing as it were a serpent in form, having hands and feet like a man’s, and wings on its shoulders, six on the right side and six on the left, and they were holding the grapes of the tree in their hands, and both were eating it whom I had seen embracing."
+        "text": "And they were standing under a tree of the Garden of Eden, and the fruit of this tree was like the appearance of a bunch of grapes of the vine, and behind the tree was standing as it were a serpent in form, having hands and feet like a man's, and wings on its shoulders, six on the right side and six on the left, and they were holding the grapes of the tree in their hands, and both were eating it whom I had seen embracing.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And I said: “Who are these mutually embracing, or who is this who is between them, or what is the fruit which they are eating, O Mighty Eternal One?”"
+        "text": "And I said: \"Who are these mutually embracing, or who is this who is between them, or what is the fruit which they are eating, O Mighty Eternal One?\"",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And He said: “This is the human world, this is Adam, and this is their desire upon the earth, this is Eve; but he who is between them representeth ungodliness, their beginning (on the way) to perdition, even Azazel.”"
+        "text": "And He said: \"This is the human world, this is Adam, and this is their desire upon the earth, this is Eve; but he who is between them representeth ungodliness, their beginning on the way to perdition, even Azazel.\"",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "And I said: “O Eternal, Mighty One! Why hast Thou given to such power to destroy the generation of men in their works upon the earth?”"
+        "text": "And I said: \"O Eternal, Mighty One!",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "And He said to me: “They who will (to do) evil — and how much I hated (it) in those who do it! — over them I gave him power, and to be beloved of them.”"
+        "text": "Why hast Thou given to such power to destroy the generation of men in their works upon the earth?\"",
+        "kind": "paragraph",
+        "label": "8"
       },
       {
         "v": "9",
-        "label": "9",
-        "text": "And I answered and said: “O Eternal, Mighty One! Wherefore hast Thou willed to effect that evil should be desired in the hearts of men, since Thou indeed art angered over that which was willed by Thee, at him who is doing what is unprofitable in thy counsel?”"
+        "text": "And He said to me: \"They who will to do evil — and how much I hated it in those who do it! — over them I gave him power, and to be beloved of them.\"",
+        "kind": "paragraph",
+        "label": "9"
+      },
+      {
+        "v": "10",
+        "text": "And I answered and said: \"O Eternal, Mighty One!",
+        "kind": "paragraph",
+        "label": "10"
+      },
+      {
+        "v": "11",
+        "text": "Wherefore hast Thou willed to effect that evil should be desired in the hearts of men, since Thou indeed art angered over that which was willed by Thee, at him who is doing what is unprofitable in thy counsel?\"",
+        "kind": "paragraph",
+        "label": "11"
       }
     ],
     "24": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And He said to me: “Being angered at the nations on thy account, and on account of the people of thy family who are (to be) separated after thee, as thou seest in the picture the burden (of destiny) that (is laid) upon them — and I will tell thee what shall be, and how much shall be, in the last days."
+        "text": "And He said to me: \"Being angered at the nations on thy account, and on account of the people of thy family who are to be separated after thee, as thou seest in the picture the burden of destiny that is laid upon them — and I will tell thee what shall be, and how much shall be, in the last days.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "Look now at everything in the picture.”"
+        "text": "Look now at everything in the picture.\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And I looked and saw there what was before me in creation."
+        "text": "And I looked and saw there what was before me in creation: I saw Adam, and Eve existing with him, and with them the cunning Adversary, and Cain who acted lawlessly through the Adversary, and the slaughtered Abel, and the destruction brought and caused upon him through the lawless one.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "I saw Adam, and Eve existing with him, and with them the cunning Adversary, and Cain who acted lawlessly through the Adversary, and the slaughtered Abel, (and) the destruction brought and caused upon him through the lawless one."
+        "text": "I saw there also Impurity, and those who lust after it, and its pollution, and their jealousy, and the fire of their corruption in the lowest parts of the earth.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "I saw there also Impurity, and those who lust after it, and its pollution, and their jealousy, and the fire of their corruption in the lowest parts of the earth."
+        "text": "I saw there Theft, and those who hasten after it, and the arrangement of their retribution, the judgement of the Great Assize.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "I saw there Theft, and those who hasten after it, and the arrangement [of their retribution, the judgement of the Great Assize.]"
+        "text": "I saw there naked men, the foreheads against each other, and their disgrace, and their passion which they had against each other, and their retribution.",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "I saw there naked men, the foreheads against each other, and their disgrace, and their passion which (they had) against each other, and their retribution."
-      },
-      {
-        "v": "8",
-        "label": "8",
-        "text": "I saw there Desire, and in her hand the head of every kind of lawlessness [and her scorn and her waste assigned to perdition."
+        "text": "I saw there Desire, and in her hand the head of every kind of lawlessness, and her scorn and her waste assigned to perdition.",
+        "kind": "paragraph",
+        "label": "7"
       }
     ],
     "25": [
       {
         "v": "1",
-        "label": "1",
-        "text": "I saw there the likeness of the idol of jealousy, having the likeness of woodwork such as my father was wont to make, and its statue was of glittering bronze."
+        "text": "I saw there the likeness of the idol of jealousy, having the likeness of woodwork such as my father was wont to make, and its statue was of glittering bronze; and before it a man, and he worshipped it; and in front of him an altar, and upon it a boy slain in the presence of the idol.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And before it a man, and he worshipped it; and in front of him an altar, and upon it a boy slain in the presence of the idol."
+        "text": "But I said to Him: \"What is this idol, or what is the altar, or who are they that are sacrificed, or who is the sacrificer?",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "But I said to Him: “What is this idol, or what is the altar, or who are they that are sacrificed, or who is the sacrificer? Or what is the Temple which I see that is beautiful in art, and its beauty being like the glory that lieth beneath Thy throne?”"
+        "text": "Or what is the Temple which I see that is beautiful in art, and its beauty being like the glory that lieth beneath Thy throne?\"",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And He said: “Hear, Abraham. This which thou seest, the Temple and altar and beauty, is my idea of the priesthood of my glorious Name, in which dwelleth every single prayer of man, and the rise of kings and prophets, and whatever sacrifice I ordain to be offered to me among my people who are to come out of thy generation."
+        "text": "And He said: \"Hear, Abraham.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "But the statue which thou sawest is mine anger wherewith the people anger me who are to proceed for me from thee."
+        "text": "This which thou seest, the Temple and altar and beauty, is my idea of the priesthood of my glorious Name, in which dwelleth every single prayer of man, and the rise of kings and prophets, and whatever sacrifice I ordain to be offered to me among my people who are to come out of thy generation.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "But the man whom thou sawest slaughtering — that is he who inciteth, of which are a witness to me of the final judgement, even at the beginning of the creation.'"
+        "text": "But the statue which thou sawest is mine anger, wherewith the people anger me who are to proceed for me from thee.",
+        "kind": "paragraph",
+        "label": "6"
+      },
+      {
+        "v": "7",
+        "text": "But the man whom thou sawest slaughtering — that is he who inciteth murderous sacrifices, which are a witness to me of the final judgement, even at the beginning of creation.\"",
+        "kind": "paragraph",
+        "label": "7"
       }
     ],
     "26": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And I said: “O Eternal, Mighty One! Wherefore hast Thou established that it should be so, and then proclaim the knowledge thereof?”"
+        "text": "And I said: \"O Eternal, Mighty One!",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And He said to me: “Hear, Abraham; understand what I say to thee, and answer me as I question thee."
+        "text": "Wherefore hast Thou established that it should be so, and then proclaim the knowledge thereof?\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "Why did thy father Terah not listen to thy voice, and (why) did he not cease from the devilish idolatry until he perished and his whole household with him?”"
+        "text": "And He said to me: \"Hear, Abraham; understand what I say to thee, and answer me as I question thee.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And I said: “O Eternal, [Mighty One]! (It was) entirely because he did not choose to listen to me; but I, too, did not follow his works.”"
+        "text": "Why did thy father Terah not listen to thy voice, and why did he not cease from the devilish idolatry until he perished, and his whole household with him?\"",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And He said to me: “Hear, Abraham. As the counsel of thy father is in him, and as thy counsel is in thee, so also is the counsel of my will in me ready for the coming days, before thou hast knowledge of these, or (canst) see with thine eyes what is future in them."
+        "text": "And I said: \"O Eternal, Mighty One!",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "How those of thy seed will be, look in the picture."
+        "text": "It was entirely because he did not choose to listen to me; but I, too, did not follow his works.\"",
+        "kind": "paragraph",
+        "label": "6"
+      },
+      {
+        "v": "7",
+        "text": "And He said to me: \"Hear, Abraham.",
+        "kind": "paragraph",
+        "label": "7"
+      },
+      {
+        "v": "8",
+        "text": "As the counsel of thy father is in him, and as thy counsel is in thee, so also is the counsel of my will in me ready for the coming days, before thou hast knowledge of these, or canst see with thine eyes what is future in them.",
+        "kind": "paragraph",
+        "label": "8"
+      },
+      {
+        "v": "9",
+        "text": "How those of thy seed will be, look in the picture.\"",
+        "kind": "paragraph",
+        "label": "9"
       }
     ],
     "27": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And I looked and saw: lo! the picture swayed and from it emerged,"
+        "text": "And I looked and saw: lo, the picture swayed, and from it emerged, on its left side, a heathen people, and they pillaged those who were on the right side, men and women and children: some they slaughtered, others they retained with themselves.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "On its left side, a heathen people, and they pillaged those who were on the right side, men and women and children: some they slaughtered, others they retained with themselves."
+        "text": "Lo, I saw them run towards them through four entrances, and they burnt the Temple with fire, and the holy things that were therein they plundered.",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "Lo! I saw them run towards them through four entrances, and they burnt the Temple with fire, and the holy things that were therein they plundered."
+        "text": "And I said: \"O Eternal One!",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And I said: “O Eternal One! Lo! the people that spring from me, whom Thou hast accepted, the hordes of the heathen do plunder, and some they kill, while others they hold fast as aliens, and the Temple they have burnt with fire, and the beautiful things therein they do rob and destroy."
+        "text": "Lo, the people that spring from me, whom Thou hast accepted, the hordes of the heathen do plunder, and some they kill, while others they hold fast as aliens, and the Temple they have burnt with fire, and the beautiful things therein they do rob and destroy.",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "O Eternal, Mighty One! If this be so, wherefore hast Thou now lacerated my heart, and why should this be so?”"
+        "text": "O Eternal, Mighty One!",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And He said to me: “Hear, Abraham. What thou hast seen shall happen on account of thy seed who anger me by reason of the statue which thou sawest, and on account of the human slaughter in the picture, through zeal in the Temple; and as thou sawest so shall it be.”"
+        "text": "If this be so, wherefore hast Thou now lacerated my heart, and why should this be so?\"",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "And I said: “O Eternal, Mighty One! May the works of evil wrought in ungodliness now pass by, but show me rather those who fulfilled the commandments, even the works of his righteousness. For thou canst do this.”"
+        "text": "And He said to me: \"Hear, Abraham.",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "And He said to me: “The time of the righteous meeteth them first through the holiness (flowing) from kings and righteous-dealing rulers whom I at first created in order from such to rule among them. But from these issue men who care for their interests, as I have made known to thee and thou hast seen.”"
+        "text": "What thou hast seen shall happen on account of thy seed who anger me by reason of the statue which thou sawest, and on account of the human slaughter in the picture, through zeal in the Temple; and as thou sawest, so shall it be.\"",
+        "kind": "paragraph",
+        "label": "8"
+      },
+      {
+        "v": "9",
+        "text": "And I said: \"O Eternal, Mighty One!",
+        "kind": "paragraph",
+        "label": "9"
+      },
+      {
+        "v": "10",
+        "text": "May the works of evil wrought in ungodliness now pass by, but rather show me those who fulfilled the commandments, even the works of his righteousness.",
+        "kind": "paragraph",
+        "label": "10"
+      },
+      {
+        "v": "11",
+        "text": "For thou canst do this.\"",
+        "kind": "paragraph",
+        "label": "11"
+      },
+      {
+        "v": "12",
+        "text": "And He said to me: \"The time of the righteous meeteth them first through the holiness flowing from kings and righteous-dealing rulers whom I at first created in order, from such to rule among them.",
+        "kind": "paragraph",
+        "label": "12"
+      },
+      {
+        "v": "13",
+        "text": "But from these issue men who care for their interests, as I have made known to thee and thou hast seen.\"",
+        "kind": "paragraph",
+        "label": "13"
       }
     ],
     "28": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And I answered and said: “O Mighty, Eternal One, hallowed by Thy power! Be favourable to my petition, for for this hast Thou brought me up here—and shew me. As Thou hast brought me up to Thy height, so make this known to me, Thy beloved one, as much as I ask — whether what I saw shall happen to them for long?"
+        "text": "And I answered and said: \"Mighty, Eternal One, hallowed by Thy power!",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And He showed me a multitude of His people, and said to me: “On their account through four issues, as thou sawest, I shall be provoked by them, and in these my retribution for their deeds shall be accomplished. But in the fourth outgoing of a hundred years and one hour of the age it shall be in misfortune among the heathen [but one hour in mercy and contumely, as among the heathen.]"
+        "text": "Be favourable to my petition, for for this hast Thou brought me up here and shew me.",
+        "kind": "paragraph",
+        "label": "2"
+      },
+      {
+        "v": "3",
+        "text": "As Thou hast brought me up to Thy height, so make this known to me, Thy beloved one, as much as I ask whether what I saw shall happen to them for long?\"",
+        "kind": "paragraph",
+        "label": "3"
+      },
+      {
+        "v": "4",
+        "text": "And He showed me a multitude of His people, and said to me: \"On their account, through four issues, as thou sawest, I shall be provoked by them, and in these my retribution for their deeds shall be accomplished.",
+        "kind": "paragraph",
+        "label": "4"
+      },
+      {
+        "v": "5",
+        "text": "But in the fourth outgoing of a hundred years and one hour of the age — the same is a hundred years — it shall be in misfortune among the heathen, but one hour in mercy and contumely, as among the heathen.\"",
+        "kind": "paragraph",
+        "label": "5"
       }
     ],
     "29": [
       {
         "v": "1",
-        "label": "1",
-        "text": "And I said: “O Eternal Mighty One! And how long a time is an hour of the Age?”"
+        "text": "And I said: \"O Eternal, Mighty One!",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And He said: “Twelve years have I ordained of this ungodly Age to rule among the heathen and in thy seed; and until the end of the times it shall be as thou sawest."
+        "text": "And how long a time is an hour of the Age?\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And do thou reckon and understand and look into the picture.”"
+        "text": "And He said: \"Twelve years have I ordained of this ungodly Age to rule among the heathen and in thy seed; and until the end of the times it shall be as thou sawest.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And I looked and saw a man going out from the left side of the heathen; and there went out men and women and children, from the side of the heathen, many hosts, and worshipped him."
+        "text": "And do thou reckon and understand and look into the picture.\"",
+        "kind": "paragraph",
+        "label": "4"
       },
       {
         "v": "5",
-        "label": "5",
-        "text": "And while I still looked there came out from the right side many, and some insulted that man, while some struck him; others, however, worshipped him."
+        "text": "And I looked and saw a man going out from the left side of the heathen; and there went out men and women and children, from the side of the heathen, many hosts, and worshipped him.",
+        "kind": "paragraph",
+        "label": "5"
       },
       {
         "v": "6",
-        "label": "6",
-        "text": "And I saw how these worshipped him, and Azazel ran and worshipped him, and having kissed his face he turned and stood behind him."
+        "text": "And while I still looked, there came out from the right side many, and some insulted that man, while some struck him; others, however, worshipped him.",
+        "kind": "paragraph",
+        "label": "6"
       },
       {
         "v": "7",
-        "label": "7",
-        "text": "And I said: “O Eternal, Mighty One! Who is the man insulted and beaten, who is worshipped by the heathen with Azazel?”"
+        "text": "And I saw how these worshipped him, and Azazel ran and worshipped him, and, having kissed his face, he turned and stood behind him.",
+        "kind": "paragraph",
+        "label": "7"
       },
       {
         "v": "8",
-        "label": "8",
-        "text": "And He answered and said: “Hear, Abraham! The man whom thou sawest insulted and beaten and again worshipped — that is the relief (granted) by the heathen to the people who proceed from thee, in the last days, in this twelfth hour of the Age of ungodliness. But in the twelfth year of my final Age I will set up this man from thy generation, whom thou sawest (issue) from my people; this one all will follow, and such as are called by me (will) join, (even) those who change in their counsels."
+        "text": "And I said: \"O Eternal, Mighty One!",
+        "kind": "paragraph",
+        "label": "8"
       },
       {
         "v": "9",
-        "label": "9",
-        "text": "And those whom thou sawest emerge from the left side of the picture — the meaning is: There shall be many from the heathen who set their hopes upon him; and as for those whom thou sawest from thy seed on the right side, some insulting and striking, others worshipping him — many of them shall be offended at him."
+        "text": "Who is the man insulted and beaten, who is worshipped by the heathen with Azazel?\"",
+        "kind": "paragraph",
+        "label": "9"
       },
       {
         "v": "10",
-        "label": "10",
-        "text": "He, however, is testing those who have worshipped him of thy seed, in that twelfth hour of the End, with a view to shortening the Age of ungodliness."
+        "text": "And He answered and said: \"Hear, Abraham!",
+        "kind": "paragraph",
+        "label": "10"
       },
       {
         "v": "11",
-        "label": "11",
-        "text": "“Before the Age of the righteous beginneth to grow, my judgement shall come upon the lawless heathen through the people of thy seed who have been separated for me. In those days I will bring upon all creatures of the earth ten plagues, through misfortune and disease and sighing of the grief of their soul. Thus much will I bring upon the generations of men that be upon it on account of the provocation and the corruption of its creatures, whereby they provoke me."
+        "text": "The man whom thou sawest insulted and beaten and again worshipped — that is the relief granted by the heathen to the people who proceed from thee, in the last days, in this twelfth hour of the Age of ungodliness.",
+        "kind": "paragraph",
+        "label": "11"
       },
       {
         "v": "12",
-        "label": "12",
-        "text": "And then shall righteous men of thy seed be left in the number which is kept secret by me, hastening in the glory of My Name to the place prepared beforehand for them, which thou sawest devastated in the picture; and they shall live and be established through sacrifices and gifts of righteousness and truth in the Age of the righteous, and shall rejoice in Me continually; and they shall destroy those who have destroyed them, And shall insult those who have insulted them.”"
+        "text": "But in the twelfth year of my final Age I will set up this man from thy generation, whom thou sawest issue from my people; this one all will follow, and such as are called by me will join, even those who change in their counsels.",
+        "kind": "paragraph",
+        "label": "12"
       },
       {
         "v": "13",
-        "label": "13",
-        "text": "And of those who defamed them they shall spit in the face, scorned by Me, while they the righteous shall behold Me full of joy, rejoicing with My people, and receiving those who return to Me [in repentance]."
+        "text": "And those whom thou sawest emerge from the left side of the picture — the meaning is: there shall be many from the heathen who set their hopes upon him; and as for those whom thou sawest from thy seed on the right side, some insulting and striking, others worshipping him — many of them shall be offended at him.",
+        "kind": "paragraph",
+        "label": "13"
       },
       {
         "v": "14",
-        "label": "14",
-        "text": "See, Abraham, what thou hast seen, And [hear] what thou hast heard, And [take full knowledge of] what thou hast come to know. Go to thy heritage."
+        "text": "He, however, is testing those who have worshipped him of thy seed, in that twelfth hour of the End, with a view to shortening the Age of ungodliness.",
+        "kind": "paragraph",
+        "label": "14"
       },
       {
         "v": "15",
-        "label": "15",
-        "text": "And lo! I am with you for ever."
+        "text": "Before the Age of the righteous beginneth to grow, my judgement shall come upon the lawless heathen through the people of thy seed who have been separated for me.",
+        "kind": "paragraph",
+        "label": "15"
+      },
+      {
+        "v": "16",
+        "text": "In those days I will bring upon all creatures of the earth ten plagues, through misfortune and disease and sighing of the grief of their soul.",
+        "kind": "paragraph",
+        "label": "16"
+      },
+      {
+        "v": "17",
+        "text": "Thus much will I bring upon the generations of men that be upon it, on account of the provocation and the corruption of its creatures, whereby they provoke me.",
+        "kind": "paragraph",
+        "label": "17"
+      },
+      {
+        "v": "18",
+        "text": "And then shall righteous men of thy seed be left, in the number which is kept secret by me, hastening in the glory of My Name to the place prepared beforehand for them, which thou sawest devastated in the picture; and they shall live and be established through sacrifices and gifts of righteousness and truth in the Age of the righteous, and shall rejoice in Me continually; and they shall destroy those who have destroyed them, and shall insult those who have insulted them.",
+        "kind": "paragraph",
+        "label": "18"
+      },
+      {
+        "v": "19",
+        "text": "And of those who defamed them they shall spit in the face, scorned by Me, while they, the righteous, shall behold Me full of joy, rejoicing with My people, and receiving those who return to Me in repentance.",
+        "kind": "paragraph",
+        "label": "19"
+      },
+      {
+        "v": "20",
+        "text": "See, Abraham, what thou hast seen, and hear what thou hast heard, and take full knowledge of what thou hast come to know.",
+        "kind": "paragraph",
+        "label": "20"
+      },
+      {
+        "v": "21",
+        "text": "Go to thy heritage, and lo, I am with you for ever.\"",
+        "kind": "paragraph",
+        "label": "21"
       }
     ],
     "30": [
       {
         "v": "1",
-        "label": "1",
-        "text": "But while He was still speaking, I found myself upon the earth. And I said: “O Eternal, [Mighty One], I am no longer in the glory in which I was (while) on high, and what my soul longed to understand in mine heart I do not understand.”"
+        "text": "But while He was still speaking, I found myself upon the earth.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And He said to me: “What is desired in thine heart I will tell thee, because thou hast sought to see the ten plagues which I have prepared for the heathen, and have prepared beforehand at the passing over of the twelfth hour of the earth."
+        "text": "And I said: \"O Eternal, Mighty One, I am no longer in the glory in which I was while on high, and what my soul longed to understand in mine heart I do not understand.\"",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "Hear what I divulge to thee, so shall it come to pass:"
+        "text": "And He said to me: \"What is desired in thine heart I will tell thee, because thou hast sought to see the ten plagues which I have prepared for the heathen, and have prepared beforehand at the passing over of the twelfth hour of the earth.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "The first is pain of great distress; the second, conflagration of many cities;"
-      },
-      {
-        "v": "5",
-        "label": "5",
-        "text": "The third, destruction and pestilence of animals; the fourth, hunger of the whole world and of its people;"
-      },
-      {
-        "v": "6",
-        "label": "6",
-        "text": "the fifth by destruction among its rulers, destruction by earthquake and the sword; the sixth, multiplication of hail and snow; the seventh, the wild beasts will be their grave;"
-      },
-      {
-        "v": "7",
-        "label": "7",
-        "text": "The eighth, hunger and pestilence will alternate with their destruction;"
-      },
-      {
-        "v": "8",
-        "label": "8",
-        "text": "The ninth, punishment by the sword and flight in distress; the tenth, thunder and voices and destructive earthquake."
+        "text": "Hear what I divulge to thee, so shall it come to pass: the first is pain of great distress; the second, conflagration of many cities; the third, destruction and pestilence of animals; the fourth, hunger of the whole world and of its people; the fifth, by destruction among its rulers, destruction by earthquake and the sword; the sixth, multiplication of hail and snow; the seventh, the wild beasts will be their grave; the eighth, hunger and pestilence will alternate with their destruction; the ninth, punishment by the sword and flight in distress; the tenth, thunder and voices and destructive earthquake.\"",
+        "kind": "paragraph",
+        "label": "4"
       }
     ],
     "31": [
       {
         "v": "1",
-        "label": "1",
-        "text": "“And then I will sound the trumpet out of the air, and will send mine Elect One, having in him all my power, one measure; and this one shall summon my despised people from the nations."
+        "text": "\"And then I will sound the trumpet out of the air, and will send mine Elect One, having in him all my power, one measure; and this one shall summon my despised people from the nations, and I will burn with fire those who have insulted them and who have ruled among them in this Age.",
+        "kind": "paragraph",
+        "label": "1"
       },
       {
         "v": "2",
-        "label": "2",
-        "text": "And I will burn with fire those who have insulted them and who have ruled among them in this Age."
+        "text": "And I will give those who have covered me with mockery to the scorn of the coming Age; and I have prepared them to be food for the fire of Hades, and for ceaseless flight to and fro through the air in the underworld beneath the earth, the body filled with worms.",
+        "kind": "paragraph",
+        "label": "2"
       },
       {
         "v": "3",
-        "label": "3",
-        "text": "And I will give those who have covered me with mockery to the scorn of the coming Age;"
+        "text": "For on them shall they see the righteousness of the Creator — those, namely, who have chosen to do my will, and those who have openly kept my commandments; and they shall rejoice with joy over the downfall of the men who still remain, who have followed the idols and their murders.",
+        "kind": "paragraph",
+        "label": "3"
       },
       {
         "v": "4",
-        "label": "4",
-        "text": "And I have prepared them to be food for the fire of Hades and for ceaseless flight to and fro through the air in the underworld beneath the earth the body filled with worms."
-      },
-      {
-        "v": "5",
-        "label": "5",
-        "text": "For on them shall they see the righteousness of the Creator, those, namely, who have chosen to do my will, and those who have openly kept my commandments, (and) they shall rejoice with joy over the downfall of the men who still remain, who have followed the idols and their murders."
-      },
-      {
-        "v": "6",
-        "label": "6",
-        "text": "For they shall putrefy in the body of the evil worm Azazel, and be burnt with the fire of Azazel’s tongue; for I hoped that they would come to me, and not have loved and praised the strange (god), and not have adhered to him for whom they were not allotted, but (instead) they have forsaken the mighty Lord.”"
+        "text": "For they shall putrefy in the body of the evil worm Azazel, and be burnt with the fire of Azazel's tongue; for I hoped that they would come to me, and not have loved and praised the strange god, and not have adhered to him for whom they were not allotted, but instead they have forsaken the mighty Lord.\"",
+        "kind": "paragraph",
+        "label": "4"
       }
     ],
     "32": [
       {
         "v": "1",
-        "label": "1",
-        "text": "“Therefore hear, O Abraham, and see; lo! thy seventh generation shall go with thee, and they shall go out into a strange land, and they shall enslave them, and evil-entreat them as it were an hour of the Age of ungodliness but the nation whom they shall serve I will judge."
+        "text": "\"Therefore hear, O Abraham, and see; lo, thy seventh generation shall go with thee, and they shall go out into a strange land, and they shall enslave them, and evil-intreat them as it were an hour of the Age of ungodliness; but the nation whom they shall serve I will judge.\"",
+        "kind": "paragraph",
+        "label": "1"
       }
     ]
   },
-  "localMirror": {
-    "status": "bundled",
-    "source": "SPCK 1919 public-domain historical English witness; verse structure cross-checked against the pinned Scrollmapper transcription",
-    "method": "clean verse-level reading transcription; printed footnotes, page headers, and editorial apparatus excluded from reader text",
-    "sourceIdentity": "edition-matched historical witness",
-    "provenanceUrl": "https://github.com/scrollmapper/bible_databases_deuterocanonical/blob/271173e/sources/en/apocalypse-of-abraham/apocalypse-of-abraham.md"
+  "contentMode": "prose",
+  "chapterLabels": {
+    "1": "Chapter 1",
+    "2": "Chapter 2",
+    "3": "Chapter 3",
+    "4": "Chapter 4",
+    "5": "Chapter 5",
+    "6": "Chapter 6",
+    "7": "Chapter 7",
+    "8": "Chapter 8",
+    "9": "Chapter 9",
+    "10": "Chapter 10",
+    "11": "Chapter 11",
+    "12": "Chapter 12",
+    "13": "Chapter 13",
+    "14": "Chapter 14",
+    "15": "Chapter 15",
+    "16": "Chapter 16",
+    "17": "Chapter 17",
+    "18": "Chapter 18",
+    "19": "Chapter 19",
+    "20": "Chapter 20",
+    "21": "Chapter 21",
+    "22": "Chapter 22",
+    "23": "Chapter 23",
+    "24": "Chapter 24",
+    "25": "Chapter 25",
+    "26": "Chapter 26",
+    "27": "Chapter 27",
+    "28": "Chapter 28",
+    "29": "Chapter 29",
+    "30": "Chapter 30",
+    "31": "Chapter 31",
+    "32": "Chapter 32"
   },
   "normalization": {
-    "id": "pseudepigrapha-clean-reading-transcription/v1",
-    "behavior": "reader-text-only; no printed footnote/page-furniture contamination"
+    "id": "pseudepigrapha-full-book-correction/v2",
+    "behavior": "Whole-book reader transcription rebuilt from the G. H. Box 1918 public-domain text. Corrupted/duplicated imported wording and artificial source segmentation were replaced by the hand-verified clean prose transcription; printed footnotes, running headers, page furniture, and editorial apparatus are excluded, while the historical translation wording is preserved."
+  },
+  "provenance": {
+    "edition": "G. H. Box, with the assistance of J. I. Landsman, The Apocalypse of Abraham (London: Society for Promoting Christian Knowledge; New York: Macmillan, first edition 1918; second impression 1919).",
+    "readerText": "Public-domain Box English translation, cleaned against the printed witness and sentence-split for reader/search use.",
+    "titleText": "The Book of the Revelation of Abraham, the son of Terah, the son of Nahor, the son of Serug, the son of Reu, the son of Arphaxad, the son of Shem, the son of Noah, the son of Lamech, the son of Methuselah, the son of Enoch, the son of Jared (Arad).",
+    "comparisonSource": "Hand-verified Box transcription in TheYoshiYahu/remnant-app, cross-checked against the pinned Scrollmapper Apocalypse of Abraham transcription and the Box print witness.",
+    "sourceRevision": "dcd2cf3c8cd2304e21e3cd2d5c5bbb388326010c",
+    "sourceFile": "source-texts/apocalypse-of-abraham/apocalypse-of-abraham.txt",
+    "verification": "All 32 chapters rebuilt and checked for text continuity, sequential numbering, duplicate/missing segment numbers, empty text, and reader/search schema consistency."
   }
 }
