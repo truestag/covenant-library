@@ -18,7 +18,8 @@
     "readerSourceUrl": null,
     "readerSourceHost": null,
     "proxySupported": false,
-    "sourceName": "The Testament of Benjamin — R. H. Charles translation (1917 reprint)"
+    "sourceName": "The Testament of Benjamin — R. H. Charles translation (1917 reprint)",
+    "textualWitnessNote": "Base text follows R. H. Charles’s compact 1917 SPCK reprint. It has been compared against Charles’s fuller critical presentation in The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913). Material alternate readings are identified at the affected passages rather than silently merged into the base text."
   },
   "chapters": {
     "1": [
@@ -76,7 +77,15 @@
         "v": "3",
         "text": "And he said unto me: Even so, brother, when they had stripped me of my coat they gave me to the Ishmaelites, and they gave me a loin cloth, and scourged me, and bade me run.",
         "kind": "paragraph",
-        "label": "3"
+        "label": "3",
+        "editorialNote": "Charles’s fuller 1913 critical presentation gives a different telling of Joseph’s sale here. In that reading Joseph tells Benjamin that Canaanite merchants stole him by force, concealed his garment as though a wild beast had killed him, and then sold him to the Ishmaelites; Joseph says he concealed the brothers’ deeds and told them not to reveal them to Jacob. The compact 1917 reading printed above instead describes Joseph being stripped, scourged, and an assailant being killed by a lion.",
+        "textualVariants": [
+          {
+            "type": "alternate-narrative",
+            "source": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913)",
+            "text": "And Joseph said unto me: Even so, brother, the Canaanite merchants stole me by force. And it came to pass that as they went on their way they concealed my garment, as though a wild beast had met me and slain me. And so his associates sold me to the Ishmaelites. And they did not lie in saying this. For he wished to conceal from me the deeds of my brethren. And he called to him his brethren and said: Do not tell my father what ye have done unto me, but tell him as I have told Benjamin. And let the thoughts among you be such, and let not these things come to the heart of my father."
+          }
+        ]
       },
       {
         "v": "4",
@@ -170,7 +179,15 @@
         "v": "5",
         "text": "And him that hath the grace of a good spirit he loveth as his own soul.",
         "kind": "paragraph",
-        "label": "5"
+        "label": "5",
+        "editorialNote": "The fuller 1913 critical presentation expands this description of the good man, adding that he protects the God-fearing, helps the one who loves God, and admonishes the one who rejects the Most High.",
+        "textualVariants": [
+          {
+            "type": "expanded-reading",
+            "source": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913)",
+            "text": "As for him who hath the fear of God, he protecteth him as with a shield; him that loveth God he helpeth; him that rejecteth the Most High he admonisheth and turneth back; and him that hath the grace of a good spirit he loveth as his own soul."
+          }
+        ]
       }
     ],
     "5": [
@@ -412,7 +429,15 @@
         "v": "2",
         "text": "And there shall arise in the latter days] one beloved of the Lord, [of the tribe of Judah and Levi], a doer of His good pleasure in his mouth, [with new knowledge enlightening the Gentiles.",
         "kind": "paragraph",
-        "label": "2"
+        "label": "2",
+        "editorialNote": "The fuller 1913 critical presentation has a materially different expansion of this prophecy. It describes the coming figure as hearing the Lord’s voice and enlightening the Gentiles with new knowledge, with additional language about bringing the light of knowledge to Israel.",
+        "textualVariants": [
+          {
+            "type": "prophetic-reading-variant",
+            "source": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913)",
+            "text": "And there shall rise up from my seed in the latter times one beloved of the Lord, hearing upon the earth His voice, and a doer of the good pleasure of His will, enlightening with new knowledge all the Gentiles, even the light of knowledge, bursting in upon Israel for salvation."
+          }
+        ]
       },
       {
         "v": "3",
@@ -438,7 +463,15 @@
         "v": "1",
         "text": "And when he had said these things he stretched out his feet,",
         "kind": "paragraph",
-        "label": "1"
+        "label": "1",
+        "editorialNote": "Charles’s fuller 1913 critical presentation gives a different ending. Benjamin commands that his bones be carried from Egypt and buried at Hebron; he dies aged 125 and is placed in a coffin. It then says that in the ninety-first year after Israel entered Egypt the patriarchs’ bones were carried to Canaan during war, buried at Hebron, and the descendants returned to Egypt. The compact 1917 reading printed here instead gives the shorter death-and-burial account.",
+        "textualVariants": [
+          {
+            "type": "alternate-ending",
+            "source": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913)",
+            "text": "And when he finished his words, he said: I command you, my children, carry up my bones out of Egypt, and bury me at Hebron, near my fathers. So Benjamin died a hundred and twenty-five years old, at a good old age, and they placed him in a coffin. And in the ninety-first year from the entrance of the children of Israel into Egypt, they and their brethren brought up the bones of their fathers secretly during the Canaanitish war; and they buried them in Hebron, by the feet of their fathers. And they returned from the land of Canaan and dwelt in Egypt until the day of their departure from the land of Egypt."
+          }
+        ]
       },
       {
         "v": "2",
@@ -485,6 +518,13 @@
     "comparisonSource": "1917 SPCK Charles text, cross-checked against the pinned Scrollmapper Testament of Benjamin transcription and independent structured Charles-derived witnesses.",
     "sourceRevision": "1917-spck-charles",
     "sourceFile": "The Testaments of the Twelve Patriarchs, pp. 102–108",
-    "verification": "All twelve chapters and 69 numbered verses checked against the 1917 SPCK Charles text, with the 1913 Charles critical witness used to resolve the Chapter XI interpolation bracket scope; chapter boundaries, verse sequence, bracketed interpolations, OCR defects, empty records, and Covenant Library reader/search schema were verified."
+    "verification": "All twelve chapters and 69 numbered verses checked against the 1917 SPCK Charles text, with the 1913 Charles critical witness used to resolve the Chapter XI interpolation bracket scope; chapter boundaries, verse sequence, bracketed interpolations, OCR defects, empty records, and Covenant Library reader/search schema were verified.",
+    "criticalComparison": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913)",
+    "variantPolicy": "Significant alternate readings are stored as verse-level editorialNote/textualVariants and are not blended into the 1917 base reading."
+  },
+  "textualVariantPolicy": {
+    "baseText": "R. H. Charles, The Testaments of the Twelve Patriarchs (SPCK, 1917), compact reading text.",
+    "comparisonWitness": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913), fuller critical presentation.",
+    "policy": "Keep the 1917 reading text as the reader’s base text. Preserve materially different 1913 readings as explicit textual variants, with alternate wording stored separately from the translated passage."
   }
 }
