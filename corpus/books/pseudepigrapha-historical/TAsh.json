@@ -18,7 +18,8 @@
     "readerSourceUrl": null,
     "readerSourceHost": null,
     "proxySupported": false,
-    "sourceName": "The Testament of Asher — R. H. Charles translation"
+    "sourceName": "The Testament of Asher — R. H. Charles translation",
+    "textualWitnessNote": "Base text follows R. H. Charles’s compact 1917 SPCK reprint. It has been compared against Charles’s fuller critical presentation in The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913). Material alternate readings are identified at the affected passages rather than silently merged into the base text."
   },
   "chapters": {
     "1": [
@@ -130,7 +131,15 @@
         "v": "9",
         "text": "Such men are hares; for they are half clean, but in very deed are unclean.",
         "kind": "paragraph",
-        "label": "9"
+        "label": "9",
+        "editorialNote": "Charles’s fuller 1913 critical presentation has a different wording here: it describes the hare as “clean, like those that divide the hoof,” while the compact 1917 reading printed above says “half clean.” This is a wording/textual variant, not a different episode.",
+        "textualVariants": [
+          {
+            "type": "wording-variant",
+            "source": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913)",
+            "text": "Such men are hares; clean, like those that divide the hoof, but in very deed are unclean."
+          }
+        ]
       },
       {
         "v": "10",
@@ -329,6 +338,13 @@
     "comparisonSource": "1917 SPCK scan of Charles’s translation, pp. 87–90, cross-checked against the pinned Scrollmapper transcription and structured Charles-derived witnesses.",
     "sourceRevision": "271173e",
     "sourceFile": "sources/en/testament-of-asher/testament-of-asher.json",
-    "verification": "All eight chapters and 45 verse records checked for chapter boundaries, source verse segmentation, OCR defects, bracketed interpolations, sequential labels, and local reader/search schema consistency."
+    "verification": "All eight chapters and 45 verse records checked for chapter boundaries, source verse segmentation, OCR defects, bracketed interpolations, sequential labels, and local reader/search schema consistency.",
+    "criticalComparison": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913)",
+    "variantPolicy": "Significant alternate readings are stored as verse-level editorialNote/textualVariants and are not blended into the 1917 base reading."
+  },
+  "textualVariantPolicy": {
+    "baseText": "R. H. Charles, The Testaments of the Twelve Patriarchs (SPCK, 1917), compact reading text.",
+    "comparisonWitness": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913), fuller critical presentation.",
+    "policy": "Keep the 1917 reading text as the reader’s base text. Preserve materially different 1913 readings as explicit textual variants, with alternate wording stored separately from the translated passage."
   }
 }
