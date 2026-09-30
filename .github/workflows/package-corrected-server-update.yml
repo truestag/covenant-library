@@ -1,0 +1,51 @@
+name: Package corrected server update
+
+on:
+  push:
+    paths:
+      - ".github/workflows/package-corrected-server-update.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Assemble deploy tree
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p deploy/htdocs/corpus/books/pseudepigrapha-historical
+          mkdir -p deploy/htdocs/corpus/catalog
+          mkdir -p deploy/htdocs/corpus/search
+          mkdir -p deploy/htdocs/app
+
+          for file in             2BAR.json 2EN.json 3BAR.json APAB.json ASIS.json JAS.json PSS.json             TAB.json TAsh.json TBen.json TDan.json TGad.json TIss.json TJOB.json             TJos.json TJud.json TLev.json TMos.json TNap.json TReu.json TSim.json TZeb.json
+          do
+            cp "corpus/books/pseudepigrapha-historical/$file"                "deploy/htdocs/corpus/books/pseudepigrapha-historical/$file"
+          done
+
+          cp corpus/catalog/work-index.json deploy/htdocs/corpus/catalog/work-index.json
+          cp app/app.js deploy/htdocs/app/app.js
+          cp corpus/search/index.json deploy/htdocs/corpus/search/index.json
+
+          for n in $(seq -w 33 53); do
+            cp "corpus/search/shard-$n.json.gz" "deploy/htdocs/corpus/search/shard-$n.json.gz"
+          done
+
+          count=$(find deploy/htdocs -type f | wc -l)
+          test "$count" -eq 46
+          printf '%s\n'             "Covenant Library corrected server update"             "Generated from repository main."             "Contains 46 deployable files under htdocs/."             "Upload the contents of htdocs/ to the live server /htdocs/ root."             > deploy/README-UPLOAD.txt
+
+      - name: Upload deploy ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: Covenant-Library-Corrected-JSON-Server-Update-2026-09-30
+          path: deploy/
+          if-no-files-found: error
+          retention-days: 7
