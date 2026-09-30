@@ -18,7 +18,8 @@
     "readerSourceUrl": null,
     "readerSourceHost": null,
     "proxySupported": false,
-    "sourceName": "The Testament of Gad — R. H. Charles translation (1917 reprint)"
+    "sourceName": "The Testament of Gad — R. H. Charles translation (1917 reprint)",
+    "textualWitnessNote": "Base text follows R. H. Charles’s compact 1917 SPCK reprint. It has been compared against Charles’s fuller critical presentation in The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913). Material alternate readings are identified at the affected passages rather than silently merged into the base text."
   },
   "chapters": {
     "1": [
@@ -94,7 +95,15 @@
         "v": "3",
         "text": "And Judah sold him secretly to the Ishmaelites.",
         "kind": "paragraph",
-        "label": "3"
+        "label": "3",
+        "editorialNote": "Charles’s fuller 1913 critical presentation gives a different telling of Joseph’s sale. It says Gad and Simeon sold Joseph to the Ishmaelites, and includes a bracketed reading that the price was thirty pieces of gold, ten were hidden, and twenty were shown to the brothers. The compact 1917 reading printed above instead says Judah sold Joseph secretly to the Ishmaelites.",
+        "textualVariants": [
+          {
+            "type": "alternate-narrative",
+            "source": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913)",
+            "text": "Therefore I and Simeon sold him to the Ishmaelites [for thirty pieces of gold, and ten of them we hid, and showed the twenty to our brethren]."
+          }
+        ]
       },
       {
         "v": "4",
@@ -258,7 +267,15 @@
         "v": "3",
         "text": "Love ye one another from the heart; and if a man sin against thee, speak peaceably to him, and in thy soul hold not guile; and if he repent and confess, forgive him.",
         "kind": "paragraph",
-        "label": "3"
+        "label": "3",
+        "editorialNote": "The fuller 1913 critical presentation expands this counsel by adding “cast forth the poison of hate” before the instruction to speak peaceably, and reads “if he confess and repent” rather than the compact edition’s shorter wording.",
+        "textualVariants": [
+          {
+            "type": "expanded-reading",
+            "source": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913)",
+            "text": "Love ye, therefore, one another from the heart; and if a man sin against thee, cast forth the poison of hate and speak peaceably to him, and in thy soul hold not guile; and if he confess and repent, forgive him."
+          }
+        ]
       },
       {
         "v": "4",
@@ -383,6 +400,13 @@
     "comparisonSource": "1917 SPCK Charles text, cross-checked against the Charles critical transcription and the pinned Scrollmapper Testament of Gad source.",
     "sourceRevision": "1917-spck-charles",
     "sourceFile": "The Testaments of the Twelve Patriarchs, pp. 82–87",
-    "verification": "All eight chapters and 54 numbered verses checked for chapter boundaries, verse sequence, bracketed interpolations, OCR defects, empty records, separator contamination, and Covenant Library reader/search schema consistency."
+    "verification": "All eight chapters and 54 numbered verses checked for chapter boundaries, verse sequence, bracketed interpolations, OCR defects, empty records, separator contamination, and Covenant Library reader/search schema consistency.",
+    "criticalComparison": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913)",
+    "variantPolicy": "Significant alternate readings are stored as verse-level editorialNote/textualVariants and are not blended into the 1917 base reading."
+  },
+  "textualVariantPolicy": {
+    "baseText": "R. H. Charles, The Testaments of the Twelve Patriarchs (SPCK, 1917), compact reading text.",
+    "comparisonWitness": "R. H. Charles, The Apocrypha and Pseudepigrapha of the Old Testament, vol. II (Oxford, 1913), fuller critical presentation.",
+    "policy": "Keep the 1917 reading text as the reader’s base text. Preserve materially different 1913 readings as explicit textual variants, with alternate wording stored separately from the translated passage."
   }
 }
