@@ -10,7 +10,7 @@
     "remoteUrl": "https://raw.githubusercontent.com/scrollmapper/bible_databases_deuterocanonical/271173e/sources/en/psalms-of-solomon/psalms-of-solomon.json",
     "remoteFormat": "scrollmapper-json",
     "translator": "G. Buchanan Gray",
-    "sourceNote": "G. Buchanan Gray, “The Psalms of Solomon,” in R. H. Charles (ed.), The Apocrypha and Pseudepigrapha of the Old Testament in English, vol. 2 (Oxford: Clarendon Press, 1913), pp. 631–652.",
+    "sourceNote": "G. Buchanan Gray’s English translation in R. H. Charles (ed.), The Apocrypha and Pseudepigrapha of the Old Testament in English, vol. 2 (Oxford: Clarendon Press, 1913), pp. 631–652.",
     "sourcePath": "corpus/books/pseudepigrapha-historical/PSS.json",
     "searchable": true,
     "readerAvailability": "bundled-json",
@@ -24,7 +24,7 @@
     "1": [
       {
         "v": "1",
-        "text": "I cried unto the Lord when I was in distress, Unto God when sinners assailed.",
+        "text": "I cried unto the Lord when I was in distress [ ], Unto God when sinners assailed.",
         "kind": "paragraph",
         "label": "1"
       },
@@ -36,7 +36,7 @@
       },
       {
         "v": "3",
-        "text": "I thought in my heart that I was full of righteousness, Because I was well off and had become rich in children.",
+        "text": "I thought in my heart that I was full of righteousness, because I was well off and had become rich in children.",
         "kind": "paragraph",
         "label": "3"
       },
@@ -54,7 +54,7 @@
       },
       {
         "v": "6",
-        "text": "But they became insolent in their prosperity, And they were without understanding,",
+        "text": "But they became insolent in their prosperity, and they were without understanding,",
         "kind": "paragraph",
         "label": "6"
       },
@@ -74,13 +74,13 @@
     "2": [
       {
         "v": "1",
-        "text": "When the sinner waxed proud, with a battering-ram he cast down fortified walls, And Thou didst not restrain (him).",
+        "text": "When the sinner waxed proud, with a battering-ram he cast down fortified walls, and Thou didst not restrain (him).",
         "kind": "paragraph",
         "label": "1"
       },
       {
         "v": "2",
-        "text": "Alien nations ascended Thine altar, They trampled (it) proudly with their sandals;",
+        "text": "Alien nations ascended Thine altar, they trampled (it) proudly with their sandals;",
         "kind": "paragraph",
         "label": "2"
       },
@@ -92,31 +92,31 @@
       },
       {
         "v": "4",
-        "text": "Therefore He said: Cast them far from Me;",
+        "text": "Therefore He said: Cast them far from me;",
         "kind": "paragraph",
         "label": "4"
       },
       {
         "v": "5",
-        "text": "It was set at naught before God, It was utterly dishonoured;",
+        "text": "It was set at naught before God, it was utterly dishonoured;",
         "kind": "paragraph",
         "label": "5"
       },
       {
         "v": "6",
-        "text": "The sons and the daughters were in grievous captivity, Sealed (was) their neck, branded (was it) among the nations.",
+        "text": "The sons and the daughters were in grievous captivity, sealed () (was) their neck, branded () (was it) among the nations.",
         "kind": "paragraph",
         "label": "6"
       },
       {
         "v": "7",
-        "text": "According to their sins hath He done unto them, For He hath left them in the hands of them that prevailed.",
+        "text": "According to their sins hath He done unto them, for He hath left them in the hands of them that prevailed.",
         "kind": "paragraph",
         "label": "7"
       },
       {
         "v": "8",
-        "text": "He hath turned away His face from pitying them, Young and old and their children together;",
+        "text": "He hath turned away His face from pitying them, young and old and their children together;",
         "kind": "paragraph",
         "label": "8"
       },
@@ -128,7 +128,7 @@
       },
       {
         "v": "10",
-        "text": "And the heavens were angry, And the earth abhorred them;",
+        "text": "And the heavens were angry, and the earth abhorred them;",
         "kind": "paragraph",
         "label": "10"
       },
@@ -140,19 +140,19 @@
       },
       {
         "v": "12",
-        "text": "And the earth recognized all Thy righteous judgements, O God.",
+        "text": "And the earth recognized all Thy righteous judgments, O God.",
         "kind": "paragraph",
         "label": "12"
       },
       {
         "v": "13",
-        "text": "They set the sons of Jerusalem to be mocked at in return for (the) harlots in her; Every wayfarer entered in in the full light of day.",
+        "text": "They set the sons of Jerusalem to be mocked at in return for (the) harlots in her; every wayfarer entered in in the full light of day.",
         "kind": "paragraph",
         "label": "13"
       },
       {
         "v": "14",
-        "text": "They made mock with their transgressions, as they themselves were wont to do; In the full light of day they revealed their iniquities. And the daughters of Jerusalem were defiled in accordance with Thy judgement,",
+        "text": "They made mock with their transgressions, as they themselves were wont to do; in the full light of day they revealed their iniquities. And the daughters of Jerusalem were defiled in accordance with Thy judgment,",
         "kind": "paragraph",
         "label": "14"
       },
@@ -164,25 +164,25 @@
       },
       {
         "v": "16",
-        "text": "(And yet) I will justify Thee, O God, in uprightness of heart, For in Thy judgements is Thy righteousness (displayed), O God.",
+        "text": "(And yet) I will justify Thee, O God, in uprightness of heart, for in Thy judgments is Thy righteousness (displayed), O God.",
         "kind": "paragraph",
         "label": "16"
       },
       {
         "v": "17",
-        "text": "For Thou hast rendered to the sinners according to their deeds, Yea according to their sins, which were very wicked.",
+        "text": "For Thou hast rendered to the sinners according to their deeds, yea according to their sins, which were very wicked.",
         "kind": "paragraph",
         "label": "17"
       },
       {
         "v": "18",
-        "text": "Thou hast uncovered their sins, that Thy judgement might be manifest;",
+        "text": "Thou hast uncovered their sins, that Thy judgment might be manifest;",
         "kind": "paragraph",
         "label": "18"
       },
       {
         "v": "19",
-        "text": "Thou hast wiped out their memorial from the earth. God is a righteous judge, And He is no respecter of persons.",
+        "text": "Thou hast wiped out their memorial from the earth. God is a righteous judge, and He is no respecter of persons.",
         "kind": "paragraph",
         "label": "19"
       },
@@ -206,13 +206,13 @@
       },
       {
         "v": "23",
-        "text": "In dishonour was her beauty cast upon the ground.",
+        "text": "In dishonor was her beauty cast upon the ground.",
         "kind": "paragraph",
         "label": "23"
       },
       {
         "v": "24",
-        "text": "And I saw and entreated the Lord and said, Long enough, O Lord, has Thine hand been heavy on Israel, in bringing the nations upon (them).",
+        "text": "And I saw and entreated the Lord and said, long enough, O Lord, has Thine hand been heavy on Israel, in bringing the nations upon (them).",
         "kind": "paragraph",
         "label": "24"
       },
@@ -242,19 +242,19 @@
       },
       {
         "v": "29",
-        "text": "Delay not, O God, to recompense them on (their) heads, To turn the pride of the dragon into dishonour.",
+        "text": "Delay not, O God, to recompense them on (their) heads, to turn the pride of the dragon into dishonor.",
         "kind": "paragraph",
         "label": "29"
       },
       {
         "v": "30",
-        "text": "And I had not long to wait before God showed me the insolent one Slain on the mountains of Egypt, Esteemed of less account than the least on land and sea;",
+        "text": "And I had not long to wait before God showed me the insolent one Slain on the mountains of Egypt, esteemed of less account than the least on land and sea;",
         "kind": "paragraph",
         "label": "30"
       },
       {
         "v": "31",
-        "text": "His body, ( too,) borne hither and thither on the billows with much insolence, With none to bury (him), because He had rejected him with dishonour. He reflected not that he was man.",
+        "text": "His body, (too,) borne hither and thither on the billows with much insolence, with none to bury (him), because He had rejected him with dishonor. He reflected not that he was man.",
         "kind": "paragraph",
         "label": "31"
       },
@@ -266,7 +266,7 @@
       },
       {
         "v": "33",
-        "text": "He said: I will be lord of land and sea; And he recognized not that it is God who is great, Mighty in His great strength.",
+        "text": "He said: I will be lord of land and sea; and he recognized not that it is God who is great, mighty in His great strength.",
         "kind": "paragraph",
         "label": "33"
       },
@@ -284,31 +284,31 @@
       },
       {
         "v": "36",
-        "text": "And now behold, ye princes of the earth, the judgement of the Lord, For a great king and righteous (is He), judging (all) that is under heaven.",
+        "text": "And now behold, ye princes of the earth, the judgment of the Lord, for a great king and righteous (is He), judging (all) that is under heaven.",
         "kind": "paragraph",
         "label": "36"
       },
       {
         "v": "37",
-        "text": "Bless God, ye that fear the Lord with wisdom, For the mercy of the Lord will be upon them that fear Him, in the Judgement;",
+        "text": "Bless God, ye that fear the Lord with wisdom, for the mercy of the Lord will be upon them that fear Him, in the Judgment;",
         "kind": "paragraph",
         "label": "37"
       },
       {
         "v": "38",
-        "text": "So that He will distinguish between the righteous and the sinner, (And) recompense the sinners for ever according to their deeds;",
+        "text": "So that He will distinguish between the righteous and the sinner, (and) recompense the sinners for ever according to their deeds;",
         "kind": "paragraph",
         "label": "38"
       },
       {
         "v": "39",
-        "text": "And have mercy on the righteous, (delivering him) from the affliction of the sinner, And recompensing the sinner for what he hath done to the righteous.",
+        "text": "And have mercy on the righteous, (delivering him) from the affliction of the sinner, and recompensing the sinner for what he hath done to the righteous.",
         "kind": "paragraph",
         "label": "39"
       },
       {
         "v": "40",
-        "text": "For the Lord is good to them that call upon Him in patience, Doing according to His mercy to His pious ones, Establishing (them) at all times before Him in strength.",
+        "text": "For the Lord is good to them that call upon Him in patience, Doing according to His mercy to His pious ones, establishing (them) at all times before Him in strength.",
         "kind": "paragraph",
         "label": "40"
       },
@@ -322,19 +322,19 @@
     "3": [
       {
         "v": "1",
-        "text": "Why sleepest thou, O my soul, And blessest not the Lord",
+        "text": "Why sleepest thou, O my soul, And blessest not the Lord?",
         "kind": "paragraph",
         "label": "1"
       },
       {
         "v": "2",
-        "text": "Sing a new song, Unto God who is worthy to be praised. Sing and be wakeful against His awaking, For good is a psalm (sung) to God from a glad heart.",
+        "text": "Sing a new song, unto God who is worthy to be praised. Sing and be wakeful against His awaking, for good is a psalm (sung) to God from a glad heart.",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "The righteous remember the Lord at all times, With thanksgiving and declaration of the righteousness of the Lord's judgements.",
+        "text": "The righteous remember the Lord at all times, with thanksgiving and declaration of the righteousness of the Lord's judgments.",
         "kind": "paragraph",
         "label": "3"
       },
@@ -388,13 +388,13 @@
       },
       {
         "v": "12",
-        "text": "He addeth sins to sins, while he liveth;",
+        "text": "He addeth sins to sins, while he liveth (?);",
         "kind": "paragraph",
         "label": "12"
       },
       {
         "v": "13",
-        "text": "He falleth—verily grievous is his fall—and riseth no more. The destruction of the sinner is for ever,",
+        "text": "He falls—verily grievous is his fall—and rises no more. The destruction of the sinner is for ever,",
         "kind": "paragraph",
         "label": "13"
       },
@@ -412,7 +412,7 @@
       },
       {
         "v": "16",
-        "text": "But they that fear the Lord shall rise to life eternal, And their life (shall be) in the light of the Lord, and shall come to an end no more.",
+        "text": "But they that fear the Lord shall rise to life eternal, and their life (shall be) in the light of the Lord, and shall come to an end no more.",
         "kind": "paragraph",
         "label": "16"
       }
@@ -420,31 +420,31 @@
     "4": [
       {
         "v": "1",
-        "text": "Wherefore sittest thou, O profane (man), in the council of the pious, Seeing that thy heart is far removed from the Lord, Provoking with transgressions the God of Israel",
+        "text": "Wherefore sittest thou, O profane (man), in the council of the pious, Seeing that thy heart is far removed from the Lord, Provoking with transgressions the God of Israel?",
         "kind": "paragraph",
         "label": "1"
       },
       {
         "v": "2",
-        "text": "Extravagant in speech, extravagant in outward seeming beyond all (men), Is he that is severe of speech in condemning sinners in judgement.",
+        "text": "Extravagant in speech, extravagant in outward seeming beyond all (men), is he that is severe of speech in condemning sinners in judgment.",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "And his hand is first upon him as (though he acted) in zeal, And (yet) he is himself guilty in respect of manifold sins and of wantonness.",
+        "text": "And his hand is first upon him as (though he acted) in zeal, and (yet) he is himself guilty in respect of manifold sins and of wantonness.",
         "kind": "paragraph",
         "label": "3"
       },
       {
         "v": "4",
-        "text": "His eyes are upon every woman without distinction; His tongue lieth when he maketh contract with an oath.",
+        "text": "His eyes are upon every woman without distinction; his tongue lies when he makes contract with an oath.",
         "kind": "paragraph",
         "label": "4"
       },
       {
         "v": "5",
-        "text": "By night and in secret he sinneth as though unseen, With his eyes he talketh to every woman of evil compacts.",
+        "text": "By night and in secret he sins as though unseen, with his eyes he talks to every woman of evil compacts.",
         "kind": "paragraph",
         "label": "5"
       },
@@ -456,31 +456,31 @@
       },
       {
         "v": "7",
-        "text": "Let God remove those that live in hypocrisy in the company of the pious, (Even) the life of such an one with corruption of his flesh and penury.",
+        "text": "Let God remove those that live in hypocrisy in the company of the pious, (Even) the life of such a one with corruption of his flesh and penury.",
         "kind": "paragraph",
         "label": "7"
       },
       {
         "v": "8",
-        "text": "Let God reveal the deeds of the men-pleasers, The deeds of such an one with laughter and derision;",
+        "text": "Let God reveal the deeds of the men-pleasers, the deeds of such a one with laughter and derision;",
         "kind": "paragraph",
         "label": "8"
       },
       {
         "v": "9",
-        "text": "That the pious may count righteous the judgement of their God, When sinners are removed from before the righteous,",
+        "text": "That the pious may count righteous the judgment of their God, when sinners are removed from before the righteous,",
         "kind": "paragraph",
         "label": "9"
       },
       {
         "v": "10",
-        "text": "(Even the) man-pleaser who uttereth law guilefully.",
+        "text": "(Even the) man-pleaser who utters law guilefully.",
         "kind": "paragraph",
         "label": "10"
       },
       {
         "v": "11",
-        "text": "And their eyes (are fixed) upon any man's house that is (still) secure, That they may, like (the) Serpent, destroy the wisdom of... with words of transgressors,",
+        "text": "And their eyes (are fixed) upon any man's house that is (still) secure, that they may, like (the) Serpent, destroy the wisdom of . . . with words of transgressors,",
         "kind": "paragraph",
         "label": "11"
       },
@@ -492,43 +492,43 @@
       },
       {
         "v": "13",
-        "text": "He never ceaseth from scattering (families) as though (they were) orphans, Yea, he layeth waste a house on account of (his) lawless desire.",
+        "text": "He never ceases from scattering (families) as though (they were) orphans, Yea, he lays waste a house on account of (his) lawless desire.",
         "kind": "paragraph",
         "label": "13"
       },
       {
         "v": "14",
-        "text": "He deceiveth with words, (saying,) There is none that seeth, or judgeth.",
+        "text": "He deceives with words, (saying,) there is none that sees, or judges.",
         "kind": "paragraph",
         "label": "14"
       },
       {
         "v": "15",
-        "text": "He fills one (house) with lawlessness, And (then) his eyes (are fixed) upon the next house, To destroy it with words that give wing to (desire). (Yet) with all these his soul, like Sheol, is not sated.",
+        "text": "He fills one (house) with lawlessness, and (then) his eyes (are fixed) upon the next house, to destroy it with words that give wing to (desire). (Yet) with all these his soul, like Sheol, is not sated.",
         "kind": "paragraph",
         "label": "15"
       },
       {
         "v": "16",
-        "text": "Let his portion, O Lord, be dishonoured before thee; Let him go forth groaning and come home cursed.",
+        "text": "Let his portion, O Lord, be dishonoured before thee; let him go forth groaning and come home cursed.",
         "kind": "paragraph",
         "label": "16"
       },
       {
         "v": "17",
-        "text": "Let his life be (spent) in anguish, and penury, and want, O Lord; Let his sleep be (beset) with pains and his awaking with perplexities.",
+        "text": "Let his life be (spent) in anguish, and penury, and want, O Lord; let his sleep be (beset) with pains and his awaking with perplexities.",
         "kind": "paragraph",
         "label": "17"
       },
       {
         "v": "18",
-        "text": "Let sleep be withdrawn from his eyelids at night; Let him fail dishonourably in every work of his hands.",
+        "text": "Let sleep be withdrawn from his eyelids at night; Let him fail dishonorably in every work of his hands.",
         "kind": "paragraph",
         "label": "18"
       },
       {
         "v": "19",
-        "text": "Let him come home empty-handed to his house, And his house be void of everything wherewith he could sate his appetite.",
+        "text": "Let him come home empty-handed to his house, and his house be void of everything wherewith he could sate his appetite.",
         "kind": "paragraph",
         "label": "19"
       },
@@ -552,19 +552,19 @@
       },
       {
         "v": "23",
-        "text": "For they have laid waste many houses of men, in dishonour, And scattered (them) in (their) lust;",
+        "text": "For they have laid waste many houses of men, in dishonor, and scattered (them) in (their) lust;",
         "kind": "paragraph",
         "label": "23"
       },
       {
         "v": "24",
-        "text": "And they have not remembered God, Nor feared God in all these things;",
+        "text": "And they have not remembered God, nor feared God in all these things;",
         "kind": "paragraph",
         "label": "24"
       },
       {
         "v": "25",
-        "text": "But they have provoked God's anger and vexed Him. May He remove them from off the earth, Because with deceit they beguiled the souls of the flawless.",
+        "text": "But they have provoked God's anger and vexed Him. May He remove them from off the earth, because with deceit they beguiled the souls of the flawless.",
         "kind": "paragraph",
         "label": "25"
       },
@@ -576,7 +576,7 @@
       },
       {
         "v": "27",
-        "text": "The Lord shall deliver them from guileful men and sinners, And deliver us from every stumbling-block of the lawless (men).",
+        "text": "The Lord shall deliver them from guileful men and sinners, and deliver us from every stumbling-block of the lawless (men).",
         "kind": "paragraph",
         "label": "27"
       },
@@ -596,7 +596,7 @@
     "5": [
       {
         "v": "1",
-        "text": "O Lord God, I will praise Thy name with joy, In the midst of them that know Thy righteous judgements.",
+        "text": "O Lord God, I will praise Thy name with joy, in the midst of them that know Thy righteous judgments.",
         "kind": "paragraph",
         "label": "1"
       },
@@ -620,31 +620,31 @@
       },
       {
         "v": "5",
-        "text": "Who, then, can take aught of all that Thou hast made, except Thou Thyself givest",
+        "text": "Who, then, can take aught of all that Thou hast made, except Thou Thyself givest?",
         "kind": "paragraph",
         "label": "5"
       },
       {
         "v": "6",
-        "text": "For man and his portion (lie) before Thee in the balance; He cannot add to, so as to enlarge, what has been prescribed by Thee. O God,",
+        "text": "For man and his portion (lie) before Thee in the balance; he cannot add to, so as to enlarge, what has been prescribed by Thee. O God,",
         "kind": "paragraph",
         "label": "6"
       },
       {
         "v": "7",
-        "text": "when we are in distress we call upon Thee for help, And Thou dost not turn back our petition, for Thou art our God.",
+        "text": "when we are in distress we call upon Thee for help, and Thou dost not turn back our petition, for Thou art our God.",
         "kind": "paragraph",
         "label": "7"
       },
       {
         "v": "8",
-        "text": "Cause not Thy hand to be heavy upon us, Lest through necessity we sin.",
+        "text": "Cause not Thy hand to be heavy upon us, lest through necessity we sin.",
         "kind": "paragraph",
         "label": "8"
       },
       {
         "v": "9",
-        "text": "Even though Thou restore us not, we will not keep away; But unto Thee will we come.",
+        "text": "Even though Thou restore us not, we will not keep away; but unto Thee will we come.",
         "kind": "paragraph",
         "label": "9"
       },
@@ -656,7 +656,7 @@
       },
       {
         "v": "11",
-        "text": "Birds and fish dost Thou nourish, In that Thou givest rain to the steppes that green grass may spring up, (So) to prepare fodder in the steppe for every living thing;",
+        "text": "Birds and fish dost Thou nourish, In that Thou gives rain to the steppes that green grass may spring up, (So) to prepare fodder in the steppe for every living thing;",
         "kind": "paragraph",
         "label": "11"
       },
@@ -668,25 +668,25 @@
       },
       {
         "v": "13",
-        "text": "Kings and rulers and peoples Thou dost nourish, O God; And who is the help of the poor and needy, if not Thou, O Lord",
+        "text": "Kings and rulers and peoples Thou dost nourish, O God; and who is the help of the poor and needy, if not Thou, O Lord",
         "kind": "paragraph",
         "label": "13"
       },
       {
         "v": "14",
-        "text": "And Thou wilt hearken -for who is good and gentle but Thou— Making glad the soul of the humble by opening Thine hand in mercy.",
+        "text": "And Thou wilt hearken -for who is good and gentle but thou making glad the soul of the humble by opening Thine hand in mercy.",
         "kind": "paragraph",
         "label": "14"
       },
       {
         "v": "15",
-        "text": "Man's goodness is (bestowed) grudgingly and...; And if he repeat (it) without murmuring, even that is marvellous.",
+        "text": "Man's goodness is (bestowed) grudgingly and...; and if he repeat (it) without murmuring, even that is marvelous.",
         "kind": "paragraph",
         "label": "15"
       },
       {
         "v": "16",
-        "text": "But Thy gift is great in goodness and wealth, And he whose hope is (set) on Thee shall have no lack of gifts.",
+        "text": "But Thy gift is great in goodness and wealth, and he whose hope is (set) on Thee shall have no lack of gifts.",
         "kind": "paragraph",
         "label": "16"
       },
@@ -698,19 +698,19 @@
       },
       {
         "v": "18",
-        "text": "Happy is he whom God remembereth in (granting to him) a due sufficiency;",
+        "text": "Happy is he whom God remembers in (granting to him) a due sufficiency;",
         "kind": "paragraph",
         "label": "18"
       },
       {
         "v": "19",
-        "text": "If a man abound over much, he sinneth.",
+        "text": "If a man abound over much, he sins.",
         "kind": "paragraph",
         "label": "19"
       },
       {
         "v": "20",
-        "text": "Sufficient are moderate means with righteousness, And hereby the blessing of the Lord (becomes) abundance with righteousness.",
+        "text": "Sufficient are moderate means with righteousness, and hereby the blessing of the Lord (becomes) abundance with righteousness.",
         "kind": "paragraph",
         "label": "20"
       },
@@ -736,7 +736,7 @@
       },
       {
         "v": "3",
-        "text": "His ways are made even by the Lord, And the works of his hands are preserved by the Lord his God.",
+        "text": "His ways are made even by the Lord, and the works of his hands are preserved by the Lord his God.",
         "kind": "paragraph",
         "label": "3"
       },
@@ -754,25 +754,25 @@
       },
       {
         "v": "6",
-        "text": "He ariseth from his sleep, and blesseth the name of the Lord:",
+        "text": "He ariseth from his sleep, and blesseth the name of the Lord.",
         "kind": "paragraph",
         "label": "6"
       },
       {
         "v": "7",
-        "text": "When his heart is at peace, he singeth to the name of his God, And he entreateth the Lord for all his house.",
+        "text": "When his heart is at peace, he sings to the name of his God, And he entreats the Lord for all his house.",
         "kind": "paragraph",
         "label": "7"
       },
       {
         "v": "8",
-        "text": "And the Lord heareth the prayer of every one that feareth God, And every request of the soul that hopes for Him doth the Lord accomplish.",
+        "text": "And the Lord hears the prayer of every one that fears God, And every request of the soul that hopes for Him doth the Lord accomplish.",
         "kind": "paragraph",
         "label": "8"
       },
       {
         "v": "9",
-        "text": "Blessed is the Lord, who showeth mercy to those who love Him in sincerity.",
+        "text": "Blessed is the Lord, who shows mercy to those who love Him in sincerity.",
         "kind": "paragraph",
         "label": "9"
       }
@@ -780,19 +780,19 @@
     "7": [
       {
         "v": "1",
-        "text": "Make not Thy dwelling afar from us, O God; Lest they assail us that hate us without cause.",
+        "text": "Make not Thy dwelling afar from us, O God; lest they assail us that hate us without cause.",
         "kind": "paragraph",
         "label": "1"
       },
       {
         "v": "2",
-        "text": "For Thou hast rejected them, O God; Let not their foot trample upon Thy holy inheritance.",
+        "text": "For Thou hast rejected them, O God; let not their foot trample upon Thy holy inheritance.",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "Chasten us Thyself in Thy good pleasure; But give (us) not up to the nations;",
+        "text": "Chasten us Thyself in Thy good pleasure; but give (us) not up to the nations;",
         "kind": "paragraph",
         "label": "3"
       },
@@ -804,7 +804,7 @@
       },
       {
         "v": "5",
-        "text": "While Thy name dwelleth in our midst, we shall find mercy;",
+        "text": "While Thy name dwells in our midst, we shall find mercy;",
         "kind": "paragraph",
         "label": "5"
       },
@@ -816,7 +816,7 @@
       },
       {
         "v": "7",
-        "text": "And when we call upon Thee, Thou hearkenest to us;",
+        "text": "And when we call upon Thee, Thou hearkens to us;",
         "kind": "paragraph",
         "label": "7"
       },
@@ -828,7 +828,7 @@
       },
       {
         "v": "9",
-        "text": "Thou wilt establish us in the time that Thou helpest us, Showing mercy to the house of Jacob on the day wherein Thou didst promise (to help them).",
+        "text": "Thou wilt establish us in the time that Thou helps us, showing mercy to the house of Jacob on the day wherein Thou didst promise (to help them).",
         "kind": "paragraph",
         "label": "9"
       }
@@ -836,19 +836,19 @@
     "8": [
       {
         "v": "1",
-        "text": "Distress and the sound of war hath my ear heard; The sound of a trumpet announcing slaughter and calamity,",
+        "text": "Distress and the sound of war hath my ear heard; the sound of a trumpet announcing slaughter and calamity,",
         "kind": "paragraph",
         "label": "1"
       },
       {
         "v": "2",
-        "text": "The sound of much people as of an exceeding high wind, As a tempest with mighty fire sweeping through the Negeb.",
+        "text": "The sound of much people as of an exceeding high wind, as a tempest with mighty fire sweeping through the Negeb.",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "And I said in my heart; Surely God judgeth us;",
+        "text": "And I said in my heart; surely () God judges us;",
         "kind": "paragraph",
         "label": "3"
       },
@@ -872,13 +872,13 @@
       },
       {
         "v": "7",
-        "text": "I said: They establish their ways in righteousness. I thought upon the judgements of God since the creation of heaven and earth; I held God righteous in His judgements which have been from of old.",
+        "text": "I said: They establish their ways in righteousness. I thought upon the judgments of God since the creation of heaven and earth; I held God righteous in His judgments which have been from of old.",
         "kind": "paragraph",
         "label": "7"
       },
       {
         "v": "8",
-        "text": "God laid bare their sins in the full light of day; All the earth came to know the righteous judgements of God.",
+        "text": "God laid bare their sins in the full light of day; all the earth came to know the righteous judgments of God.",
         "kind": "paragraph",
         "label": "8"
       },
@@ -908,7 +908,7 @@
       },
       {
         "v": "13",
-        "text": "They trode the altar of the Lord, (coming straight) from all manner of uncleanness; And with menstrual blood they defiled the sacrifices, as (though these were) common flesh.",
+        "text": "They trode the altar of the Lord, (coming straight) from all manner of uncleanness; and with menstrual blood they defiled the sacrifices, as (though these were) common flesh.",
         "kind": "paragraph",
         "label": "13"
       },
@@ -920,19 +920,19 @@
       },
       {
         "v": "15",
-        "text": "Therefore God mingled for them a spirit of wandering; And gave them to drink a cup of undiluted wine, that they might become drunken.",
+        "text": "Therefore God mingled for them a spirit of wandering; and gave them to drink a cup of undiluted wine, that they might become drunken.",
         "kind": "paragraph",
         "label": "15"
       },
       {
         "v": "16",
-        "text": "He brought him that is from the end of the earth, that smiteth mightily;",
+        "text": "He brought him that is from the end of the earth, that smites mightily;",
         "kind": "paragraph",
         "label": "16"
       },
       {
         "v": "17",
-        "text": "He decreed war against Jerusalem, and against her land.",
+        "text": "He decreed () war against Jerusalem, and against her land.",
         "kind": "paragraph",
         "label": "17"
       },
@@ -944,13 +944,13 @@
       },
       {
         "v": "19",
-        "text": "They made the rough ways even, before his entering in; They opened the gates to Jerusalem, they crowned its walls.",
+        "text": "They made the rough ways even, before his entering in; they opened the gates to Jerusalem, they crowned its walls.",
         "kind": "paragraph",
         "label": "19"
       },
       {
         "v": "20",
-        "text": "As a father (entereth) the house of his sons, (so) he entered (Jerusalem) in peace; He established his feet (there) in great safety.",
+        "text": "As a father (enters) the house of his sons, (so) he entered (Jerusalem) in peace; he established his feet (there) in great safety.",
         "kind": "paragraph",
         "label": "20"
       },
@@ -968,7 +968,7 @@
       },
       {
         "v": "23",
-        "text": "He destroyed their princes and every one wise in counsel; He poured out the blood of the inhabitants of Jerusalem, like the water of uncleanness.",
+        "text": "He destroyed their princes and every one wise in counsel; he poured out the blood of the inhabitants of Jerusalem, like the water of uncleanness.",
         "kind": "paragraph",
         "label": "23"
       },
@@ -992,7 +992,7 @@
       },
       {
         "v": "27",
-        "text": "(But) God hath shown Himself righteous in His judgements upon the nations of the earth;",
+        "text": "(But) God hath shown Himself righteous in His judgments upon the nations of the earth;",
         "kind": "paragraph",
         "label": "27"
       },
@@ -1010,13 +1010,13 @@
       },
       {
         "v": "30",
-        "text": "Behold, now, O God, Thou hast shown us Thy judgement in Thy righteousness;",
+        "text": "Behold, now, O God, Thou hast shown us Thy judgment in Thy righteousness;",
         "kind": "paragraph",
         "label": "30"
       },
       {
         "v": "31",
-        "text": "Our eyes have seen Thy judgements, O God. We have justified Thy name that is honoured for ever;",
+        "text": "Our eyes have seen Thy judgments, O God. We have justified Thy name that is honored for ever;",
         "kind": "paragraph",
         "label": "31"
       },
@@ -1052,13 +1052,13 @@
       },
       {
         "v": "37",
-        "text": "But Thou art our God from the beginning, And upon Thee is our hope (set), O Lord;",
+        "text": "But Thou art our God from the beginning, and upon Thee is our hope (set), O Lord;",
         "kind": "paragraph",
         "label": "37"
       },
       {
         "v": "38",
-        "text": "And we will not depart from Thee, For good are Thy judgements upon us.",
+        "text": "And we will not depart from Thee, for good are Thy judgments upon us.",
         "kind": "paragraph",
         "label": "38"
       },
@@ -1070,7 +1070,7 @@
       },
       {
         "v": "40",
-        "text": "The Lord is worthy to be praised for His judgements with the mouth of His pious ones; And blessed be Israel of the Lord for ever.",
+        "text": "The Lord is worthy to be praised for His judgments with the mouth of His pious ones; and blessed be Israel of the Lord for ever.",
         "kind": "paragraph",
         "label": "40"
       }
@@ -1078,7 +1078,7 @@
     "9": [
       {
         "v": "1",
-        "text": "When Israel was led away captive into a strange land, When they fell away from the Lord who redeemed them,",
+        "text": "When Israel was led away captive into a strange land, when they fell away from the Lord who redeemed them,",
         "kind": "paragraph",
         "label": "1"
       },
@@ -1108,7 +1108,7 @@
       },
       {
         "v": "6",
-        "text": "And the righteous deeds of Thy pious ones (are) before Thee, O Lord, Where, then, can a man hide himself from Thy knowledge, O God",
+        "text": "And the righteous deeds of Thy pious ones (are) before Thee, O Lord, where, then, can a man hide himself from Thy knowledge, O God",
         "kind": "paragraph",
         "label": "6"
       },
@@ -1132,57 +1132,57 @@
       },
       {
         "v": "10",
-        "text": "For the judgements of the Lord are (given) in righteousness to (every) man and (his) house. Unto whom art Thou good, O God, except to them that call upon the Lord",
+        "text": "For the judgments of the Lord are (given) in righteousness to (every) man and (his) house. Unto whom art Thou good, O God, except to them that call upon the Lord",
         "kind": "paragraph",
         "label": "10"
       },
       {
-        "v": "12",
+        "v": "11",
         "text": "He cleanseth from sins a soul when it maketh confession, when it maketh acknowledgement;",
+        "kind": "paragraph",
+        "label": "11"
+      },
+      {
+        "v": "12",
+        "text": "For shame is upon us and upon our faces on account of all these things.",
         "kind": "paragraph",
         "label": "12"
       },
       {
         "v": "13",
-        "text": "For shame is upon us and upon our faces on account of all these things.",
+        "text": "And to whom doth He forgive sins, except to them that have sinned",
         "kind": "paragraph",
         "label": "13"
       },
       {
         "v": "14",
-        "text": "And to whom doth He forgive sins, except to them that have sinned",
+        "text": "Thou blessest the righteous, and dost not reprove them for the sins that they have committed; And Thy goodness is upon them that sin, when they repent.",
         "kind": "paragraph",
         "label": "14"
       },
       {
         "v": "15",
-        "text": "Thou blessest the righteous, and dost not reprove them for the sins that they have committed; And Thy goodness is upon them that sin, when they repent.",
+        "text": "And, now, Thou art our God, and we the people whom Thou hast loved: Behold and show pity, O God of Israel, for we are Thine; and remove not Thy mercy from us, lest they assail us.",
         "kind": "paragraph",
         "label": "15"
       },
       {
         "v": "16",
-        "text": "And, now, Thou art our God, and we the people whom Thou hast loved: Behold and show pity, O God of Israel, for we are Thine; And remove not Thy mercy from us, lest they assail us.",
+        "text": "For Thou didst choose the seed of Abraham before all the nations, and didst set Thy name upon us, O Lord,",
         "kind": "paragraph",
         "label": "16"
       },
       {
         "v": "17",
-        "text": "For Thou didst choose the seed of Abraham before all the nations, And didst set Thy name upon us, O Lord,",
+        "text": "And Thou wilt not reject (us) for ever. Thou madest a covenant with our fathers concerning us;",
         "kind": "paragraph",
         "label": "17"
       },
       {
         "v": "18",
-        "text": "And Thou wilt not reject (us) for ever. Thou madest a covenant with our fathers concerning us;",
-        "kind": "paragraph",
-        "label": "18"
-      },
-      {
-        "v": "19",
         "text": "And we hope in Thee, when our soul turneth (unto Thee). The mercy of the Lord be upon the house of Israel for ever and ever.",
         "kind": "paragraph",
-        "label": "19"
+        "label": "18"
       }
     ],
     "10": [
@@ -1194,43 +1194,43 @@
       },
       {
         "v": "2",
-        "text": "He that maketh ready his back for strokes shall be cleansed, For the Lord is good to them that endure chastening.",
+        "text": "He that makes ready his back for strokes shall be cleansed, for the Lord is good to them that endure chastening.",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "For He maketh straight the ways of the righteous, And doth not pervert (them) by His chastening.",
+        "text": "For He makes straight the ways of the righteous, and doth not pervert (them) by His chastening.",
         "kind": "paragraph",
         "label": "3"
       },
       {
         "v": "4",
-        "text": "And the mercy of the Lord (is) upon them that love Him in truth, And the Lord remembereth His servants in mercy.",
+        "text": "And the mercy of the Lord (is) upon them that love Him in truth, And the Lord remembers His servants in mercy.",
         "kind": "paragraph",
         "label": "4"
       },
       {
         "v": "5",
-        "text": "For the testimony (is) in the law of the eternal covenant, The testimony of the Lord (is) on the ways of men in (His) visitation.",
+        "text": "For the testimony (is) in the law of the eternal covenant, the testimony of the Lord (is) on the ways of men in (His) visitation.",
         "kind": "paragraph",
         "label": "5"
       },
       {
         "v": "6",
-        "text": "Just and kind is our Lord in His judgements for ever, And Israel shall praise the name of the Lord in gladness.",
+        "text": "Just and kind is our Lord in His judgments for ever, and Israel shall praise the name of the Lord in gladness.",
         "kind": "paragraph",
         "label": "6"
       },
       {
         "v": "7",
-        "text": "And the pious shall give thanks in the assembly of the people; And on the poor shall God have mercy in the gladness of Israel;",
+        "text": "And the pious shall give thanks in the assembly of the people; and on the poor shall God have mercy in the gladness () of Israel;",
         "kind": "paragraph",
         "label": "7"
       },
       {
         "v": "8",
-        "text": "For good and merciful is God for ever, And the assemblies of Israel shall glorify the name of the Lord. The salvation of the Lord be upon the house of Israel unto everlasting gladness!",
+        "text": "For good and merciful is God for ever, and the assemblies of Israel shall glorify the name of the Lord. The salvation of the Lord be upon the house of Israel unto everlasting gladness!",
         "kind": "paragraph",
         "label": "8"
       }
@@ -1244,19 +1244,19 @@
       },
       {
         "v": "2",
-        "text": "Cause ye to be heard in Jerusalem the voice of him that bringeth good tidings; For God hath had pity on Israel in visiting them.",
+        "text": "Cause you to be heard in Jerusalem the voice of him that brings good tidings; for God hath had pity on Israel in visiting them.",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "Stand on the height, O Jerusalem, and behold thy children, From the East and the West, gathered together by the Lord;",
+        "text": "Stand on the height, O Jerusalem, and behold thy children, from the East and the West, gathered together by the Lord;",
         "kind": "paragraph",
         "label": "3"
       },
       {
         "v": "4",
-        "text": "From the North they come in the gladness of their God, From the isles afar off God hath gathered them.",
+        "text": "From the North they come in the gladness of their God, from the isles afar off God hath gathered them.",
         "kind": "paragraph",
         "label": "4"
       },
@@ -1280,13 +1280,13 @@
       },
       {
         "v": "8",
-        "text": "Put on, O Jerusalem, thy glorious garments; Make ready thy holy robe; For God hath spoken good concerning Israel, for ever and ever.",
+        "text": "Put on, O Jerusalem, thy glorious garments; make ready thy holy robe; for God hath spoken well concerning Israel, for ever and ever.",
         "kind": "paragraph",
         "label": "8"
       },
       {
         "v": "9",
-        "text": "Let the Lord do what He hath spoken concerning Israel and Jerusalem; Let the Lord raise up Israel by His glorious name. The mercy of the Lord be upon Israel for ever and ever.",
+        "text": "Let the Lord do what He hath spoken concerning Israel and Jerusalem; let the Lord raise up Israel by His glorious name. The mercy of the Lord be upon Israel for ever and ever.",
         "kind": "paragraph",
         "label": "9"
       }
@@ -1300,19 +1300,19 @@
       },
       {
         "v": "2",
-        "text": "Manifoldly twisted are the words of the tongue of the wicked man, Even as among a people a fire that burneth up their beauty.",
+        "text": "Manifoldly twisted () are the words of the tongue of the wicked man, even as among a people a fire that burns up their beauty.",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "So he delights to fill houses with a lying tongue, To cut down the trees of gladness which setteth on fire transgressors,",
+        "text": "So he delights to fill houses with a lying tongue, to cut down the trees of gladness which sets on fire transgressors,",
         "kind": "paragraph",
         "label": "3"
       },
       {
         "v": "4",
-        "text": "To involve households in warfare by means of slanderous lips. May God remove far from the innocent the lips of transgressors by (bringing them to) want And may the bones of slanderers be scattered (far) away from them that fear the Lord!",
+        "text": "To involve households in warfare by means of slanderous lips. May God remove far from the innocent the lips of transgressors by (bringing them to) want and may the bones of slanderers be scattered (far) away from them that fear the Lord!",
         "kind": "paragraph",
         "label": "4"
       },
@@ -1324,13 +1324,13 @@
       },
       {
         "v": "6",
-        "text": "May the Lord preserve the quiet soul that hateth the unrighteous; And may the Lord establish the man that followeth peace at home.",
+        "text": "May the Lord preserve the quiet soul that hates the unrighteous; and may the Lord establish the man that follows peace at home.",
         "kind": "paragraph",
         "label": "6"
       },
       {
         "v": "7",
-        "text": "The salvation of the Lord be upon Israel His servant for ever; And let the sinners perish together at the presence of the Lord; But let the Lord's pious ones inherit the promises of the Lord.",
+        "text": "The salvation of the Lord be upon Israel His servant for ever; and let the sinners perish together at the presence of the Lord; but let the Lord's pious ones inherit the promises of the Lord.",
         "kind": "paragraph",
         "label": "7"
       }
@@ -1338,87 +1338,87 @@
     "13": [
       {
         "v": "1",
-        "text": "The right hand of the Lord hath covered me; The right hand of the Lord hath spared us.",
+        "text": "The right hand of the Lord hath covered me; the right hand of the Lord hath spared us.",
         "kind": "paragraph",
         "label": "1"
       },
       {
         "v": "2",
-        "text": "The arm of the Lord hath saved us from the sword that passed through, From famine and the death of sinners.",
+        "text": "The arm of the Lord hath saved us from the sword that passed through, from famine and the death of sinners.",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "Noisome beasts ran upon them: With their teeth they tore their flesh, And with their molars crushed their bones. But from all these things the Lord delivered us,",
+        "text": "Noisome beasts ran upon them: With their teeth they tore their flesh, and with their molars crushed their bones. But from all these things the Lord delivered us,",
         "kind": "paragraph",
         "label": "3"
       },
       {
         "v": "4",
-        "text": "The righteous was troubled on account of his errors, Lest he should be taken away along with the sinners;",
+        "text": "The righteous was troubled on account of his errors, lest he should be taken away along with the sinners;",
         "kind": "paragraph",
         "label": "4"
       },
       {
         "v": "5",
-        "text": "For terrible is the overthrow of the sinner; But not one of all these things toucheth the righteous. For not alike are the chastening of the righteous (for sins done) in ignorance, And the overthrow of the sinners",
+        "text": "For terrible is the overthrow of the sinner; But not one of all these things toucheth the righteous. For not alike are the chastening of the righteous (for sins done) in ignorance, And the overthrow of the sinners.",
         "kind": "paragraph",
         "label": "5"
       },
       {
+        "v": "6",
+        "text": "Secretly (?) is the righteous chastened, Lest the sinner rejoice over the righteous.",
+        "kind": "paragraph",
+        "label": "6"
+      },
+      {
         "v": "7",
-        "text": "Secretly is the righteous chastened, Lest the sinner rejoice over the righteous.",
+        "text": "For He correcteth the righteous as a beloved son, And his chastisement is as that of a firstborn.",
         "kind": "paragraph",
         "label": "7"
       },
       {
         "v": "8",
-        "text": "For He correcteth the righteous as a beloved son, And his chastisement is as that of a firstborn.",
+        "text": "For the Lord spareth His pious ones, And blotteth out their errors by His chastening. For the life of the righteous shall be for ever;",
         "kind": "paragraph",
         "label": "8"
       },
       {
         "v": "9",
-        "text": "For the Lord spareth His pious ones, And blotteth out their errors by His chastening. For the life of the righteous shall be for ever;",
+        "text": "But sinners shall be taken away into destruction, and their memorial shall be found no more.",
         "kind": "paragraph",
         "label": "9"
       },
       {
         "v": "10",
-        "text": "But sinners shall be taken away into destruction, And their memorial shall be found no more.",
+        "text": "But upon the pious is the mercy of the Lord, and upon them that fear Him His mercy.",
         "kind": "paragraph",
         "label": "10"
-      },
-      {
-        "v": "11",
-        "text": "But upon the pious is the mercy of the Lord, And upon them that fear Him His mercy.",
-        "kind": "paragraph",
-        "label": "11"
       }
     ],
     "14": [
       {
         "v": "1",
-        "text": "Faithful is the Lord to them that love Him in truth, To them that endure His chastening, To them that walk in the righteousness of His commandments, In the law which He commanded us that we might live.",
+        "text": "Faithful is the Lord to them that love Him in truth, to them that endure His chastening, to them that walk in the righteousness of His commandments, in the law which He commanded us that we might live.",
         "kind": "paragraph",
         "label": "1"
       },
       {
         "v": "2",
-        "text": "The pious of the Lord shall live by it for ever; The Paradise of the Lord, the trees of life, are His pious ones.",
+        "text": "The pious of the Lord shall live by it for ever; the Paradise of the Lord, the trees of life, are His pious ones.",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "Their planting is rooted for ever; They shall not be plucked up all the days of heaven: For the portion and the inheritance of God is Israel.",
+        "text": "Their planting is rooted for ever; they shall not be plucked up all the days of heaven: For the portion and the inheritance of God is Israel.",
         "kind": "paragraph",
         "label": "3"
       },
       {
         "v": "4",
-        "text": "But not so are the sinners and transgressors, Who love (the brief) day (spent) in companionship with their sin; Their delight is in fleeting corruption,",
+        "text": "But not so are the sinners and transgressors, who love (the brief) day (spent) in companionship with their sin; their delight is in fleeting corruption,",
         "kind": "paragraph",
         "label": "4"
       },
@@ -1430,7 +1430,7 @@
       },
       {
         "v": "6",
-        "text": "Therefore their inheritance is Sheol and darkness and destruction, And they shall not be found in the day when the righteous obtain mercy;",
+        "text": "Therefore their inheritance is Sheol and darkness and destruction, and they shall not be found in the day when the righteous obtain mercy;",
         "kind": "paragraph",
         "label": "6"
       },
@@ -1456,7 +1456,7 @@
       },
       {
         "v": "3",
-        "text": "(a) For who, O God, is strong except to give thanks unto Thee in truth",
+        "text": "For who, O God, is strong except to give thanks unto Thee in truth",
         "kind": "paragraph",
         "label": "3"
       },
@@ -1468,19 +1468,19 @@
       },
       {
         "v": "5",
-        "text": "A new psalm with song in gladness of heart, The fruit of the lips with the well-tuned instrument of the tongue, The firstfruits of the lips from a pious and righteous heart—",
+        "text": "A new psalm with song in gladness of heart, the fruit of the lips with the well-tuned instrument of the tongue, the first fruits of the lips from a pious and righteous heart—",
         "kind": "paragraph",
         "label": "5"
       },
       {
         "v": "6",
-        "text": "He that offereth these things shall never be shaken by evil; The flame of fire and the wrath against the unrighteous shall not touch him,",
+        "text": "He that offers these things shall never be shaken by evil; the flame of fire and the wrath against the unrighteous shall not touch him,",
         "kind": "paragraph",
         "label": "6"
       },
       {
         "v": "7",
-        "text": "When it goeth forth from the face of the Lord against sinners, To destroy all the substance of sinners,",
+        "text": "When it goes forth from the face of the Lord against sinners, to destroy all the substance of sinners,",
         "kind": "paragraph",
         "label": "7"
       },
@@ -1492,7 +1492,7 @@
       },
       {
         "v": "9",
-        "text": "For they shall flee away from the pious as men pursued in war; But they shall pursue sinners and overtake (them), And they that do lawlessness shall not escape the judgement of God; As by enemies experienced (in war) shall they be overtaken,",
+        "text": "For they shall flee away from the pious as men pursued in war; But they shall pursue sinners and overtake (them),And they that do lawlessness shall not escape the judgment of God; As by enemies experienced (in war) shall they be overtaken,",
         "kind": "paragraph",
         "label": "9"
       },
@@ -1504,7 +1504,7 @@
       },
       {
         "v": "11",
-        "text": "And the inheritance of sinners is destruction and darkness, And their iniquities shall pursue them unto Sheol beneath.",
+        "text": "And the inheritance of sinners is destruction and darkness, and their iniquities shall pursue them unto Sheol beneath.",
         "kind": "paragraph",
         "label": "11"
       },
@@ -1516,19 +1516,19 @@
       },
       {
         "v": "13",
-        "text": "For sins shall lay waste the houses of sinners. And sinners shall perish for ever in the day of the Lord's judgement,",
+        "text": "For sins shall lay waste the houses of sinners. And sinners shall perish for ever in the day of the Lord's judgment,",
         "kind": "paragraph",
         "label": "13"
       },
       {
         "v": "14",
-        "text": "When God visiteth the earth with His judgement.",
+        "text": "When God visits the earth with His judgment.",
         "kind": "paragraph",
         "label": "14"
       },
       {
         "v": "15",
-        "text": "But they that fear the Lord shall find mercy therein, And shall live by the compassion of their God; But sinners shall perish for ever.",
+        "text": "But they that fear the Lord shall find mercy therein, and shall live by the compassion of their God; But sinners shall perish for ever.",
         "kind": "paragraph",
         "label": "15"
       }
@@ -1536,37 +1536,37 @@
     "16": [
       {
         "v": "1",
-        "text": "When my soul slumbered (being afar) from the Lord, I had all but slipped down to the pit, When (I was) far from God,",
+        "text": "When my soul slumbered (being afar) from the Lord, I had all but slipped down to the pit, when (I was) far from God,",
         "kind": "paragraph",
         "label": "1"
       },
       {
         "v": "2",
-        "text": "my soul had been well nigh poured out unto death, (I had been) nigh unto the gates of Sheol with the sinner,",
+        "text": "my soul had been well-nigh poured out unto death, (I had been) nigh unto the gates of Sheol with the sinner,",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "when my soul departed from the Lord God of Israel— Had not the Lord helped me with His ever lasting mercy.",
+        "text": "when my soul departed from the Lord God of Israel—had not the Lord helped me with His everlasting mercy.",
         "kind": "paragraph",
         "label": "3"
       },
       {
         "v": "4",
-        "text": "He pricked me, as a horse is pricked, that I might serve Him, My saviour and helper at all times saved me.",
+        "text": "He pricked me, as a horse is pricked, that I might serve Him, my saviour and helper at all times saved me.",
         "kind": "paragraph",
         "label": "4"
       },
       {
         "v": "5",
-        "text": "I will give thanks unto Thee, O God, for Thou hast helped me to (my) salvation; And hast not counted me with sinners to (my) destruction.",
+        "text": "I will give thanks unto Thee, O God, for Thou hast helped me to (my) salvation; and hast not counted me with sinners to (my) destruction.",
         "kind": "paragraph",
         "label": "5"
       },
       {
         "v": "6",
-        "text": "Remove not Thy mercy from me, O God, Nor Thy memorial from my heart until I die.",
+        "text": "Remove not Thy mercy from me, O God, nor Thy memorial from my heart until I die.",
         "kind": "paragraph",
         "label": "6"
       },
@@ -1578,19 +1578,19 @@
       },
       {
         "v": "8",
-        "text": "And let not the beauty of a lawless woman beguile me, Nor any one that is subject to unprofitable sin.",
+        "text": "And let not the beauty of a lawless woman beguile me, nor any one that is subject to () unprofitable sin.",
         "kind": "paragraph",
         "label": "8"
       },
       {
         "v": "9",
-        "text": "Establish the works of my hands before Thee, And preserve my goings in the remembrance of Thee.",
+        "text": "Establish the works of my hands before thee, and preserve my goings in the remembrance of Thee.",
         "kind": "paragraph",
         "label": "9"
       },
       {
         "v": "10",
-        "text": "Protect my tongue and my lips with words of truth; Anger and unreasoning wrath put far from me.",
+        "text": "Protect my tongue and my lips with words of truth; anger and unreasoning wrath put far from me.",
         "kind": "paragraph",
         "label": "10"
       },
@@ -1608,13 +1608,13 @@
       },
       {
         "v": "13",
-        "text": "For if Thou givest not strength, Who can endure chastisement with poverty",
+        "text": "For if Thou givest not strength, Who can endure chastisement with poverty?",
         "kind": "paragraph",
         "label": "13"
       },
       {
         "v": "14",
-        "text": "When a man is rebuked by means of his corruption, Thy testing (of him) is in his flesh and in the affliction of poverty.",
+        "text": "When a man is rebuked by means of his corruption, thy testing (of him) is in his flesh and in the affliction of poverty.",
         "kind": "paragraph",
         "label": "14"
       },
@@ -1628,7 +1628,7 @@
     "17": [
       {
         "v": "1",
-        "text": "O Lord, Thou art our King for ever and ever, For in Thee, O God, doth our soul glory.",
+        "text": "O Lord, Thou art our King for ever and ever, for in Thee, O God, doth our soul glory.",
         "kind": "paragraph",
         "label": "1"
       },
@@ -1640,25 +1640,25 @@
       },
       {
         "v": "3",
-        "text": "But we hope in God, our deliverer; For the might of our God is for ever with mercy,",
+        "text": "But we hope in God, our deliverer; for the might of our God is for ever with mercy,",
         "kind": "paragraph",
         "label": "3"
       },
       {
         "v": "4",
-        "text": "And the kingdom of our God is for ever over the nations in judgement.",
+        "text": "And the kingdom of our God is for ever over the nations in judgment.",
         "kind": "paragraph",
         "label": "4"
       },
       {
         "v": "5",
-        "text": "Thou, O Lord, didst choose David (to be) king over Israel, And swaredst to him touching his seed that never should his kingdom fail before Thee.",
+        "text": "Thou, O Lord, didst choose David (to be) king over Israel, and swore to him touching his seed that never should his kingdom fail before Thee.",
         "kind": "paragraph",
         "label": "5"
       },
       {
         "v": "6",
-        "text": "But, for our sins, sinners rose up against us; They assailed us and thrust us out; What Thou hadst not promised to them, they took away (from us) with violence.",
+        "text": "But, for our sins, sinners rose up against us; they assailed us and thrust us out; what Thou had not promised to them, they took away (from us) with violence.",
         "kind": "paragraph",
         "label": "6"
       },
@@ -1682,25 +1682,25 @@
       },
       {
         "v": "10",
-        "text": "According to their sins didst Thou recompense them, O God; So that it befell them according to their deeds.",
+        "text": "According to their sins didst Thou recompense them, O God; so that it befell them according to their deeds.",
         "kind": "paragraph",
         "label": "10"
       },
       {
         "v": "11",
-        "text": "God showed them no pity; He sought out their seed and let not one of them go free.",
+        "text": "God showed them no pity; he sought out their seed and let not one of them go free.",
         "kind": "paragraph",
         "label": "11"
       },
       {
         "v": "12",
-        "text": "Faithful is the Lord in all His judgements Which He doeth upon the earth.",
+        "text": "Faithful is the Lord in all His judgments Which He doeth upon the earth.",
         "kind": "paragraph",
         "label": "12"
       },
       {
         "v": "13",
-        "text": "The lawless one laid waste our land so that none inhabited it, They destroyed young and old and their children together.",
+        "text": "The lawless one laid waste our land so that none inhabited it, they destroyed young and old and their children together.",
         "kind": "paragraph",
         "label": "13"
       },
@@ -1718,13 +1718,13 @@
       },
       {
         "v": "16",
-        "text": "And all things whatsoever he did in Jerusalem, As also the nations in the cities to their gods.",
+        "text": "And all things [whatsoever he did in] Jerusalem, As also the nations [in the cities to their gods.]",
         "kind": "paragraph",
         "label": "16"
       },
       {
         "v": "17",
-        "text": "And the children of the covenant in the midst of the mingled peoples surpassed them in evil. There was not among them one that wrought in the midst of Jerusalem mercy and truth.",
+        "text": "And the children of the covenant in the midst of the mingled peoples [surpassed them in evil.] There was not among them one that wrought in the midst of Jerusalem mercy and truth.",
         "kind": "paragraph",
         "label": "17"
       },
@@ -1748,7 +1748,7 @@
       },
       {
         "v": "21",
-        "text": "For the heavens withheld the rain from dropping upon the earth, Springs were stopped (that sprang) perennial(ly) out of the deeps, (that ran down) from lofty mountains. For there was none among them that wrought righteousness and justice; From the chief of them to the least (of them) all were sinful;",
+        "text": "For the heavens withheld the rain from dropping upon the earth, Springs were stopped (that sprang) perennially out of the deeps, (that ran down) from lofty mountains. For there was none among them that wrought righteousness and justice; from the chief of them to the least (of them) all were sinful;",
         "kind": "paragraph",
         "label": "21"
       },
@@ -1760,7 +1760,7 @@
       },
       {
         "v": "23",
-        "text": "Behold, O Lord, and raise up unto them their king, the son of David, At the time in the which Thou seest, O God, that he may reign over Israel Thy servant",
+        "text": "Behold, O Lord, and raise up unto them their king, the son of David, At the time in the which Thou sees, O God, that he may reign over Israel Thy servant",
         "kind": "paragraph",
         "label": "23"
       },
@@ -1784,7 +1784,7 @@
       },
       {
         "v": "27",
-        "text": "He shall destroy the godless nations with the word of his mouth; At his rebuke nations shall flee before him, And he shall reprove sinners for the thoughts of their heart.",
+        "text": "He shall destroy the godless nations with the word of his mouth; at his rebuke nations shall flee before him, and he shall reprove sinners for the thoughts of their heart.",
         "kind": "paragraph",
         "label": "27"
       },
@@ -1796,25 +1796,25 @@
       },
       {
         "v": "29",
-        "text": "And he shall not suffer unrighteousness to lodge any more in their midst, Nor shall there dwell with them any man that knoweth wickedness,",
+        "text": "And he shall not suffer unrighteousness to lodge any more in their midst, Nor shall there dwell with them any man that knows wickedness,",
         "kind": "paragraph",
         "label": "29"
       },
       {
         "v": "30",
-        "text": "For he shall know them, that they are all sons of their God. And he shall divide them according to their tribes upon the land,",
+        "text": "For he shall know them, that they are all sons of their God. And he shaIl divide them according to their tribes upon the land,",
         "kind": "paragraph",
         "label": "30"
       },
       {
         "v": "31",
-        "text": "And neither sojourner nor alien shall sojourn with them any more. He shall judge peoples and nations in the wisdom of his righteousness. Selah.",
+        "text": "And neither sojourner nor alien shall sojourn with them anymore. He shall judge peoples and nations in the wisdom of his righteousness. Selah.",
         "kind": "paragraph",
         "label": "31"
       },
       {
         "v": "32",
-        "text": "And he shall have the heathen nations to serve him under his yoke; And he shall glorify the Lord in a place to be seen of all the earth;",
+        "text": "And he shall have the heathen nations to serve him under his yoke; And he shall glorify the Lord in a place to be seen of () all the earth;",
         "kind": "paragraph",
         "label": "32"
       },
@@ -1844,7 +1844,7 @@
       },
       {
         "v": "37",
-        "text": "For he shall not put his trust in horse and rider and bow, Nor shall he multiply for himself gold and silver for war, Nor shall he gather confidence from a multitude for the day of battle.",
+        "text": "For he shall not put his trust in horse and rider and bow, Nor shall he multiply for himself gold and silver for war, Nor shall he gather confidence from () a multitude () for the day of battle.",
         "kind": "paragraph",
         "label": "37"
       },
@@ -1892,7 +1892,7 @@
       },
       {
         "v": "45",
-        "text": "(He will be) shepherding the flock of the Lord faithfully and righteously, And will suffer none among them to stumble in their pasture.",
+        "text": "(He will be) shepherding the flock of the Lord faithfully and righteously, and will suffer none among them to stumble in their pasture.",
         "kind": "paragraph",
         "label": "45"
       },
@@ -1904,13 +1904,13 @@
       },
       {
         "v": "47",
-        "text": "This (will be) the majesty of the king of Israel whom God knoweth; He will raise him up over the house of Israel to correct him.",
+        "text": "This (will be) the majesty of the king of Israel whom God knows; He will raise him up over the house of Israel to correct him.",
         "kind": "paragraph",
         "label": "47"
       },
       {
         "v": "48",
-        "text": "His words (shall be) more refined than costly gold, the choicest; In the assemblies he will judge the peoples, the tribes of the sanctified.",
+        "text": "His words (shall be) more refined than costly gold, the choicest; in the assemblies he will judge the peoples, the tribes of the sanctified.",
         "kind": "paragraph",
         "label": "48"
       },
@@ -1948,7 +1948,7 @@
       },
       {
         "v": "3",
-        "text": "Thine ears listen to the hopeful prayer of the poor. Thy judgements (are executed) upon the whole earth in mercy;",
+        "text": "Thine ears listen to the hopeful prayer of the poor. Thy judgments (are executed) upon the whole earth in mercy;",
         "kind": "paragraph",
         "label": "3"
       },
@@ -1966,7 +1966,7 @@
       },
       {
         "v": "6",
-        "text": "May God cleanse Israel against the day of mercy and blessing, Against the day of choice when He bringeth back His anointed.",
+        "text": "May God cleanse Israel against the day of mercy and blessing, against the day of choice when He brings back His anointed.",
         "kind": "paragraph",
         "label": "6"
       },
@@ -2002,7 +2002,7 @@
       },
       {
         "v": "12",
-        "text": "(It is He) who hath established in (their) courses the lights (of heaven) for determining seasons from year to year, And they have not turned aside from the way which He appointed them",
+        "text": "(It is He) who hath established in (their) courses the lights (of heaven) for determining seasons from year to year, and they have not turned aside from the way which He appointed them",
         "kind": "paragraph",
         "label": "12"
       },
@@ -2022,11 +2022,11 @@
   },
   "contentMode": "poetry",
   "chapterLabels": {
-    "1": "Psalm 1",
-    "2": "Psalm 2 — A Psalm. Of Solomon. Concerning Jerusalem.",
-    "3": "Psalm 3 — A Psalm. Of Solomon. Concerning the righteous.",
+    "1": "Psalm 1 — A Psalm of Solomon",
+    "2": "Psalm 2 — A Psalm of Solomon. Concerning Jerusalem.",
+    "3": "Psalm 3 — A Psalm of Solomon concerning the righteous.",
     "4": "Psalm 4 — A Conversation of Solomon with the Men-pleasers.",
-    "5": "Psalm 5 — A Psalm. Of Solomon.",
+    "5": "Psalm 5 — A Psalm of Solomon",
     "6": "Psalm 6 — In Hope. Of Solomon.",
     "7": "Psalm 7 — Of Solomon. Of turning.",
     "8": "Psalm 8 — Of Solomon. Of the chief Musician.",
@@ -2043,14 +2043,14 @@
   },
   "normalization": {
     "id": "pseudepigrapha-full-book-correction/v2",
-    "behavior": "Whole-book G. Buchanan Gray 1913 reader text rebuilt to Gray’s primary printed numbering. Duplicate parser fragments and verse-0 superscriptions were removed from the text stream, omitted primary-numbered lines were restored, Gray’s alternate parenthetical numbering was not used as reader verse numbering, clear OCR artifacts were corrected, and historical wording was preserved."
+    "behavior": "Whole-book G. Buchanan Gray reader text rebuilt to the 1913 numbered Psalm structure. Duplicate verse labels and embedded title-as-verse records were removed, omitted numbered lines restored from a complete Gray-aligned transcription, clear OCR defects corrected, and historical wording retained where verified."
   },
   "provenance": {
     "edition": "G. Buchanan Gray, “The Psalms of Solomon,” in R. H. Charles (ed.), The Apocrypha and Pseudepigrapha of the Old Testament in English, vol. 2 (Oxford: Clarendon Press, 1913), pp. 631–652.",
     "readerText": "Public-domain G. Buchanan Gray English translation.",
-    "comparisonSource": "Gray 1913 printed witness and Wesley Center transcription, cross-checked against the pinned Scrollmapper transcription and the Lexica primary-number parser.",
-    "sourceRevision": "271173e / 37850e71c1109b7df006cee84802bd46f9835327",
-    "sourceFile": "sources/en/psalms-of-solomon/psalms-of-solomon.md",
-    "verification": "All 18 psalms rebuilt and checked for duplicate verse labels, omitted primary-numbered lines, parser title contamination, empty text, OCR artifacts, and reader/search schema consistency."
+    "comparisonSource": "Gray 1913 printed witness, pinned Scrollmapper transcription, and complete 327-verse Gray-aligned structured transcription.",
+    "sourceRevision": "271173e",
+    "sourceFile": "sources/en/psalms-of-solomon/psalms-of-solomon.json",
+    "verification": "All 18 Psalms and 327 numbered verses checked for sequential numbering, duplicate/missing verse numbers, empty text, title contamination, and reader/search schema consistency."
   }
 }
