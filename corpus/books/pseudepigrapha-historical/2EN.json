@@ -9,16 +9,16 @@
     "verses": 321,
     "remoteUrl": "https://raw.githubusercontent.com/scrollmapper/bible_databases_deuterocanonical/271173e/sources/en/2-enoch/2-enoch.json",
     "remoteFormat": "scrollmapper-json",
-    "translator": "W. R. Morfill (underlying translation); Rutherford H. Platt Jr. recension",
-    "sourceNote": "The Forgotten Books of Eden recension (1926), edited by Rutherford H. Platt Jr.; derived from the Morfill/Charles Slavonic Enoch tradition",
-    "sourcePath": "sources/en/2-enoch/2-enoch.json",
-    "searchable": false,
-    "readerAvailability": "remote-fetch",
-    "bundledJson": false,
-    "readerSourceUrl": "https://raw.githubusercontent.com/scrollmapper/bible_databases_deuterocanonical/271173e/sources/en/2-enoch/2-enoch.json",
-    "readerSourceHost": "raw.githubusercontent.com",
-    "proxySupported": true,
-    "sourceName": "The Book of the Secrets of Enoch — Forgotten Books of Eden recension"
+    "translator": "W. R. Morfill",
+    "sourceNote": "W. R. Morfill’s English translation of Slavonic Enoch, preserved here in the 68-chapter text reprinted by Rutherford H. Platt Jr. in The Forgotten Books of Eden (1926/1927).",
+    "sourcePath": "corpus/books/pseudepigrapha-historical/2EN.json",
+    "searchable": true,
+    "readerAvailability": "bundled-json",
+    "bundledJson": true,
+    "readerSourceUrl": null,
+    "readerSourceHost": null,
+    "proxySupported": false,
+    "sourceName": "The Book of the Secrets of Enoch (2 Enoch) — W. R. Morfill translation"
   },
   "chapters": {
     "1": [
@@ -54,7 +54,7 @@
       },
       {
         "v": "6",
-        "text": "And there appeared to me two men, exceeding big, so that I never saw such on earth; their faces were shining like the sun, their eyes too (were) like a burning light, and from their lips was fire coming forth with clothing and singing of various kinds in appearance purple, their wings (were )brighter than gold, their hands whiter than snow.",
+        "text": "And there appeared to me two men, exceeding big, so that I never saw such on earth; their faces were shining like the sun, their eyes too (were) like a burning light, and from their lips was fire coming forth with clothing and singing of various kinds in appearance purple, their wings (were)brighter than gold, their hands whiter than snow.",
         "kind": "paragraph",
         "label": "6"
       },
@@ -266,7 +266,7 @@
       },
       {
         "v": "5",
-        "text": "And by day fifteen myriads of angels attend it, and by night A thousand.",
+        "text": "And by day fifteen myriads of angels attend it, and by night a thousand.",
         "kind": "paragraph",
         "label": "5"
       },
@@ -300,7 +300,7 @@
       },
       {
         "v": "2",
-        "text": "And I saw six gates open, each gate having sixty-one stadia and A quarter of one stadium, and I measured (them) truly, and understood their size (to be) so much, through which the sun goes forth, and goes to the west, and is made even, and rises throughout all the months, and turns back again from the six gates according to the succession of the seasons; thus (the period) of the whole year is finished after the returns of the four seasons.",
+        "text": "And I saw six gates open, each gate having sixty-one stadia and a quarter of one stadium, and I measured (them) truly, and understood their size (to be) so much, through which the sun goes forth, and goes to the west, and is made even, and rises throughout all the months, and turns back again from the six gates according to the succession of the seasons; thus (the period) of the whole year is finished after the returns of the four seasons.",
         "kind": "paragraph",
         "label": "2"
       }
@@ -308,7 +308,7 @@
     "14": [
       {
         "v": "1",
-        "text": "And again those men led me away to the western parts, and showed me six great gates open corresponding to the eastern gates, opposite to where the sun sets, according to the number of the days three hundred and sixty-five and A quarter.",
+        "text": "And again those men led me away to the western parts, and showed me six great gates open corresponding to the eastern gates, opposite to where the sun sets, according to the number of the days three hundred and sixty-five and a quarter.",
         "kind": "paragraph",
         "label": "1"
       },
@@ -1294,7 +1294,7 @@
       },
       {
         "v": "3",
-        "text": "When the Lord demands bread, or candles, or (the )flesh (of beasts), or any other sacrifice, then that is nothing; but God demands pure hearts, and with all that (only) tests the heart of man.",
+        "text": "When the Lord demands bread, or candles, or (the) flesh (of beasts), or any other sacrifice, then that is nothing; but God demands pure hearts, and with all that (only) tests the heart of man.",
         "kind": "paragraph",
         "label": "3"
       }
@@ -2156,15 +2156,15 @@
     "68": "Section 68"
   },
   "normalization": {
-    "id": "pseudepigrapha-source-identity-repair/v1",
-    "behavior": "Text restored to exact pinned Platt/Wikisource recension where normalization had altered source spelling or hyphenation; edition identity corrected."
+    "id": "pseudepigrapha-full-book-correction/v2",
+    "behavior": "Whole-book checked against the pinned 68-chapter source transcription. Clear transcription/spacing/capitalization defects corrected; historical wording and paragraph numbering preserved."
   },
   "provenance": {
-    "edition": "Rutherford H. Platt Jr., The Forgotten Books of Eden (1926), 2 Enoch / The Book of the Secrets of Enoch",
-    "underlyingTranslation": "W. R. Morfill, translated from the Slavonic; R. H. Charles editorial tradition",
-    "transcription": "English Wikisource / Sacred Texts recension",
-    "sourceUrl": "https://en.wikisource.org/wiki/The_Forgotten_Books_of_Eden/The_Book_of_the_Secrets_of_Enoch",
-    "comparisonWitness": "W. R. Morfill and R. H. Charles, The Book of the Secrets of Enoch (Clarendon Press, 1896)",
-    "note": "Reader text follows the 68-chapter Forgotten Books of Eden recension actually present in the pinned source; it is not represented as a verbatim 1896 Clarendon transcription."
+    "edition": "W. R. Morfill, The Book of the Secrets of Enoch, translated from the Slavonic; R. H. Charles, editor (Oxford: Clarendon Press, 1896).",
+    "readerText": "68-chapter Morfill text as later reprinted by Rutherford H. Platt Jr. in The Forgotten Books of Eden (1926/1927).",
+    "comparisonSource": "scrollmapper/bible_databases_deuterocanonical",
+    "sourceRevision": "271173e",
+    "sourceFile": "sources/en/2-enoch/2-enoch.json",
+    "verification": "All 68 chapters and 321 numbered segments checked for structure, duplicate/missing segment numbers, empty text, and reader-schema consistency."
   }
 }
