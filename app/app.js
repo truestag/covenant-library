@@ -115,7 +115,7 @@ function routeContextForWork(work, params = routeParams()) {
     group = "";
   }
   if (!group) {
-    const inferred = hierarchy.groupForEdition(category, work.editionId);
+    const inferred = hierarchy.groupForWork(category, work);
     if (inferred && hierarchy.groupMatches(work, category, inferred)) group = inferred;
   }
   return { category, group };
@@ -143,6 +143,19 @@ function workList(records, context = {}, { showEdition = false } = {}) {
   }).join("")}</div>`;
 }
 
+const compareLibraryLabels = (left, right) => String(left || "").localeCompare(String(right || ""), undefined, { numeric: true, sensitivity: "base" });
+
+function workCard(work, context = {}) {
+  const edition = hierarchy.edition(work.editionId) || { id: work.editionId, title: work.editionTitle };
+  const routeContext = { category: context.category || "", group: context.group || "" };
+  const target = work.contentState === "local-readable"
+    ? link("reader", { work: work.key, ...routeContext })
+    : link("record", { work: work.key, ...routeContext });
+  const title = work.name || work.title;
+  const detail = work.name && work.name !== work.title ? work.title : friendlyEditionTitle(edition);
+  return `<a class="card" href="${target}"><div class="card-body"><h3>${esc(title)}</h3><p>${esc(detail)}</p><span class="meta">${esc(stateLabel[work.contentState])}</span></div></a>`;
+}
+
 function editionCards(categoryId, groupId = "") {
   return hierarchy.meaningfulEditions(categoryId, groupId).map((editionId) => {
     const edition = hierarchy.edition(editionId) || { id: editionId, title: editionId };
@@ -167,9 +180,28 @@ function renderCategory(id) {
   const def = hierarchy.category(id);
   if (!def) return renderLibrary();
   const groups = hierarchy.groupsForCategory(id);
-  if (id === "apocrypha" || id === "pseudepigrapha") {
-    const records = hierarchy.records(id).slice().sort((left, right) => left.title.localeCompare(right.title));
+  if (id === "apocrypha") {
+    const records = hierarchy.records(id).slice().sort((left, right) => compareLibraryLabels(left.name || left.title, right.name || right.title));
     shell(def.title, def.description, `${categoryBreadcrumb(id)}${workList(records, { category: id }, { showEdition: false })}`);
+    return;
+  }
+  if (id === "pseudepigrapha") {
+    const groupedKeys = new Set();
+    const entries = [];
+    for (const group of groups) {
+      const count = hierarchy.groupSummary(id, group.id);
+      if (!count.records) continue;
+      hierarchy.records(id, group.id).forEach((work) => groupedKeys.add(work.key));
+      entries.push({
+        label: group.label,
+        html: `<a class="card" href="${link("library", { category: id, group: group.id })}"><div class="card-body"><h3>${esc(group.label)}</h3><p>${esc(group.description || "Related Pseudepigrapha")}</p><span class="meta">${count.records} works · ${count.readable} readable offline</span></div></a>`
+      });
+    }
+    for (const work of hierarchy.records(id).filter((item) => !groupedKeys.has(item.key))) {
+      entries.push({ label: work.name || work.title, html: workCard(work, { category: id }) });
+    }
+    entries.sort((left, right) => compareLibraryLabels(left.label, right.label));
+    shell(def.title, def.description, `${categoryBreadcrumb(id)}<div class="card-grid">${entries.map((entry) => entry.html).join("")}</div>`);
     return;
   }
   if (groups.length) {
@@ -184,6 +216,13 @@ function renderGroup(categoryId, groupId) {
   const category = hierarchy.category(categoryId);
   const group = hierarchy.groupsForCategory(categoryId).find((item) => item.id === groupId);
   if (!category || !group) return renderCategory(categoryId);
+  if (categoryId === "pseudepigrapha") {
+    const records = hierarchy.records(categoryId, groupId)
+      .slice()
+      .sort((left, right) => compareLibraryLabels(left.name || left.title, right.name || right.title));
+    shell(group.label, group.description || category.description, `${categoryBreadcrumb(categoryId, groupId)}<div class="card-grid">${records.map((work) => workCard(work, { category: categoryId, group: groupId })).join("")}</div>`);
+    return;
+  }
   const flattened = hierarchy.flattenedWorks(categoryId, groupId);
   const meaningful = hierarchy.meaningfulEditions(categoryId, groupId);
   shell(group.label, group.description || (group.kind === "study" ? "Study resources · not canon" : category.description), `${categoryBreadcrumb(categoryId, groupId)}${meaningful.length ? `<div class="card-grid">${editionCards(categoryId, groupId)}</div>` : ""}${flattened.length ? `<section class="study-block"><p class="eyebrow">Works</p><h2>${esc(group.label)}</h2>${workList(flattened, { category: categoryId, group: groupId }, { showEdition: true })}</section>` : ""}`);
