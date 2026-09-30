@@ -6,11 +6,11 @@
     "title": "The Greek Apocalypse of Baruch (3 Baruch)",
     "sequence": 21,
     "chapters": 17,
-    "verses": 128,
+    "verses": 129,
     "remoteUrl": "https://raw.githubusercontent.com/scrollmapper/bible_databases_deuterocanonical/271173e/sources/en/3-baruch/3-baruch.json",
     "remoteFormat": "scrollmapper-json",
     "translator": "H. Maldwyn Hughes",
-    "sourceNote": "H. Maldwyn Hughes’s English translation of The Greek Apocalypse of Baruch (3 Baruch), published in R. H. Charles (ed.), The Apocrypha and Pseudepigrapha of the Old Testament in English, vol. 2 (Oxford: Clarendon Press, 1913), pp. 527–541.",
+    "sourceNote": "H. Maldwyn Hughes’s English translation of The Greek Apocalypse of Baruch (3 Baruch), rebuilt against the printed text in R. H. Charles (ed.), The Apocrypha and Pseudepigrapha of the Old Testament in English, vol. 2 (Oxford: Clarendon Press, 1913), pp. 527–541.",
     "sourcePath": "corpus/books/pseudepigrapha-historical/3BAR.json",
     "searchable": true,
     "readerAvailability": "bundled-json",
@@ -30,9 +30,15 @@
       },
       {
         "v": "2",
-        "text": "A revelation of Baruch, who stood upon the river Gel weeping over the captivity of Jerusalem, when also Abimelech was preserved by the hand of God, at the farm of Agrippa. And he was sitting thus at the beautiful gates, where the Holy of holies lay.",
+        "text": "A revelation of Baruch, who stood upon the river Gel weeping over the captivity of Jerusalem, when also Abimelech was preserved by the hand of God, at the farm of Agrippa.",
         "kind": "paragraph",
         "label": "2"
+      },
+      {
+        "v": "3",
+        "text": "And he was sitting thus at the beautiful gates, where the Holy of holies lay.",
+        "kind": "paragraph",
+        "label": "3"
       }
     ],
     "1": [
@@ -88,19 +94,19 @@
     "2": [
       {
         "v": "1",
-        "text": "And he took me and led me where the firmament has been set fast, and where there was a river which no one can cross, nor any strange breeze of all those which God created. And he took me and led me to the first heaven, and showed me a door of great size.",
+        "text": "And he took me and led me where the firmament has been set fast, and where there was a river which no one can cross, nor any strange breeze of all those which God created.",
         "kind": "paragraph",
         "label": "1"
       },
       {
         "v": "2",
-        "text": "And he said to me, Let us enter through it, and we entered as though borne on wings, a distance of about thirty days' journey. And he showed me within the heaven a plain;",
+        "text": "And he took me and led me to the first heaven, and showed me a door of great size. And he said to me, Let us enter through it, and we entered as though borne on wings, a distance of about thirty days' journey.",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "And there were men dwelling thereon, with the faces of oxen, and the horns of stags and the feet of goats, and the haunches of lambs.",
+        "text": "And he showed me within the heaven a plain; and there were men dwelling thereon, with the faces of oxen, and the horns of stags and the feet of goats, and the haunches of lambs.",
         "kind": "paragraph",
         "label": "3"
       },
@@ -132,49 +138,49 @@
     "3": [
       {
         "v": "1",
-        "text": "And the angel of the Lord took me and led me to a second heaven.",
+        "text": "And the angel of the Lord took me and led me to a second heaven. And he showed me there also a door like the first and said, Let us enter through it.",
         "kind": "paragraph",
         "label": "1"
       },
       {
         "v": "2",
-        "text": "And he showed me there also a door like the first and said, Let us enter through it.",
+        "text": "And we entered, being borne on wings a distance of about sixty days' journey.",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "And we entered, being borne on wings a distance of about sixty days' journey.",
+        "text": "And he showed me there also a plain, and it was full of men, whose appearance was like that of dogs, and whose feet were like those of stags.",
         "kind": "paragraph",
         "label": "3"
       },
       {
         "v": "4",
-        "text": "And he showed me there also a plain, and it was full of men, whose appearance was like that of dogs, and whose feet were like those of stags.",
+        "text": "And I asked the angel: I pray thee, Lord, say to me who are these.",
         "kind": "paragraph",
         "label": "4"
       },
       {
         "v": "5",
-        "text": "And I asked the angel: I pray thee, Lord, say to me who are these.",
+        "text": "And he said, These are they who gave counsel to build the tower, for they whom thou seest drove forth multitudes of both men and women, to make bricks; among whom, a woman making bricks was not allowed to be released in the hour of child-birth, but brought forth while she was making bricks, and carried her child in her apron, and continued to make bricks.",
         "kind": "paragraph",
         "label": "5"
       },
       {
         "v": "6",
-        "text": "And he said, These are they who gave counsel to build the tower, for they whom thou seest drove forth multitudes of both men and women, to make bricks; among whom, a woman making bricks was not allowed to be released in the hour of child-birth, but brought forth while she was making bricks, and carried her child in her apron, and continued to make bricks. And the Lord appeared to them and confused their speech, when they had built the tower to the height of four hundred and sixty-three cubits.",
+        "text": "And the Lord appeared to them and confused their speech, when they had built the tower to the height of four hundred and sixty-three cubits.",
         "kind": "paragraph",
         "label": "6"
       },
       {
         "v": "7",
-        "text": "And they took a gimlet, and sought to pierce the heaven, saying,",
+        "text": "And they took a gimlet, and sought to pierce the heaven, saying, Let us see (whether) the heaven is made of clay, or of brass, or of iron.",
         "kind": "paragraph",
         "label": "7"
       },
       {
         "v": "8",
-        "text": "Let us see (whether) the heaven is made of clay, or of brass, or of iron. When God saw this He did not permit them, but smote them with blindness and confusion of speech, and rendered them as thou seest.",
+        "text": "When God saw this He did not permit them, but smote them with blindness and confusion of speech, and rendered them as thou seest.",
         "kind": "paragraph",
         "label": "8"
       }
@@ -206,13 +212,13 @@
       },
       {
         "v": "5",
-        "text": "And I said, Who is this dragon, and who is this monster around him?",
+        "text": "And I said, Who is this dragon, and who is this monster around him? And the angel said, The dragon is he who eats the bodies of those who spend their life wickedly, and he is nourished by them.",
         "kind": "paragraph",
         "label": "5"
       },
       {
         "v": "6",
-        "text": "And the angel said, The dragon is he who eats the bodies of those who spend their life wickedly, and he is nourished by them. And this is Hades, which itself also closely resembles him, in that it also drinks about a cubit from the sea, which does not sink at all.",
+        "text": "And this is Hades, which itself also closely resembles him, in that it also drinks about a cubit from the sea, which does not sink at all.",
         "kind": "paragraph",
         "label": "6"
       },
@@ -224,49 +230,49 @@
       },
       {
         "v": "8",
-        "text": "And I said, I pray thee show me which is the tree which led Adam astray.",
+        "text": "And I said, I pray thee show me which is the tree which led Adam astray. And the angel said to me, It is the vine, which the angel Sammael planted, whereat the Lord God was angry, and He cursed him and his plant, while also on this account He did not permit Adam to touch it, and therefore the devil being envious deceived him through his vine.",
         "kind": "paragraph",
         "label": "8"
       },
       {
         "v": "9",
-        "text": "And the angel said to me, It is the vine, which the angel Sammael planted, whereat the Lord God was angry, and He cursed him and his plant, while also on this account He did not permit Adam to touch it, and therefore the devil being envious deceived him through his vine.",
+        "text": "[And I Baruch said, Since also the vine has been the cause of such great evil, and is under judgment of the curse of God, and was the destruction of the first created, how is it now so useful?",
         "kind": "paragraph",
         "label": "9"
       },
       {
         "v": "10",
-        "text": "[And I Baruch said, Since also the vine has been the cause of such great evil, and is under judgment of the curse of God, and was the destruction of the first created, how is it now so useful?",
+        "text": "And the angel said, Thou askest aright. When God caused the deluge upon earth, and destroyed all flesh, and four hundred and nine thousand giants, and the water rose fifteen cubits above the highest mountains, then the water entered into paradise and destroyed every flower; but it removed wholly without the bounds the shoot of the vine and cast it outside.",
         "kind": "paragraph",
         "label": "10"
       },
       {
         "v": "11",
-        "text": "And the angel said, Thou askest aright. When God caused the deluge upon earth, and destroyed all flesh, and four hundred and nine thousand giants, and the water rose fifteen cubits above the highest mountains, then the water entered into paradise and destroyed every flower; but it removed wholly without the bounds the shoot of the vine and cast it outside. And when the earth appeared out of the water, and Noah came out of the ark, he began to plant of the plants which he found.",
+        "text": "And when the earth appeared out of the water, and Noah came out of the ark, he began to plant of the plants which he found.",
         "kind": "paragraph",
         "label": "11"
       },
       {
         "v": "12",
-        "text": "But he found also the shoot of the vine; and he took it, and was reasoning in himself, What then is it?",
+        "text": "But he found also the shoot of the vine; and he took it, and was reasoning in himself, What then is it? And I came and spake to him the things concerning it.",
         "kind": "paragraph",
         "label": "12"
       },
       {
         "v": "13",
-        "text": "And I came and spake to him the things concerning it. And he said, Shall I plant it, or what shall I do? Since Adam was destroyed because of it, let me not also meet with the anger of God because of it.",
+        "text": "And he said, Shall I plant it, or what shall I do? Since Adam was destroyed because of it, let me not also meet with the anger of God because of it. And saying these things he prayed that God would reveal to him what he should do concerning it.",
         "kind": "paragraph",
         "label": "13"
       },
       {
         "v": "14",
-        "text": "And saying these things he prayed that God would reveal to him what he should do concerning it. And when he had completed the prayer which lasted forty days, and having besought many things and wept, he said:",
+        "text": "And when he had completed the prayer which lasted forty days, and having besought many things and wept, he said: Lord, I entreat thee to reveal to me what I shall do concerning this plant.",
         "kind": "paragraph",
         "label": "14"
       },
       {
         "v": "15",
-        "text": "Lord, I entreat thee to reveal to me what I shall do concerning this plant. But God sent his angel Sarasael, and said to him, Arise, Noah, and plant the shoot of the vine, for thus saith the Lord: Its bitterness shall be changed into sweetness, and its curse shall become a blessing, and that which is produced from it shall become the blood of God; and as through it the human race obtained condemnation, so again through Jesus Christ the Immanuel will they receive in Him the upward calling, and the entry into paradise].",
+        "text": "But God sent his angel Sarasael, and said to him, Arise, Noah, and plant the shoot of the vine, for thus saith the Lord: Its bitterness shall be changed into sweetness, and its curse shall become a blessing, and that which is produced from it shall become the blood of God; and as through it the human race obtained condemnation, so again through Jesus Christ the Immanuel will they receive in Him the upward calling, and the entry into paradise].",
         "kind": "paragraph",
         "label": "15"
       },
@@ -312,13 +318,13 @@
       },
       {
         "v": "2",
-        "text": "And behold a bird circling before the sun, about nine cubits away. And I said to the angel, What is this bird?",
+        "text": "And behold a bird circling before the sun, about nine cubits away.",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "And he said to me, This is the guardian of the earth.",
+        "text": "And I said to the angel, What is this bird? And he said to me, This is the guardian of the earth.",
         "kind": "paragraph",
         "label": "3"
       },
@@ -336,37 +342,37 @@
       },
       {
         "v": "6",
-        "text": "For if he were not receiving them, the human race would not be preserved, nor any other living creature. But God appointed this bird thereto.",
+        "text": "For if he were not receiving them, the human race would not be preserved, nor any other living creature.",
         "kind": "paragraph",
         "label": "6"
       },
       {
         "v": "7",
-        "text": "And he expanded his wings, and I saw on his right wing very large letters, as large as the space of a threshing-floor, the size of about four thousand modii; and the letters were of gold.",
+        "text": "But God appointed this bird thereto. And he expanded his wings, and I saw on his right wing very large letters, as large as the space of a threshing-floor, the size of about four thousand modii; and the letters were of gold.",
         "kind": "paragraph",
         "label": "7"
       },
       {
         "v": "8",
-        "text": "And the angel said to me, Read them.",
+        "text": "And the angel said to me, Read them. And I read and they ran thus: Neither earth nor heaven bring me forth, but wings of fire bring me forth.",
         "kind": "paragraph",
         "label": "8"
       },
       {
         "v": "9",
-        "text": "And I read and they ran thus: Neither earth nor heaven bring me forth, but wings of fire bring me forth.",
+        "text": "And I said, Lord, what is this bird, and what is his name?",
         "kind": "paragraph",
         "label": "9"
       },
       {
         "v": "10",
-        "text": "And I said, Lord, what is this bird, and what is his name?",
+        "text": "And the angel said to me, His name is called Phoenix.",
         "kind": "paragraph",
         "label": "10"
       },
       {
         "v": "11",
-        "text": "And the angel said to me, His name is called Phoenix. (And I said), And what does he eat? And he said to me, The manna of heaven and the dew of earth.",
+        "text": "(And I said), And what does he eat? And he said to me, The manna of heaven and the dew of earth.",
         "kind": "paragraph",
         "label": "11"
       },
@@ -378,19 +384,19 @@
       },
       {
         "v": "13",
-        "text": "And while he was conversing with me, there was as a thunder-clap, and the place was shaken on which we were standing. And I asked the angel, My Lord, what is this sound?",
+        "text": "And while he was conversing with me, there was as a thunder-clap, and the place was shaken on which we were standing. And I asked the angel, My Lord, what is this sound? And the angel said to me, Even now the angels are opening the three hundred and sixty-five gates of heaven, and the light is being separated from the darkness.",
         "kind": "paragraph",
         "label": "13"
       },
       {
         "v": "14",
-        "text": "And the angel said to me, Even now the angels are opening the three hundred and sixty-five gates of heaven, and the light is being separated from the darkness.",
+        "text": "And a voice came which said, Light-giver, give to the world radiance.",
         "kind": "paragraph",
         "label": "14"
       },
       {
         "v": "15",
-        "text": "And a voice came which said, Light giver, give to the world radiance. And when I heard the noise of the bird, I said, Lord, what is this noise?",
+        "text": "And when I heard the noise of the bird, I said, Lord, what is this noise?",
         "kind": "paragraph",
         "label": "15"
       },
@@ -410,13 +416,13 @@
       },
       {
         "v": "2",
-        "text": "And the angel said to me, Listen, Baruch: All things whatsoever I showed thee are in the first and second heaven, and in the third heaven the sun passes through and gives light to the world.",
+        "text": "And the angel said to me, Listen, Baruch: All things whatsoever I showed thee are in the first and second heaven, and in the third heaven the sun passes through and gives light to the world. But wait, and thou shalt see the glory of God.",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "But wait, and thou shalt see the glory of God. And while I was conversing with him, I saw the bird, and he appeared in front, and grew less and less, and at length returned to his full size.",
+        "text": "And while I was conversing with him, I saw the bird, and he appeared in front, and grew less and less, and at length returned to his full size.",
         "kind": "paragraph",
         "label": "3"
       },
@@ -428,13 +434,13 @@
       },
       {
         "v": "5",
-        "text": "And as soon as the sun shone, the Phoenix also stretched out his wings.",
+        "text": "And as soon as the sun shone, the Phoenix also stretched out his wings. But I, when I beheld such great glory, was brought low with great fear, and I fled and hid in the wings of the angel.",
         "kind": "paragraph",
         "label": "5"
       },
       {
         "v": "6",
-        "text": "But I, when I beheld such great glory, was brought low with great fear, and I fled and hid in the wings of the angel. And the angel said to me, Fear not, Baruch, but wait and thou shalt also see their setting.",
+        "text": "And the angel said to me, Fear not, Baruch, but wait and thou shalt also see their setting.",
         "kind": "paragraph",
         "label": "6"
       }
@@ -442,43 +448,43 @@
     "8": [
       {
         "v": "1",
-        "text": "And he took me and led me towards the west; and when the time of the setting came,",
+        "text": "And he took me and led me towards the west; and when the time of the setting came, I saw again the bird coming before it, and as soon as he came I saw the angels, and they lifted the crown from its head.",
         "kind": "paragraph",
         "label": "1"
       },
       {
         "v": "2",
-        "text": "I saw again the bird coming before it, and as soon as he came I saw the angels, and they lifted the crown from its head.",
+        "text": "But the bird stood exhausted and with wings contracted.",
         "kind": "paragraph",
         "label": "2"
       },
       {
         "v": "3",
-        "text": "But the bird stood exhausted and with wings contracted.",
+        "text": "And beholding these things, I said, Lord, wherefore did they lift the crown from the head of the sun, and wherefore is the bird so exhausted?",
         "kind": "paragraph",
         "label": "3"
       },
       {
         "v": "4",
-        "text": "And beholding these things, I said, Lord, wherefore did they lift the crown from the head of the sun, and wherefore is the bird so exhausted?",
+        "text": "And the angel said to me, The crown of the sun, when it has run through the day—four angels take it, and bear it up to heaven, and renew it, because it and its rays have been defiled upon earth; moreover it is so renewed each day. And I Baruch said, Lord, and wherefore are its beams defiled upon earth?",
         "kind": "paragraph",
         "label": "4"
       },
       {
         "v": "5",
-        "text": "And the angel said to me, The crown of the sun, when it has run through the day, four angels take it, and bear it up to heaven, and renew it, because it and its rays have been defiled upon earth; moreover it is so renewed each day.",
+        "text": "And the angel said to me, Because it beholds the lawlessness and unrighteousness of men, namely fornications, adulteries, thefts, extortions, idolatries, drunkenness, murders, strife, jealousies, evil-speakings, murmurings, whisperings, divinations, and such like, which are not well-pleasing to God. On account of these things is it defiled, and therefore is it renewed.",
         "kind": "paragraph",
         "label": "5"
       },
       {
         "v": "6",
-        "text": "And I Baruch said, Lord, and wherefore are its beams defiled upon earth? And the angel said to me, Because it beholds the lawlessness and unrighteousness of men, namely fornications, adulteries, thefts, extortions, idolatries, drunkenness, murders, strife, jealousies, evil-speakings, murmurings, whisperings, divinations, and such like, which are not well-pleasing to God. On account of these things is it defiled, and therefore is it renewed.",
+        "text": "But thou askest concerning the bird, how it is exhausted. Because by restraining the rays of the sun through the fire and burning heat of the whole day, it is exhausted thereby.",
         "kind": "paragraph",
         "label": "6"
       },
       {
         "v": "7",
-        "text": "But thou askest concerning the bird, how it is exhausted. Because by restraining the rays of the sun through the fire and burning heat of the whole day, it is exhausted thereby. For, as we said before, unless his wings were screening the rays of the sun, no living creature would be preserved.",
+        "text": "For, as we said before, unless his wings were screening the rays of the sun, no living creature would be preserved.",
         "kind": "paragraph",
         "label": "7"
       }
@@ -566,25 +572,25 @@
       },
       {
         "v": "6",
-        "text": "And the angel said, Listen, Baruch: The plain which contains in it the pool and other wonders is the place where the souls of the righteous come, when they hold converse, living together in choirs. But the water is that which the clouds receive, and rain upon the earth, and the fruits increase.",
+        "text": "And the angel said, Listen, Baruch: The plain which contains in it the pool and other wonders is the place where the souls of the righteous come, when they hold converse, living together in choirs.",
         "kind": "paragraph",
         "label": "6"
       },
       {
         "v": "7",
-        "text": "And I said again to the angel of the Lord, But (what) are these birds? And he said to me, They are those which continually sing praise to the Lord.",
+        "text": "But the water is that which the clouds receive, and rain upon the earth, and the fruits increase.",
         "kind": "paragraph",
         "label": "7"
       },
       {
         "v": "8",
-        "text": "And I said, Lord, and how do men say that the water which descends in rain is from the sea?",
+        "text": "And I said again to the angel of the Lord, But (what) are these birds? And he said to me, They are those which continually sing praise to the Lord.",
         "kind": "paragraph",
         "label": "8"
       },
       {
         "v": "9",
-        "text": "And the angel said, The water which descends in rain -- this also is from the sea, and from the waters upon earth; but that which stimulates the fruits is (only) from the latter source.",
+        "text": "And I said, Lord, and how do men say that the water which descends in rain is from the sea? And the angel said, The water which descends in rain—this also is from the sea, and from the waters upon earth; but that which stimulates the fruits is (only) from the latter source.",
         "kind": "paragraph",
         "label": "9"
       },
@@ -616,13 +622,13 @@
       },
       {
         "v": "4",
-        "text": "And he said to me, Even now Michael, the commander of the angels, comes down to receive the prayers of men. And behold a voice came, Let the gates be opened.",
+        "text": "And he said to me, Even now Michael, the commander of the angels, comes down to receive the prayers of men.",
         "kind": "paragraph",
         "label": "4"
       },
       {
         "v": "5",
-        "text": "And they opened them, and there was a roar as of thunder.",
+        "text": "And behold a voice came, Let the gates be opened. And they opened them, and there was a roar as of thunder.",
         "kind": "paragraph",
         "label": "5"
       },
@@ -640,13 +646,13 @@
       },
       {
         "v": "8",
-        "text": "And having saluted one another thus, they stood still. And I saw the commander Michael, holding an exceedingly great vessel; its depth was as great as the distance from heaven to earth, and its breadth as great as the distance from north to south. And I said, Lord, what is that which Michael the archangel is holding?",
+        "text": "And having saluted one another thus, they stood still. And I saw the commander Michael, holding an exceedingly great vessel; its depth was as great as the distance from heaven to earth, and its breadth as great as the distance from north to south.",
         "kind": "paragraph",
         "label": "8"
       },
       {
         "v": "9",
-        "text": "And he said to me, This is where the merits of the righteous enter, and such good works as they do, which are escorted before the heavenly God.",
+        "text": "And I said, Lord, what is that which Michael the archangel is holding? And he said to me, This is where the merits of the righteous enter, and such good works as they do, which are escorted before the heavenly God.",
         "kind": "paragraph",
         "label": "9"
       }
@@ -654,13 +660,13 @@
     "12": [
       {
         "v": "1",
-        "text": "And as I was conversing with them, behold angels came bearing baskets full of flowers. And they gave them to Michael.",
+        "text": "And as I was conversing with them, behold angels came bearing baskets full of flowers.",
         "kind": "paragraph",
         "label": "1"
       },
       {
         "v": "2",
-        "text": "And I asked the angel, Lord, who are these, and what are the things brought hither from beside them?",
+        "text": "And they gave them to Michael. And I asked the angel, Lord, who are these, and what are the things brought hither from beside them?",
         "kind": "paragraph",
         "label": "2"
       },
@@ -776,13 +782,13 @@
     "16": [
       {
         "v": "1",
-        "text": "And turning he said also to those who brought nothing:",
+        "text": "And turning he said also to those who brought nothing: Thus saith the Lord, Be not sad of countenance, and weep not, nor let the sons of men alone.",
         "kind": "paragraph",
         "label": "1"
       },
       {
         "v": "2",
-        "text": "Thus saith the Lord, Be not sad of countenance, and weep not, nor let the sons of men alone. But since they angered me in their works, go and make them envious and angry and provoked against a people that is no people, a people that has no understanding.",
+        "text": "But since they angered me in their works, go and make them envious and angry and provoked against a people that is no people, a people that has no understanding.",
         "kind": "paragraph",
         "label": "2"
       },
@@ -814,7 +820,7 @@
       },
       {
         "v": "3",
-        "text": "And having come to myself, I gave glory to God, who counted me worthy of such honor.",
+        "text": "And having come to myself, I gave glory to God, who counted me worthy of such honour.",
         "kind": "paragraph",
         "label": "3"
       },
@@ -829,34 +835,34 @@
   "contentMode": "prose",
   "chapterLabels": {
     "0": "Prologue",
-    "1": "Section 1",
-    "2": "Section 2",
-    "3": "Section 3",
-    "4": "Section 4",
-    "5": "Section 5",
-    "6": "Section 6",
-    "7": "Section 7",
-    "8": "Section 8",
-    "9": "Section 9",
-    "10": "Section 10",
-    "11": "Section 11",
-    "12": "Section 12",
-    "13": "Section 13",
-    "14": "Section 14",
-    "15": "Section 15",
-    "16": "Section 16",
-    "17": "Section 17"
+    "1": "Chapter 1",
+    "2": "Chapter 2 — The First Heaven",
+    "3": "Chapter 3 — The Second Heaven",
+    "4": "Chapter 4 — The Third Heaven",
+    "5": "Chapter 5",
+    "6": "Chapter 6",
+    "7": "Chapter 7",
+    "8": "Chapter 8",
+    "9": "Chapter 9",
+    "10": "Chapter 10 — The Fourth Heaven",
+    "11": "Chapter 11 — The Fifth Heaven",
+    "12": "Chapter 12",
+    "13": "Chapter 13",
+    "14": "Chapter 14",
+    "15": "Chapter 15",
+    "16": "Chapter 16",
+    "17": "Chapter 17"
   },
   "normalization": {
-    "id": "pseudepigrapha-full-book-correction/v2",
-    "behavior": "Whole-book H. Maldwyn Hughes reader text checked against the 1913 printed witness and pinned upstream transcription; broken segment numbering/boundaries repaired, clear OCR/spacing defects corrected, and historical wording preserved."
+    "id": "pseudepigrapha-full-book-correction/v3",
+    "behavior": "Reader text rebuilt against H. Maldwyn Hughes’s 1913 printed verse markers rather than inherited parser segmentation; three-part prologue restored, chapter/verse boundaries reconciled, parser artifacts removed, verified OCR slips corrected, and historical wording preserved."
   },
   "provenance": {
     "edition": "H. Maldwyn Hughes, “The Greek Apocalypse of Baruch,” in R. H. Charles (ed.), The Apocrypha and Pseudepigrapha of the Old Testament in English, vol. 2 (Oxford: Clarendon Press, 1913), pp. 527–541.",
-    "readerText": "Public-domain H. Maldwyn Hughes English text of The Greek Apocalypse of Baruch (3 Baruch).",
-    "comparisonSource": "scrollmapper/bible_databases_deuterocanonical",
+    "readerText": "Public-domain H. Maldwyn Hughes English text rebuilt to the printed verse structure.",
+    "comparisonSource": "scrollmapper/bible_databases_deuterocanonical retained only as a transcription cross-check; printed Hughes 1913 witness controls verse structure and corrections.",
     "sourceRevision": "271173e",
     "sourceFile": "sources/en/3-baruch/3-baruch.json",
-    "verification": "Complete prologue plus Sections 1–17 checked for text continuity, segment structure, duplicate/missing segment numbers, empty text, and Covenant Library reader/search schema consistency."
+    "verification": "Prologue plus Chapters 1–17 rebuilt against the printed Hughes witness: 129 numbered units total, with no missing or duplicate labels, no empty text, and no retained parser continuation markers."
   }
 }
