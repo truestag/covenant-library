@@ -81,6 +81,142 @@ const jewishSupplementIds = {
   zohar: []
 };
 
+const PSEUDEPIGRAPHA_GROUPS = [
+  {
+    id: "adam-eve-literature",
+    label: "Adam and Eve Literature",
+    description: "Related Adam-and-Eve pseudepigrapha and textual witnesses",
+    kind: "book-family",
+    workKeys: [
+      "pseudepigrapha-historical-ii/AE1",
+      "pseudepigrapha-historical-ii/AE2",
+      "pseudepigrapha-open-v/APMO",
+      "pseudepigrapha-ocp-critical/TADAM",
+      "pseudepigrapha-open-v/VAE"
+    ]
+  },
+  {
+    id: "book-of-giants",
+    label: "Book of Giants",
+    description: "Qumran and Manichaean witnesses to the Book of Giants",
+    kind: "book-family",
+    workKeys: [
+      "pseudepigrapha-enochic-giants/BKGIANTS",
+      "pseudepigrapha-enochic-giants/BKGIANTS-HENNING"
+    ]
+  },
+  {
+    id: "books-of-baruch",
+    label: "Books of Baruch",
+    description: "Second, Third, and Fourth Baruch traditions",
+    kind: "book-family",
+    workKeys: [
+      "pseudepigrapha-historical/2BAR",
+      "pseudepigrapha-historical/3BAR",
+      "pseudepigrapha-ocp-critical/4BAR"
+    ]
+  },
+  {
+    id: "books-of-enoch",
+    label: "Books of Enoch",
+    description: "First, Second, and Third Enoch",
+    kind: "book-family",
+    workKeys: [
+      "enoch-charles/1EN",
+      "pseudepigrapha-historical/2EN",
+      "enoch-odeberg-1928/3EN"
+    ]
+  },
+  {
+    id: "cave-of-treasures",
+    label: "Cave of Treasures",
+    description: "The six locally represented divisions of the Cave of Treasures",
+    kind: "book-family",
+    workKeys: [
+      "pseudepigrapha-cave-treasures/CAVE1",
+      "pseudepigrapha-cave-treasures/CAVE2",
+      "pseudepigrapha-cave-treasures/CAVE3",
+      "pseudepigrapha-cave-treasures/CAVE4",
+      "pseudepigrapha-cave-treasures/CAVE5",
+      "pseudepigrapha-cave-treasures/CAVE6"
+    ]
+  },
+  {
+    id: "danielic-literature",
+    label: "Danielic Literature",
+    description: "Apocalypses and visions attributed to Daniel",
+    kind: "book-family",
+    workKeys: [
+      "pseudepigrapha-bibliographic-vii/APOCDAN",
+      "daniel-apocrypha-open-i/D14C",
+      "daniel-apocrypha-open-i/D7ARM",
+      "daniel-apocrypha-open-i/DSPG"
+    ]
+  },
+  {
+    id: "ezra-literature",
+    label: "Ezra Literature",
+    description: "Questions, revelations, and visions attributed to Ezra",
+    kind: "book-family",
+    workKeys: [
+      "pseudepigrapha-source-readable-vi/QEZRA",
+      "pseudepigrapha-bibliographic-vii/REVEZRA",
+      "pseudepigrapha-bibliographic-vii/VISEZRA"
+    ]
+  },
+  {
+    id: "sibylline-oracles",
+    label: "Sibylline Oracles",
+    description: "Books of the Sibylline Oracles represented in the library",
+    kind: "book-family",
+    workKeys: [
+      "pseudepigrapha-sibylline/SIB1",
+      "pseudepigrapha-sibylline/SIB2",
+      "pseudepigrapha-sibylline/SIB3",
+      "pseudepigrapha-sibylline/SIB4",
+      "pseudepigrapha-sibylline/SIB5",
+      "pseudepigrapha-sibylline/SIB6",
+      "pseudepigrapha-sibylline/SIB7",
+      "pseudepigrapha-sibylline/SIB8",
+      "pseudepigrapha-sibylline/SIB11",
+      "pseudepigrapha-sibylline/SIB12",
+      "pseudepigrapha-sibylline/SIB13",
+      "pseudepigrapha-sibylline/SIB14"
+    ]
+  },
+  {
+    id: "testaments-abraham-isaac-jacob",
+    label: "Testaments of Abraham, Isaac, and Jacob",
+    description: "The related patriarchal testaments of Abraham, Isaac, and Jacob",
+    kind: "book-family",
+    workKeys: [
+      "pseudepigrapha-historical/TAB",
+      "pseudepigrapha-historical-ii/TISA",
+      "pseudepigrapha-historical-ii/TJAC"
+    ]
+  },
+  {
+    id: "testaments-twelve-patriarchs",
+    label: "Testaments of the Twelve Patriarchs",
+    description: "The twelve patriarchal testaments presented as one book family",
+    kind: "book-family",
+    workKeys: [
+      "pseudepigrapha-historical/TAsh",
+      "pseudepigrapha-historical/TBen",
+      "pseudepigrapha-historical/TDan",
+      "pseudepigrapha-historical/TGad",
+      "pseudepigrapha-historical/TIss",
+      "pseudepigrapha-historical/TJos",
+      "pseudepigrapha-historical/TJud",
+      "pseudepigrapha-historical/TLev",
+      "pseudepigrapha-historical/TNap",
+      "pseudepigrapha-historical/TReu",
+      "pseudepigrapha-historical/TSim",
+      "pseudepigrapha-historical/TZeb"
+    ]
+  }
+].sort((left, right) => left.label.localeCompare(right.label, undefined, { numeric: true, sensitivity: "base" }));
+
 const groupCount = (records) => ({ records: records.length, readable: records.filter((work) => work.contentState === "local-readable").length });
 
 export function createLibraryHierarchy(catalog, works) {
@@ -114,7 +250,8 @@ export function createLibraryHierarchy(catalog, works) {
   }
 
   function groupsForCategory(categoryId) {
-    if (categoryId === "apocrypha" || categoryId === "pseudepigrapha") return [];
+    if (categoryId === "apocrypha") return [];
+    if (categoryId === "pseudepigrapha") return PSEUDEPIGRAPHA_GROUPS;
     if (categoryId === "restoration") return restorationGroups;
     if (categoryId === "jewish") return jewishGroups;
     return [];
@@ -126,7 +263,10 @@ export function createLibraryHierarchy(catalog, works) {
     if (categoryId === "apocrypha") {
       return groupId === "biblical-apocrypha" ? isBibleEdition(work) && standardBiblePart(work) === "other" : groupId === "christian-apocrypha" ? isChristianApocrypha(work) : false;
     }
-    if (categoryId === "pseudepigrapha") return groupId === "enochic" ? isEnochic(work) : groupId === "other-pseudepigrapha" ? !isEnochic(work) : false;
+    if (categoryId === "pseudepigrapha") {
+      const group = PSEUDEPIGRAPHA_GROUPS.find((item) => item.id === groupId);
+      return Boolean(group?.workKeys?.includes(work.key));
+    }
     const group = groupsForCategory(categoryId).find((item) => item.id === groupId);
     if (!group || !group.editionIds?.includes(work.editionId)) return false;
     if (categoryId === "restoration" && work.editionId === "kjv") return standardBiblePart(work) === "ot" || standardBiblePart(work) === "nt";
@@ -162,6 +302,14 @@ export function createLibraryHierarchy(catalog, works) {
     return groupsForCategory(categoryId).find((group) => group.editionIds?.includes(editionId))?.id || "";
   }
 
+  function groupForWork(categoryId, work) {
+    if (!work || !categoryMatches(work, categoryId)) return "";
+    if (categoryId === "pseudepigrapha") {
+      return PSEUDEPIGRAPHA_GROUPS.find((group) => group.workKeys.includes(work.key))?.id || "";
+    }
+    return groupForEdition(categoryId, work.editionId);
+  }
+
   function defaultContext(work) {
     if (!work) return { category: "sources", group: "" };
     const restorationEdition = restorationGroups.find((group) => group.editionIds.includes(work.editionId));
@@ -169,7 +317,7 @@ export function createLibraryHierarchy(catalog, works) {
     const jewishEdition = jewishGroups.find((group) => group.editionIds.includes(work.editionId));
     if (jewishEdition && !BIBLE_EDITION_IDS.has(work.editionId)) return { category: "jewish", group: jewishEdition.id };
     if (isChristianApocrypha(work)) return { category: "apocrypha", group: "christian-apocrypha" };
-    if (isPseudepigrapha(work)) return { category: "pseudepigrapha", group: isEnochic(work) ? "enochic" : "other-pseudepigrapha" };
+    if (isPseudepigrapha(work)) return { category: "pseudepigrapha", group: groupForWork("pseudepigrapha", work) };
     if (isGnosticRelated(work)) return { category: "gnostic", group: "" };
     if (work?.section === "Hymns & Songs") return { category: "hymns", group: "" };
     if (isEarlyChristian(work)) return { category: "early-christian", group: "" };
@@ -197,6 +345,7 @@ export function createLibraryHierarchy(catalog, works) {
     meaningfulEditions,
     flattenedWorks,
     groupForEdition,
+    groupForWork,
     defaultContext,
     edition: (id) => editions.get(id),
     editionTitle: (id) => friendlyEditionTitle(editions.get(id) || { id, title: id })
