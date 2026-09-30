@@ -1156,13 +1156,13 @@
       },
       {
         "v": "7",
-        "text": "And there I saw the holy Abel and all the righteous.",
+        "text": "And there I saw all the righteous from the time of Adam.",
         "kind": "paragraph",
         "label": "7"
       },
       {
         "v": "8",
-        "text": "And there I saw Enoch and all who were with him, stript of the garments of the flesh, and I saw them in their garments of the upper world, and they were like angels, standing there in great glory.",
+        "text": "And there I saw the holy Abel and all the righteous.",
         "kind": "paragraph",
         "label": "8"
       },
@@ -1835,8 +1835,8 @@
     "11": "Chapter 11"
   },
   "normalization": {
-    "id": "pseudepigrapha-full-book-correction/v2",
-    "behavior": "Whole-book R. H. Charles reader transcription rebuilt from the clean 1900 text; the Chapter 6 section heading was removed from verse numbering, clear OCR/import defects were corrected against the printed witness, editorial/page-furniture contamination was excluded, and historical wording was preserved."
+    "id": "pseudepigrapha-full-book-correction/v3",
+    "behavior": "Whole-book R. H. Charles reader transcription rebuilt from the clean 1900 text; the Chapter 6 section heading is excluded from verse numbering; clear OCR/import defects are corrected against the printed witness; and the Chapter 9 ascent sequence is restored so 9:7 names all the righteous from Adam, 9:8 names Abel, and 9:9 names Enoch instead of duplicating the Enoch verse."
   },
   "provenance": {
     "edition": "R. H. Charles, The Ascension of Isaiah (London: Adam and Charles Black, 1900).",
@@ -1844,6 +1844,6 @@
     "comparisonSource": "Clean Charles transcription in TheYoshiYahu/remnant-app, cross-checked against the 1900 printed witness and the pinned Scrollmapper transcription.",
     "sourceRevision": "dcd2cf3c8cd2304e21e3cd2d5c5bbb388326010c",
     "sourceFile": "source-texts/ascension-isaiah/ascension-isaiah.txt",
-    "verification": "All 11 chapters and 296 numbered segments checked for text continuity, sequential numbering, duplicate/missing segment numbers, empty text, Chapter 6 heading contamination, and reader/search schema consistency."
+    "verification": "All 11 chapters and 296 numbered segments checked for text continuity, sequential numbering, duplicate/missing segment numbers, empty text, Chapter 6 heading contamination, and reader/search schema consistency. Chapter 9:7-9 was rechecked against Charles 1900 and restored to the distinct Adam / Abel / Enoch sequence."
   }
 }
