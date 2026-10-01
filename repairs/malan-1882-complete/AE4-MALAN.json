@@ -1,0 +1,2023 @@
+{
+  "schema": "covenant-library-book/v1",
+  "edition": "malan-1882-book-4",
+  "book": {
+    "id": "AE4-MALAN",
+    "name": "Fourth Book Of Adam And Eve",
+    "title": "The Fourth Book Of Adam And Eve — S. C. Malan (1882)",
+    "sequence": 1,
+    "chapters": 15,
+    "verses": 325,
+    "translator": "Solomon Caesar Malan",
+    "translationYear": 1882,
+    "language": "en",
+    "rights": "Public domain in the United States",
+    "sourceTitle": "The Book of Adam and Eve, also called The Conflict of Adam and Eve with Satan",
+    "sourceUrl": "https://archive.org/details/bookofadameveals00malaiala",
+    "sourceNote": "Continuation of Malan's 1882 English translation. Book IV runs from Abraham through the coming of Christ. Reader text was normalized from machine-readable witnesses of Malan's text and checked against the 1882 Internet Archive witness; a fused machine-readable block was split at the original Chapter IX/X boundary (Manasseh) to restore Book IV, Chapters I–XV.",
+    "readerAvailability": "local-json",
+    "bundledJson": true,
+    "localMirror": true,
+    "searchable": true,
+    "contentMode": "verse"
+  },
+  "chapterLabels": {
+    "1": "Chapter I",
+    "2": "Chapter II",
+    "3": "Chapter III",
+    "4": "Chapter IV",
+    "5": "Chapter V",
+    "6": "Chapter VI",
+    "7": "Chapter VII",
+    "8": "Chapter VIII",
+    "9": "Chapter IX",
+    "10": "Chapter X",
+    "11": "Chapter XI",
+    "12": "Chapter XII",
+    "13": "Chapter XIII",
+    "14": "Chapter XIV",
+    "15": "Chapter XV"
+  },
+  "chapters": {
+    "1": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "Then when Terah was two hundred and thirty years old, he fell sick, and called Abraham' his son,^ and said unto him, \" my son, I wish to die.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "But Abraham stood up and comforted him, paid him all due honour, and did not aggrieve him about his being a maker of idols.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "For Abraham his son, was a righteous man, and could not bear idols ;^ but he paid him all due respect, as being his father.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "Then Terah died ; and Abraham and Nahor buried him in a mountain.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "But when Abraham was grown up, God said unto him, \" Abraham, come out of thy land, of thy kindred and of thy father's house, and go to the land that I will show thee.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "Then Abraham arose, and took Sarah his wife, and Lot his brother's son,* and they came to the land of the Amorites.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "And Abraham was seventy years old when he saw this vision;",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "and this was his first wandering from the land of the east, to the western side of the river Euphrates. So Abraham came, and dwelt among kings; and those kings rose up against his brother's son, and carried him away captive.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "Then Abraham took his servants, and all those whowere about him, and came to his brother's son, and delivered him out of their hands.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "At that time Abraham was eighty years old, and no son was born to him, because that Sarah his wife, was barren.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "Then as he was returning from the war with those kings, the grace of God drew him, until he had passed over the hill of Nablus j and from the hill of Nablus, he came near to Jerusalem, ere it was built.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "Then Melchizedec, priest of the Most High God, came out, and welcomed him with joy. And Abraham, when he saw Melchizedec, made haste and bowed to him in worship, and kissed him on the face ; and M^elchizedec gave him a good blessing.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "Then Abraham gave Melchizedec a tenth of all he had with him.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "After that Abraham communed with Melchizedec of the holy mysteries which Melchizedec had consecrated with his own hand.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "For that was an exalted place, not by man's hand, but God Himself had anointed it.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "But after Abraham had communed with Melchizedec, Godsaid unto Abraham, \" Fear not, great is thy reward with Me;",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "and in like manner as Melchizedec My high priest blessed thee, and made thee partaker with himself of Holy Mysteries, so will I make thee partaker with him of heavenly grace.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "Again did God say to Abraham, \" In blessing will I bless thee, and in multiplying will I multiply thy seed upon the face of the earth.\"",
+        "kind": "verse"
+      }
+    ],
+    "2": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "After this there was a famine in the land of Palestine ; and Abraham went down into the land of Egypt.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "And Sarah his wife was with him, and she was good-looking. So Abraham said to her, \" Say not, I am Abraham's wife, lest they kill me, and take thee from me.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "But say, I am his sister.^' Then when they came into the land of Egypt,^ men spake to Pharaoh king of Egypt, and said to him, \" Behold a man has come hither ; and with him is his beautiful sister.\" Then Pharaoh sent and took her from Abraham, who remained weeping.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "But God in His mercy sent an angel who smote Pharaoh, and said to him, \" Send back to Abraham his wife, lest God kill thee.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "Then in the morning, Pharaoh called Abraham, and said unto him, \" Forgive me.\" He then gave him his wife Sarah ; and gave to Sarah, Hagar the Egyptian, and gave her many presents.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "After this Abraham took Sarah his wife, with Hagar her maid-servant, and returned to Palestine. And after that, Abraham took to himself Hagar to wife, who bare him Ishmael, when Abraham was eighty-seven years old.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "But in that Abraham said, \" Sarah is my sister,\" he did not lie ; inasmuch as Terah, his father, married two wives ; one of which was called Tona,t the mother of Abraham, who died shortly after he was born.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "Then Terah married again another wife whose name was Tahdif, who bare him Sarah, whom Abraham married, and who, for that reason, said, \" She is my sister \"—on my father's side, but not on my mother's.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "After this, when Abraham was dwelling in tents, the Lordcame to him with angels of His, and gave him a sign of the birth of his son Isaac,'' who was born to him when he was ahundred years old.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "The Lord showed him also many mysteries. Then days after this, God said to Abraham, when Isaac wasfourteen years old, ' Offer unto me thy son Isaac, in oblation.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "Then Abraham fortified himself and took courage for this trial ; and brought his son to offer him in oblation to God.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "But God redeemed Isaac with a lamb that was tied to a bush.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "And the bush to which the lamb was tied, is the very place into which the tree of the Cross was planted.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "And the lamb that saved Isaac from death, was a figure of the Lamb of Godwho saved us all from death.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "That mountain also, on which king David saw an angelstanding with a sharp sword of fire in his hand, as if going to smite Jerusalem with it—is the place where Abraham saw withthe eye of the Holy Ghost, the Son of God, hanging on it. For this reason did the Lord say to the Jews, '' Abraham,your father, rejoiced and longed to see my day, and he did see it, and was glad.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "Again, this is the place, as the blessed Paul said, \" For the sake of Jesus Christ my Lord am I minister of the circumcision \"—where Christ was circumcised on the eighth day.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "That is also the place where the patriarch Abraham offered up an oblation to God.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "And again, as it was in the days of Moses, when they offered up a lamb for the sins of the people, to cleanse them from their sins—so also did the Lamb of God offer up Himself in oblation for us, to set us free from our sins.",
+        "kind": "verse"
+      }
+    ],
+    "3": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "After this, Melchizedec showed himself to men, who saw him, and who were comforted by his words, everywhere.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "The kings of the earth and peoples, when they heard his voice, did gather together; a multitude of creatures and of kings; that numbered twelve hosts.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "They came to him and bowed to him in worship, and were blessed by him, and asked him, saying, \" Come, let us make thee king over us.'",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "' But Melchizedec king of Salem, and priest of the Most High God, would not.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "And the kings wondered at his beauty; their hearts were drawn to him by his discourse, and they fell down at his feet in worship ; and they asked God, that Melchizedec might dwell among them in their palaces.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "But Melchizedec would not, and said unto them, \" I cannot leave this place, and go to another one.''",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "So those kings said among themselves, \" Let every one of us who can, come, and let us build a city on this mountain for Melchizedec.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "They all took pleasure in the work, brought together materials in abundance, and built the City of Jerusalem, that means \" the middle of the earth.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "Then Melchizedec continued to dwell in it, at that place; and the kings came, and were blessed by him, until the day of his departure, when his life ended in this world.",
+        "kind": "verse"
+      }
+    ],
+    "4": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "After this, Abraham ordered one of his servants, to take a wife for his son Isaac ; and adjured him not to marry Isaac, but to one of his own kindred.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "And Abraham entered into rest when one hundred and seventy-five years old ; and Isaac and Ishmael his sons buried him.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "Then Isaac married when he was forty years old ; and Esau and Jacob his sons, were bom unto him when he was about sixty years of age.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "And God blessed Isaac greatly. Then after this Jacob went to the land of Haran, to Laban, his mother's brother, and married his two daughters Leah and Eachel.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "He had by Leah, Reuben, Simeon, Levi, Judah, Issachar, and Zebulun ; and by Rachel he had Joseph and Benjamin.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "Then he had also by Zilpah, Leah's maid-servant. Gad and Aser ; and by Bilhah, Rachel's maid-servant, he had Dan and Naphtali.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "And about twenty years after Jacob's return from the land of Haran, before his father Isaac died, Joseph was sold by his brothers, because they were jealous of him.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "But when Isaac died, his two sons Esau and Jacob came to him, embalmed him, and laid him in the sepulchre of his father.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "Then six years after the death of Isaac, Rebecca died ; and they buried her by Sarah, Abraham's wife. And when, after that Leah, Jacob's wife died, they buried her by the side of them.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "Then after this Judah took to himself a wife whose namewas Habwadiya, that means, \" house-wife j\"t but in the law her name is Sewa.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "She was of a Canaanitish family, and Jacob's heart suffered much on that account ; and he said to Judah his son who had married that wife, \" The God of Abraham and of Isaac will not allow the seed of this Canaanitish woman to mingle with my seed",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "But some days after this, Sewa bare three sons unto Judah, whose names were Er, Onan, and Selah.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "And when Er was grown up, Judah married him, his first-born son, unto a woman named Tamar, daughter of Kadesh Levi.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "And Er continued with her a long time, and behaved after the manner of the men of Sodom and Gomorrah.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "But God looked down upon his evil deeds and killed him.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "Then Judah married his son Onan to Tamar, saying, \" He shall raise seed unto his brother.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "But him also did God kill because of his evil deeds ; on account of Jacob's curse, \"",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "That no Canaanitish seed should mingle with his own.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "So God would not let any of it mingle with that of Jacob the righteous.",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "Therefore did Tamar go to Judah her father-in-law, who had intercourse with her, not knowing she was his son's wife; and she bare unto him twins, Pharez and Zarah.",
+        "kind": "verse"
+      }
+    ],
+    "5": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "After this Jacob went to Joseph, and continued fourteen years in the land of Egypt, where he died at the age of one hundred and fifty-seven; when the good Joseph was fiftythree years old.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "Then when he was dead, Joseph called cunning Egyptian embalmers, who embalmed him beautifully ; and then Joseph carried his body to the land of Canaan, and buried him in the sepulchre of his fathers Abraham and Isaac.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "After this Pharez begat Judah, and Judah begat Ezrom, and Ezrom begat Aram ; and Aram begat Aminadab ; and Aminadab begat Naasson.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "And this Naasson was great among the sons of Judah ; and the daughter of Aminadab married Eleazar the son of Aaron, who prayed to God, until His wrath abated.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "Thus, my son, have I told thee in detail the genealogies from the first until now.",
+        "kind": "verse"
+      }
+    ],
+    "6": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "After this, there began to issue a race from Naasson, who was great among the sons of Judah; and from him began a kingdom and a priesthood, and the Jews became celebrated through him.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "Then Naasson begat Salmon, and Salmon begat Boaz of Rahab. And thou must know that from Boaz and Ruth the Moabitess, began the kingdom whereby Lot, the son of Abraham's brother, obtained a share [in the generations] of the kingdom [of Judah].",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "For God denied not seed to Lot, neither would He cut it short.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "For this Lot was righteous, and shared all Abraham's troubles with him ; and received the angels of God in Sodom and Gomorrah.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "Therefore did God give to Lot's children fellowship in the kingdom, and that was [reckoned] for righteousness unto Lot the righteous.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "For this reason also were [Lot's children] mentioned among the genealogies of the kingdom of Abraham and of Lot; for Christ was born of their seed.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "Then, again, Obed, Ruth's son, was of Lot's seed, on his mother's [side] ; and Obed begat Jesse ; and Jesse begat David the king.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "And king David begat Solomon; all these are of Ruth the Moabitess.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "Again, Amnan, the daughter of [Dan] , king of the Ammonites, was of Lot's seed ; and Solomon the king took this daughter of Dan to wife and had by her, Rehoboam, who reigned after Solomon.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "But king Solomon took to himself many wives, seven hundred daughters of kings, three hundred concubines, one thousand in number.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "But although Solomon took to himself these many wives, they did not bare him a single male child, but Rehoboam, of Amnan, the daughter of Dan, king of Ammon ; who was of a blessed race.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "Thus, again, God would not allow the seed of Canaanites to mingle with that of strange peoples, which God had made strangers.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "And this shows that Christ came of the seed of Abraham the blessed father, and of Lot his brother's son.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "And all the families of the children of Israel in the land of Egypt, were Levi, Amram, Moses, Joshua, and Caleb, son of Jephunneh ; all these were great chiefs over their peoples.",
+        "kind": "verse"
+      }
+    ],
+    "7": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "As to Moses, when they had thrown him into the river, Sephurah, the daughter of Pharaoh, took him up thence, and brought him up.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "She it is, whom the Hebrews call Mariam, the mother of Moses.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "And Moses abode forty years in Pharaoh's house ; and other forty years in the land of Midian, ere God spake to him.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "Then, again, when God spake to Moses from within the bush his tongue faltered ; and [his] tongue was—as God said, \" From the time that I spake to My servant Moses, he was of a faltering tongue.''",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "And Moses dwelt forty years in the land of Egypt, and forty years in the land of Midian, with the priest Jethro, his father- in-law ; then forty years more in the wilderness ; when Moses died, aged one hundred and twenty years.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "Then after him arose Joshua, the son of Nun.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "He was twenty-seven years judge over the children of Israel, and exercised judgment over them ; he was prophet among them, and kept them, and led them in the right way and he entered into rest and died, when sixty years old.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "Then after him arose Kusarat the judge, eight years, and he died ; and after him Phutamiral, the son of Kaba, judged the children of Israel forty years, and died.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "After him Naod, son of Phuru, judged the children of Israel eighty years.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "But in the twenty-fifth year of Naod, ended four thousand years since Adam.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "Naod died, and Sikar judged the children of Israel.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "But in his days a king of Canaan rose against Sikar, wishing to make war against him.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "But God gave Sikar victory over him, whom he defeated; and Sikar judged forty years. After him Yarod was judge over the people of Israel, forty years ; and after him Abimelec judged ten years, and died.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "And after him Banu, son of Yuorani, judged twenty-three years, and died.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "After him Yar of Phila, judged twenty-two years, and died.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "After him the son of Aminadab, judged fifty-eight years, and died.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "And after him the daughter of Nasyamu judged seven years, and died.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "After her, Ansyus judged seven years, and died ; and after him the Philistine judged forty years.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "But God gave him into the hands of the champion Samson, who slew him.",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "Then the champion Samson arose and was judge over the children of Israel twenty years, and then died.",
+        "kind": "verse"
+      },
+      {
+        "v": "21",
+        "label": "21",
+        "text": "Then the children of Israel were left without a judge twelve years, when Eli the priest began to judge ; and judged them forty years, and then died.",
+        "kind": "verse"
+      },
+      {
+        "v": "22",
+        "label": "22",
+        "text": "After him Samuel was judge over the children of Israel forty years, and died.",
+        "kind": "verse"
+      },
+      {
+        "v": "23",
+        "label": "23",
+        "text": "Then after him, Saul reigned over them forty years, and died.",
+        "kind": "verse"
+      },
+      {
+        "v": "24",
+        "label": "24",
+        "text": "Then after him, David reigned over the children of Israel forty years, and then died.",
+        "kind": "verse"
+      },
+      {
+        "v": "25",
+        "label": "25",
+        "text": "And after him, his son Solomon arose, who also reigned forty years over the children of Israel, and then died.",
+        "kind": "verse"
+      },
+      {
+        "v": "26",
+        "label": "26",
+        "text": "He wrought more wonders in the earth than all other kings, who were before him.",
+        "kind": "verse"
+      },
+      {
+        "v": "27",
+        "label": "27",
+        "text": "For he was the first whom God filled with wisdom.",
+        "kind": "verse"
+      },
+      {
+        "v": "28",
+        "label": "28",
+        "text": "So that he made [and did] many things peculiar to him ; so far as to make a ship, and go in it to the city of Ophir; [where] he wrought gold in ornaments, and brought it to Jerusalem.",
+        "kind": "verse"
+      },
+      {
+        "v": "29",
+        "label": "29",
+        "text": "During his reign, there was great peace ; there was no trouble ; but there was peace between him and Hiram king of Tyre; who reigned five hundred years over the city of Tyre, and whose kingdom lasted from the reign of Solomon, to that of Zedekiah ; until, from the length of his days and of his years, and from the greatness of his kingdom, he exalted himself and said, \" I am God, and no man.\"'",
+        "kind": "verse"
+      },
+      {
+        "v": "30",
+        "label": "30",
+        "text": "God was wroth against him because of his evil deed; and God looked down upon it, and delivered him into the hands of king Nebuchadnezzar who put him to death; removed his army, and took his spoil.",
+        "kind": "verse"
+      }
+    ],
+    "8": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "But we will inform thee of the things king Solomon gave every day in his house.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "On account of his many wives, they made bread in his house of thirty cores of fine flour; one hundred cores of wheat flour, which hardly sufficed.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "And they slaughtered in his house daily, ten bullocks well-fatted, and twenty fat oxen, and one hundred sheep; besides what they slew of buffaloes, gazelles and wild deer, which they hunted every day.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "And in Solomon's house they drank daily four hundred basins of wine. And many other things did they.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "And Solomon reigned over his large kingdom with the greatest wisdom ever found. But he did not keep his soul; but inclined his heart to the love of women, and forsook God who had created him, and who had given him this kingdom.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "And he died in his denial of Him, and in his sins.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "After him reigned Rehoboam, his son, seventeen years, and did evil.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "He defiled Jerusalem with abominable sacrifices, and sacrificed to Satan; and adultery increased greatly in his days.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "Wherefore God cut off his kingdom swiftly ; and took it from the house of David.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "But in the fifth year of Rehoboam, a king whose name was Susakim came up against Jerusalem.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "He took all the spoil of the temple, and spoiled all Rehoboam had, and spoiled all the house of David, and removed them and took them to his own country.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "And he boasted, and said to the Jews, \" The things I have taken from you as spoil, are goods that belonged to my fathers, of which your fathers spoiled them, when they came out of the land of Egypt, and which they brought unto this place ; and behold, I have taken them from you.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "And Rehoboam died in his denial [of God] ; and after him, his son Abius, reigned twenty years over the children of Israel.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "But he, too, walked in his father's ways, by reason of Makia his mother, the daughter of Absalom; wherefore, did he many wicked things, and then died.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "After him arose Asaph his son, who reigned forty-one years over the children of Israel. He did what was right, just and good before God; he brake down the idols that were in his day, and removed their images from the face of the land; and he took his wicked mother Anna, and threw her down from the roof [of her house] and she died, because of her adulteries.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "After that, came Eleazar a black king, who was king of Endena, to fight Asaph.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "But God delivered him into the hands of Asaph, who defeated him.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "Then Asaph died ; and his son Jehoshaphat reigned in his stead.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "He also did that which is just and good before God, and pleased God all his days, and then died.",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "Then his son Aram reigned in his stead; but he transgressed the commandments of God, and forsook His law, and sacrificed unto idols.",
+        "kind": "verse"
+      },
+      {
+        "v": "21",
+        "label": "21",
+        "text": "Then Zambri rose up against him, made war against him, and he died in his denial [of God].",
+        "kind": "verse"
+      },
+      {
+        "v": "22",
+        "label": "22",
+        "text": "Then Yusia, his son, reigned [after him]; but on account of his transgressions, God delivered him into the hands of his enemies, who put him to death.",
+        "kind": "verse"
+      },
+      {
+        "v": "23",
+        "label": "23",
+        "text": "But when he was dead, his mother rose up against all the royal children and put them to death, and said, \" I will take the kingdom from the house of David.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "24",
+        "label": "24",
+        "text": "Then Yusabet daughter of the king of Aram, arose, took Agragarina, and slew him before the eyes of the royal children that were left.",
+        "kind": "verse"
+      },
+      {
+        "v": "25",
+        "label": "25",
+        "text": "But when she had put him to death, she feared, and hid herself and those with her, under a bed.",
+        "kind": "verse"
+      },
+      {
+        "v": "26",
+        "label": "26",
+        "text": "And Gotholia was queen over the children of Israel, and died.",
+        "kind": "verse"
+      },
+      {
+        "v": "27",
+        "label": "27",
+        "text": "Then the whole people of Israel said, \" Whom shall we make king over us.",
+        "kind": "verse"
+      },
+      {
+        "v": "28",
+        "label": "28",
+        "text": "Then when Yuda the high priest heard they spake thus, he gathered together the whole of the Jews within the Temple, and waited until the messengers of thousands and the messengers of hundreds came; and then Yuda the high priest, said to them, \" What do you require of me, and who is he whom ye will make king over the house of David?\"",
+        "kind": "verse"
+      },
+      {
+        "v": "29",
+        "label": "29",
+        "text": "Then they said to him, \" Thou hast authority.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "30",
+        "label": "30",
+        "text": "Then Yuda rose and took Barsia, and brought him before them, and said to them, \" Does this one suit you for a king. The people were pleased with him ; so Yuda brought him into the house of God, and set him over the kingdom ; then all the people rejoiced, and the whole country was quiet in his days ; and he was king in Jerusalem forty years.",
+        "kind": "verse"
+      },
+      {
+        "v": "31",
+        "label": "31",
+        "text": "But Barsia did not bear in mind all the good things Yuda the priest had told him; but he took him and put him to death.",
+        "kind": "verse"
+      },
+      {
+        "v": "32",
+        "label": "32",
+        "text": "After this, enemies rose up against Barsia and put him also to death.",
+        "kind": "verse"
+      }
+    ],
+    "9": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "After him his son Araazias reigned twenty-nine years, and put to death those who had killed his father; but he did not put to death their children, so as to fulfil the law of Moses, that says,\" Ye shall not put to death children for the sins of their fathers.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "Then Amazias died, and after him Ozia reigned fifty-two years, and in his reign exercised justice and judgment, and right before God.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "Yet did he do one wicked act, and that was that—without due orders, he offered sacrifices unto God, and oblations that did not become him.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "So he died. After him Yonathan his son, reigned sixteen years.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "But during his reign, he did evil before God, and angered his Creator, and forsook His commandment and His law ; and burnt incense to idols, and sacrificed unto them.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "For this reason did God deliver him to death, into the hands of Caran, king of Elmosal.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "And when the king of Elmosal led him away [captive] , he [Yonathan] took all the vessels he found in the house of God, and sent them all to the great king of Elmosal ; and left nothing in the house of God.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "In the days of this king, did the children of Israel, go the first time into captivity.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "He removed them to his own country, and the land of Israel remained bare.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "Then the king of Elmosal, sent people to dwell in the land and to till it, instead of the children of Israel who had left it.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "But when those people came to dwell in that land, [wild] beasts rent them asunder and devoured them, and prevailed against them in all the borders of the land.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "Then they sent word to the king in their own tongue, and asked him to send them Urias the priest, to give them the law, so that wild beasts should no longer come near them, and hurt them.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "When the king heard this he sent them Urias the priest, and commanded him to give them a law, for them to keep, so that the wild beasts hurt them not.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "Urias the priest came, and did as the king had commanded him, and he gave the people the law of the Jews ; it was in their hands, they recited it and ruled themselves after it.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "And those were the Samar; whom the king, of whom we have just spoken, had sent to till the land of Israel.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "Then Yunathan died, and after him reigned Akaz his son, who did well before God, and then died.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "After him reigned his son Hezekias, when he was twenty-five years old ; and he reigned twenty-two years ; and did good, and judgment, equity and justice ; and he pleased the Lord; he kept His law and His commandments ; he brake down the idols, and destroyed their houses.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "But in the fourth year of his reign, came Sanakreb king of Assarium, and took away captive all that were left and sent them to Babylon.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "But Hezekias served the Lord God, and fulfilled His law, until he fell sick and became very weak, and was in great distress by reason of his sickness ; his heart suffered, and he said to himself, \" Woe is me ! I shall die without a son to reign after me.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "And in his sickness he wept before Grod and said, \" Woe is me, Lord ! behold, I die without a son ; and behold the promise Thou madest unto David, shall fail in me ; and the kingdom shall pass from the house of David.'",
+        "kind": "verse"
+      },
+      {
+        "v": "21",
+        "label": "21",
+        "text": "Then God looked upon his sorrow of heart, and upon his sickness, for his sickness was sore.",
+        "kind": "verse"
+      },
+      {
+        "v": "22",
+        "label": "22",
+        "text": "And God had pity on him and gave him fifteen years over and above the rest of his days; and he recovered from his sickness.",
+        "kind": "verse"
+      },
+      {
+        "v": "23",
+        "label": "23",
+        "text": "Then three years after he had recovered, and God had raised him from his sickness, he begat Manasseh. And he died, rejoicing greatly at having a son born unto him, to sit upon his throne.",
+        "kind": "verse"
+      }
+    ],
+    "10": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "After him Manasseh his son reigned twelve years in Jerusalem. He did much evil, and made the people of Jerusalem worship idols.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "Then when he had thus transgressed the law of God, Isaias the prophet came to him and rebuked him for the wickednesses he had wrought.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "Then Manasseh was angry with him, and commanded valiant and wicked men to take Isaias the prophet, and to saw him asunder with a saw of wood, from his head down to his feet, among the trees of the wilderness; and then to cast him to the beasts [of the field] to devour him.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "And they did so to him. Isaias was then one hundred and twenty years old.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "His raiment was of shaggy goat's hair upon his body; and hefasted regularly every second day [of the week] all the days of his life.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "Then Manasseh died; and after him reigned his son Amots, who did evil before God; for he offered sons and daughters in sacrifice unto idols.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "Then Amots died; and after him reigned Yusias his son.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "He was twenty years old when he [began] to reign, and continued twenty-two years in his kingdom in the city of Jerusalem.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "He did justice and right before God; and kept the Passover of the Lord, such as the children of Israel never were able to keep, except the one Moses kept for them in the wilderness.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "This king purified Jerusalem of all wickedness. But Pharhon the lame, king of Egypt, killed Yusias in Carmelos.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "Then after him Akaz reigned three months.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "But Pharhon bound Akaz in chains and sent him into the land of Egypt; and he died in that place.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "After his death Yuakem his brother reigned fourteen years; but in the third year of his reign, Nabukadanatsor came to the city of Jerusalem, and God delivered Yuakem into his hands; and Yuakem was under his orders, bowed unto him, and paid him tribute; he then sickened and died.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "After him reigned his brother Yekonias three months ; then came Nabukadanatsor who took captive Yekonias and all his army, and sent them to Babylon.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "On the way thither, Daniel's mother gave him birth. Anania, Azaria, and Misael, sons of Yekonias, were also bom on the first transportation of Yuakem. Then Yekonias died, and after him Zedekias reigned twelve years.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "This was the end of kings that reigned over the children of Israel, and all Judah; after them no king was left to them.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "And at the end of the fourteenth year of Zedekias, Nabukadanatsor came and transported all the people of Jerusalem, as far as the west, and as far as the river Euphrates, and as far as the great river.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "He laid waste Tyre, and burnt Hiram king of Tyre with fire, who had reigned five hundred years.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "Then after this Nabukadanatsor went into Egypt, and put to death Pharhon; destroyed his army, and laid waste the land of Egypt; and then took the city of Jerusalem.",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "And God delivered Zedekias into his hands, whom he took, and brought out before idols, and set him before the people, and slew his children before him, without pity.",
+        "kind": "verse"
+      },
+      {
+        "v": "21",
+        "label": "21",
+        "text": "He then put out his eyes, bound his hands with chains and his feet with fetters; and sent him to Babylon, because of his folly, and of the evil he had done to Irmias the prophet, by casting him into springs of water in a marsh.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "22",
+        "label": "22",
+        "text": "After this Nabuzaradan captain of the king's array, destroyed the walls of Jerusalem, burnt the House of God with fire; and did all manner of evil to Jerusalem.",
+        "kind": "verse"
+      },
+      {
+        "v": "23",
+        "label": "23",
+        "text": "But Simeon the priest, found favour and grace with the captain of the king's army, and requested him to give him the house of records; and he gave him a command accordingly.",
+        "kind": "verse"
+      },
+      {
+        "v": "24",
+        "label": "24",
+        "text": "Then Simeon the priest came in and gathered together the ashes of the books, and laid them in a pot in a vault, and he took a censer of brass, and put fire therein, and threw pure incense upon it, and hung it in the vault over the place in which the ashes of the books lay.",
+        "kind": "verse"
+      },
+      {
+        "v": "25",
+        "label": "25",
+        "text": "But [Nebuzaradan] laid waste Jerusalem, like a wilderness.",
+        "kind": "verse"
+      },
+      {
+        "v": "26",
+        "label": "26",
+        "text": "And Jeremiah the prophet sat weeping and mourning over Jerusalem twenty years, after which this prophet Jeremiah went into the land of Egypt, and died there.",
+        "kind": "verse"
+      },
+      {
+        "v": "27",
+        "label": "27",
+        "text": "But the writers and the interpreters destroyed the writings, and the Hebrews changed the writings; and the Syrians and the Greeks rejected many sections of those writings.",
+        "kind": "verse"
+      },
+      {
+        "v": "28",
+        "label": "28",
+        "text": "So that the children of the people could not ascertain [their kindred], neither could men or women hear who were their fathers or their mothers, except very few of them ; And this was because of the laying waste of Jerusalem ; so that until this day, nothing certain is found among the writings, except the chief writings alone, which writings had been translated before the ruin of Jerusalem.",
+        "kind": "verse"
+      },
+      {
+        "v": "29",
+        "label": "29",
+        "text": "Then again since some of the writings were altered, people could not ascertain how they were married, and could not know who were their wives or daughters; they did not know their names or their kindred; nor the order of generations; neither did they know that of the priesthood.",
+        "kind": "verse"
+      },
+      {
+        "v": "30",
+        "label": "30",
+        "text": "And Jechonias remained twienty-seven years bound in prison at Babylon.",
+        "kind": "verse"
+      },
+      {
+        "v": "31",
+        "label": "31",
+        "text": "After that he was released by Marzuk king of Babylon, who gave him to wife, a woman called Dalilah daughter of Eliakim, by whom he had Salathiel in Babylon.",
+        "kind": "verse"
+      },
+      {
+        "v": "32",
+        "label": "32",
+        "text": "But Jechonias, Salathiel's father, died at Babylon.",
+        "kind": "verse"
+      },
+      {
+        "v": "33",
+        "label": "33",
+        "text": "Then Salathiel took to wife Hadast, daughter of Elkanah; and had by her Zerubbabel.",
+        "kind": "verse"
+      },
+      {
+        "v": "34",
+        "label": "34",
+        "text": "And Zerubbabel married a woman whose name was Malka, daughter of Ezra the scribe; but he had no child by her in Babylon.",
+        "kind": "verse"
+      },
+      {
+        "v": "35",
+        "label": "35",
+        "text": "Then in the days of Zerubbabel, who was elder among the children of Israel, a Persian king, called Cyrus, who reigned over Babylon, took to wife a woman called Meshar, sister of Zerubbabel, elder among the children of Israel; and he made her queen after the manner of the queens of Persia.",
+        "kind": "verse"
+      },
+      {
+        "v": "36",
+        "label": "36",
+        "text": "And when she became queen, she found favour with the king, and asked him to show mercy to the children of Israel, and to send them back to the city of Jerusalem.",
+        "kind": "verse"
+      }
+    ],
+    "11": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "But Cyrus loved much Meshar, sister of Zerubbabel, [even] as his own soul.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "So he gave an urgent order that they should go about the whole land of the Chaldaeans, and gather together the children of Israel into Babylon, the house of the kingdom; and they gathered them according to the king's order.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "Then Cyrus said to Zerubbabel, his wife's brother, \" Take thy people and go to thy city Jerusalem; and rebuild it as it was at first.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "Then when dutiful Cyrus had given this order concerning the return of the children of Israel to Jerusalem, in the land of the sanctuary; God appeared unto him in a vision during sleep, and said unto him, \"Because thou hast done this, they shall call thee Cyrus the Messiahnic; and this name, Messiahnic, shall be given thee, because thou hast sent back strangers to their own city ; and because thou hast given commandment concerning the rebuilding of Jerusalem.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "Then the children of Israel returned from the captivity of Babylon, Zerubbabel was elder over them; and Josiah, son of Zadok, of the sons of Aaron, was high priest over them; as the angel of God spake to the prophet Zachariah saying, 'Those two sons that stand before the Lord of the whole earth shall minister unto them, as becomes their service.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "Cyrus had assumed the kingdom two years, when the captivity returned from Babylon; and at the end of that year, the five thousand years spoken of to Adam were fulfilled.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "But when the children of Israel returned from Babylon they had not the law, neither was there a book in their hands; inasmuch as the voices of the prophets had departed from among them.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "So, when they came to Jerusalem and were settled in it, Ezra the scribe came to the vault in which were the ashes of the books, which Simeon the priest, had gathered together.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "And Ezra found the censer that was full of fire, hanging with [smoke of] incense rising from it on high.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "Then Ezra prayed to God, wept abundantly, and spread his hand towards the ashes of the books of the law and of the prophets, and all of them three times.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "Then came the Spirit of God upon him, and the [same] Spirit spake through him that had spoken through the prophets.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "And he wrote the law and the prophets, and made them new a second time.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "And the fire which he found in the censer, is the divine fire that was all the time in the House of God.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "Then Zerubbabel settled in Jerusalem as king over the children of Israel, and Josiah son of Zadok as high priest, with Ezra the scribe of the law and the prophets also, as chief over the children of Israel.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "And the children of Israel kept a solemn Passover unto the Lord, when they returned from their captivity at Babylon.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "These were the three great, full and solemn feasts of the Passover, which the children of Israel kept during their existence.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "The first Passover was in Egypt, in the days of Moses; the second Passover was in the days of king Josiah; and the third Passover was when they returned from their captivity in Babylon.",
+        "kind": "verse"
+      }
+    ],
+    "12": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "From the first transportation to Babylon, when they carried away Daniel's mother, and she brought him forth, unto the second year of Cyrus the Persian, are seventy years, during which the children of Israel were captive, according to the prophecy of holy Jeremiah the prophet.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "And the children of Israel began to build the House of God, in the days of Zerubbabel, of Josiah the son of Zadok, and of Ezra the scribe.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "And they were forty-six years building it, until it was finished, as it is written in the holy Gospel—that they were forty-six years building it.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "Moreover, scribes arranged tables of genealogy, and recorded the names of the men; but they could not record the names of the women because they knew them not, except very few.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "But, my brethren, I have watched much, and I have searched long in the books of the Greeks and of the ancient Hebrews, and I have found the name of the women written in them.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "For I found that when the children of Israel came from Babylon, that Zerubbabel begat Abiud of Maukabf the daughter of Ezra the scribe ; and that Abiud took to wife Tsamita the daughter of Zadok the high priest, and she bare Eliakim.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "And Eliakim married Hasbia, the daughter of Aram, and brought forth Azar.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "And Azar begat Zadok of Lebaida.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "And Zadok took to wife Kalem, the daughter of Waikam, who gave birth to Akim.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "And Akim married Asbaidi, who gave birth to Eliud.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "And Eliud married Awad, the daughter of Gasulius, who gave birth to Azar.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "And Azar married Hayat, daughter of Walha, who brought forth Mattan; and Mattan married Sabartyal the daughter of Phulius, who brought forth twins, namely, Jacob and Joachim.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "And Jacob married Gadat, the daughter of Eleazar, who gave birth to Joseph the betrothed of Mary.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "And Joachim, the brother of Jacob, married Hannah the daughter of Makah; and she brought forth the pure Virgin Mary; and of her was born Christ.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "The former scribes, however, could not find a good lineage for the Virgin and her father, or kindred; wherefore did the Jews crucify Christ, and taunt Him, and mock Him, and say to Him,\" Show us the fathers of Mary the Virgin and her people, and what is her genealogy.'",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "Therefore did they blaspheme her and Christ.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "But henceforth shall the mouth of those unbelieving Jews be closed; and they shall know that Mary is of the seed of David the king, and of that of the patriarch Abraham.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "Moreover, the unbelieving Jews had no registers to guide them aright, neither did they know, how the lines of kindred ran at first, inasmuch as the law and the prophets were three times burnt [out] from them.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "The first time in the days of Antiochus, who burnt down the whole House [of God]; The second time they burnt those books in the days of Qablar the great king of Mosul;",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "And the third time they burnt the books was at the transportation by king Nabukadanatsor when Abumirdan came and burnt the House of God, and destroyed the walls of Jerusalem; when Simeon the priest asked of him the store of books, and he gave them to him.",
+        "kind": "verse"
+      }
+    ],
+    "13": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "But we will make known to you all the genealogies in detail.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "Judah begat Pharez, and Pharez married Barayah, the daughter of Levi, and begat Esrom.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "And Esrom married Kanita, the daughter of Zebulun, and he begat Aram.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "And Aram married Phozib the daughter of Judah; and he begat Aminadab.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "And Aminadab married Thehara, the daughter of Esrom, and he begat Naasson.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "And Naasson married Simar, the daughter of Yuhanas, and he begat Salmon; and Salmon married Saphila, the daughter of Aminadab, by whom he had Booz.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "And Booz married Ruth the Moabitess, of the seed of Lot, and begat Obed; and Obed married Abalit, the daughter of Sonas, and begat Jesse. Jesse married Habliar, the daughter of Abrias, and begat David the king.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "And king David took to wife Bathsheba, the wife of Uriah, and begat Solomon. And Solomon married Nan, the same as Makiya, the daughter of Dan king of Ammon, of the seed of Lot, and begat Rehoboam.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "And Rehoboam married Makin, the daughter of Bilos, and begat Abia.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "And Abia married Malkit, the daughter of Absalom, and begat Asaph.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "And Asaph married Nirona, the daughter of Sala, and begat Joshaphat.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "And Joshaphat married Malkiya, the daughter of Abiud, and begat Joram.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "And Joram married Phitalia, the daughter of Naphrim, and begat Osias; and Osias married Sophia, the daughter of Habralias, and begat Jotham.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "And Jotham married Hadast, the daughter of Elkanah, and begat Ahaz.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "And Ahaz married Bikaz the daughter of Zachariah, and begat Hezekiah ; and Hezekiah married Basyar, the daughter of Bartenas, and begat Manasseh;",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "And Manasseh married Amasisan, and begat Amos; and Amos married Nadyas, and begat Josias.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "And Josias married Dalilah, the daughter of Kermias, and begat Joachim.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "And Joachim married Phurdia, the daughter of Phulek, and begat Jechonias and his brother during the captivity of Babylon.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "And Marsas who reigned over Babylon, released Jechonias from prison, and gave him to wife, a woman whose name was Dalilah, the daughter of Eliakim, by whom he had Salathiel.",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "But Jechonias died at Babylon ; where Salathiel continued forty-nine years after him, and married Hadast, the daughter of Elkauah, and begat Zerubbabel.",
+        "kind": "verse"
+      },
+      {
+        "v": "21",
+        "label": "21",
+        "text": "And Zerubbabel married Maukab, the daughter of Esdras the scribe, and had by her Abiud.",
+        "kind": "verse"
+      },
+      {
+        "v": "22",
+        "label": "22",
+        "text": "And Abiud married Hadast, the daughter of Zadok the high priest, and begat Eliakim.",
+        "kind": "verse"
+      },
+      {
+        "v": "23",
+        "label": "23",
+        "text": "And Eliakim married Kwebedai, the daughter of Aram, and begat Azar.",
+        "kind": "verse"
+      },
+      {
+        "v": "24",
+        "label": "24",
+        "text": "And Azar married Salambeta, the daughter of Zadok. And Zadok married Kalim, the daughter of Waikan, and begat Akim.",
+        "kind": "verse"
+      },
+      {
+        "v": "25",
+        "label": "25",
+        "text": "And Akim married Zasbaidi, and begat Eliud.",
+        "kind": "verse"
+      },
+      {
+        "v": "26",
+        "label": "26",
+        "text": "And Eliud married Awad, the daughter of Gasalias, and begat Eleazar.",
+        "kind": "verse"
+      },
+      {
+        "v": "27",
+        "label": "27",
+        "text": "And Bleazar married Hayat, the daughter of Thalka, and begat Matthan.",
+        "kind": "verse"
+      },
+      {
+        "v": "28",
+        "label": "28",
+        "text": "And Matthan married Sabartia, the daughter of Phunius, and had by her twins, namely, Jacob and Joachim.",
+        "kind": "verse"
+      },
+      {
+        "v": "29",
+        "label": "29",
+        "text": "And Jacob married Gadat, the daughter of Eleazar, and begat Joseph the betrothed [husband] of Mary.",
+        "kind": "verse"
+      },
+      {
+        "v": "30",
+        "label": "30",
+        "text": "But Joachim married Hannah, the daughter of Makah, and begat the pure Mary; Here ends the genealogy of pure Mary.",
+        "kind": "verse"
+      }
+    ],
+    "14": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "And here, O my brother, behold, I have settled for thee that which is true, and I have revealed unto thee the genealpgy, and laid for thee the firm foundation, which not one of the writers and of the wise men, could make known.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "But, O my brother, give me thy heart and make it clean, that I may tell thee what things remain, and how the reckoning of generations come all round to reach unto and to stand firm by the birth of Christ.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "But after the birth of Christ there remained no more trustworthy reckoning [of kindred] to the Jews.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "For Christ was the end of the generations; He took it and gave it to us.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "But let me tell thee, O my brother, that the five thousand years from [the creation of] Adam, did not end before the days of Cyrus, king of Persia.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "Then from Cyrus to the sufferings of our Saviour Jesus Christ, even as the faithful Daniel prophesied, saying,\"After seven weeks Christ shall come, and shall be put to death.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "Now seven weeks are four hundred and ninety years ; for a great week is of seventy years.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "But in that the prophet said, \"After seven years,\" he pointed to the ten years [that remained] ; for he did not say, \" Christ shall come at the end of the seven weeks,' but he said, \" After seven weeks [He shall come] and be put to death.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "But the meaning here of '' after,\" is—those ten years, that make up the five hundred years.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "And that is the fulfilment of the promise that God made to Adam, that He would save him at the end [of that time] .",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "Henceforth are the mouths of the Jews struck dumb, and to them belongs shame, because they blaspheme and say that Christ is not yet come.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "But while they say so, they, of necessity, believe the first statement [of the prophets] to be true and the last to be a lie.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "If they say \" Christ came believing, as they do, the prophecy of the prophet Daniel, they now see that the prophecy of Daniel is fulfilled, and that the House of God is laid waste[and taken] from them; that the priesthood is abolished, and that the seven weeks were fulfilled, and that Christ came, and was put to death; and that the Holy City was laid waste by king Vespasian and his son Titus.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "But let me also tell thee, my brother, that in the thirty second year of the reign of Augustus Caesar, Christ was born in Bethlehem of Judah, as it is written in the Gospel.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "And, behold, it is made plain to us, that Christ came when the prophecy was fulfilled.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "As Micah the prophet said, \" But thou, O Bethlehem, [in the] land of Judah, thou art not lower than the kings of Judah; for from thee shall come a king, that shall feed my people Israel.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "Let the Jews now feel ashamed of themselves; for if they make Daniel a liar, they cannot again make the prophet Micah a liar; yet if they will make them liars still, behold,",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "Christ was born in Bethlehem [in] the land of Judah.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "And when He was born at Bethlehem [in] the land of Judah, a star in the East made it known, and was seen by Magi.",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "That star shone in heaven, amid all the other stars; it flashed and was like the face of a woman, a young virgin, sitting among the stars, flashing, as it were carrying a little child of a beautiful countenance.",
+        "kind": "verse"
+      },
+      {
+        "v": "21",
+        "label": "21",
+        "text": "From the beauty of His looks, both heaven and earth shone, and were filled with His beauty and light above and below; and that child was on the virgin woman's arms; and there was a cloud of light around the child's head, like a crown.",
+        "kind": "verse"
+      },
+      {
+        "v": "22",
+        "label": "22",
+        "text": "But it was a custom of the Chaldaeans to observe the stars of heaven ; to take counsel from them ; and they were numbered by them.",
+        "kind": "verse"
+      },
+      {
+        "v": "23",
+        "label": "23",
+        "text": "So when they saw the star of the figure we have just mentioned, they were greatly troubled, and said among themselves, ' Surely the king of the Helonseans is putting himself in battle array against us!",
+        "kind": "verse"
+      },
+      {
+        "v": "24",
+        "label": "24",
+        "text": "And they inquired among soothsayers and philosophers, until they ascertained the fact and discovered that the king of the children of Israel was born.",
+        "kind": "verse"
+      },
+      {
+        "v": "25",
+        "label": "25",
+        "text": "As to this matter of the stars, the Chaldaeans used to work it out, and to take counsel from the power of the stars; so that they knew every event that should be, ere it happened.",
+        "kind": "verse"
+      },
+      {
+        "v": "26",
+        "label": "26",
+        "text": "Likewise the captains of large ships, when they went on a voyage upon the seas, [knew beforehand] the signs of winds, of whirlwind, of gloom, and of thick darkness.",
+        "kind": "verse"
+      },
+      {
+        "v": "27",
+        "label": "27",
+        "text": "Thus the Magi when they read in their books, knew from them, that Christ should be born in the land of Judah.",
+        "kind": "verse"
+      },
+      {
+        "v": "28",
+        "label": "28",
+        "text": "So they went upon a high mountain in the east, while coming westward; and they took with them the presents they had prepared ere they set off on their journey ; that is, gold, frankincense and myrrh—that had been with Adam in the Cave of Treasures.",
+        "kind": "verse"
+      },
+      {
+        "v": "29",
+        "label": "29",
+        "text": "Gold, namely as unto a king ; frankincense, as unto God; and myrrh, as for His death.",
+        "kind": "verse"
+      }
+    ],
+    "15": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "But when Hor, king of Persia, heard who it was they called King of kings, he prepared his chariot and mounted it.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "Basantar also, king of Saba, came out ; and Karsundas, king of the East, got himself ready and came out also.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "They were all in great tribulation, and also all other kings in the borders of the West trembled with them, and every country in the East was in great alarm at the sight of that glory.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "Then the Magi while on their journey said, \"This star has not risen but for some great event'",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "And they went on their way until they came to Jerusalem.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "But when Herod heard of it, he was troubled, and called the Magi to him, and communed with them; and they rehearsed unto him the [whole] thing.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "Then he and all his hosts trembled; and he said to the Magi, \" Go ye, and inquire diligently concerning this Child; and when ye have found Him, come and tell me, that I also may go and worship Him.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "Then the Magi went forthwith to Bethlehem, and found Christ, and offered Him their gifts.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "But they did not return to Herod ; they went back to their own country.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "But after they were gone, Herod was wroth, and commanded all children of two years and under, to be put to death.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "Then an angel of the Lord appeared unto Joseph, and said to him, \" Arise, and take the Child and His mother, and go to the land of Egypt and abide there until I tell thee.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "And Joseph went into the land of Egypt.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "Then Herod began to slay all children, until he had not left one.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "And he died of an evil death.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "After his death an angel of the Lord appeared unto Joseph in the land of Egypt.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "And Joseph came up out of Egypt, and dwelt at Nazareth, he, the child, and Mary His mother.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "And they abode at Jerusalem until Christ was thirty years of age, and was baptized by John.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "This John lived all his days in the wilderness, and his food was locusts and wild honey.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "And in the nineteenth year of Tiberius, our Lord Christ was crucified.",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "He died in the body, and was buried, and rose again from among the dead on the third day; as it is written.",
+        "kind": "verse"
+      },
+      {
+        "v": "21",
+        "label": "21",
+        "text": "And He went down into hell, and saved Adam and Eve, and all their righteous seed, according to His first and firm promise.",
+        "kind": "verse"
+      },
+      {
+        "v": "22",
+        "label": "22",
+        "text": "And thus He fulfilled all that the prophets had prophesied concerning Him.",
+        "kind": "verse"
+      },
+      {
+        "v": "23",
+        "label": "23",
+        "text": "He then went up into heaven; whence He will come again with His holy angels, to judge the quick and dead.",
+        "kind": "verse"
+      },
+      {
+        "v": "24",
+        "label": "24",
+        "text": "Unto Him be glory, and thanksgiving, and honour, and power and worship for ever. Amen.",
+        "kind": "verse"
+      }
+    ]
+  }
+}
