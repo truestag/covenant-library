@@ -1,0 +1,2599 @@
+{
+  "schema": "covenant-library-book/v1",
+  "edition": "malan-1882-book-3",
+  "book": {
+    "id": "AE3-MALAN",
+    "name": "Third Book Of Adam And Eve",
+    "title": "The Third Book Of Adam And Eve — S. C. Malan (1882)",
+    "sequence": 1,
+    "chapters": 25,
+    "verses": 416,
+    "translator": "Solomon Caesar Malan",
+    "translationYear": 1882,
+    "language": "en",
+    "rights": "Public domain in the United States",
+    "sourceTitle": "The Book of Adam and Eve, also called The Conflict of Adam and Eve with Satan",
+    "sourceUrl": "https://archive.org/details/bookofadameveals00malaiala",
+    "sourceNote": "Continuation of Malan's 1882 English translation. Book III runs from Noah and the Flood through the post-Flood generations and the age of Nimrod. Reader text was normalized from a machine-readable witness of Malan's text and checked against the 1882 Internet Archive witness; structural chapter divisions restored as Book III, Chapters I–XXV.",
+    "readerAvailability": "local-json",
+    "bundledJson": true,
+    "localMirror": true,
+    "searchable": true,
+    "contentMode": "verse"
+  },
+  "chapterLabels": {
+    "1": "Chapter I",
+    "2": "Chapter II",
+    "3": "Chapter III",
+    "4": "Chapter IV",
+    "5": "Chapter V",
+    "6": "Chapter VI",
+    "7": "Chapter VII",
+    "8": "Chapter VIII",
+    "9": "Chapter IX",
+    "10": "Chapter X",
+    "11": "Chapter XI",
+    "12": "Chapter XII",
+    "13": "Chapter XIII",
+    "14": "Chapter XIV",
+    "15": "Chapter XV",
+    "16": "Chapter XVI",
+    "17": "Chapter XVII",
+    "18": "Chapter XVIII",
+    "19": "Chapter XIX",
+    "20": "Chapter XX",
+    "21": "Chapter XXI",
+    "22": "Chapter XXII",
+    "23": "Chapter XXIII",
+    "24": "Chapter XXIV",
+    "25": "Chapter XXV"
+  },
+  "chapters": {
+    "1": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "Noah noticed from his youth up, how sin had multiplied, how wickedness prevailed ; how generations of men perished, how sorrow increased, how righteous men diminished.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "Therefore did he afflict his soul ; he restrained his members, and retained his virginity ; and grieved over the ruin wrought by the generations of men.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "And this Noah habitually mourned and wept and was of a sad countenance ; and thus he held his soul in fasting, so that the enemy had no advantage over him, and did not come near him.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "This Noah also, ever since he was a child with his parents, never made them angry, never transgressed against them ; nor ever did a thing without their advice.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "And when he was away from them, if he wished to pray or to do aught else ; he would ask of God, to guide him right therein; wherefore God watched over him.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "And while he was on the mountain, he did not transgress against God in any one evil thing, nor did he wilfully depart from what pleased God ; neither did he ever anger God.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "Many were the wonderful things which happened to him, more than to any of his fathers before him, about the time of the Flood.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "And Noah continued in his virginity and in his obedience to God five hundred years ; but after that it pleased God to raise him a seed ; He therefore spake unto him, saying, \" Arise, O Noah, and take unto thyself a wife, that of her thou mayest have children that may be a comfort to thee ; for thou art left alone, and thou shalt go out of this country unto a strange land ; for the earth shall be peopled with thy posterity.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "Then when Noah heard this from God, he did not transgress His commandment, but took unto himself a wife, whose name was Haikal, the daughter of Abaraz, who was of the children of Enos's children, that went into perdition.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "And she bare unto him three sons. Sham, Ham, and Japhet.",
+        "kind": "verse"
+      }
+    ],
+    "2": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "After these things, God spake unto Noah about the Flood that it should come upon the earth, and destroy all creatures, so as not to let one of them be seen. And God said unto Noah, \" Guard thy children ; command them and make them understand not to have intercourse with the children of Cain, lest they perish with them.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "And Noah hearkened to God's words, and kept his children on the mountain, and would not let them go down to the children of Cain.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "Then God spake again unto Noah, saying, \"Make unto thyself an ark of wood that will not rot ; to be a deliverance to thee and to the men of thy house.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "\"But begin to build it in the low land of Eden, in presence of the children of Cain, that they may see thee working at it; and if they will not repent they shall perish; and the blame shall rest on them.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "\"But cut on this holy mountain, the trees whereof thou shalt make the ark; let the length of the ark be three hundred cubits, the breadth thereof fifty cubits, and the height thereof thirty cubits.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "\"And when thou hast made and finished it, let there be in it one door above, and three compartments; and every compartment ten cubits high.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "The first story shall be for lions, and beasts, animals and ostriches all together.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "The second story shall be for birds, and creeping things.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "And the third story shall be for thee and thy wife, and for thy sons and their wives.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "And make in the ark wells for water, and openings to them, to draw water thereat, for drink to thee and to those that are with thee.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "And thou shalt line those wells with lead, both in and out.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "And make in the ark store-houses for corn ; for food to thee and to those that are with thee.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "Then make also unto thyself a trumpet of ebony wood, three cubits long, one and a half cubit wide, with a mouthpiece of the same wood.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "And thou shalt blow it three times ; the first time in the morning, that the workmen [working] at the ark may hear it, and gather to their work.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "Then thou shalt blow it the second time, and when the workmen hear it, they will gather to their meal.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "And thou shall blow it a third time in the evening, for the workmen to go and rest from their labour.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "And God said unto Noah, \"Go about among the people and tell them that a flood shall come and shall overwhelm them; and make the ark before their eyes.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "And when they question thee about the making of the ark, tell them : God has commanded me to make it, that we may get into it, I and my children, and be saved from the waters of the Flood.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "But when Noah went about among them and told them, they laughed at him, and only committed adultery and revelled together all the more, and said, ''That twaddling old man! Whence will ever the waters come, above the tops of high mountains? We never saw water rise above mountains; and this old man says, a flood is coming! \"",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "But Noah did all his works, as God had told him concerning them.",
+        "kind": "verse"
+      }
+    ],
+    "3": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "And Noah begat his three sons, during the first hundred years he worked at the ark.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "During these hundred years he ate no food, whence blood flows; the shoes on his feet were neither changed, nor worn, nor grown old.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "During these hundred years also, he did not change his garments from off him, neither did they wear out, in the least; he did not change the staff in his hand, nor did the cloth about his head grow old; and the hair of his head neither increased nor grew less.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "As to those three sons of Noah, the first of them is Shem; the next is Ham; and the third is Japhet.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "They married wives from among the daughters of Methuselah ; as the wise LXXII interpreters have told us; as it is written in the first [sacred] book of the Greeks.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "The life also of Lamech, Noah's father, was five hundred and fifty-three years; and when he drew nigh unto death, he called unto him his father Methuselah and his son Noah, and he wept before his father Methuselah and said unto him, \"Dismiss me, O my father, and bless me.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "Then Methuselah blessed his son Lamech, and said, \"Not one of all our fathers died before his father, but the father [died] before his son, in order that there should be his son to bury him in the earth.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "Now, however, my son, thou diest before me, and I shall drink [the cup of] sorrow on thy account, ere I go out of the flesh.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "Henceforth, my son, behold the world is changed, and the [order] of deaths of men is changed: for from to-day the son shall die before his father; and the father shall not rejoice in his son, nor be satisfied with him.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "So also shall the son not be satisfied with his father, nor rejoice in him.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "Then Lamech died, and they embalmed him, and laid him in the Cave of Treasures.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "His death took place seven years before the Flood came and his father Methuselah and his son Noah remained alone on the Holy Mountain.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "But Noah went down every day to work at the ark, and came up at eventide.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "And he instructed his sons and their wives not to come down after him, and not to hold intercourse with the children of Cain.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "For Noah was anxious about his sons, and said in his mind, \"They are young and might be overcome by passion.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "So he went down by night; and gave old Methuselah directions about them.",
+        "kind": "verse"
+      }
+    ],
+    "4": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "But Noah preached repeatedly to the children of Cain, saying, \"The flood will come and destroy you, if we do not repent.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "But they would not hearken to him; they only laughed at him.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "When the children of Seth went down from the Holy Mountain, and dwelt with the children of Cain, and defiled themselves with their abominations, there were born unto them children called Garsina, who were giants, mighty men of valour, such as no other giants were of equal might.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "Certain wise men of old wrote concerning them, and say in their [sacred] books, that angels came down from heaven, and mingled with the daughters of Cain, who bare unto them these giants. But those [wise men] err in what they say.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "God forbid such a thing, that angels who are spirits, should be found committing sin with human beings. Never; that cannot be.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "And if such a thing were of the nature of angels, or Satans, that fell, they would not leave one woman on earth, undefiled.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "For Satans are very wicked and infamous.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "Moreover, they are not male and female by nature; but they are small, subtle spirits, that have been black ever since they transgressed.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "But many men say, that angels came down from heaven, and joined themselves to women, and had children by them. This cannot be true.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "But they were children of Seth, who were of the children of Adam, that dwelt on the mountain, high up [or suspended], while they preserved their virginity, their innocence and their glory like angels; and were then called \"angels of God\".",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "But when they transgressed and mingled with the children of Cain, and begat children, ill-informed men said, that angels had come down from heaven, and mingled with daughters of men, who bare them giants.",
+        "kind": "verse"
+      }
+    ],
+    "5": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "Then the ancient old man Methuselah who remained on the mountain with Noah's sons, lived nine hundred and eighty-seven years and then sickened; and his sickness was such that, on account of it, he must depart [from this world].",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "When Noah and his sons, Shem, Ham and Japhet, became aware of it, they came to him with their wives, and wept before him, and said, \"our father, and [our] elder, bless us, and pray God to have mercy on us when thou art gone from us\".",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "Then Methuselah said to them with a sorrowful heart, \"Hear me, my dear children; for none of our fathers are left, but you, eight souls\".",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "The Lord God created our father Adam and our mother Eve, and from them filled the earth [with] people in the neighbourhood of the garden, and multiplied their seed.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "\"But they have not kept His commandment, and He will destroy them. But had they kept His commandment. He would then have filled heaven and earth with them.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "Yet will I ask the Lord my God to bless you, to multiply you, and to spread your race in a strange land, to which ye shall go.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "\"And now, my children, behold, God will bring you inside an ark unto a land to which ye have never been. And the Lord God of all our pure fathers, be with you!\"",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "And the glorious gifts God bestowed on our father Adam from the garden in this blessed Cave of Treasures, may He bestow them on you also! \"These are the three glorious gifts which God made to Adam.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "The first is — kingdom , wherein God made Adam king over His works.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "The second glorious gift is— priesthood , in that God breathed into his face a spirit of life.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "And the third glorious gift is — prophecy , for Adam prophesied concerning what God thought [of doing].",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "\"But I will ask the Lord my God, to bestow those three glorious gifts on your posterity.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "Then Methuselah said also to Noah, \" Noah, thou art blessed of God. I warn thee and tell thee that I am going from thee to [be with] all our fathers that have gone before me.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "But thou, who shalt be left alone with thy children on this holy mountain, keep the commandment I give thee, and forsake not anything of what I have told thee.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "\"Behold my God shall quickly bring a flood upon the earth; embalm my body, and lay it in the Cave of Treasures.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "Then take thy wife with thy sons and their wives, and go down from this holy mountain, and take with thee the body of our father Adam go into the ark and lay it there, until the waters of the Flood are assuaged from off the face of the earth.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "\"My son, when about to die, command thy first-born son Shem, to take Melchizedec, son of Cainan, and grandson of Arphaxad; for that Melchizedec is priest of the Most High God; and to take with them the body of our father Adam from within the ark, and remove it and lay it in the earth.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "And Melchizedec shall stand ministering on that mountain that is in the middle of the earth, before the body of our father Adam for ever.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "For from that place, Noah my son, God shall work salvation for Adam and for all of his seed that believe in God.",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "Methuselah said also to Noah and to his sons, \"The angel of God will go with you, until you come to that place in the middle of the earth.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "21",
+        "label": "21",
+        "text": "Again Methuselah said to Noah, \"My son, let him who ministers unto God and before the body of our father Adam, have a clothing of skin, and be girt about his loins with leather.",
+        "kind": "verse"
+      },
+      {
+        "v": "22",
+        "label": "22",
+        "text": "Let him wear no ornament, but let his raiment be poor; let him be alone, and stand praying our Lord God to watch over the body of our father Adam; for it is a body of great value before God.",
+        "kind": "verse"
+      },
+      {
+        "v": "23",
+        "label": "23",
+        "text": "And let him continue in his ministry, he the priest of the Most High God ; for he is well pleasing unto God, and so is the ministry he fulfils before God.",
+        "kind": "verse"
+      },
+      {
+        "v": "24",
+        "label": "24",
+        "text": "After this Methuselah commanded Noah [saying], \"Mind, then, all these commandments, and keep them.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "25",
+        "label": "25",
+        "text": "Then Methuselah's hands were loosened; he ceased speaking; he gradually closed his eyes, and entered into rest like all his fathers; his tears the time streaming down his cheeks, and his heart grieving at being separated from them [all]; but mostly because of that mountain of the garden, on which not one of them was left ; for God was purposed to destroy all creatures, and to blot them out from the face of the earth.",
+        "kind": "verse"
+      },
+      {
+        "v": "26",
+        "label": "26",
+        "text": "The rest of Methuselah took place when he was nine hundred and sixty-seven years old, on the twelfth of Magabit on a Sunday.",
+        "kind": "verse"
+      },
+      {
+        "v": "27",
+        "label": "27",
+        "text": "Then Noah and his sons embalmed him, weeping and sorrowing over him, and laid him in the Cave of Treasures.",
+        "kind": "verse"
+      },
+      {
+        "v": "28",
+        "label": "28",
+        "text": "And they wailed over him with a great wailing, they and their wives, forty days.",
+        "kind": "verse"
+      },
+      {
+        "v": "29",
+        "label": "29",
+        "text": "And when mourning and grief over Methuselah were ended, Noah and his sons began to do as Methuselah had commanded them.",
+        "kind": "verse"
+      }
+    ],
+    "6": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "After his death, Noah, his sons, and their wives came to the bodies of our fathers, worshipped them, and blessed themselves in them, weeping and being in the deepest grief.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "But Noah had finished the ark, and not one workman was left in it.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "And he, with his sons, continued in prayer to God, asking Him to show them the way of safety.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "When Noah and his sons had ended their prayers, God said unto him, \"Go thou into the Cave of Treasures, thou and thy sons, and take the body of our father Adam and lay it in the ark likewise take the gold, the incense, and the myrrh, and lay them in the ark together with his body.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "And Noah hearkened to God's voice, and went into the Cave of Treasures, he and his sons; they worshipped the bodies of our fathers, and then Noah took the body of our father Adam, and carried it in the strength of God, not requiring the help of any one. Then Shem his son, took the gold with him, and Ham carried the myrrh, and Japhet carried the incense; and they brought them out of the Cave of Treasures, their tears the while streaming down their cheeks.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "But as they were bringing them out, the bodies among which Adam had been laid, cried out, \"Are we then to be separated from thee, our father Adam\".",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "Then Adam's body answered, \"Oh, that I must part from you my sons, from this holy mountain ! Yet do I know, my sons, that God will gather all our bodies together another time.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "But wait patiently until our Saviour have pity on us.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "And the other bodies went on talking together, by the power of God's Word.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "Then Adam asked God that the divine fire might remain in the lamp, before his sons, until the time when bodies shall rise again.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "And God left the divine fire by them, to shed light on them.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "He then closed the cave upon them, and left not a trace to show [where it is] until the day of the Resurrection, when He will raise them up, like all other bodies.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "But the discourse Adam held, and that too, he being dead, was by the command of God, who would show His wonders among the dead and the living.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "After this let none of you say, that Adam's soul had already been under Satan's judgment.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "It was not so; but God commanded the souls of the dead, to come from under His hand; and to speak of the wonders of God from within their bodies.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "Then they returned to their places until the day of the sure deliverance that shall be unto them all.",
+        "kind": "verse"
+      }
+    ],
+    "7": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "But when Noah and his sons heard these voices from those dead bodies, they wondered greatly, and their faith in God was strengthened.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "Then they went out of the cave and began to go down from the Holy Mountain, weeping and wailing with a fervent heart, for their being thus parted from the holy mountain, the abode of their fathers.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "And Noah and his sons went back and sought the cave, but could not find it.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "Then they broke out into bitter lamentation and deep sorrow; for they saw that from that day forth, they should have neither existence nor abode in it.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "Then once more they raised their eyes and looked at the garden and at the trees [that were] in it, and they lifted up their voices in weeping and in loud crying, and said, \"We salute thee in worship, garden of joy! abode of brilliant beings, a place for the righteous! We salute thee, place of joy that was the abode of our father Adam, the chief of creation; who, when he had transgressed, fell from thee; and then saw his body in life, naked and disgraced.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "And we, behold, we depart from the Holy Mountain to the lower side of thee ; neither shall we dwell in it, nor yet behold thee so long as we live. We wish God would remove thee with us to the country to which we shall go ; but God would not remove thee into a cursed land.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "But God will take us, and will bring us into that land with our children, until He has ended the punishment for our transgression of His commandment.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "Noah and his sons said also, \"We salute thee, cave, abode of the bodies of our holy fathers; we salute thee, pure spot, hidden from our eyes, yet fit to have those bodies laid within thee!",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "The Lord God preserve thee, for the sake of the bodies of our fathers!",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "Again they said, \"We greet you, O our fathers, righteous judges, and we ask you to pray for us before God, that He will have pity on us, and deliver us out of this passing world\".",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "We ask you to pray for us—for us, the only ones left of your seed ; We give you a greeting of peace!",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "\"O Seth, great master, among the fathers, we greet thee with peace!",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "\"O Holy Mountain abode of our fathers, we give thee a greeting of peace!",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "Then Noah and his sons wept again, and said, \"Alas, for us eight souls that are left! Behold we are taken away from the sight of the garden.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "And as they were coming down the mountain they greeted the stones, took them in their hands and put them upon their shoulders they stroked down the trees, and did so weeping.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "And they continued coming down from the mountain, until they came to the door of the ark.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "Then Noah and his sons turned their faces to the east, and requested the Lord to have mercy on them, to save them, and to command them where to lay the body of our father Adam.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "Then the Word of God came to Noah, saying, \"Lift up the body of Adam to the third story [of the ark] , and lay it there on the eastern side; and the gold, the incense and the myrrh together with him.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "And thou and thy sons shall stand before him praying.",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "But thy wife, and the wives of thy sons, shall be on the western side of the ark ; and they and their wives shall not come together.",
+        "kind": "verse"
+      },
+      {
+        "v": "21",
+        "label": "21",
+        "text": "Then when Noah heard these words from God, he and his sons went into the ark, and laid the body of our father Adam on the eastern side, and the three offerings together with him.",
+        "kind": "verse"
+      },
+      {
+        "v": "22",
+        "label": "22",
+        "text": "And Noah brought into the ark the body of Adam, on a Friday, at the second hour, on the twenty-seventh of the month of Gembot.",
+        "kind": "verse"
+      }
+    ],
+    "8": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "Then God said unto Noah, \"Go upon the top of the ark and blow the trump three times, that all beasts gather together unto the ark.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "But Noah said, \"Shall the sound of the trump reach unto the ends of the earth to gather together the beasts and the birds?\"",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "Then God said unto him, \"It is not the sound of this trump alone that shall go forth, but My power shall go with it, to make it come into the ears of the beasts and of the birds.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "And when thou blowest thy trump, I will command My angel to blow the horn from heaven; and all these animals shall be gathered unto thee.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "Then Noah made haste and blew the trump, as God had told him.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "Then the angel blew the horn from heaven, until the earth quaked, and all creatures on it trembled.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "Then all the beasts, birds and creeping things were gathered together at the third hour, on a Friday; when all the beasts, lions and ostriches went into the lower story at the third hour.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "Then at midday, came the birds and creeping things into the middle story ; and Noah and his sons went into the third story, at the ninth hour of the day.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "And when Noah, with his wife, his sons and their wives came into the upper story, he commanded the women to dwell on the western side ; but Noah and his sons, with the body of our father Adam, dwelt on the eastern side.",
+        "kind": "verse"
+      }
+    ],
+    "9": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "And Noah stood asking God to save him from the waters of the Flood.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "Then God talked to Noah, and said to him, \"Of every kind of birds, take one pair, male and female of the clean; and of the unclean also one pair, male and female.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "But also of the clean take six [more] pairs, male and female.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "And Noah did all this.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "Then when they all had got into the ark, God shut to the door of the ark upon them by His power.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "He then commanded the windows of heaven to open wide, and to pour down from them cataracts of water.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "And so it was by God's order.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "And He commanded all fountains to burst open, and the depths to pour forth water, upon the face of the earth.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "So that the sea all round rose above the whole world, and surged, and the deep waters arose.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "But when the windows of heaven opened wide, all stores [of water] and depths were opened, and all the stores of the winds, and the whirlwind, thick mist, gloom and darkness spread abroad.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "The sun and moon and stars, withheld their light.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "It was a day of terror, such as had never been.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "Then the sea all round, began to raise its waves on high like mountains; and it covered the whole face of the earth. But when the sons of Seth, who were fallen into wickedness and adultery with the children of Cain, saw this, they then knew that God was angry with them; and that Noah had told them the truth.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "Then they all ran round the ark, to Noah, begging and entreating him to open for them the door of the ark; in as much as they could not climb the Holy Mountain, by reason of the stones thereof, that were like fire.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "But as to the ark, it was closed and sealed by the power of God.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "An angel of God sat upon the ark, and was like a captain to Noah, to his sons, and to all inside the ark.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "And the waters of the flood increased on the children of Cain and overwhelmed them ; and they began to sink, and the words of Noah were fulfilled, which he preached to them [saying], the waters of the Flood should come and drown them.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "And the waters continued above and below over Noah and his sons, until they were suspended in the ark; and by the strength of the water, the ark rose from the earth; and the flesh of every moving thing perished.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "And the water rose until it covered the earth, and until it covered all high mountains; and the waters rose above them, and above the tops of high mountains fifteen cubits, by the cubit of the Holy Ghost, which is equal to three cubits [of man].",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "So that the number of these were forty- five cubits [above the highest mountains].",
+        "kind": "verse"
+      },
+      {
+        "v": "21",
+        "label": "21",
+        "text": "And the water increased and bare the ark, and brought it to the lower side of the garden, which the waters, the rain, the whirlwind and all that went about on the earth—did worship.",
+        "kind": "verse"
+      },
+      {
+        "v": "22",
+        "label": "22",
+        "text": "As did also Noah and his sons and all that was in the ark they bowed in worship to the holy garden.",
+        "kind": "verse"
+      },
+      {
+        "v": "23",
+        "label": "23",
+        "text": "And the water returned to its former state, and destroyed every thing that was upon the earth and under heaven.",
+        "kind": "verse"
+      },
+      {
+        "v": "24",
+        "label": "24",
+        "text": "But the ark was floating on the waters and rose up before the winds; while the angel of God steered and led it from east to west.",
+        "kind": "verse"
+      },
+      {
+        "v": "25",
+        "label": "25",
+        "text": "And the ark thus moved about on the face of the waters a hundred and fifty days.",
+        "kind": "verse"
+      },
+      {
+        "v": "26",
+        "label": "26",
+        "text": "After that, the ark stood upon the mountains of Ararat, on the twenty-seventh day of the month of Tkarnt.",
+        "kind": "verse"
+      }
+    ],
+    "10": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "Then God sent again His order to Noah, saying, \"Be quiet and wait until the waters are assuaged.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "Then the waters parted asunder and returned every water to its own place, where it was at first; the fountains ceased to pour fortht over the earth; the depths that are on the face of the earth, ceased to rise; and the windows of heaven were closed.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "For floods of rain fell from heaven at the beginning of the Flood forty days and forty nights.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "But on the first day of the eleventh month the tops of high mountains were seen; and Noah waited yet forty days, and then opened the window he had made on the western side of the ark, and let go a raven, to see if the waters were assuaged from the face of the earth or not,",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "Then the raven went forth, but returned no more to Noah; for the harmless dove is the sign of the mystery of the Christian Church,",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "But Noah waited yet a little while after the waters were assuaged, and then sent out a dove, to see if the water had retired or not.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "But when the dove went out, she found not a place whereon to rest her foot, and no abode; and she returned to Noah.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "Then Noah waited seven days more, and sent out the dove to see if the water had retired or not.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "And the dove came back to Noah, about eventide ; and in her mouth was an olive leaf.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "The meaning of the dove is, that she is taken as a figure of the old and of the new [covenants].",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "The first time when she went out, and found nowhere to rest her feet, that is, a place of rest [is a figure of] the stiff-necked Jews, in whom no grace remained, nor any mercy whatever.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "Wherefore Christ, the meek one, who is figured in the dove, did not find among them rest for the sole of His feet.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "But the second time when the dove found a place of rest [is a figure of] the nations that have received the glad tidings of the holy Gospel, and among whom Christ has found a restingplace.",
+        "kind": "verse"
+      }
+    ],
+    "11": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "In the six hundred and seventh year of Noah's life, on the second day of the month Barmudeh, the water dried from off the earth.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "And in the next month, which is Gembot, on the twenty-seventh day thereof, which is the day on which Noah went into the ark, on that self-same day did Noah also come out of the ark, on a Sunday.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "But when Noah, his wife, his sons aod their wives went out of the ark, they again came together, and did not part asunder one from another; at first, when they went into the ark, the men and the women remained apart, Noah fearing lest they should come together.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "But when the Flood was over, they again came together, the husband with his wife.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "God also had sent great quietness over the beasts, the lions that were in the ark, and over the birds and creeping things, not to disagree among themselves.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "Then Noah came out of the ark, and built an altar upon the mountain.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "And he stood, and requested the Lord to show him of what sacrifices he ought to take, and bring them unto Him in offerings.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "Then God sent His Word to Noah, saying, \"Noah, take of the clean kind, and offer of them upon the altar before me; and let the animals go out of the ark.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "Then Noah went into the ark, and took of clean birds as many as God had commanded him ; and offered them up in offerings upon the altar before the Lord.",
+        "kind": "verse"
+      }
+    ],
+    "12": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "Pattern of the covenant God made with Noah, when He showed him, the bow on the cloud in heaven.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "And God smelled the smell of Noah's offerings, and He made a covenant with him, that the waters of the flood should not again come upon the earth, henceforth and for ever.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "And this is the covenant God made with Noah: God said unto Noah, \"I will make the bow of My covenant come out in the cloud; and when it appears, then men shall know that it is done in truth.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "And if I was wroth, when the bow was seen in the cloud, then [it would show] that My anger and the punishment I meant to bring upon men were over.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "Then, again, O Noah, I have made this bow of My covenant to be seen in heaven, in order that all creatures should see it, and think of the trials and afflictions that came upon them at first, and repent, and turn from their evil ways.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "And God accepted Noah's offering, and blessed him and his sons, and said unto them, \"Be fruitful and multiply, and replenish the face of the earth.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "Then God commanded the earth to bring forth herb as it did of old, for beasts, for birds, and for all that moves on the earth.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "Then Noah worshipped before God, with his sons and their wives and they praised Him for the salvation He had wrought for them.",
+        "kind": "verse"
+      }
+    ],
+    "13": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "After this Noah took his sons, and built them a city and called it Semanan; as they were eight souls that came out of the ark.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "And Noah and his sons dwelt on that mountain about a hundred years, until he had children and children's children.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "And Noah took a root of vine and planted it, and dressed it until it yielded fruit.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "It was sweet, and Noah took some of it, and pressed wine out of it, and took it one night and drank of it, and was drunk.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "And he came in to his wife unawares.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "Then Ham, his son, came into the house in the morning and saw his father uncovered, and drunk with wine, and without sense to know anything.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "Then Ham his son kept on laughing at him, and said, \"What is this thou hast done, thou old man But the old man understood not what he said; only Noah's wife understood it well.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "Then Ham went out laughing at his father, and told his brothers Shem and Japhet what his father had done ; and laughed at his parents.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "But his brothers were angry with him, and rebuked him well for so doing; because they were afraid of him, as regards the old man; for Ham was rough and hard in his talk.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "Then Shem and Japhet rose quickly, and took with them a coverlet, and put behind their backs that coverlet that reached unto their feet; and they walked backwards, and turned their face towards the way they had gone, until they came to their parents.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "Then they threw the coverlet over them, and went from them in haste, so as not to see them.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "But on the morrow after this, Noah's wife told him what Ham had said and what he had done.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "Then was Noah very angry with his son Ham for what he had done; and he cursed him, and made him servant of his brothers.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "But Noah blessed Shem and Japhet, his sons, because they had behaved well to him.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "Then Noah married another wife, who bare him seven children.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "And he continued to dwell on that mountain until the days drew near when he must depart [this life].",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "And Noah lived three hundred and fifty years after he came out of the ark.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "Then he called his first-born son Shem, and conversed with him, saying, \"O my son, hearken unto what I command thee\".",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "Behold [what] I command thee now [is], to hold good until I die and ye bury me.",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "Then, when ye have ended mourning for me, go into the ark in which we were saved from the flood; then bring out of it the body of our father Adam; but let no one know of it but one that is of thy seed.",
+        "kind": "verse"
+      },
+      {
+        "v": "21",
+        "label": "21",
+        "text": "Then make a beautiful case for it, and lay it therein.",
+        "kind": "verse"
+      },
+      {
+        "v": "22",
+        "label": "22",
+        "text": "Then take with thee some bread to be for provision unto thee by the way, and wine whereof to drink on thy way; for the land to which thou shalt go is rough and hungry.",
+        "kind": "verse"
+      },
+      {
+        "v": "23",
+        "label": "23",
+        "text": "Then take Melchizedec the youngest son of Cainan, thy son; for God has chosen him from all generations of men, to stand before Him to worship and to minister unto Him, by the body of our father Adam.",
+        "kind": "verse"
+      },
+      {
+        "v": "24",
+        "label": "24",
+        "text": "Then lay the body of Adam in the midst of the earth; and set Melchizedec to stand by it ; and show him how to fulfil his ministry before God.",
+        "kind": "verse"
+      },
+      {
+        "v": "25",
+        "label": "25",
+        "text": "Moreover Noah said unto Shem his son, \"If ye will keep my commandment and go [as I tell you], an angel of the Lord will go with you, and show you the way, until ye come to the place where ye shall lay the body [of Adam] in the midst of the earth; for in that self-same place shall God work salvation for the whole world\".",
+        "kind": "verse"
+      },
+      {
+        "v": "26",
+        "label": "26",
+        "text": "\"But, O my son, I know that our children forsook this good commandment, and went down the Holy Mountain, and mingled with the children of Cain, and that they perished with them in the waters of the Flood. \"",
+        "kind": "verse"
+      },
+      {
+        "v": "27",
+        "label": "27",
+        "text": "Know, O my son, that from Adam until this day, every one of the ancients, gave commandments to one of the rest, at the time of his resting from the flesh, and that they taught [these commandments] among themselves.",
+        "kind": "verse"
+      },
+      {
+        "v": "28",
+        "label": "28",
+        "text": "\"The first, O my son, who taught this commandment and made it plain, was our father Adam ; he gave it to his son Seth, who received it.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "29",
+        "label": "29",
+        "text": "Then Seth handed it to his son Enos who kept it.",
+        "kind": "verse"
+      },
+      {
+        "v": "30",
+        "label": "30",
+        "text": "And Enos gave it to his son Cainan who kept it.",
+        "kind": "verse"
+      },
+      {
+        "v": "31",
+        "label": "31",
+        "text": "Then Cainan gave it to his son Mahalaleel, who kept it, and handed it to his son Jared.",
+        "kind": "verse"
+      },
+      {
+        "v": "32",
+        "label": "32",
+        "text": "And Jared kept it and gave it to his son Enoch, who also kept this commandment and gave it to his son Methuselah, who kept it, and gave it to his son Lamech who kept it, and who gave it to me, his son; and I have kept it.",
+        "kind": "verse"
+      },
+      {
+        "v": "33",
+        "label": "33",
+        "text": "But my grandfather Methuselah also gave me a great commandment which I have kept; and which I give thee likewise.",
+        "kind": "verse"
+      },
+      {
+        "v": "34",
+        "label": "34",
+        "text": "So, then, receive my commandment, and hold fast my words; and hide this mystery within thy heart; but reveal it not to one of all thy kindred.",
+        "kind": "verse"
+      },
+      {
+        "v": "35",
+        "label": "35",
+        "text": "But go, and lay the body of our father Adam in the earth and let it remain there unto the day of salvation.",
+        "kind": "verse"
+      }
+    ],
+    "14": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "But the ark was closed during the days of Noah; neither was any one allowed to touch it.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "Yet they went to it, blessed themselves in it, and talked about it.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "Noah, however, went into it every evening, to light the lamp which he had made before our father Adam, and blessed himself in that body.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "And he did not neglect his office regarding the lamp, as it was at first in the Cave of Treasures.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "But as Noah knew that after him, the ark would not remain whole, and that his children would part asunder and not return to look after the body of our father Adam, and that wickedness would increase in the earth and abominations among men, therefore did he command his son Shem to hasten to take the body of our father Adam, and to remove it unto the middle of the earth; according to God's order.",
+        "kind": "verse"
+      }
+    ],
+    "15": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "Then when Noah had ended giving orders to his son Shem, concerning the body of our father Adam, Noah said to his son Shem, \"Bring hither to me thy brothers, and make them come near me.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "Then when they came to Noah, he looked at them and said unto them, \"My sons, after my death ye shall part asunder, and sore troubles shall happen to your race.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "\"But I will from now, divide among you the earth into three portions; as every one of you shall be settled in his own portion.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "Unto Shem my first-born son, shall his lot be from Jerusalem which is a great city, as far as Qardayun and Andika.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "It takes in the border mountain that reaches unto Gefur, between the land of Egypt and that of the Philistines.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "\"Unto my next son Ham, his portion shall be from Aris towards the south, unto Fardundan and unto Gaduriun, and unto the borders of the west.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "\"And unto my third son Japhet, his portion shall be from the corner of the west towards the south unto Damatha, a large tract of country; and all the north also as far as Aris.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "He then said to them, \"Let every one of you take a portion different from that of his brothers ; and let every one of you dwell in his own portion.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "And they settled in it, as he commanded them.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "And they all had sons and daughters during their father Noah's lifetime.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "And Noah divided the earth among them by God's order, in order that there should be no enmity between the three brothers.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "Then when Noah had ended his commandments to Shem and to his brothers, his hands dropped, his tongue became dumb, his eyes closed and he died, like his fathers.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "He died aged nine hundred and fifty years, on a Wednesday, the second day of the month Gembot, on the mountain on the which was the ark; and there he will remain until the day God reveals [his resting-place].",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "And they mourned for him forty days.",
+        "kind": "verse"
+      }
+    ],
+    "16": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "After they had ended mourning for Noah, an angel of God appeared unto Cainan father of Melchizedec, and said unto him in a vision, \"Knowest thou me?\"",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "And Cainan answered, \"No, my Lord.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "Then the angel said to him, \"I am the angel whom God has sent unto thee, to give thee this commandment. And transgress not the command of God.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "When Cainan heard this from the angel of God, he wondered and said unto him, \"Speak, my Lord!\"",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "And the angel of God said unto him, \"I am the angel who brought gold to thy father Adam, when he was below the garden; I am the angel who entreated God together with him, when he offered his own blood upon the altar.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "I am Michael the angel who received the soul of Abel the just; I am the angel who was with Seth when he was born in the cave.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "I am the angel who was with Enos and Cainan, and Mahalaleel and Jared and Enoch, and Methuselah and Lamech, and with Noah.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "But since he entered into rest, I stand by his first-born son Shem.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "And, behold, God has sent me to thee, to take thy son Melchizedec, and to remove him to the land, in which God shall lay the body of our father Adam, and that he may be high exalted before God.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "Let not thy heart be grieved at his going away.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "When Cainan heard these words from the angel, he worshipped before him; and said unto him, \"The will of God be done! Behold, I and my son are in His hands. Let Him do what He pleases.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "This angel appeared unto Cainan, not on account of Cainan's righteousness and purity, but on account of Melchizedec, and of his righteousness and purity.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "Then the angel said unto Cainan, \"Commit not this mystery to any one but to Shem alone.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "And the angel departed from him.",
+        "kind": "verse"
+      }
+    ],
+    "17": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "Then the angel of God came unto Melchizedec that night while he was lying on his bed.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "And he appeared unto him in the figure of a youth like him, who smote him on the side, and awoke him out of his sleep.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "When Melchizedec heard it, he rose up, and saw the house full of light, and a figure standing before him.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "And he was afraid, for he was not accustomed to see angels, but this once only.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "But the angel prevented fear from overcoming him, and anointed him on the head and on the breast, and said unto him, \"Fear not, I am an angel of God; and He has sent me to thee with this message, that thou fulfil it unto thy God.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "Melchizedec then said unto him, \"What is that message?\" For he was a youth of a perfect heart.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "And the angel said unto him, \"It is that thou go with the body of our father Adam, unto the middle of the earth; and that thou stand ministering before it there; and that thou serve God; for He has chosen thee from thy childhood\".",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "For thou art of the seed of the blessed.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "Then Melchizedec said unto him, \"Who will bring the body of my father Adam, and me with it, unto the middle of the earth?\"",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "And the angel said unto him, \"Shem, the son of Noah thy father's grandfather.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "Then the angel strengthened his heart, and comforted him tenderly one whole hour, and then said unto him, \"Commit not these hidden words to any but to Shem only lest the report of it spread abroad; and they hang on to the body of Adam, and not let it go to the land, to which God has commanded [it to be taken].\"",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "And the angel departed from him.",
+        "kind": "verse"
+      }
+    ],
+    "18": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "Then the angel went to Shem the son of Noah and said unto him, \"Arise, and take the body of Adam, as thy father Noah gave thee commandment; and take with thee Melchizedec and go with them to the place ordered by God; and tarry not.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "When it was day, Shem made a beautiful case and hid it close to the ark.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "He then prepared bread and wine and provisions, and came to Cainan; and inquired for his son Melchizedec.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "Then Cainan began to tell him all that the angel had said unto him and he gave him up his son Melchizedec, with a good heart.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "Then Shem said to Cainan, \"Keep this mystery secret, and reveal it to no one.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "Then Shem took Melchizedec and they saddled an ass between them, and they went to the ark.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "But they had no key wherewith to open the ark; for Noah had fastened it with a padlock, after he had come out of it.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "When, therefore, they came to the ark, they bethought themselves how to open it.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "Then came Shem to the door, and said to Melchizedec, \"Come, open it, thou great God.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "Then came Melchizedec to the door when he heard [Shem's voice] , and seized the padlock; and at once the door was opened.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "But a voice cried from within the ark, and said, \"Rejoice, O thou priest of the Most High God, for that thou hast been found meet to enter upon the office of priest of God; the first created by Him in the world.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "This voice was from the Holy Ghost.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "And Melchizedec knew that voice when it breathed into his face; he knew it also through great grace that was in him.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "He then marvelled, and said to Shem, \"my Lord, I know by the breathing in my face, though I saw no form, and heard no voice speaking to me; for I saw no one.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "This voice is from the body of our father Adam.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "And Shem remained trembling, not knowing what to say to him.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "But while they were wondering at the door of the ark, the Word of God came, that said, \"I am He that made thee priest and that breathed of My Spirit into thee\".",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "Thou art My righteous priest; and thou art worthy to bear the body of Adam whom I created, and into whom I breathed of My Spirit.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "And I made him priest and a king, and a prophet.",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "Go in first, and bring out his body.",
+        "kind": "verse"
+      },
+      {
+        "v": "21",
+        "label": "21",
+        "text": "Then Melchizedec went into the ark, and bowed in worship to the body of our father Adam; he blessed himself in it, and brought it out; the angel Michael, helping him the while to carry it.",
+        "kind": "verse"
+      },
+      {
+        "v": "22",
+        "label": "22",
+        "text": "And Shem went in also, and brought out the gold, the incense and the myrrh, and laid them together with the body of our father Adam; he then placed the body within the case, and shut it upon the body.",
+        "kind": "verse"
+      },
+      {
+        "v": "23",
+        "label": "23",
+        "text": "And then he shut the door of the ark, as it was at first.",
+        "kind": "verse"
+      }
+    ],
+    "19": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "Then Shem and Melchizedec took the body of Adam, and went on their way; and the angel of God went with them and showed them whither to go.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "And so they went on that day until the evening ; and alighted at a certain place to rest.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "Then Shem and Melchizedec stood up to pray; and while they prayed there came a voice from inside the coffin of Adam, that said, \"Glory to God who created me, who gave me life, who made me die; and who again returns me to the earth out of which He took me!\"",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "And the voice blessed the youth Melchizedec and said unto him, \"Of all our race, God chose no one but thee ; neither did He anoint any one of them priest with His own hand, but thee; neither did He breathe into the face of any one His pure Spirit as He breathed it into thee; and I rejoice, my son, that thou hast been found worthy of such honour from God\".",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "Then the voice withdrew from Melchizedec, who wondered at this voice that came forth from a dead man.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "But it was done by the power of God.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "But when Shem saw this first wonder wrought on Melchizedec, he kissed his face, and rejoiced greatly on his account.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "But as for Melchizedec, he tasted nothing that night, for the joy that filled his heart ; but he continued standing before the coffin of Adam, praising God and praying until morning.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "This vision happened to Melchizedec in the fifteenth year of his age.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "Then Shem and Melchizedec put the coffin upon the ass, and went on their way ; and the angel of God went with them.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "And it was so that when they came to rough places, the angel bare them up by the power of God, and made them pass over them, whether they were lands or mountains.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "And so they went on their way until the evening of the second day, when they alighted to rest, after their custom.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "Then Shem and Melchizedec stood up to pray and as they were praying, behold a great light shone over them, wherefore Melchizedec did not feel aught of fatigue, by reason of the strength of God, that was in him; but he rejoiced like one that is going to his wedding.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "But they stood praying as they were wont before the coffin of our father Adam.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "Then came a voice from the top of the coffin, that said to Melchizedec and to Shem, \"Behold, we are drawing near to the place our Lord has decreed for us.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "And the voice said unto Melchizedec, \"Upon the land to which we are going, shall the Word of God come down ; and suffer and be crucified on the place in which my body is laid.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "The crown of my head shall be baptized with His blood; and then shall my salvation be wrought ; and He shall restore me to my kingdom, and shall give me my priesthood and my gift of prophecy.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "Then the voice was silent by the power of God.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "But Melchizedec and Shem marvelled at the voice that talked with them.",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "And Melchizedec remained the whole of that night praying joyfully until the day dawned.",
+        "kind": "verse"
+      },
+      {
+        "v": "21",
+        "label": "21",
+        "text": "Then they put the body of Adam on the ass, and went on their way.",
+        "kind": "verse"
+      },
+      {
+        "v": "22",
+        "label": "22",
+        "text": "And the angel of God went with them, until they neared the place.",
+        "kind": "verse"
+      },
+      {
+        "v": "23",
+        "label": "23",
+        "text": "Then he went before them, and stood before the ass, and took down from her the coffin, himself alone; and not as on the two former occasions, when Melchizedec took it down [from the ass].",
+        "kind": "verse"
+      },
+      {
+        "v": "24",
+        "label": "24",
+        "text": "But when the coffin reached the rock, the rock split asunder into two parts,—that was the place for the coffin; and Melchizedec and Shem knew thereby that it was the place God had appointed.",
+        "kind": "verse"
+      },
+      {
+        "v": "25",
+        "label": "25",
+        "text": "Then the angel went up from them into heaven, while saying unto God, \"Behold, the body of our father Adam has arrived and is come to the place Thou didst choose.",
+        "kind": "verse"
+      },
+      {
+        "v": "26",
+        "label": "26",
+        "text": "I have done that which Thou didst command me.",
+        "kind": "verse"
+      },
+      {
+        "v": "27",
+        "label": "27",
+        "text": "Then came the Word of God to the angel, saying, \"Go down to Melchizedec and strengthen his heart ; and command him to abide by the body of Adam. And when Shem enters into rest, tell Melchizedec to go, and to take from Shem the bread and wine he has with him, and to preserve them.\"",
+        "kind": "verse"
+      }
+    ],
+    "20": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "Then the angel came down from God, in the figure of a man, who appeared to Melchizedec and to Shem, and strengthened their hearts.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "He then laid the body of our father Adam in its place; and said to Melchizedec, \"Take from Shem the bread and the win\". And he took them, as the angel told him [to do].",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "But Melchizedec and Shem stood praying by the body of our father Adam until the evening, when a great light came down upon the body, and angels ascended and descended in that place upon the body of our father Adam.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "They were rejoicing, and praising, and saying, \"Glory be to Thee, O God, who didst create the worlds; and madest men of the dust of the earth, to exalt them above heavenly beings.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "And the angels thus praised God over the body of our father Adam, the whole of that night, until the dawn of day.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "But as the sun rose, the Word of God came to Melchizedec, and said to him, \"Arise, and take twelve of these stones; make of them an altar, and offer upon it of the bread and wine that was with Shem; and offer them, thou and he.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "Then when Melchizedec heard the Word of God, he worshipped between his hands; and he hastened, and did as God commanded him.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "And at the time he was offering the gift upon the altar, and asked God to sanctify it, the Holy Ghost came down upon the offering; and the mountain was filled with light.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "And angels said unto him, \"This offering is acceptable unto God.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "Glory be to him who created earthly men, and has revealed great mysteries unto them !\" Then the Word of God appeared to Melchizedec,and said unto him, \"Behold, I have made thee priest; and thou and Shem shall offer this offering thou didst make first; and in like manner as thou didst set up these twelve solid foundation stones, will I raise twelve apostles to be the pillars of the world. And they are firm.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "In like manner also, as thou didst make this altar, will I make thee an altar in the world; and like as thou didst make an offering of bread and wine, will I also present the offering of My Body and Blood, and make it [to be] unto forgiveness of sins.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "\"And this place on which thou art standing and in which the body of Adam is laid, will I make a holy place; all creatures on earth shall be blessed in it; and in it I will grant forgiveness unto all who come hither.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "Then the Word of God, blessed Melchizedec—named him priest—and then went up from him into heaven in glory and rejoicing with His angels.",
+        "kind": "verse"
+      }
+    ],
+    "21": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "Then Melchizedec praised God; and he and Shem made an offering.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "And Shem stayed with him that day, to rest from the toil of the journey.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "But when the day dawned, it seemed good to Shem to depart.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "Then Melchizedec wished him God speed, and blessed him, and said unto him, \"The Lord God who led us to this place, be with thee; and guide thee until thou come to thine own place.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "Melchizedec said also to him, \"When they inquire of thee about me, direct them not in the way; that they come not to me. And wheo my father and my mother ask thee about me, say to them, He has departed [on a pilgrimage]; and I do not know the place of his pilgrimage.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "So tliat, when ttou sayest so to them, their hope of me will be cut short; and they will feel it is of no use thinking of me; so that they will not press thee, and make thee come to me.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "Shem, then departed, and returned to his kindred; while Melchizedec remained standing before the body of our father Adam, ministering unto God, and worshipping Him evermore.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "And an angel abode with him, who protected him and brought him food, until the time of Abraham the patriarch.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "And the raiment of this Melchizedec was of skins, with a leathern girdle around his loins.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "And he ministered unto God, with much praying and fasting.",
+        "kind": "verse"
+      }
+    ],
+    "22": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "But Shem and his brothers, multiplied abundantly upon the earth; and begat sons and daughters; and went on this way, until Shem was five hundred and fifty years old, when he died.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "Then they embalmed him, and continued mourning for him forty days.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "After this, Arphaxad, son of Shem, lived four hundred and eighty-five years, and then died ; and they embalmed him and mourned for him forty days.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "Then after him was Cainan, son of Arphaxad and father of Melchizedec, who lived five hundred and eighty-nine years, and then died.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "After him Saleh, son of Cainan, and brother of Melchizedec lived four hundred and eight years, and then died.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "After him Eber his son, lived four hundred and thirty-four years, and then died.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "Then Phalek was bom when his father was two hundred and seven years old.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "In the days of Phalek, the earth was divided a second time among the three sons of Noah, Shem, Ham, and Japhet.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "Wherefore were they much aggrieved through this division among themselves; because during their father's life-time, they were gathered together.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "But now they were divided asunder, and much affliction befell them on that account.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "But Phalek died, and they buried him in his own city Phalek. For they had built a city, and had called it after his name.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "But after his death, which happened when he was four hundred and thirty years old, there were great disturbances, and men gathered together within fenced cities.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "And after this, tongues (there are seventy-two) were divided; for God divided them when men built the tower in Sennaar; but it was destroyed over them.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "And God divided their languages and what remained of them He dispersed over the earth; because they built without a fixed plan.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "Therefore God dispersed them and scattered them, and brought upon them the division of their languages; until if one of them spake, no other understood what he said.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "And the number of languages is seventy-two.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "And when they were thus divided, they had over them seventy-two rulers, one to every tongue, and to every country, by way of a king.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "And of the seed of Japhet were six peoples.",
+        "kind": "verse"
+      }
+    ],
+    "23": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "Then Ragu, Phalek's son, lived two hundred and thirty-two years, and died. But when Ragu, Phalek's first-bom son, was one hundred and thirty years old, there reigned one of the first kings that ever reigned on the earth, whose name was Nimrod, a giant.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "That Nimrod saw a cloud of light under heaven ; a mere apparition of Satan.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "And he inclined his heart to it, and coveted its beauty ; and then called to one whose name was Santal, a carver, and said to him, \" Carve me a crown of gold, after the pattern of that cloud.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "hen Santal made him a crown [of gold] which Nimmdtook and placed upon his own head. Wherefore was it said that a cloud had come [down] from heaven, and overshadowed him.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "And he became so wicked, as to think within himself that he was God.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "And in those days Ragu was one hundred and eighty years old, and in his one hundred and fortieth year, Yanuf reigned over the land of Egypt.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "He is the first king that reigned over it; and he built the city of Memphis, and named it after his own name.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "That is Misr ; whose name is rendered Masrin.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "This Yanuf died ; and in his stead, in the days of Ragu, one from the land of India reigned, whose name was Sasen; and who built the city of Saba.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "And all the kings who reigned over that country were called Sabaeans, after the name of the city.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "And it was so, until the days of Solomon, son of David.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "Then again Phar'an reigned over the children of Saphir, and built the city of Saphirf with stones of gold; and that is the land of Sar'ania, and because of these stones of gold, they say that the mountains of that country and the stones thereof are all of gold.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "Then the children of Lebensa of the country of India, made king over them, one named Bahlul, who built the city of Bahlu.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "Then Ragu died in his two hundred and eighty-ninth year.",
+        "kind": "verse"
+      }
+    ],
+    "24": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "After [him] came Serok his son, in whose days idol-gods of stone, were openly worshipped in the world.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "The children of men began to make idols of stone, the first of which, were Kahthon and Helodon.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "And the children of men multiplied upon the earth, and their wickedness increased also; for they had neither law nor order; and no teachers to guide them in the way of righteousness; nor any one to be judge among them.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "Wherefore they grew worse and worse, and wandered farther from the way of God; every one of them did what he himself listed; and they made for themselves idol-gods, which they worshipped.",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "They had no hope in the resurrection of the dead.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "But whenever one of them died, they buried him, and set up an idol over his grave; and said, that was his god, that would show him mercy in his grave.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "They said also, as regards the dead, that when his god was set up over his grave, the remembrance of him, would not be cut off from the face of the earth.",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "This was a common saying brought out by Satan; and the earth was thus filled with idols ; and those idols were of divers kinds, men and women.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "After this Serok died two hundred and thirty years old; and they embalmed him in Sar'ania his city, that was built in his name.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "After that Nahor, when twenty-nine years old begat Terah.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "And when Nahor was eighty-six years of age, God looked down upon the children of men, [and saw] that they were ruined and worshipped idols.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "Then God sent forth winds, and the whirlwind, and earthquakes on the earth, until the idols were broken one against another.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "Yet the children of men did not repent of their sins, neither did they turn to God from their iniquities that He might save them; but rather increased in wickedness.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "And in the twentieth year of Terah's life, the worship of idols spread over the earth in the city of Aarat, which Barwin, the son of Eber, had built.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "And at that time there was a rich man living in it, who died; and his son made an idol of gold in the likeness of his father, and set it up on his [father's] grave.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "He then ordered one of his servants, to stand by the idol, and to minister unto it; to sweep the ground around it, to pour water to it and to burn incense.",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "But when Satan saw this he entered into the idol of gold, and talked to the servant, like his master's father that was dead; and said to him, \" Thou doest well thus,\"",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "After this a thief took by surprise the house of the youth, son of the man who was dead; who then came to his father's grave, weeping.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "And he said, \"my father, they have carried away all my goods.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "20",
+        "label": "20",
+        "text": "Then Satan answered him from within the idol, and said, \"Do not stay here, but go and bring thy son, and offer him up in oblation to me, and then I will return to thee all thy goods.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "21",
+        "label": "21",
+        "text": "Then that youth went, and did with his son, as Satan commanded him.",
+        "kind": "verse"
+      },
+      {
+        "v": "22",
+        "label": "22",
+        "text": "And at that time Satan entered into him, and taught him to practise enchantments, and magic, .the mixture of drugs, and divination.",
+        "kind": "verse"
+      },
+      {
+        "v": "23",
+        "label": "23",
+        "text": "That was the first evil example [of the kind] set to men, to take their children and to offer them up in oblation to idols and to devils.",
+        "kind": "verse"
+      }
+    ],
+    "25": [
+      {
+        "v": "1",
+        "label": "1",
+        "text": "Then in the hundredth year of Nahor, God looked down upon the children of men [and saw] that they sacrificed their children to idols.",
+        "kind": "verse"
+      },
+      {
+        "v": "2",
+        "label": "2",
+        "text": "Then God commanded the stores of winds to open, and to send forth the whirlwind, and gales, and darkness upon the whole face of the earth, until all the idols and images, and figures wero brought together [by the winds] in mountains upon mountains high.",
+        "kind": "verse"
+      },
+      {
+        "v": "3",
+        "label": "3",
+        "text": "And the idols remained buried under them until this day.",
+        "kind": "verse"
+      },
+      {
+        "v": "4",
+        "label": "4",
+        "text": "Many wise men have written about this wind, that it was the wind of the Flood; and many of them say it was the water of the Flood that thus brought together these mountains [of idols].",
+        "kind": "verse"
+      },
+      {
+        "v": "5",
+        "label": "5",
+        "text": "But they erred, and said what is false concerning it; because ere the water of the Flood came upon the earth, there were no idols in it.",
+        "kind": "verse"
+      },
+      {
+        "v": "6",
+        "label": "6",
+        "text": "But the Flood came upon the men at that time because of their adulteries, and of the sins which they committed among themselves; both the children of Cain, and those who followed them.",
+        "kind": "verse"
+      },
+      {
+        "v": "7",
+        "label": "7",
+        "text": "Moreover at that time the whole earth was not filled with people; but only the land of the garden, in which dwelt the children of Seth; and the place inhabited by the children of Cain; besides that, the whole earth was bare [of inhabitants].",
+        "kind": "verse"
+      },
+      {
+        "v": "8",
+        "label": "8",
+        "text": "But when the Flood came, it bare the ark, and brought it to this land of trouble.",
+        "kind": "verse"
+      },
+      {
+        "v": "9",
+        "label": "9",
+        "text": "And this earth was filled with people; and that land was laid waste.",
+        "kind": "verse"
+      },
+      {
+        "v": "10",
+        "label": "10",
+        "text": "Then in those days, king Nimrod saw a flaming fire in the east, which arose from the earth.",
+        "kind": "verse"
+      },
+      {
+        "v": "11",
+        "label": "11",
+        "text": "Then said Nimrod, \"What is that fire l\"f He then went towards it; and when he saw it, he bowed to it in worship, and appointed a priest to minister before it, to burn incense to it, and to sacrifice victims to it.",
+        "kind": "verse"
+      },
+      {
+        "v": "12",
+        "label": "12",
+        "text": "From that day the men of Fars began to fill the earth.",
+        "kind": "verse"
+      },
+      {
+        "v": "13",
+        "label": "13",
+        "text": "Then Satan the worker of idols saw a fountain of water near the fire-pit, and he came to it, and looked at it, and made a horse of gold, and set it up on the edge of the fountain of water and it so happened that all those who came to wash in that fountain of water, bowed in worship to that golden horse and from that time, the people of Fars began to worship horses.",
+        "kind": "verse"
+      },
+      {
+        "v": "14",
+        "label": "14",
+        "text": "But the priest whom Nimrod appointed to minister to the fire and to bum incense to it, wished to be a teacher, and wise of the same wisdom as Nimrod, whom Barwin, Noah's fourth son had taught.",
+        "kind": "verse"
+      },
+      {
+        "v": "15",
+        "label": "15",
+        "text": "That priest, therefore, kept on asking Satan, while standing before the fire, to teach him this evil ministry and abominable wisdom.",
+        "kind": "verse"
+      },
+      {
+        "v": "16",
+        "label": "16",
+        "text": "So, when Satan saw him doing his best in the service [of the fire], he talked to him, and said, \"No man can become a teacher, or wise, or great before me, unless he hearkens to me, and goes and weds his mother, his sister and his daughter.\"",
+        "kind": "verse"
+      },
+      {
+        "v": "17",
+        "label": "17",
+        "text": "Then that priest hearkened to Satan in all that he commanded him, and taught him all manner of wisdom and of wickednesses.",
+        "kind": "verse"
+      },
+      {
+        "v": "18",
+        "label": "18",
+        "text": "And from that time, the people of Fars have committed like sins unto this day.",
+        "kind": "verse"
+      },
+      {
+        "v": "19",
+        "label": "19",
+        "text": "And Nimrod built great cities in the east; and wroughtall manner of iniquities in them.",
+        "kind": "verse"
+      }
+    ]
+  }
+}
