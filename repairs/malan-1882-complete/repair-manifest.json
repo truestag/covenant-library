@@ -1,0 +1,44 @@
+{
+  "repair": "malan-1882-continuation",
+  "status": "staged-on-repair-branch",
+  "branch": "repair-malan-books-iii-iv",
+  "existingRecord": {
+    "id": "AE2-PLATT-MALAN",
+    "title": "The Second Book Of Adam And Eve — S. C. Malan (1882), Platt (1926) Witness",
+    "chapters": 22,
+    "action": "unchanged",
+    "note": "Do not append Malan Books III–IV to the Platt/Malan Book II witness."
+  },
+  "additions": [
+    {
+      "id": "AE3-MALAN",
+      "file": "AE3-MALAN.json",
+      "title": "The Third Book Of Adam And Eve — S. C. Malan (1882)",
+      "chapters": 25,
+      "verses": 416
+    },
+    {
+      "id": "AE4-MALAN",
+      "file": "AE4-MALAN.json",
+      "title": "The Fourth Book Of Adam And Eve — S. C. Malan (1882)",
+      "chapters": 15,
+      "verses": 325
+    }
+  ],
+  "source": {
+    "title": "The Book of Adam and Eve, also called The Conflict of Adam and Eve with Satan",
+    "translator": "Solomon Caesar Malan",
+    "publicationYear": 1882,
+    "publisher": "Williams and Norgate",
+    "internetArchive": "https://archive.org/details/bookofadameveals00malaiala"
+  },
+  "verification": [
+    "Both JSON files parse successfully.",
+    "Chapter keys are contiguous and match declared chapter counts.",
+    "Verse/text-unit numbering is contiguous within every chapter.",
+    "Declared text-unit totals match actual totals.",
+    "Book IV Chapter IX/X boundary restored at Manasseh after a secondary transcription fused the two chapters.",
+    "Unambiguous OCR artifacts and stray footnote markers found during QA were corrected without modernizing Malan's wording."
+  ],
+  "integrationNote": "The connected repository's main branch does not yet contain the newer AE2-PLATT-MALAN record/path used by the current Covenant Library package, so these files are staged on a repair branch rather than being merged into the older main corpus layout."
+}
